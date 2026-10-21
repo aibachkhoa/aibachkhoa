@@ -60,6 +60,8 @@ CARDS = {
                   'assets/games/iron-line/icon.png', 'assets/games/iron-line/shot-01.jpg'),
     'mini-castle': ('Mini Castle', 'Castle defense with an RTS economy.',
                     'assets/games/mini-castle/icon.png', 'assets/games/mini-castle/shot-01.png'),
+    'treasure-hunters': ('Treasure Hunters', 'Fifty pirate levels, ten bosses.',
+                         'assets/games/treasure-hunters/icon.png', 'assets/games/treasure-hunters/shot-01.png'),
     'novaryn': ('Novaryn', 'One thumb, endless waves.',
                 'assets/games/novaryn/icon.png', 'assets/games/novaryn/shot-01.png'),
     'novaryn-ios': ('Novaryn', 'Endless waves on iPhone and iPad.',

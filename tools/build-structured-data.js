@@ -111,6 +111,12 @@ const PRODUCTS = [
         offers: free('Free, no ads and no in-app purchases')
     },
     {
+        dir: 'treasure-hunters', name: 'Treasure Hunters', type: 'VideoGame',
+        genre: 'Platformer', os: 'Android',
+        offers: free('Free, no ads and no in-app purchases'),
+        sameAs: ['https://play.google.com/store/apps/details?id=com.tdson.treasurehunters']
+    },
+    {
         dir: 'novaryn', name: 'Novaryn', type: 'VideoGame',
         genre: 'Arcade shoot-em-up', os: 'Android',
         offers: free('Free to play, with optional ship purchases and a Pro subscription'),

@@ -259,7 +259,7 @@
                         <a class="row-link" href="/orimessenger"><span data-i18n="action_ori">Get OriMessenger</span> <span aria-hidden="true">→</span></a>
                     </div>
                     <figure class="row-media">
-                        <img src="/assets/orimessenger/icon.png" alt="OriMessenger" width="512" height="512" loading="lazy" style="max-width: 320px; margin: auto; border-radius: 24px;">
+                        <img src="/assets/orimessenger/icon.webp" alt="OriMessenger" width="512" height="512" loading="lazy" style="max-width: 320px; margin: auto; border-radius: 24px;">
                     </figure>
                 </article>
 
@@ -331,6 +331,26 @@
                 <p class="section-sub" data-i18n="latest_sub">The four most recent releases, newest first. Everything else is in the list below.</p>
 
                 <div class="cards">
+                    <a class="card" href="/treasure-hunters">
+                        <div class="card-media card-media--pixel"><img src="/assets/games/treasure-hunters/feature.webp" alt="" width="1024" height="500" loading="lazy"></div>
+                        <div class="card-body">
+                            <p class="card-tag" data-i18n="tag_treasure">Pixel pirate platformer</p>
+                            <h3 class="card-title">Treasure Hunters <span class="flag-new" data-i18n="badge_new">New</span></h3>
+                            <p class="card-desc" data-i18n="latest_treasure">Fifty pixel-art pirate levels, a mini-boss every fifth and a flying ghost ship every tenth. No ads, fully offline.</p>
+                            <span class="card-more"><span data-i18n="action_castle">Explore the game</span> <span aria-hidden="true">→</span></span>
+                        </div>
+                    </a>
+
+                    <a class="card" href="/bvoice">
+                        <div class="card-media" style="background: linear-gradient(135deg, #0ea5e9, #2563eb); display: flex; align-items: center; justify-content: center; padding: 3rem;"><img src="/assets/apps/bvoice/icon.png" alt="" width="200" height="200" loading="lazy" style="max-width: 200px; border-radius: 24px;"></div>
+                        <div class="card-body">
+                            <p class="card-tag" data-i18n="tag_bvoice">Meeting transcription</p>
+                            <h3 class="card-title">BVoice <span class="flag-new" data-i18n="badge_new">New</span></h3>
+                            <p class="card-desc" data-i18n="latest_bvoice">Writes a Vietnamese meeting down as people speak, labels who said what and translates into 100 languages — on Android and iPhone.</p>
+                            <span class="card-more"><span data-i18n="action_bvoice">Get BVoice</span> <span aria-hidden="true">→</span></span>
+                        </div>
+                    </a>
+
                     <a class="card" href="/melodiai">
                         <div class="card-media"><img src="/assets/melodiai/studio.webp" alt="" width="1600" height="1000" loading="lazy"></div>
                         <div class="card-body">
@@ -342,32 +362,12 @@
                     </a>
 
                     <a class="card" href="/orimessenger">
-                        <div class="card-media" style="background: linear-gradient(135deg, #6366f1, #8b5cf6); display: flex; align-items: center; justify-content: center; padding: 3rem;"><img src="/assets/orimessenger/icon.png" alt="" width="200" height="200" loading="lazy" style="max-width: 200px; border-radius: 24px;"></div>
+                        <div class="card-media" style="background: linear-gradient(135deg, #6366f1, #8b5cf6); display: flex; align-items: center; justify-content: center; padding: 3rem;"><img src="/assets/orimessenger/icon.webp" alt="" width="200" height="200" loading="lazy" style="max-width: 200px; border-radius: 24px;"></div>
                         <div class="card-body">
                             <p class="card-tag" data-i18n="tag_ori">Peer-to-peer messenger</p>
                             <h3 class="card-title">OriMessenger <span class="flag-new" data-i18n="badge_new">New</span></h3>
                             <p class="card-desc" data-i18n="latest_ori">End-to-end encrypted chat that keeps working with people nearby, even when the Internet is down. Windows, Linux and Android.</p>
                             <span class="card-more"><span data-i18n="action_ori">Get OriMessenger</span> <span aria-hidden="true">→</span></span>
-                        </div>
-                    </a>
-
-                    <a class="card" href="/locallex">
-                        <div class="card-media"><img src="/assets/apps/locallex/desktop/shot-01.webp" alt="" width="1420" height="874" loading="lazy"></div>
-                        <div class="card-body">
-                            <p class="card-tag" data-i18n="tag_locallex">Offline legal reference</p>
-                            <h3 class="card-title">LocalLex <span class="flag-new" data-i18n="badge_new">New</span></h3>
-                            <p class="card-desc" data-i18n="latest_locallex">Full-text search across 49,165 Vietnamese legal documents and the relations between them, entirely on your own machine. Android, and now Linux.</p>
-                            <span class="card-more"><span data-i18n="action_locallex">Get LocalLex</span> <span aria-hidden="true">→</span></span>
-                        </div>
-                    </a>
-
-                    <a class="card" href="/castle-of-ancients">
-                        <div class="card-media card-media--pixel"><img src="/assets/games/castle-of-ancients/feature.webp" alt="" width="1024" height="500" loading="lazy"></div>
-                        <div class="card-body">
-                            <p class="card-tag" data-i18n="tag_castle">Pixel tower defense</p>
-                            <h3 class="card-title">Castle of Ancients <span class="flag-new" data-i18n="badge_new">New</span></h3>
-                            <p class="card-desc" data-i18n="latest_castle">One road, one castle. Drop guard posts on the grass and turn a stretch of open road into a killing field &mdash; twelve maps, no ads, fully offline.</p>
-                            <span class="card-more"><span data-i18n="action_castle">Explore the game</span> <span aria-hidden="true">→</span></span>
                         </div>
                     </a>
 
@@ -400,86 +400,98 @@
                         <p class="index-desc" data-i18n="latest_melodiai">Turn lyrics into a finished song with sheet music, or remix a recording in a new style. Five free credits to start.</p>
                         <span class="index-go" aria-hidden="true">→</span>
                     </a>
-                    <a class="index-row" href="/bksafe">
+                    <a class="index-row" href="/bvoice">
                         <span class="index-n">04</span>
+                        <span class="index-name">BVoice<span class="index-kind" data-i18n="tag_bvoice">Meeting transcription</span></span>
+                        <p class="index-desc" data-i18n="latest_bvoice">Writes a Vietnamese meeting down as people speak, labels who said what and translates into 100 languages — on Android and iPhone.</p>
+                        <span class="index-go" aria-hidden="true">→</span>
+                    </a>
+                    <a class="index-row" href="/bksafe">
+                        <span class="index-n">05</span>
                         <span class="index-name">BKSafe<span class="index-kind" data-i18n="tag_bksafe">Mobile security</span></span>
                         <p class="index-desc" data-i18n="latest_bksafemac">CPU, GPU, memory, disks, network and temperature on one screen, plus a malware scan and a junk cleaner.</p>
                         <span class="index-go" aria-hidden="true">→</span>
                     </a>
                     <a class="index-row" href="/locallex">
-                        <span class="index-n">05</span>
+                        <span class="index-n">06</span>
                         <span class="index-name">LocalLex<span class="index-kind" data-i18n="tag_locallex">Offline legal reference</span></span>
                         <p class="index-desc" data-i18n="latest_locallex">Full-text search across 49,165 Vietnamese legal documents and the relations between them, entirely on your own machine. Android, and now Linux.</p>
                         <span class="index-go" aria-hidden="true">→</span>
                     </a>
                     <a class="index-row" href="https://play.google.com/store/apps/details?id=com.tdson.vndrivermaster" target="_blank" rel="noopener">
-                        <span class="index-n">06</span>
+                        <span class="index-n">07</span>
                         <span class="index-name">Lý thuyết lái xe<span class="index-kind" data-i18n="tag_driving">Driving theory</span></span>
                         <p class="index-desc" data-i18n="driving_desc">Practice the Vietnamese driving theory exam with random mock tests drawn from the official 600-question bank.</p>
                         <span class="index-go" aria-hidden="true">→</span>
                     </a>
                     <a class="index-row" href="/chefeasy">
-                        <span class="index-n">07</span>
+                        <span class="index-n">08</span>
                         <span class="index-name">ChefEasy<span class="index-kind" data-i18n="tag_cooking">Cooking</span></span>
                         <p class="index-desc" data-i18n="cooking_desc">Step-by-step recipes with checklists and timers, made for people who find cooking intimidating.</p>
                         <span class="index-go" aria-hidden="true">→</span>
                     </a>
                     <a class="index-row" href="/chilly-novels">
-                        <span class="index-n">08</span>
+                        <span class="index-n">09</span>
                         <span class="index-name">Chilly Novels<span class="index-kind" data-i18n="tag_reading">Reading</span></span>
                         <p class="index-desc" data-i18n="reading_desc">Short stories and comics you download once and then read offline.</p>
                         <span class="index-go" aria-hidden="true">→</span>
                     </a>
                     <a class="index-row" href="/jemul">
-                        <span class="index-n">09</span>
+                        <span class="index-n">10</span>
                         <span class="index-name">JeMul<span class="index-kind" data-i18n="tag_emulator">Emulator</span></span>
                         <p class="index-desc" data-i18n="jemul_desc">The Java games from feature phones, running again — on Android, or in a browser tab.</p>
                         <span class="index-go" aria-hidden="true">→</span>
                     </a>
                     <a class="index-row" href="https://play.google.com/store/apps/details?id=com.tdson.palmy" target="_blank" rel="noopener">
-                        <span class="index-n">10</span>
+                        <span class="index-n">11</span>
                         <span class="index-name">Bói toán online<span class="index-kind" data-i18n="tag_fortune">Fortune telling</span></span>
                         <p class="index-desc" data-i18n="fortune_desc">AI-assisted fortune readings — tarot, cards and more, meant as entertainment.</p>
                         <span class="index-go" aria-hidden="true">→</span>
                     </a>
                     <a class="index-row" href="/dungeon-blade">
-                        <span class="index-n">11</span>
+                        <span class="index-n">12</span>
                         <span class="index-name">Dungeon of the Fallen Blade<span class="index-kind" data-i18n="tag_dungeon">Action roguelite</span></span>
                         <p class="index-desc" data-i18n="dungeon_desc">A hundred generated depths, a boon at every gate and a lord on every fifth.</p>
                         <span class="index-go" aria-hidden="true">→</span>
                     </a>
+                    <a class="index-row" href="/treasure-hunters">
+                        <span class="index-n">13</span>
+                        <span class="index-name">Treasure Hunters<span class="index-kind" data-i18n="tag_treasure">Pixel pirate platformer</span></span>
+                        <p class="index-desc" data-i18n="latest_treasure">Fifty pixel-art pirate levels, a mini-boss every fifth and a flying ghost ship every tenth. No ads, fully offline.</p>
+                        <span class="index-go" aria-hidden="true">→</span>
+                    </a>
                     <a class="index-row" href="/novaryn">
-                        <span class="index-n">12</span>
+                        <span class="index-n">14</span>
                         <span class="index-name">Novaryn<span class="index-kind" data-i18n="tag_novaryn">Arcade space shooter</span></span>
                         <p class="index-desc" data-i18n="novaryn_desc">One thumb, endless waves, and a boss that makes you learn it.</p>
                         <span class="index-go" aria-hidden="true">→</span>
                     </a>
                     <a class="index-row" href="/iron-line">
-                        <span class="index-n">13</span>
+                        <span class="index-n">15</span>
                         <span class="index-name">Iron Line<span class="index-kind" data-i18n="tag_ironline">Tower defense</span></span>
                         <p class="index-desc" data-i18n="ironline_desc">Twelve battlefields, four towers with four tiers each, fifteen enemy types by ground and air.</p>
                         <span class="index-go" aria-hidden="true">→</span>
                     </a>
                     <a class="index-row" href="/mini-castle">
-                        <span class="index-n">14</span>
+                        <span class="index-n">16</span>
                         <span class="index-name">Mini Castle<span class="index-kind" data-i18n="tag_minicastle">Castle defense + light RTS</span></span>
                         <p class="index-desc" data-i18n="minicastle_desc">Your people are both workers and soldiers, and you only ever have enough for one of those jobs.</p>
                         <span class="index-go" aria-hidden="true">→</span>
                     </a>
                     <a class="index-row" href="/castle-of-ancients">
-                        <span class="index-n">15</span>
+                        <span class="index-n">17</span>
                         <span class="index-name">Castle of Ancients<span class="index-kind" data-i18n="tag_castle">Pixel tower defense</span></span>
                         <p class="index-desc" data-i18n="latest_castle">One road, one castle. Drop guard posts on the grass and turn a stretch of open road into a killing field.</p>
                         <span class="index-go" aria-hidden="true">→</span>
                     </a>
                     <a class="index-row" href="https://play.google.com/store/apps/details?id=com.tdson.SpaceXRocket" target="_blank" rel="noopener">
-                        <span class="index-n">16</span>
+                        <span class="index-n">18</span>
                         <span class="index-name">Space X Rocket<span class="index-kind" data-i18n="tag_game">Puzzle game</span></span>
                         <p class="index-desc" data-i18n="game_desc">A small rocket-control puzzle game to unwind with. This is the demo build; a full version with more levels is on the way.</p>
                         <span class="index-go" aria-hidden="true">→</span>
                     </a>
                     <a class="index-row" href="/orimessenger">
-                        <span class="index-n">17</span>
+                        <span class="index-n">19</span>
                         <span class="index-name">OriMessenger<span class="index-kind" data-i18n="tag_ori">Peer-to-peer messenger</span></span>
                         <p class="index-desc" data-i18n="index_ori">End-to-end encrypted chat that works nearby even without the Internet. No account, no phone number. Windows, Linux and Android.</p>
                         <span class="index-go" aria-hidden="true">→</span>
@@ -600,6 +612,7 @@
 
                 <nav class="footer-col" data-i18n-aria="footer_mobile" aria-label="Mobile apps">
                     <h4 data-i18n="footer_mobile">Mobile apps</h4>
+                    <a href="/bvoice">BVoice</a>
                     <a href="/locallex">LocalLex</a>
                     <a href="https://play.google.com/store/apps/details?id=com.tdson.vndrivermaster" target="_blank" rel="noopener">Lý thuyết lái xe</a>
                     <a href="/chefeasy">ChefEasy</a>
@@ -610,6 +623,7 @@
 
                 <nav class="footer-col" data-i18n-aria="footer_games" aria-label="Games">
                     <h4 data-i18n="footer_games">Games</h4>
+                    <a href="/treasure-hunters">Treasure Hunters</a>
                     <a href="/castle-of-ancients">Castle of Ancients</a>
                     <a href="/mini-castle">Mini Castle</a>
                     <a href="/iron-line">Iron Line</a>

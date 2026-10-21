@@ -126,6 +126,11 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/treasure-hunters</loc>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/vi</loc>
         <lastmod>2026-10-02</lastmod>
         <priority>0.8</priority>
@@ -238,6 +243,11 @@
     <url>
         <loc>https://aibachkhoa.com/ar/orimessenger/ios</loc>
         <lastmod>2026-09-30</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://aibachkhoa.com/ar/treasure-hunters</loc>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -361,6 +371,11 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/de/treasure-hunters</loc>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/es/bksafe</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.7</priority>
@@ -466,6 +481,11 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/es/treasure-hunters</loc>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/fr/bksafe</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.7</priority>
@@ -568,6 +588,11 @@
     <url>
         <loc>https://aibachkhoa.com/fr/orimessenger/ios</loc>
         <lastmod>2026-09-30</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://aibachkhoa.com/fr/treasure-hunters</loc>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -681,6 +706,11 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/hi/treasure-hunters</loc>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/ja/bksafe</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.7</priority>
@@ -786,6 +816,11 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/ja/treasure-hunters</loc>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/ko/bksafe</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.7</priority>
@@ -888,6 +923,11 @@
     <url>
         <loc>https://aibachkhoa.com/ko/orimessenger/ios</loc>
         <lastmod>2026-09-30</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://aibachkhoa.com/ko/treasure-hunters</loc>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -1016,6 +1056,11 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/pt/treasure-hunters</loc>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/ru/bksafe</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.7</priority>
@@ -1118,6 +1163,11 @@
     <url>
         <loc>https://aibachkhoa.com/ru/orimessenger/ios</loc>
         <lastmod>2026-09-30</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://aibachkhoa.com/ru/treasure-hunters</loc>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -1266,6 +1316,11 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/zh/treasure-hunters</loc>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/ar/bksafe/policy</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.3</priority>
@@ -1323,6 +1378,11 @@
     <url>
         <loc>https://aibachkhoa.com/ar/orimessenger/policy</loc>
         <lastmod>2026-09-30</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>https://aibachkhoa.com/ar/treasure-hunters/policy</loc>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
@@ -1411,6 +1471,11 @@
         <priority>0.3</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/de/treasure-hunters/policy</loc>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/dungeon-blade/policy</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.3</priority>
@@ -1476,6 +1541,11 @@
         <priority>0.3</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/es/treasure-hunters/policy</loc>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/fr/bksafe/policy</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.3</priority>
@@ -1533,6 +1603,11 @@
     <url>
         <loc>https://aibachkhoa.com/fr/orimessenger/policy</loc>
         <lastmod>2026-09-30</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>https://aibachkhoa.com/fr/treasure-hunters/policy</loc>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
@@ -1601,6 +1676,11 @@
         <priority>0.3</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/hi/treasure-hunters/policy</loc>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/iron-line/policy</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.3</priority>
@@ -1666,6 +1746,11 @@
         <priority>0.3</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/ja/treasure-hunters/policy</loc>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/jemul/policy</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.3</priority>
@@ -1728,6 +1813,11 @@
     <url>
         <loc>https://aibachkhoa.com/ko/orimessenger/policy</loc>
         <lastmod>2026-09-30</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>https://aibachkhoa.com/ko/treasure-hunters/policy</loc>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
@@ -1811,6 +1901,11 @@
         <priority>0.3</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/pt/treasure-hunters/policy</loc>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/ru/bksafe/policy</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.3</priority>
@@ -1868,6 +1963,16 @@
     <url>
         <loc>https://aibachkhoa.com/ru/orimessenger/policy</loc>
         <lastmod>2026-09-30</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>https://aibachkhoa.com/ru/treasure-hunters/policy</loc>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>https://aibachkhoa.com/treasure-hunters/policy</loc>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
@@ -1963,6 +2068,11 @@
     <url>
         <loc>https://aibachkhoa.com/zh/orimessenger/policy</loc>
         <lastmod>2026-09-30</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>https://aibachkhoa.com/zh/treasure-hunters/policy</loc>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
 </urlset>

@@ -38,6 +38,7 @@ const GROUPS = [
     { js: 'castle-of-ancients/castle-of-ancients.js', pages: ['castle-of-ancients/index.html', 'castle-of-ancients/policy/index.html'] },
     { js: 'iron-line/iron-line.js', pages: ['iron-line/index.html', 'iron-line/policy/index.html'] },
     { js: 'mini-castle/mini-castle.js', pages: ['mini-castle/index.html', 'mini-castle/policy/index.html'] },
+    { js: 'treasure-hunters/treasure-hunters.js', pages: ['treasure-hunters/index.html', 'treasure-hunters/policy/index.html'] },
     { js: 'novaryn/novaryn.js', pages: ['novaryn/index.html', 'novaryn/ios/index.html', 'novaryn/policy/index.html'] },
     { js: 'dungeon-blade/dungeon-blade.js', pages: ['dungeon-blade/index.html', 'dungeon-blade/policy/index.html'] },
     { js: 'melodiai/melodiai.js', pages: ['melodiai/index.html'] },
