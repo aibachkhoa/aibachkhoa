@@ -32,6 +32,7 @@ const GROUPS = [
     { js: 'bksafe/bksafe.js', pages: ['bksafe/index.html', 'bksafe/policy/index.html'] },
     { js: 'genvideo/genvideo.js', pages: ['genvideo/index.html', 'genvideo/ios/index.html', 'genvideo/policy/index.html'] },
     { js: 'chefeasy/chefeasy.js', pages: ['chefeasy/index.html', 'chefeasy/ios/index.html', 'chefeasy/policy/index.html'] },
+    { js: 'bvoice/bvoice.js', pages: ['bvoice/index.html', 'bvoice/ios/index.html', 'bvoice/policy/index.html'] },
     { js: 'jemul/jemul.js', pages: ['jemul/index.html', 'jemul/policy/index.html'] },
     { js: 'chilly-novels/chilly-novels.js', pages: ['chilly-novels/index.html', 'chilly-novels/policy/index.html'] },
     { js: 'castle-of-ancients/castle-of-ancients.js', pages: ['castle-of-ancients/index.html', 'castle-of-ancients/policy/index.html'] },

@@ -71,6 +71,17 @@ const PRODUCTS = [
         }
     },
     {
+        dir: 'bvoice', name: 'BVoice', type: 'SoftwareApplication',
+        category: 'BusinessApplication',
+        os: 'Android',
+        offers: free('Free 7-day trial, then a subscription or minute packs'),
+        sameAs: ['https://play.google.com/store/apps/details?id=com.tdson.bvoice'],
+        ios: {
+            os: 'iOS', name: 'BVoice for iPhone',
+            sameAs: ['https://apps.apple.com/app/id__BVOICE_APP_ID__']
+        }
+    },
+    {
         dir: 'jemul', name: 'JeMul', type: 'SoftwareApplication',
         category: 'GameApplication',
         os: 'Android, Web',

@@ -1,0 +1,640 @@
+/* =========================================================
+   BVoice product pages (Android, iOS and the privacy policy).
+   Rides on ../style.css for chrome (nav, footer, buttons, container).
+   Built from chefeasy.css; adds the app's own palette — the blue to
+   violet of its icon — over the site's orange brand.
+   ========================================================= */
+
+:root[data-theme="light"] {
+    --bv: #3b5bdb;
+    --bv-ink: #2f49b8;
+    --bv-soft: rgba(59, 91, 219, 0.10);
+    --bv-line: rgba(59, 91, 219, 0.26);
+    --bv-glow: rgba(112, 72, 232, 0.18);
+    --bv-hot: #7048e8;
+    --bv-gold: #7048e8;
+    --bv-void: #eceffd;
+    --bv-star: #f6f7fe;
+}
+
+:root[data-theme="dark"] {
+    --bv: #91a7ff;
+    --bv-ink: #b3c3ff;
+    --bv-soft: rgba(145, 167, 255, 0.12);
+    --bv-line: rgba(145, 167, 255, 0.26);
+    --bv-glow: rgba(151, 117, 250, 0.10);
+    --bv-hot: #b197fc;
+    --bv-gold: #b197fc;
+    --bv-void: #141a33;
+    --bv-star: #0e1224;
+}
+
+/* ---------- Hero ---------- */
+.bv-hero {
+    position: relative;
+    /* the key art is inset past the right edge on purpose; clip it here so it
+       never widens the page (same as .il-hero on the Iron Line page) */
+    overflow: hidden;
+    padding: calc(68px + clamp(3rem, 7vw, 5.5rem)) 0 clamp(3.5rem, 7vw, 5.5rem);
+    background: transparent;
+}
+
+.bv-hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.02fr) minmax(0, 0.98fr);
+    gap: clamp(2.5rem, 5vw, 4.5rem);
+    align-items: center;
+}
+
+.bv-brandline { display: flex; align-items: center; gap: 0.9rem; margin-bottom: 1.5rem; }
+.bv-brandmark {
+    width: 60px;
+    height: 60px;
+    border-radius: 14px;
+    background: var(--bv-void);
+    border: 1px solid var(--bv-line);
+    object-fit: cover;
+    box-shadow: 0 12px 30px -14px rgba(0, 0, 0, 0.55);
+}
+.bv-wordmark {
+    font-family: var(--font-display);
+    font-size: 1.35rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    line-height: 1.15;
+}
+.bv-brandsub {
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--bv-ink);
+}
+
+.bv-hero-title {
+    font-size: clamp(2.2rem, 4.4vw, 3.7rem);
+    font-weight: 700;
+    margin-bottom: 1.15rem;
+}
+.bv-hero-title em { font-style: normal; color: var(--bv-ink); }
+
+.bv-hero-sub {
+    font-size: clamp(1rem, 1.25vw, 1.12rem);
+    color: var(--text-muted);
+    max-width: 34rem;
+    margin-bottom: 1.8rem;
+}
+
+.bv-hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+
+/* the Play button carries the store glyph so it reads as a store link
+   and not as another page anchor */
+.btn .bv-play-glyph { width: 18px; height: 18px; flex: none; margin-inline-end: 0.5rem; }
+.bv-hero-actions .btn { display: inline-flex; align-items: center; }
+
+.bv-hero-meta { font-size: 0.85rem; color: var(--text-muted); }
+.bv-hero-meta code {
+    font-family: var(--font-mono);
+    font-size: 0.85em;
+    padding: 0.1rem 0.35rem;
+    border-radius: 5px;
+    background: var(--surface-2);
+}
+
+/* ---------- Phone frame ---------- */
+.bv-hero-media { position: relative; display: flex; justify-content: center; }
+
+/* the key art sits behind the phone, cropped to a soft ellipse so it
+   reads as a glow rather than as a second image */
+.bv-hero-art {
+    position: absolute;
+    inset: 6% -6% 12%;
+    border-radius: 24px;
+    background: transparent;
+    opacity: 0.9;
+    -webkit-mask-image: radial-gradient(72% 60% at 50% 45%, #000, transparent 78%);
+            mask-image: radial-gradient(72% 60% at 50% 45%, #000, transparent 78%);
+}
+:root[data-theme="light"] .bv-hero-art { opacity: 0.75; }
+
+.bv-phone {
+    position: relative;
+    width: min(19rem, 78vw);
+    padding: 9px;
+    border-radius: 32px;
+    border: 1px solid var(--border-strong);
+    background: linear-gradient(180deg, var(--surface-2), var(--surface));
+    box-shadow: var(--shadow), 0 0 60px -20px var(--bv-glow);
+}
+.bv-phone img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 2.222;
+    object-fit: cover;
+    border-radius: 24px;
+    background: var(--bv-void);
+}
+/* the speaker slot, so the frame reads as a handset at a glance */
+.bv-phone::before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 62px;
+    height: 5px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.22);
+    z-index: 2;
+}
+
+/* ---------- Stat strip ---------- */
+.bv-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+    gap: 1px;
+    margin-top: clamp(2.5rem, 5vw, 3.5rem);
+    border: 2px solid var(--ink);
+    border-radius: 14px;
+    overflow: hidden;
+    background: var(--border);
+}
+.bv-stat { background: var(--surface); padding: 1.3rem 1.2rem; }
+.bv-stat-n {
+    display: block;
+    font-family: var(--font-display);
+    font-size: clamp(1.6rem, 2.6vw, 2.15rem);
+    font-weight: 700;
+    color: var(--bv-ink);
+    line-height: 1.1;
+}
+.bv-stat-l {
+    display: block;
+    margin-top: 0.3rem;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+/* ---------- Section shell ---------- */
+.bv-section { padding: clamp(3.5rem, 7vw, 6rem) 0; }
+.bv-section--tint { background: var(--surface-2); }
+
+.bv-head { max-width: 46rem; margin-bottom: clamp(2rem, 4vw, 3rem); }
+.bv-eyebrow {
+    display: inline-block;
+    padding: 0.38rem 0.8rem;
+    margin-bottom: 1.1rem;
+    border-radius: 999px;
+    border: 1px solid var(--bv-line);
+    background: var(--bv-soft);
+    color: var(--bv-ink);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+.bv-title {
+    font-size: clamp(1.75rem, 3.2vw, 2.6rem);
+    font-weight: 700;
+    margin-bottom: 0.9rem;
+}
+.bv-title em { font-style: normal; color: var(--bv-ink); }
+.bv-sub { color: var(--text-muted); font-size: clamp(0.98rem, 1.15vw, 1.08rem); }
+
+/* ---------- Feature cards ---------- */
+.bv-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    gap: 1.1rem;
+}
+.bv-card {
+    padding: 1.5rem;
+    border: 2px solid var(--ink);
+    border-radius: 14px;
+    background: var(--surface);
+    transition: transform 0.25s ease, border-color 0.25s ease;
+}
+.bv-card:hover { transform: translateY(-3px); border-color: var(--bv-line); }
+.bv-card-ico {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    background: var(--bv-soft);
+    color: var(--bv-ink);
+}
+.bv-card-ico svg { width: 21px; height: 21px; }
+.bv-card h3 { font-size: 1.06rem; font-weight: 600; margin-bottom: 0.5rem; }
+.bv-card p { font-size: 0.93rem; color: var(--text-muted); }
+
+/* ---------- Tables ---------- */
+.bv-tablewrap {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: var(--surface);
+}
+.bv-table { width: 100%; border-collapse: collapse; min-width: 32rem; }
+.bv-table th,
+.bv-table td {
+    padding: 0.85rem 1.1rem;
+    text-align: start;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.93rem;
+}
+.bv-table thead th {
+    font-family: var(--font-display);
+    font-size: 0.76rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    background: var(--surface-2);
+}
+.bv-table tbody tr:last-child th,
+.bv-table tbody tr:last-child td { border-bottom: 0; }
+.bv-table tbody th { font-weight: 600; white-space: nowrap; }
+.bv-table td { color: var(--text-muted); }
+
+/* ---------- Screenshot gallery ---------- */
+.bv-gal {
+    display: grid;
+    grid-template-columns: minmax(0, 20rem) minmax(0, 1fr);
+    gap: clamp(1.5rem, 3vw, 2.5rem);
+    align-items: start;
+}
+.bv-gal-stage {
+    position: relative;
+    width: min(19rem, 82vw);
+    margin-inline: auto;
+    padding: 9px;
+    border-radius: 32px;
+    border: 1px solid var(--border-strong);
+    background: linear-gradient(180deg, var(--surface-2), var(--surface));
+    box-shadow: var(--shadow);
+}
+.bv-gal-stage img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 2.222;
+    object-fit: cover;
+    border-radius: 24px;
+    background: var(--bv-void);
+}
+/* the seventh capture is landscape key art, so it drops the phone crop */
+.bv-gal-stage.is-wide { width: min(34rem, 100%); border-radius: 18px; padding: 7px; }
+.bv-gal-stage.is-wide img { aspect-ratio: 3 / 2; border-radius: 12px; }
+
+.bv-gal-side { display: grid; gap: 1.1rem; align-content: start; }
+.bv-gal-cap-t { font-family: var(--font-display); font-size: 1.15rem; font-weight: 600; }
+.bv-gal-cap-d { margin-top: 0.35rem; font-size: 0.95rem; color: var(--text-muted); }
+
+.bv-gal-tabs { display: flex; flex-direction: column; gap: 0.4rem; }
+.bv-gal-tab {
+    padding: 0.6rem 0.85rem;
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    background: var(--surface);
+    color: var(--text-muted);
+    font: inherit;
+    font-size: 0.88rem;
+    text-align: start;
+    cursor: pointer;
+    transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+}
+.bv-gal-tab:hover { color: var(--text); border-color: var(--border-strong); }
+.bv-gal-tab.is-active {
+    border-color: var(--bv-line);
+    background: var(--bv-soft);
+    color: var(--bv-ink);
+    font-weight: 600;
+}
+
+/* ---------- Split: pitch + list ---------- */
+.bv-split {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: clamp(2rem, 4vw, 3.5rem);
+    align-items: center;
+}
+.bv-list { display: grid; gap: 0.9rem; }
+.bv-list li { display: flex; gap: 0.7rem; font-size: 0.95rem; color: var(--text-muted); }
+.bv-list svg { width: 19px; height: 19px; flex: none; margin-top: 0.15rem; color: var(--bv-ink); }
+.bv-list strong { color: var(--text); font-weight: 600; }
+
+/* ---------- FAQ ---------- */
+.bv-faq { display: grid; gap: 0.7rem; max-width: 52rem; }
+.bv-faq-item {
+    border: 2px solid var(--ink);
+    border-radius: 12px;
+    background: var(--surface);
+    padding: 0.2rem 1.15rem;
+}
+.bv-faq-item summary {
+    padding: 0.95rem 0;
+    font-weight: 600;
+    font-size: 0.98rem;
+    cursor: pointer;
+    list-style: none;
+}
+.bv-faq-item summary::-webkit-details-marker { display: none; }
+.bv-faq-item summary::after {
+    content: "+";
+    float: inline-end;
+    color: var(--bv-ink);
+    font-weight: 400;
+}
+.bv-faq-item[open] summary::after { content: "\2212"; }
+.bv-faq-item p { padding-bottom: 1rem; font-size: 0.93rem; color: var(--text-muted); }
+.bv-faq-item code {
+    font-family: var(--font-mono);
+    font-size: 0.85em;
+    padding: 0.1rem 0.35rem;
+    border-radius: 5px;
+    background: var(--surface-2);
+}
+
+/* ---------- Note ---------- */
+.bv-note {
+    padding: 1.1rem 1.25rem;
+    margin-bottom: 1.4rem;
+    border: 2px solid var(--ink);
+    border-radius: 12px;
+    background: var(--bv-soft);
+}
+.bv-note p { margin: 0; color: var(--text); font-size: 0.93rem; }
+
+/* ---------- CTA ---------- */
+.bv-cta {
+    padding: clamp(3rem, 6vw, 5rem) 0;
+    background: var(--bg);
+    border-top: 1px solid var(--border);
+}
+.bv-cta-inner { text-align: center; }
+.bv-cta-inner .cta-title { margin-bottom: 1.5rem; }
+.bv-cta-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.8rem; }
+
+/* ---------- Policy page ---------- */
+.bv-policy { padding: calc(68px + clamp(2.5rem, 6vw, 4.5rem)) 0 clamp(3rem, 6vw, 5rem); }
+.bv-policy-head { max-width: 52rem; margin-bottom: clamp(2rem, 4vw, 3rem); }
+.bv-policy-stamp {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.35rem 0.8rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--surface-2);
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.bv-policy-body { max-width: 52rem; }
+.bv-policy-body h2 {
+    font-size: clamp(1.25rem, 2.1vw, 1.6rem);
+    font-weight: 700;
+    margin: 2.4rem 0 0.85rem;
+    padding-top: 2.4rem;
+    border-top: 1px solid var(--border);
+}
+.bv-policy-body h2:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
+.bv-policy-body h3 {
+    font-size: 1.02rem;
+    font-weight: 600;
+    margin: 1.6rem 0 0.6rem;
+}
+.bv-policy-body p { margin-bottom: 0.9rem; color: var(--text-muted); font-size: 0.96rem; }
+.bv-policy-body ul { margin: 0 0 1.1rem; padding: 0; display: grid; gap: 0.5rem; }
+.bv-policy-body li {
+    position: relative;
+    padding-inline-start: 1.2rem;
+    color: var(--text-muted);
+    font-size: 0.96rem;
+}
+.bv-policy-body li::before {
+    content: "";
+    position: absolute;
+    inset-inline-start: 0;
+    top: 0.62em;
+    width: 6px;
+    height: 6px;
+    border-radius: 2px;
+    background: var(--bv-line);
+}
+.bv-policy-body strong { color: var(--text); font-weight: 600; }
+.bv-policy-body a { color: var(--bv-ink); text-decoration: underline; text-underline-offset: 2px; }
+.bv-policy-body code {
+    font-family: var(--font-mono);
+    font-size: 0.85em;
+    padding: 0.1rem 0.35rem;
+    border-radius: 5px;
+    background: var(--surface-2);
+}
+
+.bv-toc {
+    padding: 1.25rem 1.4rem;
+    margin-bottom: 2.5rem;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: var(--surface);
+}
+.bv-toc h2 {
+    all: unset;
+    display: block;
+    font-family: var(--font-display);
+    font-size: 0.76rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 0.8rem;
+}
+.bv-toc ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    gap: 0.35rem 1.2rem;
+    counter-reset: toc;
+}
+.bv-toc li {
+    counter-increment: toc;
+    position: relative;
+    padding-inline-start: 1.7rem;
+    font-size: 0.9rem;
+}
+.bv-toc li::before {
+    content: counter(toc) ".";
+    position: absolute;
+    inset-inline-start: 0;
+    top: 0;
+    width: 1.4rem;
+    text-align: end;
+    color: var(--text-muted);
+}
+.bv-toc a { color: var(--text); }
+.bv-toc a:hover { color: var(--bv-ink); }
+
+.bv-contact-card {
+    display: grid;
+    gap: 0.45rem;
+    padding: 1.35rem 1.5rem;
+    border: 2px solid var(--ink);
+    border-radius: 14px;
+    background: var(--surface);
+}
+.bv-contact-card dt {
+    font-size: 0.74rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
+.bv-contact-card dd { margin: 0 0 0.6rem; font-size: 0.96rem; }
+.bv-contact-card dd:last-child { margin-bottom: 0; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 980px) {
+    .bv-hero-grid,
+    .bv-split { grid-template-columns: 1fr; }
+    .bv-hero-media { order: -1; }
+    .bv-gal { grid-template-columns: 1fr; }
+    .bv-gal-tabs { flex-direction: row; flex-wrap: wrap; }
+    .bv-gal-tab { flex: 1 1 8rem; }
+}
+
+@media (max-width: 640px) {
+.bv-brandmark { width: 50px; height: 50px; }
+    .bv-stat { padding: 1.05rem 1rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+.bv-card, .bv-gal-tab { transition: none; }
+    .bv-card:hover { transform: none; }
+}
+
+/* ---------------------------------------------------------------------------
+   /novaryn/ios — the subscription terms block and the plain screenshot grid.
+   The iOS page states length, price and what Pro unlocks as a definition list
+   so the three facts stay legible as a set rather than as prose.
+--------------------------------------------------------------------------- */
+.bv-terms {
+    display: grid;
+    grid-template-columns: minmax(9rem, auto) 1fr;
+    gap: 0.5rem 1.25rem;
+    margin: 1.1rem 0 1.4rem;
+    font-size: 0.95rem;
+}
+.bv-terms dt { color: var(--text-muted); }
+.bv-terms dd { margin: 0; font-weight: 500; }
+@media (max-width: 560px) {
+.bv-terms { grid-template-columns: 1fr; gap: 0.15rem; }
+    .bv-terms dd { margin-bottom: 0.6rem; }
+}
+
+.bv-legal-links {
+    margin-top: 1.1rem;
+    font-size: 0.9rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    align-items: center;
+}
+.bv-legal-links a { text-decoration: underline; text-underline-offset: 3px; }
+
+.bv-shotgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: clamp(0.8rem, 2vw, 1.4rem);
+}
+.bv-shotgrid img {
+    width: 100%;
+    height: auto;
+    border-radius: 14px;
+    border: 2px solid var(--ink);
+    background: var(--bv-void);
+}
+
+
+/* ---------- Platform switch (Android <-> iOS) ---------- */
+.bv-switch {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.6rem;
+    margin-top: 1.4rem;
+    font-size: 0.92rem;
+    color: var(--text-2);
+}
+.bv-switch a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.35rem 0.8rem;
+    border-radius: 999px;
+    border: 1px solid var(--bv-line);
+    background: var(--bv-soft);
+    color: var(--bv-ink);
+    font-weight: 600;
+    text-decoration: none;
+}
+.bv-switch a:hover { border-color: var(--bv); }
+/* the platform you are already reading about is stated, not offered */
+.bv-switch strong {
+    padding: 0.35rem 0.8rem;
+    border-radius: 999px;
+    background: var(--bv);
+    color: #fff;
+    font-weight: 600;
+}
+
+/* ===== new design system ===== */
+/* Appended last so it wins over the rules above: the product's own
+   palette is remapped onto the shared system, the decorative glow is
+   switched off, and the headings take the shared display treatment. */
+:root[data-theme="light"] {
+    --bv: #3b5bdb;
+    --bv-ink: #2f49b8;
+    --bv-soft: color-mix(in srgb, #3b5bdb 12%, transparent);
+    --bv-line: var(--line-strong);
+    --bv-glow: transparent;
+    --bv-void: var(--panel-ink);
+    --bv-star: var(--surface-2);
+    --bv-hot: #7048e8;
+    --bv-gold: #7048e8;
+}
+:root[data-theme="dark"] {
+    --bv: #91a7ff;
+    --bv-ink: #b3c3ff;
+    --bv-soft: color-mix(in srgb, #91a7ff 12%, transparent);
+    --bv-line: var(--line-strong);
+    --bv-glow: transparent;
+    --bv-void: var(--panel-ink);
+    --bv-star: var(--surface-2);
+    --bv-hot: #b197fc;
+    --bv-gold: #b197fc;
+}
+
+.bv-hero-title, .bv-title {
+    font-family: var(--font-display);
+    font-weight: 900;
+    line-height: 0.86;
+    letter-spacing: -0.035em;
+}
+.bv-hero-title em, .bv-title em {
+    font-style: normal;
+}
+
+/* ---------- Download: one card per store ---------- */
+.bv-grid--two { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); max-width: 56rem; }
+.bv-card-actions { margin: 1.1rem 0 0.6rem; }
+.bv-card-actions .btn { display: inline-flex; align-items: center; gap: 0.55rem; }
+.bv-card-ico svg[aria-hidden] { width: 22px; height: 22px; }
+
+/* BVoice's captures are 16:9 on Android and 19.5:9 on iPhone, not the 20:9
+   the frame was drawn for: let the frame take the picture's own shape
+   rather than crop the app's edges off. */
+.bv-phone img, .bv-gal-stage img { aspect-ratio: auto; object-fit: contain; }

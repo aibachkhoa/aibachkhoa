@@ -12,10 +12,10 @@ PUB = pathlib.Path('/home/ailab/Desktop/aibachkhoa/public')
 SITE = 'https://aibachkhoa.com'
 
 # page (relative to public/) -> og card slug
-PRODUCTS = ['bksafe', 'genvideo', 'chefeasy', 'jemul', 'chilly-novels',
+PRODUCTS = ['bksafe', 'genvideo', 'chefeasy', 'bvoice', 'jemul', 'chilly-novels',
             'castle-of-ancients', 'iron-line', 'mini-castle', 'novaryn',
             'dungeon-blade']
-IOS = {'genvideo', 'chefeasy', 'novaryn'}
+IOS = {'genvideo', 'chefeasy', 'bvoice', 'novaryn'}
 
 pages = {'index.html': 'home'}
 for p in PRODUCTS:
