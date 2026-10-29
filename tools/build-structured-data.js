@@ -82,6 +82,13 @@ const PRODUCTS = [
         }
     },
     {
+        dir: 'flow', name: 'Flow', type: 'SoftwareApplication',
+        category: 'ProductivityApplication',
+        os: 'Android, Windows',
+        offers: free('Free; optional one-time Flow Pro upgrade'),
+        sameAs: ['https://play.google.com/store/apps/details?id=com.tdson.flow']
+    },
+    {
         dir: 'jemul', name: 'JeMul', type: 'SoftwareApplication',
         category: 'GameApplication',
         os: 'Android, Web',

@@ -49,6 +49,8 @@ CARDS = {
                'assets/apps/bvoice/icon.png', 'assets/apps/bvoice/android/shot-02.png'),
     'bvoice-ios': ('BVoice', 'Meeting minutes on iPhone, as people speak.',
                    'assets/apps/bvoice/icon.png', 'assets/apps/bvoice/ios/shot-02.png'),
+    'flow': ('Flow', 'Focus deeply. Rest on time.',
+             'assets/apps/flow/icon.png', 'assets/apps/flow/android/shot-01.png'),
     'jemul': ('JeMul', 'Play Java ME games on Android and in the browser.',
               'assets/apps/jemulwap/icon.png', 'assets/apps/jemulwap/shot-03-player.png'),
     'chilly-novels': ('Chilly Novels', 'Download once, read offline forever.',

@@ -29,6 +29,7 @@ KEEP = {
     'assets/apps/genvideo-icon.png',
     'assets/apps/chefeasy/icon.jpg',
     'assets/apps/bvoice/icon.png',
+    'assets/apps/flow/icon.png',
     'assets/apps/novels/icon.png',
     'assets/bksafe/icon-256.png',
     'assets/games/castle-of-ancients/icon.png',

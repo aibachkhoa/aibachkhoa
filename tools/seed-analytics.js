@@ -24,7 +24,7 @@ if (fs.existsSync(EVENTS_DIR) && fs.readdirSync(EVENTS_DIR).some(name => name.en
 }
 fs.mkdirSync(EVENTS_DIR, { recursive: true });
 
-const PRODUCTS = ['bksafe', 'locallex', 'novaryn', 'genvideo', 'chefeasy', 'bvoice', 'castle-of-ancients', 'dungeon-blade', 'iron-line', 'jemul', 'mini-castle', 'chilly-novels'];
+const PRODUCTS = ['bksafe', 'locallex', 'novaryn', 'genvideo', 'chefeasy', 'bvoice', 'flow', 'castle-of-ancients', 'dungeon-blade', 'iron-line', 'jemul', 'mini-castle', 'chilly-novels'];
 const COUNTRIES = [['VN', 26], ['US', 18], ['IN', 9], ['DE', 7], ['JP', 6], ['BR', 5], ['GB', 5], ['FR', 4], ['KR', 4], ['ES', 3], ['RU', 3], ['PH', 3], ['ID', 3], ['CA', 2], ['AU', 2]];
 const LANGS = [['en', 55], ['es', 8], ['zh', 7], ['ja', 6], ['de', 5], ['fr', 5], ['pt', 4], ['ko', 4], ['ru', 3], ['hi', 2], ['ar', 1]];
 const SOURCES = [['direct', 30], ['search', 34], ['ads', 14], ['social', 12], ['referral', 10]];
