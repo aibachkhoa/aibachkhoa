@@ -307,7 +307,7 @@ for (const group of groups) {
         // --- the source page only needs the alternates block
         let base = stripAlternates(source);
         if (langs.length > 1) {
-            base = base.replace(/([ \t]*<link rel="canonical"[^>]*>\n)/,
+            base = base.replace(/([ \t]*<link rel="canonical"[^>]*>\r?\n)/,
                 `$1${hreflangBlock(canonicalPath, langs, def)}`);
             annotated++;
         }
