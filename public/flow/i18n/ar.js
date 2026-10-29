@@ -133,7 +133,7 @@ i18n.ar = {
     pol_d_personal: "<strong>البيانات الشخصية</strong> هي أي معلومات تتعلق بفرد محدَّد الهوية أو يمكن تحديد هويته.",
     pol_d_provider: "يعني <strong>مزوّد الخدمة</strong> شركة Google، التي تعالج عمليات الشراء داخل التطبيق على Android عبر Google Play Billing.",
     pol_d_purchase: "يعني <strong>الشراء داخل التطبيق</strong> ترقية Flow Pro لمرة واحدة، التي تتم عبر Google Play على Android أو تُفعَّل بمفتاح ترخيص على Windows.",
-    pol_d_you: "يعني <strong>أنت</strong> الفرد الذي يستخدم الخدمة.",
+    pol_d_you: "يعني <strong>أنت</strong> الفرد الذي يستخدم التطبيق.",
     pol_h_collect: "ما الذي يخزّنه التطبيق",
     pol_collect_lead: "يحتفظ التطبيق بما يلي، وكله في مساحة التخزين الخاصة به على جهازك:",
     pol_c_1: "جلسات التركيز المكتملة: وقت انتهائها، ومدتها، وتصنيفها.",

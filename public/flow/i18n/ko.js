@@ -133,7 +133,7 @@ i18n.ko = {
     pol_d_personal: "<strong>개인정보</strong>는 식별되었거나 식별 가능한 개인과 관련된 모든 정보를 말합니다.",
     pol_d_provider: "<strong>서비스 제공자</strong>는 Google Play 결제 시스템을 통해 Android의 인앱 결제를 처리하는 Google을 말합니다.",
     pol_d_purchase: "<strong>인앱 결제</strong>는 일회성 Flow Pro 업그레이드를 말하며, Android에서는 Google Play를 통해 결제되고 Windows에서는 라이선스 키로 잠금 해제됩니다.",
-    pol_d_you: "<strong>이용자</strong>는 서비스를 사용하는 개인을 말합니다.",
+    pol_d_you: "<strong>이용자</strong>는 애플리케이션을 사용하는 개인을 말합니다.",
     pol_h_collect: "앱이 저장하는 정보",
     pol_collect_lead: "앱은 다음 정보를 보관하며, 모두 이용자 기기 내 앱 전용 비공개 저장소에 저장됩니다.",
     pol_c_1: "완료한 집중 세션: 종료 시각, 지속 시간, 라벨.",

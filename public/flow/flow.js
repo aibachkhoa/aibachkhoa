@@ -175,6 +175,21 @@ i18n.en = {
 };
 
 
+const LANGS = [
+    { code: 'en', label: 'English' },
+    { code: 'es', label: 'Español' },
+    { code: 'zh', label: '中文' },
+    { code: 'hi', label: 'हिन्दी' },
+    { code: 'ar', label: 'العربية' },
+    { code: 'pt', label: 'Português' },
+    { code: 'fr', label: 'Français' },
+    { code: 'de', label: 'Deutsch' },
+    { code: 'ja', label: '日本語' },
+    { code: 'ko', label: '한국어' },
+    { code: 'ru', label: 'Русский' }
+];
+const DEFAULT_LANG = 'en';
+
 document.addEventListener('DOMContentLoaded', () => {
     const root = document.documentElement;
 

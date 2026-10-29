@@ -596,26 +596,26 @@
    palette is remapped onto the shared system, the decorative glow is
    switched off, and the headings take the shared display treatment. */
 :root[data-theme="light"] {
-    --bv: #3b5bdb;
-    --bv-ink: #2f49b8;
-    --bv-soft: color-mix(in srgb, #3b5bdb 12%, transparent);
+    --bv: #1f8a80;
+    --bv-ink: #17695f;
+    --bv-soft: color-mix(in srgb, #1f8a80 12%, transparent);
     --bv-line: var(--line-strong);
     --bv-glow: transparent;
     --bv-void: var(--panel-ink);
     --bv-star: var(--surface-2);
-    --bv-hot: #7048e8;
-    --bv-gold: #7048e8;
+    --bv-hot: #e24b3b;
+    --bv-gold: #e24b3b;
 }
 :root[data-theme="dark"] {
-    --bv: #91a7ff;
-    --bv-ink: #b3c3ff;
-    --bv-soft: color-mix(in srgb, #91a7ff 12%, transparent);
+    --bv: #80cbc4;
+    --bv-ink: #a7ddd8;
+    --bv-soft: color-mix(in srgb, #80cbc4 12%, transparent);
     --bv-line: var(--line-strong);
     --bv-glow: transparent;
     --bv-void: var(--panel-ink);
     --bv-star: var(--surface-2);
-    --bv-hot: #b197fc;
-    --bv-gold: #b197fc;
+    --bv-hot: #ff6b5b;
+    --bv-gold: #ff6b5b;
 }
 
 .bv-hero-title, .bv-title {

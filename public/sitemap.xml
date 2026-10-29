@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://aibachkhoa.com/</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/ar</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
@@ -42,7 +42,7 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/de</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
@@ -52,12 +52,17 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/es</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://aibachkhoa.com/flow</loc>
+        <lastmod>2026-10-29</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/fr</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
@@ -67,7 +72,7 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/hi</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
@@ -77,7 +82,7 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/ja</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
@@ -87,17 +92,17 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/ko</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/locallex</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/melodiai</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
@@ -112,17 +117,17 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/orimessenger</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/pt</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/ru</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
@@ -132,12 +137,12 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/vi</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/zh</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
@@ -186,6 +191,11 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/ar/flow</loc>
+        <lastmod>2026-10-29</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/ar/genvideo</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.7</priority>
@@ -207,7 +217,7 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/ar/melodiai</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -227,22 +237,22 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/ar/orimessenger</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/ar/orimessenger/android</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/ar/orimessenger/desktop</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/ar/orimessenger/ios</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -311,6 +321,11 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/de/flow</loc>
+        <lastmod>2026-10-29</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/de/genvideo</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.7</priority>
@@ -332,7 +347,7 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/de/melodiai</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -352,22 +367,22 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/de/orimessenger</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/de/orimessenger/android</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/de/orimessenger/desktop</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/de/orimessenger/ios</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -421,6 +436,11 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/es/flow</loc>
+        <lastmod>2026-10-29</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/es/genvideo</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.7</priority>
@@ -442,7 +462,7 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/es/melodiai</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -462,22 +482,22 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/es/orimessenger</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/es/orimessenger/android</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/es/orimessenger/desktop</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/es/orimessenger/ios</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -531,6 +551,11 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/fr/flow</loc>
+        <lastmod>2026-10-29</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/fr/genvideo</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.7</priority>
@@ -552,7 +577,7 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/fr/melodiai</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -572,22 +597,22 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/fr/orimessenger</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/fr/orimessenger/android</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/fr/orimessenger/desktop</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/fr/orimessenger/ios</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -646,6 +671,11 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/hi/flow</loc>
+        <lastmod>2026-10-29</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/hi/genvideo</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.7</priority>
@@ -667,7 +697,7 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/hi/melodiai</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -687,22 +717,22 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/hi/orimessenger</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/hi/orimessenger/android</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/hi/orimessenger/desktop</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/hi/orimessenger/ios</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -756,6 +786,11 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/ja/flow</loc>
+        <lastmod>2026-10-29</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/ja/genvideo</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.7</priority>
@@ -777,7 +812,7 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/ja/melodiai</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -797,22 +832,22 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/ja/orimessenger</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/ja/orimessenger/android</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/ja/orimessenger/desktop</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/ja/orimessenger/ios</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -866,6 +901,11 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/ko/flow</loc>
+        <lastmod>2026-10-29</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/ko/genvideo</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.7</priority>
@@ -887,7 +927,7 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/ko/melodiai</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -907,22 +947,22 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/ko/orimessenger</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/ko/orimessenger/android</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/ko/orimessenger/desktop</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/ko/orimessenger/ios</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -937,17 +977,17 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/orimessenger/android</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/orimessenger/desktop</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/orimessenger/ios</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -996,6 +1036,11 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/pt/flow</loc>
+        <lastmod>2026-10-29</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/pt/genvideo</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.7</priority>
@@ -1017,7 +1062,7 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/pt/melodiai</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -1037,22 +1082,22 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/pt/orimessenger</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/pt/orimessenger/android</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/pt/orimessenger/desktop</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/pt/orimessenger/ios</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -1106,6 +1151,11 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/ru/flow</loc>
+        <lastmod>2026-10-29</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/ru/genvideo</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.7</priority>
@@ -1127,7 +1177,7 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/ru/melodiai</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -1147,22 +1197,22 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/ru/orimessenger</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/ru/orimessenger/android</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/ru/orimessenger/desktop</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/ru/orimessenger/ios</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -1172,42 +1222,42 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/vi/bksafe</loc>
-        <lastmod>2026-10-19</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/vi/castle-of-ancients</loc>
-        <lastmod>2026-10-19</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/vi/chilly-novels</loc>
-        <lastmod>2026-10-19</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/vi/dungeon-blade</loc>
-        <lastmod>2026-10-19</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/vi/jemul</loc>
-        <lastmod>2026-10-19</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/vi/mini-castle</loc>
-        <lastmod>2026-10-19</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/vi/novaryn</loc>
-        <lastmod>2026-10-19</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/vi/novaryn/ios</loc>
-        <lastmod>2026-10-19</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -1256,6 +1306,11 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/zh/flow</loc>
+        <lastmod>2026-10-29</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/zh/genvideo</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.7</priority>
@@ -1277,7 +1332,7 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/zh/melodiai</loc>
-        <lastmod>2026-10-02</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -1297,22 +1352,22 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/zh/orimessenger</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/zh/orimessenger/android</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/zh/orimessenger/desktop</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/zh/orimessenger/ios</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -1351,6 +1406,11 @@
         <priority>0.3</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/ar/flow/policy</loc>
+        <lastmod>2026-10-29</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/ar/genvideo/policy</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.3</priority>
@@ -1377,7 +1437,7 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/ar/orimessenger/policy</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
@@ -1441,6 +1501,11 @@
         <priority>0.3</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/de/flow/policy</loc>
+        <lastmod>2026-10-29</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/de/genvideo/policy</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.3</priority>
@@ -1467,7 +1532,7 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/de/orimessenger/policy</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
@@ -1511,6 +1576,11 @@
         <priority>0.3</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/es/flow/policy</loc>
+        <lastmod>2026-10-29</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/es/genvideo/policy</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.3</priority>
@@ -1537,12 +1607,17 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/es/orimessenger/policy</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/es/treasure-hunters/policy</loc>
         <lastmod>2026-10-21</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>https://aibachkhoa.com/flow/policy</loc>
+        <lastmod>2026-10-29</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
@@ -1576,6 +1651,11 @@
         <priority>0.3</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/fr/flow/policy</loc>
+        <lastmod>2026-10-29</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/fr/genvideo/policy</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.3</priority>
@@ -1602,7 +1682,7 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/fr/orimessenger/policy</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
@@ -1646,6 +1726,11 @@
         <priority>0.3</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/hi/flow/policy</loc>
+        <lastmod>2026-10-29</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/hi/genvideo/policy</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.3</priority>
@@ -1672,7 +1757,7 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/hi/orimessenger/policy</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
@@ -1716,6 +1801,11 @@
         <priority>0.3</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/ja/flow/policy</loc>
+        <lastmod>2026-10-29</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/ja/genvideo/policy</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.3</priority>
@@ -1742,7 +1832,7 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/ja/orimessenger/policy</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
@@ -1786,6 +1876,11 @@
         <priority>0.3</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/ko/flow/policy</loc>
+        <lastmod>2026-10-29</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/ko/genvideo/policy</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.3</priority>
@@ -1812,7 +1907,7 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/ko/orimessenger/policy</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
@@ -1822,7 +1917,7 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/locallex/policy</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
@@ -1837,7 +1932,7 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/orimessenger/policy</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
@@ -1871,6 +1966,11 @@
         <priority>0.3</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/pt/flow/policy</loc>
+        <lastmod>2026-10-29</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/pt/genvideo/policy</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.3</priority>
@@ -1897,7 +1997,7 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/pt/orimessenger/policy</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
@@ -1936,6 +2036,11 @@
         <priority>0.3</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/ru/flow/policy</loc>
+        <lastmod>2026-10-29</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/ru/genvideo/policy</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.3</priority>
@@ -1962,7 +2067,7 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/ru/orimessenger/policy</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
@@ -1977,37 +2082,37 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/vi/bksafe/policy</loc>
-        <lastmod>2026-10-19</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/vi/castle-of-ancients/policy</loc>
-        <lastmod>2026-10-19</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/vi/chilly-novels/policy</loc>
-        <lastmod>2026-10-19</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/vi/dungeon-blade/policy</loc>
-        <lastmod>2026-10-19</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/vi/jemul/policy</loc>
-        <lastmod>2026-10-19</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/vi/mini-castle/policy</loc>
-        <lastmod>2026-10-19</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
         <loc>https://aibachkhoa.com/vi/novaryn/policy</loc>
-        <lastmod>2026-10-19</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
@@ -2041,6 +2146,11 @@
         <priority>0.3</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/zh/flow/policy</loc>
+        <lastmod>2026-10-29</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/zh/genvideo/policy</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.3</priority>
@@ -2067,7 +2177,7 @@
     </url>
     <url>
         <loc>https://aibachkhoa.com/zh/orimessenger/policy</loc>
-        <lastmod>2026-09-30</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>

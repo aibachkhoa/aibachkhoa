@@ -133,7 +133,7 @@ i18n.zh = {
     pol_d_personal: "<strong>个人数据</strong>指与已识别或可识别的个人有关的任何信息。",
     pol_d_provider: "<strong>服务提供商</strong>指 Google，它通过 Google Play 结算服务处理 Android 上的应用内购买。",
     pol_d_purchase: "<strong>应用内购买</strong>指一次性的 Flow Pro 升级，在 Android 上通过 Google Play 完成交易，在 Windows 上通过许可证密钥解锁。",
-    pol_d_you: "<strong>你</strong>指使用本服务的个人。",
+    pol_d_you: "<strong>你</strong>指使用本应用的个人。",
     pol_h_collect: "应用存储的内容",
     pol_collect_lead: "应用会保存以下内容，全部存放在你设备上它自己的私有存储空间中：",
     pol_c_1: "你已完成的专注时段：结束时间、持续时长及其标签。",

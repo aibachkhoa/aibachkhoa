@@ -127,7 +127,7 @@ body = f'''<header class="bv-hero" id="overview">
                     <p style="margin-top: 1.8rem;"><a href="{WIN}" class="btn btn-primary" download>{WIN_SVG}<span data-i18n="pc_btn">{T('pc_btn')}</span></a></p>
                     <p class="bv-hero-meta" data-i18n="pc_meta">{T('pc_meta')}</p>
                 </div>
-                <div class="reveal flow-pc-art"><img src="/assets/apps/flow/pc-widget.webp" alt="" width="900" height="560" loading="lazy" decoding="async"></div>
+                <div class="reveal flow-pc-art"><img src="/assets/apps/flow/pc-widget.webp" alt="" width="900" height="560" decoding="async"></div>
             </div>
         </section>
         <section class="bv-section bv-section--tint" id="shots">

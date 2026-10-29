@@ -133,7 +133,7 @@ i18n.ja = {
     pol_d_personal: "<strong>個人データ</strong>とは、識別された、または識別可能な個人に関するあらゆる情報を指します。",
     pol_d_provider: "<strong>サービスプロバイダー</strong>とは、Android におけるアプリ内課金を Google Play Billing を通じて処理する Google を指します。",
     pol_d_purchase: "<strong>アプリ内課金</strong>とは、買い切りの Flow Pro アップグレードを指します。Android では Google Play を通じて購入し、Windows ではライセンスキーによってロックを解除します。",
-    pol_d_you: "<strong>お客様</strong>とは、本サービスを利用する個人を指します。",
+    pol_d_you: "<strong>お客様</strong>とは、本アプリを利用する個人を指します。",
     pol_h_collect: "本アプリが保存する情報",
     pol_collect_lead: "本アプリは、以下の情報をすべてお客様のデバイス上の専用ストレージに保存します。",
     pol_c_1: "完了した集中セッション: 終了日時、継続時間、ラベル。",
