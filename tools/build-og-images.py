@@ -64,6 +64,8 @@ CARDS = {
                     'assets/games/mini-castle/icon.png', 'assets/games/mini-castle/shot-01.png'),
     'treasure-hunters': ('Treasure Hunters', 'Fifty pirate levels, ten bosses.',
                          'assets/games/treasure-hunters/icon.png', 'assets/games/treasure-hunters/shot-01.png'),
+    'jumpmaster': ('Jump Master', 'Hold, aim, leap. Ten pixel climbs.',
+                   'assets/games/jumpmaster/icon.png', 'assets/games/jumpmaster/feature.webp'),
     'novaryn': ('Novaryn', 'One thumb, endless waves.',
                 'assets/games/novaryn/icon.png', 'assets/games/novaryn/shot-01.png'),
     'novaryn-ios': ('Novaryn', 'Endless waves on iPhone and iPad.',

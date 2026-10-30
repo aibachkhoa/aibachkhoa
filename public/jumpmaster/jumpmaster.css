@@ -1,0 +1,314 @@
+/* =========================================================
+   Jump Master — product page + privacy policy.
+   Sits on top of /style.css: only the pieces this page adds.
+   Same layout as the Treasure Hunters page; the palette comes from the
+   game's own art — misty sage, the hero's teal hood, crown gold.
+   The one structural difference is the gallery: the screenshots
+   are portrait, so they sit side by side as phone-shaped frames
+   instead of on one wide tabbed stage.
+   ========================================================= */
+
+.jm-page {
+    --jm-mist: #9fb3a3;
+    --jm-teal: #1f8c7c;
+    --jm-teal-deep: #176e62;
+    --jm-stone: #6f7a74;
+    --jm-gold: #e2b54a;
+}
+
+/* ---------- Hero ---------- */
+.jm-hero {
+    position: relative;
+    padding: 116px 0 72px;
+    overflow: hidden;
+    background: transparent;
+}
+
+.jm-hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+    gap: 56px;
+    align-items: center;
+}
+
+.jm-brandline { display: flex; align-items: center; gap: 18px; margin-bottom: 22px; }
+
+.jm-brandmark {
+    width: 76px; height: 76px;
+    border-radius: 18px;
+    image-rendering: pixelated;
+    box-shadow: 0 10px 30px rgba(31, 60, 52, .22);
+}
+
+.jm-wordmark {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.6rem;
+    letter-spacing: .01em;
+    margin: 0;
+}
+
+.jm-brandsub {
+    margin: 2px 0 0;
+    font-size: .86rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
+
+.jm-hero-title {
+    font-family: var(--font-display);
+    font-size: clamp(2.1rem, 4.4vw, 3.4rem);
+    line-height: 1.1;
+    margin: 0 0 18px;
+}
+
+.jm-hero-title em { font-style: normal; color: var(--jm-teal-deep); }
+
+.jm-hero-sub {
+    font-size: 1.06rem;
+    line-height: 1.65;
+    color: var(--text-muted);
+    max-width: 46ch;
+    margin: 0 0 28px;
+}
+
+.jm-hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+
+.jm-hero-shot {
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 26px 70px rgba(31, 60, 52, .28);
+    border: 2px solid var(--ink);
+}
+
+.jm-hero-shot img { display: block; width: 100%; height: auto; image-rendering: pixelated; }
+
+/* ---------- Pull quote ---------- */
+.jm-quote {
+    padding: 8px 0 64px;
+}
+
+.jm-quote blockquote {
+    margin: 0 auto;
+    max-width: 62ch;
+    text-align: center;
+    font-family: var(--font-display);
+    font-size: clamp(1.15rem, 2.2vw, 1.6rem);
+    line-height: 1.5;
+    color: var(--text);
+}
+
+.jm-quote blockquote::before,
+.jm-quote blockquote::after { content: '"'; color: var(--jm-teal-deep); }
+
+/* ---------- Section shell ---------- */
+.jm-section { padding: 72px 0; }
+.jm-section--tint { background: var(--surface-2); }
+
+.jm-head { max-width: 62ch; margin: 0 0 40px; }
+
+.jm-eyebrow {
+    margin: 0 0 10px;
+    font-size: .8rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--jm-teal-deep);
+    font-weight: 600;
+}
+
+.jm-title {
+    font-family: var(--font-display);
+    font-size: clamp(1.6rem, 3vw, 2.3rem);
+    line-height: 1.2;
+    margin: 0 0 12px;
+}
+
+.jm-lede { margin: 0; color: var(--text-muted); line-height: 1.7; }
+
+/* ---------- Hold / aim / let go ---------- */
+.jm-loop {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.jm-loop-step {
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    background: var(--surface);
+    padding: 26px 24px;
+}
+
+.jm-loop-glyph { font-size: 1.9rem; line-height: 1; display: block; margin-bottom: 14px; }
+
+.jm-loop-step h3 {
+    font-family: var(--font-display);
+    font-size: 1.06rem;
+    margin: 0 0 8px;
+}
+
+.jm-loop-step p { margin: 0; color: var(--text-muted); line-height: 1.6; font-size: .95rem; }
+
+/* ---------- Climb / feature cards ---------- */
+.jm-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(258px, 1fr));
+    gap: 20px;
+}
+
+.jm-card {
+    border: 2px solid var(--ink);
+    border-radius: 16px;
+    background: var(--surface);
+    padding: 26px 24px;
+}
+
+.jm-card h3 {
+    font-family: var(--font-display);
+    font-size: 1.04rem;
+    margin: 0 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.jm-card p { margin: 0; color: var(--text-muted); line-height: 1.65; font-size: .95rem; }
+
+.jm-dot {
+    width: 10px; height: 10px; border-radius: 50%;
+    flex: 0 0 auto;
+}
+.jm-dot--gear { background: #b0793d; }
+.jm-dot--ice { background: #7cc4e0; }
+.jm-dot--sky { background: #c9d6e8; border: 1px solid var(--border); }
+.jm-dot--ruins { background: #5f8f4a; }
+
+/* ---------- Gallery: portrait phone frames in a row ---------- */
+/* Six frames share one row on a desktop-width container; below that the
+   row scrolls sideways with snap points rather than shrinking the
+   shots to thumbnails or stacking six tall images. */
+.jm-shots {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(170px, 1fr);
+    gap: 18px;
+    margin: 0;
+    padding: 0 0 12px;
+    list-style: none;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.jm-shot {
+    margin: 0;
+    scroll-snap-align: start;
+}
+
+.jm-shot-frame {
+    border: 2px solid var(--ink);
+    border-radius: 18px;
+    overflow: hidden;
+    background: var(--surface);
+    aspect-ratio: 1 / 2;
+}
+
+.jm-shot-frame img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    image-rendering: pixelated;
+}
+
+.jm-shot figcaption { margin: 12px 2px 0; color: var(--text-muted); line-height: 1.5; font-size: .9rem; }
+.jm-shot figcaption strong { color: var(--text); display: block; margin-bottom: 2px; font-size: .95rem; }
+
+/* ---------- Fact strip ---------- */
+.jm-facts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 18px;
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    background: var(--surface);
+    padding: 30px 26px;
+}
+
+.jm-fact b {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 1.7rem;
+    line-height: 1.1;
+    color: var(--jm-teal-deep);
+}
+
+.jm-fact span { color: var(--text-muted); font-size: .92rem; }
+
+/* ---------- Privacy page ---------- */
+.jm-policy { padding: 120px 0 84px; }
+.jm-policy-head { margin-bottom: 40px; }
+.jm-policy-date { color: var(--text-muted); font-size: .92rem; margin: 10px 0 0; }
+
+.jm-policy-body { max-width: 74ch; }
+
+.jm-policy-body h2 {
+    font-family: var(--font-display);
+    font-size: 1.24rem;
+    margin: 40px 0 12px;
+}
+
+.jm-policy-body p,
+.jm-policy-body li { color: var(--text-muted); line-height: 1.75; }
+
+.jm-policy-body ul { padding-left: 1.15rem; }
+.jm-policy-body li { margin-bottom: 8px; }
+
+.jm-callout {
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--jm-teal-deep);
+    border-radius: 12px;
+    background: var(--surface);
+    padding: 20px 22px;
+    margin: 26px 0;
+}
+
+.jm-callout p { margin: 0; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+    .jm-hero { padding-top: 96px; }
+    .jm-hero-grid { grid-template-columns: minmax(0, 1fr); gap: 34px; }
+    .jm-loop { grid-template-columns: minmax(0, 1fr); }
+    .jm-shots { grid-auto-columns: minmax(200px, 42%); }
+}
+
+@media (max-width: 560px) {
+    .jm-shots { grid-auto-columns: 64%; }
+}
+
+/* ===== new design system ===== */
+/* Appended last so it wins over the rules above: the product's own
+   palette is remapped onto the shared system, and the headings take
+   the shared display treatment. */
+:root[data-theme="light"] {
+    --jm-teal: #477bff;
+    --jm-teal-deep: #2f5ce0;
+    --jm-gold: #2f9e82;
+}
+:root[data-theme="dark"] {
+    --jm-teal: #6e96ff;
+    --jm-teal-deep: #9ab3ff;
+    --jm-gold: #41c8a6;
+}
+
+.jm-hero-title, .jm-title {
+    font-family: var(--font-display);
+    font-weight: 900;
+    line-height: 0.86;
+    letter-spacing: -0.035em;
+}
+.jm-hero-title em, .jm-title em {
+    font-style: normal;
+}

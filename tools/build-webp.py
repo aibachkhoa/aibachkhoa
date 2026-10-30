@@ -37,6 +37,7 @@ KEEP = {
     'assets/games/iron-line/icon-256.png',
     'assets/games/mini-castle/icon.png',
     'assets/games/treasure-hunters/icon.png',
+    'assets/games/jumpmaster/icon.png',
     'assets/games/novaryn/icon.png',
 }
 

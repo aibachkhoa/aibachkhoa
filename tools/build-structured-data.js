@@ -124,6 +124,12 @@ const PRODUCTS = [
         sameAs: ['https://play.google.com/store/apps/details?id=com.tdson.treasurehunters']
     },
     {
+        dir: 'jumpmaster', name: 'Jump Master', type: 'VideoGame',
+        genre: 'Platformer', os: 'Android',
+        offers: free('Free, no ads and no in-app purchases'),
+        sameAs: ['https://play.google.com/store/apps/details?id=com.tdson.jumpmaster']
+    },
+    {
         dir: 'novaryn', name: 'Novaryn', type: 'VideoGame',
         genre: 'Arcade shoot-em-up', os: 'Android',
         offers: free('Free to play, with optional ship purchases and a Pro subscription'),

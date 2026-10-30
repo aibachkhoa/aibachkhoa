@@ -91,6 +91,11 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/jumpmaster</loc>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/ko</loc>
         <lastmod>2026-10-21</lastmod>
         <priority>0.8</priority>
@@ -213,6 +218,11 @@
     <url>
         <loc>https://aibachkhoa.com/ar/jemul</loc>
         <lastmod>2026-09-30</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://aibachkhoa.com/ar/jumpmaster</loc>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -346,6 +356,11 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/de/jumpmaster</loc>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/de/melodiai</loc>
         <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
@@ -461,6 +476,11 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/es/jumpmaster</loc>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/es/melodiai</loc>
         <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
@@ -573,6 +593,11 @@
     <url>
         <loc>https://aibachkhoa.com/fr/jemul</loc>
         <lastmod>2026-09-30</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://aibachkhoa.com/fr/jumpmaster</loc>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -696,6 +721,11 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/hi/jumpmaster</loc>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/hi/melodiai</loc>
         <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
@@ -811,6 +841,11 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/ja/jumpmaster</loc>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/ja/melodiai</loc>
         <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
@@ -923,6 +958,11 @@
     <url>
         <loc>https://aibachkhoa.com/ko/jemul</loc>
         <lastmod>2026-09-30</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://aibachkhoa.com/ko/jumpmaster</loc>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -1061,6 +1101,11 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/pt/jumpmaster</loc>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/pt/melodiai</loc>
         <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
@@ -1173,6 +1218,11 @@
     <url>
         <loc>https://aibachkhoa.com/ru/jemul</loc>
         <lastmod>2026-09-30</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://aibachkhoa.com/ru/jumpmaster</loc>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
     </url>
     <url>
@@ -1331,6 +1381,11 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/zh/jumpmaster</loc>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/zh/melodiai</loc>
         <lastmod>2026-10-21</lastmod>
         <priority>0.7</priority>
@@ -1423,6 +1478,11 @@
     <url>
         <loc>https://aibachkhoa.com/ar/jemul/policy</loc>
         <lastmod>2026-09-30</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>https://aibachkhoa.com/ar/jumpmaster/policy</loc>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
@@ -1521,6 +1581,11 @@
         <priority>0.3</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/de/jumpmaster/policy</loc>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/de/mini-castle/policy</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.3</priority>
@@ -1593,6 +1658,11 @@
     <url>
         <loc>https://aibachkhoa.com/es/jemul/policy</loc>
         <lastmod>2026-09-30</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>https://aibachkhoa.com/es/jumpmaster/policy</loc>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
@@ -1671,6 +1741,11 @@
         <priority>0.3</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/fr/jumpmaster/policy</loc>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/fr/mini-castle/policy</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.3</priority>
@@ -1743,6 +1818,11 @@
     <url>
         <loc>https://aibachkhoa.com/hi/jemul/policy</loc>
         <lastmod>2026-09-30</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>https://aibachkhoa.com/hi/jumpmaster/policy</loc>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
@@ -1821,6 +1901,11 @@
         <priority>0.3</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/ja/jumpmaster/policy</loc>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/ja/mini-castle/policy</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.3</priority>
@@ -1843,6 +1928,11 @@
     <url>
         <loc>https://aibachkhoa.com/jemul/policy</loc>
         <lastmod>2026-09-30</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>https://aibachkhoa.com/jumpmaster/policy</loc>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
@@ -1893,6 +1983,11 @@
     <url>
         <loc>https://aibachkhoa.com/ko/jemul/policy</loc>
         <lastmod>2026-09-30</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>https://aibachkhoa.com/ko/jumpmaster/policy</loc>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
@@ -1986,6 +2081,11 @@
         <priority>0.3</priority>
     </url>
     <url>
+        <loc>https://aibachkhoa.com/pt/jumpmaster/policy</loc>
+        <lastmod>2026-10-21</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
         <loc>https://aibachkhoa.com/pt/mini-castle/policy</loc>
         <lastmod>2026-09-30</lastmod>
         <priority>0.3</priority>
@@ -2053,6 +2153,11 @@
     <url>
         <loc>https://aibachkhoa.com/ru/jemul/policy</loc>
         <lastmod>2026-09-30</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>https://aibachkhoa.com/ru/jumpmaster/policy</loc>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
@@ -2163,6 +2268,11 @@
     <url>
         <loc>https://aibachkhoa.com/zh/jemul/policy</loc>
         <lastmod>2026-09-30</lastmod>
+        <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>https://aibachkhoa.com/zh/jumpmaster/policy</loc>
+        <lastmod>2026-10-21</lastmod>
         <priority>0.3</priority>
     </url>
     <url>
