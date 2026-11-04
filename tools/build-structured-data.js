@@ -89,6 +89,14 @@ const PRODUCTS = [
         sameAs: ['https://play.google.com/store/apps/details?id=com.tdson.flow']
     },
     {
+        dir: 'tracy', name: 'Tracy', type: 'SoftwareApplication',
+        category: 'ProductivityApplication',
+        os: 'Android',
+        offers: free('Free; optional Tracy Pro subscription with 7-day free trial'),
+        sameAs: ['https://play.google.com/store/apps/details?id=com.tdson.tracy']
+    },
+
+    {
         dir: 'jemul', name: 'JeMul', type: 'SoftwareApplication',
         category: 'GameApplication',
         os: 'Android, Web',
