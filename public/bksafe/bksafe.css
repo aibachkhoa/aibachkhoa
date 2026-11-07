@@ -1,9 +1,3 @@
-/* =========================================================
-   BKSafe product page.
-   Rides on ../style.css for chrome (nav, footer, buttons, container).
-   Adds a product accent — BKSafe's own green — on top of the
-   site's orange brand, so the page still reads as AIBachKhoa.
-   ========================================================= */
 
 :root[data-theme="light"] {
     --bk: #16a34a;
@@ -23,7 +17,6 @@
     --bk-chrome: #0b0d0c;
 }
 
-/* ---------- Hero ---------- */
 .bk-hero {
     padding: calc(68px + clamp(3rem, 7vw, 6rem)) 0 clamp(3.5rem, 7vw, 6rem);
     background: transparent;
@@ -80,13 +73,8 @@
 
 .bk-hero-meta { font-size: 0.86rem; color: var(--text-muted); }
 
-/* stage that holds the mac window + phone */
 .bk-stage { position: relative; padding-bottom: clamp(1.5rem, 4vw, 3rem); }
 
-/* ---------- macOS window ---------- */
-/* The captures already carry macOS's own window frame with rounded
-   alpha corners, so the wrapper adds nothing but a shadow that
-   follows that shape. */
 .mac-window { line-height: 0; }
 .mac-window img {
     display: block;
@@ -98,7 +86,6 @@
     filter: drop-shadow(0 34px 60px rgba(0, 0, 0, 0.62));
 }
 
-/* ---------- phone chrome ---------- */
 .phone-frame {
     width: 100%;
     max-width: 260px;
@@ -119,7 +106,6 @@
     transform: translateY(18%);
 }
 
-/* ---------- pillars ---------- */
 .bk-pillars { padding: clamp(2.5rem, 5vw, 4rem) 0; }
 .bk-pillar-grid {
     display: grid;
@@ -135,7 +121,6 @@
 .bk-pillar h3 { font-size: 1.03rem; font-weight: 600; margin-bottom: 0.45rem; }
 .bk-pillar p { font-size: 0.92rem; color: var(--text-muted); line-height: 1.6; }
 
-/* ---------- platform picker ---------- */
 .bk-picker { padding: clamp(3rem, 6vw, 5.5rem) 0 clamp(1rem, 2vw, 2rem); }
 .bk-picker .section-head { margin-bottom: 2.5rem; }
 .bk-picker-grid {
@@ -191,7 +176,6 @@
 .bk-picker-card:hover .bk-picker-go svg { transform: translateX(4px); }
 :root[dir="rtl"] .bk-picker-go svg { transform: scaleX(-1); }
 
-/* ---------- platform sections ---------- */
 .bk-platform { padding: clamp(3.5rem, 7vw, 6.5rem) 0; scroll-margin-top: 68px; }
 .bk-platform--mac { border-top: 1px solid var(--border); }
 .bk-platform--win {
@@ -233,7 +217,6 @@
     flex-shrink: 0;
 }
 
-/* feature grid */
 .bk-feat-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(16.5rem, 1fr));
@@ -252,7 +235,6 @@
 .bk-feat h3 { font-size: 1.02rem; font-weight: 600; margin-bottom: 0.45rem; }
 .bk-feat p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.62; }
 
-/* ---------- gallery ---------- */
 .bk-gallery { margin-bottom: clamp(2.5rem, 5vw, 4rem); scroll-margin-top: 90px; }
 .bk-gal-head { margin-bottom: 1.4rem; }
 .bk-gal-head h3 { font-size: clamp(1.4rem, 2.2vw, 1.8rem); font-weight: 700; margin-bottom: 0.4rem; }
@@ -300,7 +282,6 @@
 .bk-gal-cap strong { color: var(--text); font-weight: 600; }
 .bk-gal-cap strong::after { content: " — "; color: var(--text-muted); font-weight: 400; }
 
-/* ---------- note ---------- */
 .bk-note {
     display: flex;
     gap: 1.1rem;
@@ -324,7 +305,6 @@ code {
     padding: 0.08em 0.36em;
 }
 
-/* ---------- steps ---------- */
 .bk-steps {
     padding: 1.9rem;
     border: 2px solid var(--ink);
@@ -362,7 +342,6 @@ code {
     padding-top: 1.2rem;
 }
 
-/* ---------- android ---------- */
 .bk-droid-grid {
     display: grid;
     grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
@@ -378,7 +357,6 @@ code {
 .bk-droid-feats h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.35rem; }
 .bk-droid-feats p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; }
 
-/* ---------- bksafe lite ---------- */
 .bk-lite {
     display: grid;
     grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
@@ -420,11 +398,6 @@ code {
 .bk-lite-shots { display: flex; gap: 1rem; justify-content: center; }
 .bk-lite-shots .phone-frame { max-width: 190px; }
 
-/* ---------- download ---------- */
-/* ── Bảng giá ─────────────────────────────────────────────────────────────────────────────
-   Dùng lại đúng khối thẻ của mục Tải về (viền, bo góc, bóng đổ) để hai mục cạnh nhau đọc như
-   một trang chứ không như hai trang ghép lại. Chỉ thẻ Pro được tô màu nhấn — nếu cả ba thẻ đều
-   nổi bật thì không thẻ nào nổi bật cả. */
 .bk-pricing {
     padding: clamp(3.5rem, 7vw, 6.5rem) 0;
     border-top: 1px solid var(--border);
@@ -484,11 +457,7 @@ code {
     list-style: none;
     display: grid;
     gap: 0.6rem;
-    /* Các dòng dồn lên đầu thay vì giãn đều theo chiều cao thẻ.
-       Thiếu dòng này thì `flex: 1` kéo danh sách cao bằng thẻ dài nhất, còn lưới chia đều khoảng
-       trống ra giữa các dòng — thẻ ít mục nhất trông như bị bung ra, và ba thẻ cạnh nhau không
-       còn đọc thành một bảng so sánh nữa. */
-    align-content: start;
+        align-content: start;
 }
 .bk-pr-list li {
     position: relative;
@@ -497,8 +466,6 @@ code {
     line-height: 1.5;
     color: var(--text);
 }
-/* Dấu tích vẽ bằng ::before thay vì ký tự trong HTML: nó là trang trí, và trình đọc màn hình
-   không nên đọc "dấu tích" trước mỗi dòng. */
 .bk-pr-list li::before {
     content: "";
     position: absolute;
@@ -576,7 +543,6 @@ code {
 .bk-dl-btn { width: 100%; margin-bottom: 1.5rem; }
 .bk-dl-btn svg { width: 18px; height: 18px; }
 
-/* play store badge */
 .bk-play-badge {
     display: flex;
     align-items: center;
@@ -595,7 +561,6 @@ code {
 .bk-play-badge small { display: block; font-size: 0.62rem; letter-spacing: 0.13em; opacity: 0.72; }
 .bk-play-badge strong { display: block; font-family: var(--font-display); font-size: 1.15rem; font-weight: 600; line-height: 1.2; }
 
-/* spec table */
 .bk-specs { display: grid; gap: 0; border-top: 1px solid var(--border); }
 .bk-specs > div {
     display: grid;
@@ -609,7 +574,6 @@ code {
 .bk-specs dd { font-weight: 500; overflow-wrap: anywhere; }
 .bk-dim { color: var(--text-muted); font-weight: 400; }
 
-/* sha block */
 .bk-sha { margin-top: 1.4rem; }
 .bk-sha-head {
     display: flex;
@@ -663,7 +627,6 @@ code {
     line-height: 1.65;
 }
 
-/* ---------- faq ---------- */
 .bk-faq { padding: clamp(3rem, 6vw, 5.5rem) 0; border-top: 1px solid var(--border); background: var(--surface-2); }
 .bk-faq .section-head { margin-bottom: 2.2rem; }
 .bk-faq-list {
@@ -708,7 +671,6 @@ code {
     max-width: 46rem;
 }
 
-/* ---------- cta ---------- */
 .bk-cta { padding: clamp(3rem, 6vw, 5rem) 0 clamp(3.5rem, 7vw, 6rem); }
 .bk-cta-inner {
     text-align: center;
@@ -720,7 +682,6 @@ code {
 .bk-cta .cta-title { font-size: clamp(1.7rem, 3.2vw, 2.5rem); font-weight: 700; margin-bottom: 1.6rem; }
 .bk-cta .cta-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center; }
 
-/* ---------- responsive ---------- */
 @media (max-width: 1080px) {
     .bk-hero-grid { grid-template-columns: 1fr; }
     .bk-hero-copy { max-width: 42rem; }
@@ -752,9 +713,6 @@ code {
     .bk-picker-card:hover, .bk-feat:hover, .bk-play-badge:hover { transform: none; }
 }
 
-/* ------------------------------------------------------------- policy ---- */
-/* Trang chính sách dùng lại đúng bộ biến và kiểu chữ của trang sản phẩm, nên
-   nó không cần một bảng màu riêng — chỉ cần phần khung cho một trang toàn chữ. */
 .bk-policy { padding: clamp(3rem, 6vw, 5rem) 0 clamp(4rem, 7vw, 6rem); }
 .bk-policy-head { margin-bottom: 2.5rem; }
 .bk-policy-stamp { color: var(--text-muted); font-size: 0.9rem; margin-top: 0.6rem; }
@@ -772,8 +730,6 @@ code {
 }
 .bk-policy-body p { color: var(--text-muted); line-height: 1.78; margin-bottom: 1rem; }
 .bk-policy-body strong { color: var(--text); font-weight: 600; }
-/* /style.css đặt `ul { list-style: none }` cho cả trang web, nên dấu đầu dòng
-   phải vẽ lại bằng tay. Danh sách đánh số vẫn giữ số, chỉ cần thụt lề. */
 .bk-policy-body ul { margin: 0 0 1.2rem; padding: 0; display: grid; gap: 0.5rem; }
 .bk-policy-body ol { margin: 0 0 1.2rem 1.2rem; }
 .bk-policy-body li { color: var(--text-muted); line-height: 1.75; }
@@ -826,10 +782,6 @@ code {
 }
 .bk-table td { color: var(--text-muted); line-height: 1.6; }
 
-/* ===== new design system ===== */
-/* Appended last so it wins over the rules above: the product's own
-   palette is remapped onto the shared system, the decorative glow is
-   switched off, and the headings take the shared display treatment. */
 :root[data-theme="light"] {
     --bk: #2f9e82;
     --bk-ink: #1f8a70;

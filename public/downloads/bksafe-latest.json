@@ -9,5 +9,15 @@
     "min_os": "11.0",
     "released": "2026-11-06",
     "notes": {}
+  },
+  "linux": {
+    "version": "1.3.4",
+    "build": 27,
+    "url": "https://aibachkhoa.com/downloads/BKSafe-1.3.4-linux-amd64.deb",
+    "sha256": "a01aa704488bcdc211d5f8ee2ff2631841f2125dc5dc3f966959d0cb9e3d3ee6",
+    "size": 10382876,
+    "signature": "iI0EABYKADUWIQRrsJ8LSFyvNZJBAk+XQMGzhFBcTwUCau6SPRccY29udGFjdEBhaWJhY2hraG9hLmNvbQAKCRCXQMGzhFBcTxGQAQCI/9htiEaNbBnsseqD98sECHwxotUDdV4KZfbddRK6RQEA9M9naVe1MdmHZvMxN5Q1fT5LuT8ybuQjW+IwoNOhrAU=",
+    "released": "2026-11-07",
+    "notes": {}
   }
 }

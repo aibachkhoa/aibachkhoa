@@ -1,12 +1,3 @@
-/* =========================================================
-   BKSafe product page.
-   NOTE: this page is English-only. The Vietnamese copy was removed
-   from the whole site along with every /vi/ URL, so there is no
-   hidden locale left here to switch back on.
-   Theme is shared with the main site through the same 'theme' key;
-   the language choice is stored separately so it does not fight
-   with the picker on the landing page.
-   ========================================================= */
 
 const i18n = {
 
@@ -15,17 +6,17 @@ const i18n = {
         meta_desc: "BKSafe watches machine health, scans for malware, clears junk and monitors network traffic. Direct downloads for macOS, Windows and Linux, plus Android.",
         nav_policy: "Privacy",
         pol_page_title: "Privacy Policy — BKSafe | AIBachKhoa",
-        pol_meta_desc: "The BKSafe privacy policy: what the Android build collects, why the desktop builds collect nothing, and the only two network connections they make.",
+        pol_meta_desc: "The BKSafe privacy policy: what the Android build collects, what the desktop builds keep on the machine, and every network connection they make.",
         pol_back: "Back to the product",
         pol_eyebrow: "Legal",
         pol_title: "Privacy Policy",
         pol_product: "BKSafe — for Windows, macOS, Linux and Android",
-        pol_updated: "Last updated: 23 August 2026",
+        pol_updated: "Last updated: 7 November 2026",
         pol_lead: "This page sets out how BKSafe handles information. The phone build and the desktop builds differ substantially here, so they are treated separately rather than blurred into one general statement — a policy written for both at once either overstates one or understates the other.",
         pol_toc: "On this page",
         pol_h_summary: "Summary",
         pol_summary_1: "BKSafe is a set of protection and maintenance tools published by AIBachKhoa (Son Tran), Vietnam. There are four builds: Windows, macOS, Linux and Android.",
-        pol_summary_2: "<strong>The desktop builds have no account, no telemetry, and send no results anywhere.</strong> Every scan, every figure and every log stays on that machine. The Android build does collect some operational data, listed in full below.",
+        pol_summary_2: "<strong>The desktop builds have no sign-in account, no telemetry, and send no scan results anywhere.</strong> Every scan, every figure and every log stays on that machine. Personal data leaves the machine only when you buy or activate Pro: your email address, the computer's name and a random device ID, all described below. The Android build does collect some operational data, also listed below.",
         pol_h_desktop: "The desktop builds (Windows, macOS, Linux)",
         pol_desktop_1: "These three read a great deal about your machine — that is their job. But <strong>none of it leaves the machine</strong>. Specifically, the app reads:",
         pol_desktop_l1: "Hardware figures: CPU, memory, temperature, drive health, network traffic",
@@ -33,16 +24,23 @@ const i18n = {
         pol_desktop_l3: "The list of processes, services, drivers and startup entries",
         pol_desktop_l4: "The operating system's security configuration: firewall, anti-malware, drive encryption",
         pol_desktop_l5: "Folder names and sizes, when you use the storage measurement feature",
-        pol_desktop_2: "There is no account to sign in to, no device identifier is generated, and no analytics or crash reporting is built in. File contents are checked on the machine and then discarded — they are not copied, not uploaded, and not retained.",
-        pol_desktop_3: "What the app does write to disk sits in your own account's configuration folder: language choice, light/dark mode, alert thresholds, and the log of scans you have run. Uninstalling the app and deleting its settings removes all of it.",
+        pol_desktop_2: "There is no account to sign in to, and no analytics or crash reporting is built in. File contents are read in memory, compared with signatures and discarded — they are not copied, not uploaded, and not retained. File names, paths, hashes and scan results are not part of any connection the app makes. The app creates a random device ID stored on the machine; it is not derived from your hardware and is sent only when activating or renewing Pro.",
+        pol_desktop_3: "What the app writes to disk sits in your own account's configuration folder: language choice, light/dark mode, alert thresholds, and the log of scans you have run. Licence details, your verified email address and the device ID are kept in the operating system's secure storage. Uninstalling the app and deleting its data removes everything held on the machine.",
         pol_h_network: "When the desktop builds connect out",
-        pol_network_1: "Exactly two connections, and neither carries your data:",
-        pol_network_2: "Beyond these two, the desktop builds open no other network connection. You can verify this with any network monitoring tool — including this app's own Network screen.",
+        pol_network_1: "The desktop builds make only the connections below. None of them carries your files or scan results:",
+        pol_network_2: "Beyond these, the desktop builds open no other network connection. The command-line package for servers has no app update or licence component; it downloads malware definitions only when asked or scheduled. You can verify all of this with any network monitoring tool.",
         pol_net_th_what: "Connection",
         pol_net_th_when: "When and why",
         pol_net_sig_t: "Malware definition updates",
-        pol_net_sig_w: "Runs automatically at app launch to keep the scanner's malware definitions current. Download only; nothing is sent up beyond an ordinary file request.",
-        pol_net_wu_w: "Only when you press \"Check now\" on the Updates tab. The app asks the operating system's own Windows Update service whether any patch is waiting; that connection is between your machine and Microsoft.",
+        pol_net_sig_w: "Runs automatically when the app opens, at most one completed check a day. Downloads malware definitions from a definitions server. The request carries no identifier or app name; the server sees only your IP address, as with any web request.",
+        pol_net_upd_t: "App updates (macOS, Linux)",
+        pol_net_upd_w: "When the app opens and every 12 hours, it reads a small version file from <code>aibachkhoa.com</code>; the request carries only the app version and operating system. This check continues when Automatic updates is off; that switch only stops downloading and installing. When a new version exists, the installer comes from the same server. During installation macOS may contact Apple to check notarization, and on Linux the package manager may download required libraries. The Windows build does not make this connection.",
+        pol_net_lic_t: "Pro licence",
+        pol_net_lic_w: "Our licence server. Opening the Pro page loads the price list; the server may infer your country from your IP address to order the payment options. When buying, you send your email address to receive a verification code, plus the plan you chose. When activating or claiming a licence, the app sends the random device ID, the computer's name and the operating system's name. With a licence, the app refreshes it when opening and every 12 hours. If you have bought nothing, the app sends nothing to this server beyond requesting the price list.",
+        pol_net_pay_t: "Payment",
+        pol_net_pay_w: "Only when you choose to pay. PayPal opens in your browser. For a bank transfer, the app loads a QR image from the transfer QR provider, and you pay in your own banking app. Your card number and bank details never pass through BKSafe.",
+        pol_net_os_t: "Operating system update check",
+        pol_net_wu_w: "Only when you press the check button on the Security screen. The operating system's own tool makes the connection; BKSafe adds nothing to it.",
         pol_h_collect: "What the Android build collects",
         pol_collect_1: "The Android build collects some data in order to run the service and detect threats:",
         pol_collect_l1: "Email address and usage data",
@@ -70,17 +68,17 @@ const i18n = {
         pol_share_l1: "Service providers we engage to operate the service (for example analytics), and only to the minimum their work requires",
         pol_share_l2: "Authorities, where the law requires it",
         pol_share_l3: "An acquiring party, in the event of a future merger or business transfer",
-        pol_share_2: "For the desktop builds none of these arise: no data of yours leaves the machine, so there is nothing to share.",
+        pol_share_2: "For the desktop builds, the only data that leaves the machine is the Pro information described above. PayPal and the bank-transfer processor receive payment information when you pay, under their own policies. Your scan results and files do not leave the machine, so there is nothing of that kind to share.",
         pol_h_store: "Storage and retention",
-        pol_store_1: "All data relating to the app's operation is processed and stored on your own device.",
-        pol_store_2: "Delete it by uninstalling the app, or with the app's built-in delete function. On the desktop builds, deleting the app's configuration folder removes everything it has ever written.",
+        pol_store_1: "Data about the app's activity is processed and stored on your device. The exception is Pro order and licence records, including your email address, device ID and computer name, which are kept on the licence server.",
+        pol_store_2: "Delete it by uninstalling the app, or with the app's built-in delete function. On the desktop builds, deleting the app's data removes everything it wrote to the machine, but not the record on the licence server. That record is kept while the licence is active and for as long as accounting and tax law require; you can ask us to delete the rest at the address at the end of this page.",
         pol_h_children: "Children's privacy",
         pol_children: "The service is not directed at users under 13. Where the law requires the consent of a parent or guardian, we comply with that requirement. If you believe your child has provided information to us, contact us at the address at the foot of this page and we will delete it.",
         pol_h_rights: "Your rights",
         pol_rights_1: "You have the right to access, correct and delete your data, and to object to our processing of it. Send requests to the email address at the foot of this page.",
-        pol_rights_2: "On the desktop builds you can exercise most of these yourself without asking anyone: the only data that exists is a handful of settings and log files inside your own folder.",
+        pol_rights_2: "On the desktop builds you can exercise most of these yourself: the data on the machine is your own settings, logs and licence details. For Pro records on the server, write to the address at the end of this page.",
         pol_h_security: "Security",
-        pol_security: "Because the desktop builds keep everything on the machine itself, your data is protected by the operating system's own defences — your user account and its file permissions. For data the Android build does send us, we use encrypted connections in transit and keep access to the minimum needed. No system is perfectly secure, and we do not claim otherwise.",
+        pol_security: "Data the desktop builds keep on the machine is protected by the operating system's own defences — your user account, file permissions and secure storage. For data the desktop builds send for Pro purchases and data the Android build sends us, we use encrypted connections in transit and keep access to the minimum needed. No system is perfectly secure, and we do not claim otherwise.",
         pol_h_changes: "Changes to this policy",
         pol_changes: "This policy may be updated as the app changes. The \"last updated\" stamp at the top always reflects the version in force. For changes that materially affect how your data is handled, we will say so in the app rather than quietly editing this page.",
         pol_h_contact: "Contact",
@@ -104,7 +102,7 @@ const i18n = {
         btn_dl_mac: "Download for macOS",
         btn_dl_win: "Download for Windows",
         btn_dl_play: "Get it on Google Play",
-        hero_meta: "macOS 1.3.4 · 33 MB · universal for Intel and Apple Silicon. Windows 1.3.0 · 20 MB · runs straight out of the folder. Linux 1.3.1 · 15 MB · .deb for Debian and Ubuntu.",
+        hero_meta: "macOS 1.3.4 · 33 MB · universal for Intel and Apple Silicon. Windows 1.3.0 · 20 MB · runs straight out of the folder. Linux 1.3.4 · 10 MB · .deb for Debian and Ubuntu.",
 
         pillar_local_t: "Analysis stays local",
         pillar_local_d: "Every scan and measurement runs on the device itself. Your files are never uploaded to a server.",
@@ -320,24 +318,24 @@ const i18n = {
         footer_linux: "Linux build",
         pick_linux_kicker: "Desktop app",
         pick_linux_desc: "Junk cleanup, storage and memory insight, virus scanning, real-time protection, a system safety check, service auditing, network activity, drive health and temperature.",
-        pick_linux_go: "See the Linux 1.3.1 build",
+        pick_linux_go: "See the Linux 1.3.4 build",
         linux_eyebrow: "Linux build",
         linux_title: "Your Linux machine, fully measured.",
         linux_sub: "The same BKSafe, built for Linux: junk cleanup, storage and memory insight, virus scanning, real-time protection, service auditing, drive health, temperature and network activity. Installs as a standard .deb and removes cleanly.",
-        linux_badge_ver: "Version 1.3.1 · build 24",
+        linux_badge_ver: "Version 1.3.4 · build 27",
         linux_badge_req: "Debian 12 / Ubuntu 22.04 or newer",
         linux_badge_deb: ".deb — installs and removes cleanly",
-        dl_linux_btn: "Download the Linux .deb (15 MB)",
+        dl_linux_btn: "Download the Linux .deb (10 MB)",
         btn_dl_linux: "Download for Linux",
-        spec_ver_linux: "1.3.1 (build 24)",
+        spec_ver_linux: "1.3.4 (build 27)",
         spec_req_linux: "Debian 12, Ubuntu 22.04 or newer",
         spec_arch_linux: "amd64 (x86-64) — about 34 MB once installed",
-        spec_install_linux: "Double-click the file, or <code>sudo apt install ./BKSafe-1.3.1-linux-amd64.deb</code>",
+        spec_install_linux: "Double-click the file, or <code>sudo apt install ./BKSafe-1.3.4-linux-amd64.deb</code>",
         spec_sign_linux: "Not signed — verify with the SHA-256 below",
-        sha_hint_linux: "Check it with <code>sha256sum BKSafe-1.3.1-linux-amd64.deb</code>, or use the <a href=\"/downloads/BKSafe-1.3.1-linux-amd64.deb.sha256\" download>.sha256 file</a> alongside it.",
+        sha_hint_linux: "Check it with <code>sha256sum BKSafe-1.3.4-linux-amd64.deb</code>, or use the <a href=\"/downloads/BKSafe-1.3.4-linux-amd64.deb.sha256\" download>.sha256 file</a> alongside it.",
         linux_steps_title: "Installing it in three steps",
-        linux_step_1: "Download <code>BKSafe-1.3.1-linux-amd64.deb</code>.",
-        linux_step_2: "Double-click it to open your software installer, or run <code>sudo apt install ./BKSafe-1.3.1-linux-amd64.deb</code> in a terminal.",
+        linux_step_1: "Download <code>BKSafe-1.3.4-linux-amd64.deb</code>.",
+        linux_step_2: "Double-click it to open your software installer, or run <code>sudo apt install ./BKSafe-1.3.4-linux-amd64.deb</code> in a terminal.",
         linux_step_3: "Open <strong>BKSafe</strong> from the applications menu, or type <code>bksafe</code> in a terminal.",
         linux_steps_foot: "BKSafe adds an entry to the applications menu and removes cleanly with <code>sudo apt remove bksafe</code>. Your settings are kept separately, so removing the package does not lose them.",
         dl_win_btn: "Download the Windows portable build (20 MB)",
@@ -362,7 +360,7 @@ const i18n = {
         faq_4_q: "Does it work on Intel Macs?",
         faq_4_a: "Yes. One download runs natively on both Intel and Apple Silicon Macs — there is no build to choose between.",
         faq_5_q: "How do I know the download is genuine?",
-        faq_5_a: "On a Mac run <code>shasum -a 256 BKSafe-1.3.4.dmg</code>; on Windows open PowerShell and run <code>Get-FileHash BKSafe-1.3.0-win-x64-portable.zip -Algorithm SHA256</code>; on Linux run <code>sha256sum BKSafe-1.3.1-linux-amd64.deb</code>. Compare the result with the SHA-256 published in the Download section — matching strings mean the file is intact.",
+        faq_5_a: "On a Mac run <code>shasum -a 256 BKSafe-1.3.4.dmg</code>; on Windows open PowerShell and run <code>Get-FileHash BKSafe-1.3.0-win-x64-portable.zip -Algorithm SHA256</code>; on Linux run <code>sha256sum BKSafe-1.3.4-linux-amd64.deb</code>. Compare the result with the SHA-256 published in the Download section — matching strings mean the file is intact.",
         faq_6_q: "Do the builds share an account?",
         faq_6_a: "No. The macOS, Windows and Android apps are independent, each working on its own device. There is no shared account and nothing syncs between them.",
 
@@ -390,7 +388,6 @@ const i18n = {
         footer_contact: "Contact",
         footer_rights: "All rights reserved.",
 
-        /* Bảng giá */
         nav_pricing: "Pricing",
         pr_eyebrow: "Pricing",
         pr_title: "Protection is free. Automation is what costs.",
@@ -429,8 +426,6 @@ const i18n = {
     }
 };
 
-/* Languages offered in the picker, in order. English only: the picker
-   hides itself when there is nothing to pick between. */
 const LANGS = [
     { code: 'en', label: 'English' },
     { code: 'es', label: 'Español' },
@@ -450,7 +445,6 @@ const SHOT_DIR = '/assets/bksafe/macos/';
 document.addEventListener('DOMContentLoaded', () => {
     const root = document.documentElement;
 
-    // ---------- Theme (shared with the main site) ----------
     const themeToggles = [document.getElementById('theme-toggle'), document.getElementById('mobile-theme-toggle')];
     let currentTheme = localStorage.getItem('theme') || 'light';
     root.setAttribute('data-theme', currentTheme);
@@ -461,15 +455,12 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('theme', currentTheme);
     }));
 
-    // ---------- Language ----------
     const langSelects = [document.getElementById('lang-select'), document.getElementById('mobile-lang-select')].filter(Boolean);
     const supported = LANGS.map(l => l.code);
 
-    // The URL names the language; see LangUrl.detect in /lang-url.js.
     const detectLang = () => window.LangUrl ? window.LangUrl.detect(supported, DEFAULT_LANG) : DEFAULT_LANG;
 
     langSelects.forEach(sel => {
-        // Nothing to choose between while only one language is offered.
         sel.hidden = LANGS.length < 2;
         sel.innerHTML = '';
         LANGS.forEach(l => {
@@ -495,8 +486,6 @@ document.addEventListener('DOMContentLoaded', () => {
             if (val !== undefined) el.setAttribute('aria-label', val);
         });
 
-        // The policy page carries its own title/description keys, so each page
-        // says which pair it wants rather than the script guessing from the URL.
         const titleKey = document.body.dataset.titleKey || 'page_title';
         const descKey = document.body.dataset.descKey || 'meta_desc';
         if (dict[titleKey]) document.title = dict[titleKey];
@@ -510,8 +499,6 @@ document.addEventListener('DOMContentLoaded', () => {
     langSelects.forEach(sel => sel.addEventListener('change', () => {
         const lang = sel.value;
         localStorage.setItem('lang', lang);
-        // Each language is its own page now, so go there rather
-        // than rewriting this one and leaving the URL lying.
         if (window.LangUrl) {
             window.location.href = window.LangUrl.hrefFor(lang, DEFAULT_LANG, supported);
             return;
@@ -520,14 +507,11 @@ document.addEventListener('DOMContentLoaded', () => {
         updateLanguage(currentLang);
     }));
 
-    // ---------- Screenshot gallery ----------
     const tabs = Array.from(document.querySelectorAll('.bk-gal-tab'));
     const galImg = document.getElementById('gal-img');
     const galTitle = document.getElementById('gal-title');
     const galCap = document.getElementById('gal-cap');
 
-    // Keep the caption and window title in step with both the selected
-    // shot and the current language, so switching either one is enough.
     function paintGallery() {
         const active = tabs.find(t => t.classList.contains('is-active'));
         if (!active || !galImg) return;
@@ -548,7 +532,6 @@ document.addEventListener('DOMContentLoaded', () => {
         paintGallery();
     }));
 
-    // Warm the neighbouring shots so the first few clicks feel instant.
     if ('requestIdleCallback' in window) {
         requestIdleCallback(() => {
             tabs.slice(1, 6).forEach(t => { new Image().src = SHOT_DIR + t.dataset.shot + '.webp'; });
@@ -557,8 +540,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     updateLanguage(currentLang);
 
-    // ---------- Copy the checksum ----------
-    // One button per download card, so bind them all rather than a single id.
     document.querySelectorAll('.bk-sha').forEach(block => {
         const copyBtn = block.querySelector('.bk-copy');
         const shaValue = block.querySelector('.bk-sha-value');
@@ -577,7 +558,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // ---------- Mobile menu ----------
     const mobileBtn = document.getElementById('mobile-btn');
     const navLinks = document.getElementById('nav-links');
     if (mobileBtn && navLinks) {
@@ -591,7 +571,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }));
     }
 
-    // ---------- Navbar border on scroll ----------
     const navbar = document.getElementById('navbar');
     if (navbar) {
         const sentinel = document.createElement('div');
@@ -602,7 +581,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }, { threshold: 0 }).observe(sentinel);
     }
 
-    // ---------- Reveal on view ----------
     const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const reveals = document.querySelectorAll('.reveal');
     if (reduce) {
