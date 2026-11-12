@@ -102,7 +102,7 @@ const i18n = {
         btn_dl_mac: "Download for macOS",
         btn_dl_win: "Download for Windows",
         btn_dl_play: "Get it on Google Play",
-        hero_meta: "macOS 1.3.4 · 33 MB · universal for Intel and Apple Silicon. Windows 1.3.0 · 20 MB · runs straight out of the folder. Linux 1.3.5 · 37 MB · .deb for Debian and Ubuntu.",
+        hero_meta: "macOS 1.3.6 · 57 MB · universal for Intel and Apple Silicon. Windows 1.3.0 · 20 MB · runs straight out of the folder. Linux 1.3.5 · 37 MB · .deb for Debian and Ubuntu.",
 
         pillar_local_t: "Analysis stays local",
         pillar_local_d: "Every scan and measurement runs on the device itself. Your files are never uploaded to a server.",
@@ -126,7 +126,7 @@ const i18n = {
         pick_sub: "Three separate apps, each written for the operating system it runs on.",
         pick_mac_kicker: "Desktop app",
         pick_mac_desc: "Monitoring and maintenance in one app: system health, junk cleanup, malware scanning, a security audit, drive health, temperature, network activity and anomaly alerts.",
-        pick_mac_go: "See the macOS 1.3.4 build",
+        pick_mac_go: "See the macOS 1.3.6 build",
         pick_win_kicker: "Desktop app",
         pick_win_desc: "Junk cleanup, storage and memory insight, virus scanning, ransomware protection, a system safety check, background services, network activity, drive health and monitoring.",
         pick_win_go: "See the Windows 1.3.0 build",
@@ -204,7 +204,7 @@ const i18n = {
         note_body: "BKSafe reports on hardware, storage, network and security settings that sit outside an app's own container, and clears junk files left across the system. That needs Full Disk Access, and it is why BKSafe is distributed with a Developer ID and Apple notarization rather than through the Mac App Store. The access is used for reading only, and nothing is sent anywhere.",
 
         steps_title: "Installed in three steps",
-        step_1: "Download <code>BKSafe-1.3.4.dmg</code>.",
+        step_1: "Download <code>BKSafe-1.3.6.dmg</code>.",
         step_2: "Open it and drag <strong>BKSafe</strong> into <strong>Applications</strong>.",
         step_3: "Open BKSafe from Launchpad or the Applications folder.",
         steps_foot: "No right-click-then-Open, no trip to Settings to unblock it, no “unidentified developer” warning - the Mac opens it fine even with <strong>no network connection</strong>.",
@@ -310,7 +310,7 @@ const i18n = {
         sha_label: "SHA-256",
         sha_copy: "Copy",
         sha_copied: "Copied",
-        sha_hint: "Check it with <code>shasum -a 256 BKSafe-1.3.4.dmg</code>, or use the <a href=\"/downloads/BKSafe-1.3.4.dmg.sha256\" download>.sha256 file</a> alongside it.",
+        sha_hint: "Check it with <code>shasum -a 256 BKSafe-1.3.6.dmg</code>, or use the <a href=\"/downloads/BKSafe-1.3.6.dmg.sha256\" download>.sha256 file</a> alongside it.",
         dl_droid_foot: "On an older or slower phone, take the Lite build next to this one. There is no iOS build - on iPhone, everything BKSafe does sits outside what iOS lets an app reach.",
 
         dl_win_line: "Portable ZIP · direct download",
@@ -391,7 +391,7 @@ const i18n = {
         faq_4_q: "Does it work on Intel Macs?",
         faq_4_a: "Yes. One download runs natively on both Intel and Apple Silicon Macs - there is no build to choose between.",
         faq_5_q: "How do I know the download is genuine?",
-        faq_5_a: "On a Mac run <code>shasum -a 256 BKSafe-1.3.4.dmg</code>; on Windows open PowerShell and run <code>Get-FileHash BKSafe-1.3.0-win-x64-portable.zip -Algorithm SHA256</code>; on Linux run <code>sha256sum BKSafe-1.3.5-linux-amd64.deb</code>. Compare the result with the SHA-256 published in the Download section - matching strings mean the file is intact.",
+        faq_5_a: "On a Mac run <code>shasum -a 256 BKSafe-1.3.6.dmg</code>; on Windows open PowerShell and run <code>Get-FileHash BKSafe-1.3.0-win-x64-portable.zip -Algorithm SHA256</code>; on Linux run <code>sha256sum BKSafe-1.3.5-linux-amd64.deb</code>. Compare the result with the SHA-256 published in the Download section - matching strings mean the file is intact.",
         faq_6_q: "Do the builds share an account?",
         faq_6_a: "No. The macOS, Windows and Android apps are independent, each working on its own device. There is no shared account and nothing syncs between them.",
 
