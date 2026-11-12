@@ -11,13 +11,30 @@
     "notes": {}
   },
   "linux": {
-    "version": "1.3.4",
-    "build": 27,
-    "url": "https://aibachkhoa.com/downloads/BKSafe-1.3.4-linux-amd64.deb",
-    "sha256": "a01aa704488bcdc211d5f8ee2ff2631841f2125dc5dc3f966959d0cb9e3d3ee6",
-    "size": 10382876,
-    "signature": "iI0EABYKADUWIQRrsJ8LSFyvNZJBAk+XQMGzhFBcTwUCau6SPRccY29udGFjdEBhaWJhY2hraG9hLmNvbQAKCRCXQMGzhFBcTxGQAQCI/9htiEaNbBnsseqD98sECHwxotUDdV4KZfbddRK6RQEA9M9naVe1MdmHZvMxN5Q1fT5LuT8ybuQjW+IwoNOhrAU=",
-    "released": "2026-11-07",
-    "notes": {}
+    "version": "1.3.5",
+    "build": 28,
+    "url": "https://aibachkhoa.com/downloads/BKSafe-1.3.5-linux-amd64.deb",
+    "sha256": "4ae5b24fc2b034dfcd73505467d0beb5402a79ddb81e64113270b60a3169a6fb",
+    "size": 37188708,
+    "signature": "iI0EABYKADUWIQRrsJ8LSFyvNZJBAk+XQMGzhFBcTwUCavWGkBccY29udGFjdEBhaWJhY2hraG9hLmNvbQAKCRCXQMGzhFBcT4skAP4osBfZ5bFtJm9L6evXviBLHhJEtLra7wAIk6nIGNOvcwEAwd/aeGJu/uBcZY8tc1nt6+vJ3KKzMjhIn06GjJBDkAc=",
+    "released": "2026-11-12",
+    "notes": {
+      "vi": "Bảo vệ toàn diện: xác thực email để nhận gói BKSafe Free và kết nối máy với trung tâm giám sát an ninh (SOC). Gói cài kèm dịch vụ bảo vệ chạy nền và bộ phát hiện xâm nhập mạng (chỉ gửi cảnh báo, không gửi lịch sử duyệt web). Sửa chữ thông báo không đọc được ở chế độ tối và trang Pro kẹt ở bước chờ PayPal.",
+      "en": "Full protection: verify your email to get the BKSafe Free plan and connect this computer to the security operations center (SOC). The package now ships a background protection service and a network intrusion detector (alerts only, never browsing history). Fixes unreadable notifications in dark mode and the Pro page stuck waiting for PayPal."
+    }
+  },
+  "linux_server": {
+    "version": "1.3.5",
+    "build": 28,
+    "package": "bksafe-cli",
+    "url": "https://aibachkhoa.com/downloads/BKSafe-Server-1.3.5-linux-amd64.deb",
+    "sha256": "9a4f28c611e42ed735217d0aae63b2a974962504f9e9d4a015c5871c360963b9",
+    "size": 30373796,
+    "signature": "iI0EABYKADUWIQRrsJ8LSFyvNZJBAk+XQMGzhFBcTwUCavWGnRccY29udGFjdEBhaWJhY2hraG9hLmNvbQAKCRCXQMGzhFBcT2JKAQDBrGRSCl6grGrStpGoXQpY8apc/JzyafRJbkGNHEYAtwD/RWTa7RiJc5Ohyita+O6WJMZ+EalSr0bBlBM/EwX43wA=",
+    "released": "2026-11-12",
+    "notes": {
+      "vi": "Bản dòng lệnh cho máy chủ: kèm dịch vụ bảo vệ và bộ phát hiện xâm nhập mạng; kết nối SOC bằng `sudo bksafe account verify`.",
+      "en": "Command-line edition for servers: ships the protection service and network intrusion detector; connect to the SOC with `sudo bksafe account verify`."
+    }
   }
 }
