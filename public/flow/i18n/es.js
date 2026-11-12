@@ -1,6 +1,6 @@
-/* Flow — Spanish translation. Loaded only by the /es/ copies of these pages; see tools/build-i18n-pages.js. */
+/* Flow - Spanish translation. Loaded only by the /es/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.es = {
-    page_title: "Flow — Temporizador Pomodoro para Android y Windows | AIBachKhoa",
+    page_title: "Flow - Temporizador Pomodoro para Android y Windows | AIBachKhoa",
     meta_desc: "Flow es un temporizador Pomodoro tranquilo: sesiones de concentración con un anillo de progreso luminoso, música integrada, fondos que siguen la hora del día y un mapa de calor de todo el año. En Android y como un pequeño widget de cristal en Windows. Sin cuenta, sin anuncios.",
     aria_lang: "Cambiar idioma",
     aria_theme: "Cambiar tema",
@@ -106,7 +106,7 @@ i18n.es = {
     footer_contact: "Contacto",
     footer_rights: "Todos los derechos reservados.",
 
-    pol_page_title: "Flow — Política de privacidad | AIBachKhoa",
+    pol_page_title: "Flow - Política de privacidad | AIBachKhoa",
     pol_meta_desc: "Flow guarda todo en tu dispositivo: sin cuenta, sin analíticas, sin anuncios y sin datos enviados por la app. Qué almacena, qué permisos usa y cómo funcionan las compras.",
     pol_eyebrow: "Legal",
     pol_title: "Política de privacidad",

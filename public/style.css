@@ -1,5 +1,5 @@
 /* =========================================================
-   AIBachKhoa — shared design system.
+   AIBachKhoa - shared design system.
 
    One flat, high-contrast system used by every page: cream and
    white panels stacked full-bleed, oversized display type set
@@ -149,7 +149,13 @@ code {
     letter-spacing: -0.035em;
     margin: 0;
     text-wrap: balance;
+    /* Long single words (German compounds, the wordmark) break instead of
+       pushing the page sideways on small phones. */
+    overflow-wrap: break-word;
+    hyphens: auto;
 }
+h1, h2, h3, h4 { overflow-wrap: break-word; }
+
 .display--xl   { font-size: clamp(2.9rem, 8.2vw, 7.4rem); }
 .display--lg   { font-size: clamp(2.6rem, 7vw, 6rem); }
 .display--md   { font-size: clamp(2rem, 4.4vw, 3.9rem); }
@@ -212,6 +218,7 @@ code {
     text-decoration: none;
     cursor: pointer;
     white-space: nowrap;
+    max-width: 100%;
     transition: transform 0.18s ease, background 0.18s ease, color 0.18s ease;
 }
 .btn:hover { transform: translateY(-2px); }
@@ -253,6 +260,8 @@ code {
 }
 
 .logo {
+    flex: none;
+    white-space: nowrap;
     display: inline-flex; align-items: center; gap: 0.6rem;
     text-decoration: none;
     font-family: var(--font-display);
@@ -488,7 +497,7 @@ code {
 .breakout .section-title { max-width: 18ch; }
 .breakout-points {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
     gap: 1.6rem;
     margin: 3rem 0 0;
     padding: 2.4rem 0 0;
@@ -525,7 +534,7 @@ code {
    --------------------------------------------------------- */
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(270px, 100%), 1fr));
     gap: 1.6rem;
     margin-top: 3rem;
 }
@@ -577,7 +586,7 @@ code {
     margin-left: 0.5rem;
 }
 
-/* Blog post cards — on the home page and the blog itself. Each
+/* Blog post cards - on the home page and the blog itself. Each
    category owns one colour, used for its dot and its cover field. */
 :root {
     --cat-tech: #477bff;
@@ -640,7 +649,7 @@ code {
     gap: 1.5rem 3rem;
 }
 .home-blog-head .section-sub { max-width: 58ch; }
-.home-blog .cards { grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); }
+.home-blog .cards { grid-template-columns: repeat(auto-fill, minmax(min(290px, 100%), 1fr)); }
 
 
 /* ---------------------------------------------------------
@@ -680,7 +689,7 @@ code {
    --------------------------------------------------------- */
 .svc-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
     gap: 1.2rem;
     margin-top: 3rem;
 }
@@ -734,7 +743,7 @@ code {
 .footer .logo { color: #ebeadc; }
 .footer-grid {
     display: grid;
-    grid-template-columns: minmax(0, 1.4fr) repeat(auto-fit, minmax(140px, 1fr));
+    grid-template-columns: minmax(0, 1.4fr) repeat(auto-fit, minmax(min(140px, 100%), 1fr));
     gap: 2.4rem;
 }
 .footer-brand p { color: rgba(235, 234, 220, 0.65); max-width: 32ch; margin: 1rem 0 0; font-size: 0.95rem; }
@@ -790,17 +799,9 @@ code {
     .index-desc { display: none; }
 }
 
-@media (max-width: 900px) {
-    .nav-links .nav-link,
-    .nav-links .nav-divider,
-    .nav-links .lang-select,
-    .nav-links .icon-btn,
-    .nav-links .btn { }
-}
-
 /* The mobile menu: the bar keeps logo + compact controls, the links
    drop down as a full-width sheet of oversized display type. */
-@media (max-width: 980px) {
+@media (max-width: 1200px) {
     .mobile-controls { display: inline-flex; }
     .nav-links {
         position: fixed; inset: 66px 0 auto;
@@ -830,12 +831,56 @@ code {
     .nav-links .btn { margin-top: 0.8rem; }
 }
 
-@media (min-width: 981px) {
+/* Same menu on wider screens when the links still do not fit (long
+   translations): lang-url.js sets .nav-collapsed after measuring. */
+:root.nav-collapsed .mobile-controls { display: inline-flex; }
+:root.nav-collapsed .nav-links {
+    position: fixed; inset: 66px 0 auto;
+    flex-direction: column; align-items: flex-start;
+    gap: 0;
+    background: var(--bg);
+    border-bottom: 1px solid var(--line);
+    padding: 1rem 1.5rem 1.6rem;
+    transform: translateY(-140%);
+    transition: transform 0.3s ease;
+    max-height: calc(100vh - 66px);
+    overflow-y: auto;
+}
+:root.nav-collapsed .nav-links.open { transform: translateY(0); }
+:root.nav-collapsed .nav-links .nav-link {
+    width: 100%;
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.5rem;
+    letter-spacing: -0.02em;
+    padding: 0.55rem 0;
+    border-bottom: none;
+}
+:root.nav-collapsed .nav-links .nav-divider,
+:root.nav-collapsed .nav-links > .lang-select,
+:root.nav-collapsed .nav-links > .icon-btn { display: none; }
+:root.nav-collapsed .nav-links .btn { margin-top: 0.8rem; }
+
+@media (min-width: 1201px) {
     .mobile-controls { display: none; }
+}
+
+/* Narrow desktops: pages with many nav entries (BKSafe has nine) would
+   otherwise push the Download button past the right edge. */
+@media (min-width: 1201px) and (max-width: 1400px) {
+    .nav-container { gap: 1rem; }
+    .nav-links { gap: 1.05rem; }
+    .nav-link { font-size: 0.9rem; }
+    .nav-links .btn { padding-inline: 1.2rem; }
 }
 
 @media (max-width: 640px) {
     :root { --shell: min(1320px, 100% - 2rem); }
+    .nav-container { gap: 0.6rem; }
+    .mobile-controls { gap: 0.35rem; }
+    .mobile-controls .icon-btn { width: 36px; height: 36px; }
+    /* Long labels wrap instead of running out of the button and the page. */
+    .btn { white-space: normal; text-align: center; justify-content: center; }
     .footer-grid { grid-template-columns: 1fr; }
     .footer-bottom { flex-direction: column; gap: 0.4rem; }
     .hero-actions .btn,
@@ -855,7 +900,7 @@ code {
 
    The product stylesheets were written against the previous
    token names. Mapping them here means every product page picks
-   up the new palette — in both themes — without each file having
+   up the new palette - in both themes - without each file having
    to be rewritten line by line.
    --------------------------------------------------------- */
 :root,
@@ -892,4 +937,12 @@ code {
     --blue: var(--accent);
     --green: var(--accent-2);
     --pink: var(--accent-3);
+}
+
+@media (max-width: 380px) {
+    /* The mark alone is enough on the smallest phones; the name is in the title. */
+    .navbar .logo-word { display: none; }
+    .display--giant { font-size: 2.7rem; }
+    .hero-title, .display--xl { font-size: 2.5rem; }
+    .section-title, .cta-title, .display--lg { font-size: 2.15rem; }
 }

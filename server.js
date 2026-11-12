@@ -45,7 +45,7 @@ app.use(analytics.downloadTracker);
 
 // Clean URLs, for every page and every language: /bksafe, /es/bksafe and
 // /chefeasy/policy are each served straight from their own index.html. The
-// alternative — letting express.static redirect /bksafe to /bksafe/ — puts a
+// alternative - letting express.static redirect /bksafe to /bksafe/ - puts a
 // 301 in front of every visit, including the ones arriving from a paid ad.
 //
 // This replaced a hand-written route per page. Translated pages are generated

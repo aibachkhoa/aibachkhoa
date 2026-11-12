@@ -1,8 +1,8 @@
-/* JeMul — Spanish translation. Loaded only by the /es/ copies of these pages; see tools/build-i18n-pages.js. */
+/* JeMul - Spanish translation. Loaded only by the /es/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.es = {
-    page_title: "JeMul — emulador J2ME para Android y navegador | AIBachKhoa",
+    page_title: "JeMul - emulador J2ME para Android y navegador | AIBachKhoa",
     meta_desc: "JeMul ejecuta los viejos juegos Java ME de los teléfonos clásicos. Instala la app de Android para jugar tus propios archivos .jar, o juega una biblioteca completa en el navegador.",
-    pol_page_title: "JeMul — política de privacidad | AIBachKhoa",
+    pol_page_title: "JeMul - política de privacidad | AIBachKhoa",
     pol_meta_desc: "JeMul no usa cuentas en Android y guarda todo en el dispositivo. La edición para navegador inicia sesión con Google solo para controlar quién puede jugar.",
 
     aria_lang: "Cambiar idioma",

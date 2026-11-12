@@ -1,7 +1,7 @@
 /* =========================================================
    Dungeon of the Fallen Blade product page.
    Rides on ../style.css for chrome (nav, footer, buttons, container).
-   Adds the game's own palette — torch gold on crypt violet — over
+   Adds the game's own palette - torch gold on crypt violet - over
    the site's orange brand, the same way bksafe.css adds its green.
    ========================================================= */
 
@@ -46,7 +46,7 @@
     width: 60px;
     height: 60px;
     border-radius: 14px;
-    /* pixel art — never let the browser smooth it */
+    /* pixel art - never let the browser smooth it */
     image-rendering: pixelated;
     background: var(--dg-chrome);
     box-shadow: 0 12px 30px -14px rgba(0, 0, 0, 0.55);
@@ -192,7 +192,7 @@
 /* ---------- Stat strip ---------- */
 .dg-stats {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(9rem, 100%), 1fr));
     gap: 1px;
     margin-top: clamp(2.5rem, 5vw, 3.5rem);
     border: 2px solid var(--ink);
@@ -245,7 +245,7 @@
 /* ---------- Feature cards ---------- */
 .dg-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(17rem, 100%), 1fr));
     gap: 1.1rem;
 }
 .dg-card {
@@ -274,7 +274,7 @@
 /* ---------- Acts ladder ---------- */
 .dg-acts {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(15rem, 100%), 1fr));
     gap: 0.75rem;
 }
 .dg-act {
@@ -342,7 +342,7 @@
 /* ---------- Boons ---------- */
 .dg-boons {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15.5rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(15.5rem, 100%), 1fr));
     gap: 0.75rem;
 }
 .dg-boon {
@@ -542,7 +542,7 @@
 .dg-toc ol {
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(13rem, 100%), 1fr));
     gap: 0.35rem 1.2rem;
     counter-reset: toc;
 }

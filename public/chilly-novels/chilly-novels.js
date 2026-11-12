@@ -1,5 +1,5 @@
 /* =========================================================
-   Chilly Novels — product page + privacy policy.
+   Chilly Novels - product page + privacy policy.
    English and Vietnamese. Vietnamese is the app's own
    interface language, so it is the one the copy is written
    against; English is the translation.
@@ -8,9 +8,9 @@ const SHOT_DIR = '/assets/apps/novels/';
 
 const i18n = {
     en: {
-        page_title: "Chilly Novels — download once, read offline | AIBachKhoa",
-        meta_desc: "A small Vietnamese reading app for short stories and comics. Download once — about 15 KB a story — and read offline forever. No account needed.",
-        pol_page_title: "Chilly Novels — privacy policy | AIBachKhoa",
+        page_title: "Chilly Novels - download once, read offline | AIBachKhoa",
+        meta_desc: "A small Vietnamese reading app for short stories and comics. Download once - about 15 KB a story - and read offline forever. No account needed.",
+        pol_page_title: "Chilly Novels - privacy policy | AIBachKhoa",
         pol_meta_desc: "Chilly Novels has no accounts and collects no personal information. Favourites, history and reading progress all stay on your own device.",
 
         aria_lang: "Change language",
@@ -41,7 +41,7 @@ const i18n = {
         how_title: "Three taps, then the network stops mattering.",
         how_lede: "The app opens on a shelf-building screen rather than a sign-up form. Nothing streams while you read, so a dead signal never costs you a chapter.",
         how_1_h: "Build the shelf",
-        how_1_p: "On first run the app shows the whole catalogue with a checkbox and a size beside each title, and adds up what you picked at the bottom. Take a couple, or take the lot — two stories came to 193 KB.",
+        how_1_p: "On first run the app shows the whole catalogue with a checkbox and a size beside each title, and adds up what you picked at the bottom. Take a couple, or take the lot - two stories came to 193 KB.",
         how_2_h: "Pull it down",
         how_2_p: "One download and the text lives on the phone. Anything you skipped stays in the catalogue, and you can come back for it whenever you next have a connection.",
         how_3_h: "Read anywhere",
@@ -59,13 +59,13 @@ const i18n = {
         lib_f2_b: "Sort that admits what it is.",
         lib_f2: "By title, by chapter count, or by how much space it will take.",
         lib_f3_b: "Downloaded only.",
-        lib_f3: "One switch hides everything you have not pulled down yet — the view you want on a train.",
+        lib_f3: "One switch hides everything you have not pulled down yet - the view you want on a train.",
         lib_f4_b: "Genre chips.",
-        lib_f4: "Everyday life, humour, school, fantasy — and per-story tags like adventure or detective.",
+        lib_f4: "Everyday life, humour, school, fantasy - and per-story tags like adventure or detective.",
 
         read_eyebrow: "Before you commit",
         read_title: "Every story tells you its size first.",
-        read_lede: "Open a title and you get the cover, the author, how many chapters there are and exactly how many kilobytes it will cost you — on the button itself, before you tap it.",
+        read_lede: "Open a title and you get the cover, the author, how many chapters there are and exactly how many kilobytes it will cost you - on the button itself, before you tap it.",
         read_f1_b: "A summary, not a teaser.",
         read_f1: "Two lines telling you what the story actually is, so you can put it back.",
         read_f2_b: "Kept private on the device.",
@@ -84,11 +84,11 @@ const i18n = {
         gal_t2: "Search", gal_c2_h: "Search and filter",
         gal_c2_p: "Type a title or an author, or work down the sheet: story type, sort order, downloaded-only, then the genre chips.",
         gal_t3: "A story", gal_c3_h: "A story page",
-        gal_c3_p: "Cover, author, type, chapter count and size — and a download button that names the price in kilobytes before you press it.",
+        gal_c3_p: "Cover, author, type, chapter count and size - and a download button that names the price in kilobytes before you press it.",
         gal_t4: "First run", gal_c4_h: "Building the shelf",
         gal_c4_p: "The first screen after install: tick a few stories, watch the total add up, and download them together. Or leave it for later.",
         gal_t5: "Terms", gal_c5_h: "Terms and privacy, in the app",
-        gal_c5_p: "The same four points as the policy page — where the stories come from, no warranty, what stays on your device, and how to ask for a takedown.",
+        gal_c5_p: "The same four points as the policy page - where the stories come from, no warranty, what stays on your device, and how to ask for a takedown.",
         gal_t6: "Welcome", gal_c6_h: "Opening the app",
         gal_c6_p: "The splash screen, in the light theme. The app follows the system theme and ships in dark as well.",
 
@@ -103,26 +103,26 @@ const i18n = {
 
         pol_h1: "Privacy policy",
         pol_date: "Chilly Novels · last updated 3 September 2026",
-        pol_tldr: "The short version: there is no account, the app collects no personal information, and everything you do in it — favourites, reading history, progress — is written to your phone and stays there. Uninstall the app and it is all gone.",
+        pol_tldr: "The short version: there is no account, the app collects no personal information, and everything you do in it - favourites, reading history, progress - is written to your phone and stays there. Uninstall the app and it is all gone.",
         pol_sources_h: "Where the stories come from",
         pol_sources_p: "Every story in the app is collected from sources published openly on the internet, then compiled and edited for reading. We are not the copyright holder, and we do not vouch for the legal standing of any individual source. Copyright remains with the authors and their original publishers.",
         pol_takedown_h: "Asking for something to be removed",
-        pol_takedown_p: "If you own the rights to a work in the app and want it taken down, email us with enough detail to identify it and we will remove it as soon as we can. There is no form to fill in and no argument to be had — write to <a href=\"mailto:contact@aibachkhoa.com\">contact@aibachkhoa.com</a>.",
+        pol_takedown_p: "If you own the rights to a work in the app and want it taken down, email us with enough detail to identify it and we will remove it as soon as we can. There is no form to fill in and no argument to be had - write to <a href=\"mailto:contact@aibachkhoa.com\">contact@aibachkhoa.com</a>.",
         pol_data_h: "What the app stores, and where",
-        pol_data_p: "The app has no accounts and asks for no personal information — no name, no email, no phone number, no contacts, no location. These stay on the device and are never sent anywhere:",
+        pol_data_p: "The app has no accounts and asks for no personal information - no name, no email, no phone number, no contacts, no location. These stay on the device and are never sent anywhere:",
         pol_data_1: "Stories you have downloaded, held in the app's own private storage in encrypted form.",
         pol_data_2: "Your favourites.",
         pol_data_3: "Reading history and progress.",
         pol_data_4: "Settings, such as the theme and the language.",
         pol_data_after: "Uninstalling the app deletes all of it. There is no backup on our side to restore from, because there is no copy on our side.",
         pol_net_h: "When the app uses the network",
-        pol_net_p: "The app reaches the network for two things: listing the catalogue and downloading a story you asked for. Reading itself is entirely offline — once a story is on the phone, you can put the device in airplane mode and it will open exactly the same.",
+        pol_net_p: "The app reaches the network for two things: listing the catalogue and downloading a story you asked for. Reading itself is entirely offline - once a story is on the phone, you can put the device in airplane mode and it will open exactly the same.",
         pol_ads_h: "Advertising",
         pol_ads_p: "The app is free and shows ads. Ads are served by a third-party provider, which may use your device's advertising identifier under its own privacy policy. We do not receive that identifier, and we do not connect anything in the app to it. Android lets you reset or delete that identifier in Settings, and the app keeps working either way.",
         pol_warranty_h: "No warranty",
         pol_warranty_p: "The app is provided as it is, with no guarantee attached. We are not liable for incidents, damages or copyright disputes arising from your use of it, including data loss and interruptions of service.",
         pol_stores_h: "What Google Play sees",
-        pol_stores_p: "Installing and updating the app happens through Google Play. Google handles that transaction under its own privacy policy and may report aggregate, anonymous figures to us — how many people installed the app in a country, for instance. We receive no personal information from them and cannot connect any of it to a person.",
+        pol_stores_p: "Installing and updating the app happens through Google Play. Google handles that transaction under its own privacy policy and may report aggregate, anonymous figures to us - how many people installed the app in a country, for instance. We receive no personal information from them and cannot connect any of it to a person.",
         pol_children_h: "Children",
         pol_children_p: "The app is rated Teen. Because it collects no data at all, it collects no data about children either. It has no chat, no user-generated content and no purchases.",
         pol_changes_h: "Changes to this policy",
@@ -238,7 +238,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const dict = i18n[currentLang] || i18n[DEFAULT_LANG];
         const key = active.dataset.key;
         galImg.src = SHOT_DIR + active.dataset.shot + '.webp';
-        galImg.alt = 'Chilly Novels — ' + (dict[key + '_h'] || '');
+        galImg.alt = 'Chilly Novels - ' + (dict[key + '_h'] || '');
         if (galTitle) galTitle.textContent = dict[key + '_h'] || '';
         if (galCap) galCap.textContent = dict[key + '_p'] || '';
     }

@@ -10,7 +10,7 @@
 
 const i18n = {
     en: {
-        page_title: "Dungeon of the Fallen Blade — pixel roguelite | AIBachKhoa",
+        page_title: "Dungeon of the Fallen Blade - pixel roguelite | AIBachKhoa",
         meta_desc: "A hand-made pixel-art action roguelite for Android: a hundred depths that change every run, twenty lords, sword combos, bow and dodge roll. No ads, no purchases.",
         aria_lang: "Change language",
         aria_theme: "Toggle theme",
@@ -28,7 +28,7 @@ const i18n = {
 
         hero_kicker: "Android · pixel action roguelite",
         hero_title: "A hundred depths. <em>One blade</em>.",
-        hero_sub: "A hand-made pixel-art action roguelite. Cut your way down a hundred ever-changing depths, take a boon at every gate, and meet the lord waiting on every fifth. Every run rebuilds the dungeon from scratch — nothing is memorised, everything is earned.",
+        hero_sub: "A hand-made pixel-art action roguelite. Cut your way down a hundred ever-changing depths, take a boon at every gate, and meet the lord waiting on every fifth. Every run rebuilds the dungeon from scratch - nothing is memorised, everything is earned.",
         btn_soon: "Coming to Google Play",
         btn_trailer: "Watch the trailer",
         btn_shots: "See how it plays",
@@ -80,7 +80,7 @@ const i18n = {
         c_bow_t: "A bow for the fights you would rather not walk into",
         c_bow_d: "Arrows cost stamina, so a room cleared at range is a room you enter with nothing left for a roll. The Deep Quiver boon makes the trade worth more.",
         c_roll_t: "A dodge roll with real invulnerability",
-        c_roll_d: "Not a dash with a hopeful hitbox — the roll grants actual i-frames, and costs stamina to use. Rolling through a lord's charge is the game's main defensive move.",
+        c_roll_d: "Not a dash with a hopeful hitbox - the roll grants actual i-frames, and costs stamina to use. Rolling through a lord's charge is the game's main defensive move.",
         c_move_t: "Movement that reads the room",
         c_move_d: "Hold jump to rise higher, tap again to double jump, and press down with jump to drop through a wooden platform. Every ledge in the dungeon can be reached with these alone.",
 
@@ -107,8 +107,8 @@ const i18n = {
         k_pause: "Pause",
 
         gen_eyebrow: "The dungeon",
-        gen_title: "A floor is not a corridor — <em>it runs in four directions</em>.",
-        gen_sub: "Every depth is built fresh, with rooms joined left, right, up and down — so a floor is ground to move around in, not a line to walk.",
+        gen_title: "A floor is not a corridor - <em>it runs in four directions</em>.",
+        gen_sub: "Every depth is built fresh, with rooms joined left, right, up and down - so a floor is ground to move around in, not a line to walk.",
         g_rooms_t: "Rooms joined in all four directions",
         g_rooms_d: "Rooms sit side by side and stacked on top of one another, so a depth climbs as much as it spreads. Doors lead to neighbours on the same level; shafts with drop-through walkways and ledges lead to the floors above and below.",
         g_loops_t: "Loops and dead ends, not one route",
@@ -130,7 +130,7 @@ const i18n = {
         m_leap: "Leap",
         m_leap_d: "Crouches, then jumps onto where you are standing and lands in a shockwave. This is the answer to a ledge: a lord that cannot walk to you arrives anyway.",
         m_charge: "Charge",
-        m_charge_d: "Winds up, then dashes the length of the arena with its hitbox live. Running it into a wall staggers it — the miss is your window.",
+        m_charge_d: "Winds up, then dashes the length of the arena with its hitbox live. Running it into a wall staggers it - the miss is your window.",
         m_quake: "Quake",
         m_quake_d: "The longest tell in the game, because it is the widest hit in the game: it clears five body-widths of ground on both sides.",
         m_fan: "Fan",
@@ -148,7 +148,7 @@ const i18n = {
 
         boon_eyebrow: "Boons",
         boon_title: "One choice <em>at every gate</em>.",
-        boon_sub: "Level up as you kill, then take a boon on the way down. Three are offered, one is yours — and the deeper you go, the more it takes.",
+        boon_sub: "Level up as you kill, then take a boon on the way down. Three are offered, one is yours - and the deeper you go, the more it takes.",
         bn_vit: "Vitality",
         bn_might: "Might",
         bn_swift: "Swiftness",
@@ -165,7 +165,7 @@ const i18n = {
         b_ward: "Take 12% less damage",
         b_quiver: "+60% arrow damage",
         b_flask: "+2 potions and stronger heals",
-        boon_death: "<strong>Death ends the run.</strong> There is no checkpoint and nothing respawns where you fell — the results screen's only way back into the dungeon resets you to depth one with the levels, boons and gold gone.",
+        boon_death: "<strong>Death ends the run.</strong> There is no checkpoint and nothing respawns where you fell - the results screen's only way back into the dungeon resets you to depth one with the levels, boons and gold gone.",
 
         phone_eyebrow: "Built for a phone",
         phone_title: "Touch controls that <em>hold a direction and swing at once</em>.",
@@ -187,7 +187,7 @@ const i18n = {
         s3_title: "A floor built fresh",
         s3_cap: "No two runs look alike. The ground, the ledges, the chasms and where the monsters stand are new for this run.",
         s4_title: "Rolling through a hit",
-        s4_cap: "The roll carries real invulnerability frames, paid for in stamina — the difference between reading an attack and eating it.",
+        s4_cap: "The roll carries real invulnerability frames, paid for in stamina - the difference between reading an attack and eating it.",
         s5_title: "A depth announces itself",
         s5_cap: "Each act opens with its name and a line of flavour. On an arena the card names the lord waiting in it instead.",
         s6_title: "Choosing a boon",
@@ -203,16 +203,16 @@ const i18n = {
         ns_sub: "The game itself runs on the device. Settings and your best depth live in the app's own save file; the only thing that ever leaves the phone is a leaderboard score, and only once you sign in to Google Play Games.",
         ns_ads: "<strong>No ads.</strong> None anywhere in the game, and no ad network in the build.",
         ns_iap: "<strong>No in-app purchases.</strong> The whole hundred depths ship in the download.",
-        ns_acct: "<strong>Signing in is optional.</strong> Every depth, boon and lord is playable without an account — Play Games only adds the leaderboards and the achievements.",
+        ns_acct: "<strong>Signing in is optional.</strong> Every depth, boon and lord is playable without an account - Play Games only adds the leaderboards and the achievements.",
         ns_offline: "<strong>Plays with the connection off.</strong> The app asks for the internet permission so it can reach Play Games; drop the connection and the game plays exactly the same, minus posting a score.",
         ns_readpolicy: "Read the privacy policy",
 
         faq1_q: "Which Android versions does it run on?",
         faq1_a: "Android 7.0 and up, on arm64-v8a and armeabi-v7a devices.",
         faq2_q: "Does it need an internet connection?",
-        faq2_a: "Not to play. The app declares the internet permission because it talks to Google Play Games for the leaderboards and achievements, but every depth, boon and lord works with the connection off — you simply do not post a score while it is.",
+        faq2_a: "Not to play. The app declares the internet permission because it talks to Google Play Games for the leaderboards and achievements, but every depth, boon and lord works with the connection off - you simply do not post a score while it is.",
         faq2b_q: "What is sent to Google Play Games?",
-        faq2b_a: "Three leaderboard scores — deepest descent, richest run and fastest descent — and progress on eight achievements, tied to your own Play Games profile and handled by Google under its own privacy policy. None of it happens unless you sign in, and nothing else leaves the phone.",
+        faq2b_a: "Three leaderboard scores - deepest descent, richest run and fastest descent - and progress on eight achievements, tied to your own Play Games profile and handled by Google under its own privacy policy. None of it happens unless you sign in, and nothing else leaves the phone.",
         faq3_q: "Is there a save between runs?",
         faq3_a: "Only your settings and the deepest depth you have reached. A run itself has no checkpoint: death resets you to depth one with the levels, boons and gold gone. That is the roguelite part. Signed in, your best depth, richest run and fastest descent also go to the leaderboards.",
         faq4_q: "Can I play it with a gamepad, or on a desktop?",
@@ -234,7 +234,7 @@ const i18n = {
         footer_rights: "All rights reserved.",
 
         // ---- privacy policy page ----
-        pol_page_title: "Privacy Policy — Dungeon of the Fallen Blade | AIBachKhoa",
+        pol_page_title: "Privacy Policy - Dungeon of the Fallen Blade | AIBachKhoa",
         pol_meta_desc: "How Dungeon of the Fallen Blade handles information: what stays on your device, what Google Play Games receives, and why it needs internet.",
         pol_eyebrow: "Legal",
         pol_title: "Privacy Policy",
@@ -268,7 +268,7 @@ const i18n = {
         pol_h_types: "Types of Data Collected",
         pol_h_personal: "Personal Data",
         pol_personal: "The App does not ask You for any personally identifiable information. There is no account, no sign-up and no email address. The only data involved is:",
-        pol_personal_1: "Your Google Play Games profile — only if You choose to sign in to Play Games (see Sharing Data with Third Parties).",
+        pol_personal_1: "Your Google Play Games profile - only if You choose to sign in to Play Games (see Sharing Data with Third Parties).",
         pol_personal_2: "Game data kept on Your device: Your settings and Your best-depth record.",
         pol_h_usage: "Usage Data",
         pol_usage_lead: "The App does not collect usage data for us. Specifically, it does not gather:",
@@ -289,15 +289,15 @@ const i18n = {
 
         pol_h_sharing: "Sharing Data with Third Parties",
         pol_sharing_1: "The App integrates <strong>Google Play Games Services</strong> so that it can offer leaderboards and achievements. This is the only third-party service in the App. Signing in to Play Games is optional and is never required to play.",
-        pol_sharing_2: "If You do sign in, the App sends Google three leaderboard scores — deepest descent, richest run and fastest descent — together with Your progress on eight achievements, tied to Your own Play Games profile. Google processes that data as an independent controller under its own privacy policy. If You do not sign in, nothing is sent.",
+        pol_sharing_2: "If You do sign in, the App sends Google three leaderboard scores - deepest descent, richest run and fastest descent - together with Your progress on eight achievements, tied to Your own Play Games profile. Google processes that data as an independent controller under its own privacy policy. If You do not sign in, nothing is sent.",
         pol_sharing_3: "We do not sell user data, and we do not share it with anyone beyond what is described above. There is no advertising, analytics or tracking in the App.",
 
         pol_h_perm: "Permissions and Network Access",
         pol_perm_1: "The App declares the Android <code>INTERNET</code> permission. It needs that permission for one purpose: reaching Google Play Games Services for the leaderboards and achievements described above.",
-        pol_perm_2: "The game itself does not require a connection. Every call to Play Games is skipped when You are not signed in, and a run plays identically with the connection off — You simply do not post a score while it is. The App requests no other sensitive permission: no location, no contacts, no storage access to Your personal files.",
+        pol_perm_2: "The game itself does not require a connection. Every call to Play Games is skipped when You are not signed in, and a run plays identically with the connection off - You simply do not post a score while it is. The App requests no other sensitive permission: no location, no contacts, no storage access to Your personal files.",
 
         pol_h_storage: "Data Storage and Deletion",
-        pol_storage_1: "We operate no servers of our own and do not collect or store user data on them. Everything the game needs in order to run — Your settings and Your best-depth record — is processed and stored locally on Your device. You can delete it by uninstalling the application or using the data deletion functions built into the application (if available).",
+        pol_storage_1: "We operate no servers of our own and do not collect or store user data on them. Everything the game needs in order to run - Your settings and Your best-depth record - is processed and stored locally on Your device. You can delete it by uninstalling the application or using the data deletion functions built into the application (if available).",
         pol_storage_2: "The leaderboard scores and achievement progress described above are the exception: they are held by Google Play Games Services, not by us. You can review or remove them through Your Google Play Games account settings.",
 
         pol_h_sensitive: "Sensitive Data",
@@ -323,7 +323,7 @@ const i18n = {
         pol_use_7: "We do not use Your information for analytics, usage trends, advertising or marketing.",
         pol_share_lead: "We do not share Your personal information, except:",
         pol_share_1: "<strong>With Google Play Games Services:</strong> only if You sign in, as described under Sharing Data with Third Parties.",
-        pol_share_2: "<strong>For business transfers:</strong> not applicable — We hold no user data from the App.",
+        pol_share_2: "<strong>For business transfers:</strong> not applicable - We hold no user data from the App.",
         pol_share_3: "<strong>With Affiliates:</strong> none.",
         pol_share_4: "<strong>With business partners:</strong> none.",
         pol_share_5: "<strong>With other users:</strong> if You sign in to Play Games, Your leaderboard scores and Play Games name can be seen by other players on the leaderboards.",
@@ -346,7 +346,7 @@ const i18n = {
         pol_retention_2: "The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.",
 
         pol_h_transfer: "Transfer of Your Personal Data",
-        pol_transfer_1: "Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.",
+        pol_transfer_1: "Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to - and maintained on - computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.",
         pol_transfer_2: "Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer.",
         pol_transfer_3: "The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.",
 
@@ -439,7 +439,7 @@ document.addEventListener('DOMContentLoaded', () => {
         sel.innerHTML = LANGS.map(l =>
             `<option value="${l.code}">${short ? l.code.toUpperCase() : l.label}</option>`
         ).join('');
-        // one language on offer is not a choice — hide the picker entirely
+        // one language on offer is not a choice - hide the picker entirely
         sel.hidden = LANGS.length < 2;
     });
 
@@ -496,7 +496,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const dict = i18n[currentLang] || i18n[DEFAULT_LANG];
         const key = active.dataset.key;
         galImg.src = SHOT_DIR + active.dataset.shot + '.webp';
-        galImg.alt = 'Dungeon of the Fallen Blade — ' + (dict[key + '_title'] || '');
+        galImg.alt = 'Dungeon of the Fallen Blade - ' + (dict[key + '_title'] || '');
         if (galTitle) galTitle.textContent = dict[key + '_title'] || '';
         if (galCap) galCap.textContent = dict[key + '_cap'] || '';
     }
@@ -531,7 +531,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const frame = document.createElement('iframe');
             frame.src = 'https://www.youtube-nocookie.com/embed/' + id +
                 '?autoplay=1&rel=0&modestbranding=1&playsinline=1';
-            frame.title = 'Dungeon of the Fallen Blade — trailer';
+            frame.title = 'Dungeon of the Fallen Blade - trailer';
             frame.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture';
             frame.allowFullscreen = true;
             player.replaceChildren(frame);

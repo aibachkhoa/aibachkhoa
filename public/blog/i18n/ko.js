@@ -1,7 +1,7 @@
-/* Blog — Korean translation. Loaded only by the /ko/ copy of the blog list; see tools/build-i18n-pages.js. */
+/* Blog - Korean translation. Loaded only by the /ko/ copy of the blog list; see tools/build-i18n-pages.js. */
 i18n.ko = {
-    page_title: "블로그 — 기술, 리뷰, 보안 경보 | AIBachKhoa",
-    meta_desc: "AIBachKhoa 팀이 전하는 기술 이야기, 솔직한 리뷰, 보안 경보 — 쉬운 말로, 출처와 함께.",
+    page_title: "블로그 - 기술, 리뷰, 보안 경보 | AIBachKhoa",
+    meta_desc: "AIBachKhoa 팀이 전하는 기술 이야기, 솔직한 리뷰, 보안 경보 - 쉬운 말로, 출처와 함께.",
     skip_link: "본문으로 건너뛰기",
     aria_lang: "언어 변경",
     aria_theme: "테마 전환",
@@ -12,7 +12,7 @@ i18n.ko = {
     nav_contact: "문의하기",
     hero_eyebrow: "AIBachKhoa 블로그",
     hero_title: "기술을, <em>쉽게 풀어서</em>.",
-    hero_sub: "우리가 만들고 쓰는 도구 이야기, 솔직한 리뷰, 바로 행동에 옮길 수 있는 보안 경보 — 모두 출처와 함께 전합니다.",
+    hero_sub: "우리가 만들고 쓰는 도구 이야기, 솔직한 리뷰, 바로 행동에 옮길 수 있는 보안 경보 - 모두 출처와 함께 전합니다.",
     filter_label: "주제별로 글 보기",
     filter_all: "전체 글",
     cat_tech: "기술",

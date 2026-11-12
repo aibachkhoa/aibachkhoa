@@ -1,4 +1,4 @@
-/* Jump Master — German translation. Loaded only by the /de/ copies of these pages; see tools/build-i18n-pages.js. */
+/* Jump Master - German translation. Loaded only by the /de/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.de = {
     footer_desc: "Wir entwickeln praxisnahe KI-Tools für Entwickler und Unternehmen.",
     footer_game: "Das Spiel",

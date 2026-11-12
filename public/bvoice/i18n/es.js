@@ -1,6 +1,6 @@
-/* BVoice — Spanish translation. Loaded only by the /es/ copies of these pages; see tools/build-i18n-pages.js. */
+/* BVoice - Spanish translation. Loaded only by the /es/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.es = {
-    page_title: "BVoice — actas de reuniones en vietnamita en tu teléfono | AIBachKhoa",
+    page_title: "BVoice - actas de reuniones en vietnamita en tu teléfono | AIBachKhoa",
     meta_desc: "BVoice para Android convierte el vietnamita hablado en texto mientras la reunión sigue en marcha, identifica quién dijo qué, traduce a 100 idiomas y lee las traducciones en voz alta, todo en el teléfono y sin cuenta.",
     aria_lang: "Cambiar idioma",
     aria_theme: "Cambiar tema",
@@ -136,7 +136,7 @@ i18n.es = {
     footer_services: "Servicios",
     footer_contact: "Contacto",
     footer_rights: "Todos los derechos reservados.",
-    ios_page_title: "BVoice para iPhone — actas de reuniones en vietnamita | AIBachKhoa",
+    ios_page_title: "BVoice para iPhone - actas de reuniones en vietnamita | AIBachKhoa",
     ios_meta_desc: "BVoice para iPhone convierte el vietnamita hablado en texto mientras la reunión sigue en marcha, identifica quién dijo qué, traduce a 100 idiomas y lee las traducciones en voz alta, todo en el iPhone. iOS 15.1 o posterior.",
     ios_kicker: "iPhone · reuniones y transcripción",
     ios_meta: "iPhone, iOS 15.1 o posterior · en vertical · 7 días gratis con todas las funciones, y después una suscripción o un paquete de minutos.",
@@ -153,7 +153,7 @@ i18n.es = {
     ios_faq2_a: "No. En iPhone el reconocimiento, la traducción y la voz se ejecutan en el dispositivo. La única conexión que establece la app es la descarga única de los datos que necesita cada función, y las compras, que gestiona Apple.",
     ios_pl_a4: "A través de App Store; los precios aparecen en tu propia moneda dentro de la app. Cancela cuando quieras en Ajustes → tu nombre → Suscripciones. Nunca vemos tu tarjeta.",
     ios_gal_sub: "Cada imagen de abajo es la interfaz propia de la app en iPhone, con datos de reuniones de ejemplo.",
-    pol_page_title: "BVoice — Política de privacidad | AIBachKhoa",
+    pol_page_title: "BVoice - Política de privacidad | AIBachKhoa",
     pol_meta_desc: "Cómo gestiona BVoice tus grabaciones, transcripciones y compras en Android e iPhone: qué se queda en tu teléfono, qué se descarga y cómo eliminarlo.",
     pol_eyebrow: "Legal",
     pol_title: "Política de privacidad",

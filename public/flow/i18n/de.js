@@ -1,6 +1,6 @@
-/* Flow — German translation. Loaded only by the /de/ copies of these pages; see tools/build-i18n-pages.js. */
+/* Flow - German translation. Loaded only by the /de/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.de = {
-    page_title: "Flow — Pomodoro-Fokus-Timer für Android und Windows | AIBachKhoa",
+    page_title: "Flow - Pomodoro-Fokus-Timer für Android und Windows | AIBachKhoa",
     meta_desc: "Flow ist ein ruhiger Pomodoro-Timer: Fokus-Sitzungen mit leuchtendem Fortschrittsring, integrierte Fokus-Musik, Hintergründe, die der Tageszeit folgen, und eine Fokus-Heatmap über das ganze Jahr. Für Android und als kleines Glas-Widget für Windows. Kein Konto, keine Werbung.",
     aria_lang: "Sprache ändern",
     aria_theme: "Design wechseln",
@@ -106,7 +106,7 @@ i18n.de = {
     footer_contact: "Kontakt",
     footer_rights: "Alle Rechte vorbehalten.",
 
-    pol_page_title: "Flow — Datenschutzerklärung | AIBachKhoa",
+    pol_page_title: "Flow - Datenschutzerklärung | AIBachKhoa",
     pol_meta_desc: "Flow speichert alles auf deinem Gerät: kein Konto, keine Analyse, keine Werbung und keine von der App gesendeten Daten. Was gespeichert wird, welche Berechtigungen genutzt werden und wie Käufe funktionieren.",
     pol_eyebrow: "Rechtliches",
     pol_title: "Datenschutzerklärung",

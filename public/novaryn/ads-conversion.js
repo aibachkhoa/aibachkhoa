@@ -5,7 +5,7 @@
  * the moment a visitor does something that means they are interested.
  *
  * Google Ads calls that action "Gửi biểu mẫu khách hàng tiềm năng" (lead form
- * submission), but this page has no form — the two things a visitor can do
+ * submission), but this page has no form - the two things a visitor can do
  * are head for the Play listing or write to us. Both are counted as the lead,
  * which is what the campaign is paying for. If those two ever need telling
  * apart, create a second conversion action in Google Ads and give it its own

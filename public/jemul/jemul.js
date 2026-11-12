@@ -1,5 +1,5 @@
 /* =========================================================
-   JeMul — product page + privacy policy.
+   JeMul - product page + privacy policy.
    English and Vietnamese, same runtime as the other product
    pages on the site.
    ========================================================= */
@@ -7,9 +7,9 @@ const SHOT_DIR = '/assets/apps/jemulwap/';
 
 const i18n = {
     en: {
-        page_title: "JeMul — J2ME emulator for Android and browser | AIBachKhoa",
+        page_title: "JeMul - J2ME emulator for Android and browser | AIBachKhoa",
         meta_desc: "JeMul runs the old Java ME games from feature phones. Install the Android app to play your own .jar files, or play a whole library in your browser.",
-        pol_page_title: "JeMul — privacy policy | AIBachKhoa",
+        pol_page_title: "JeMul - privacy policy | AIBachKhoa",
         pol_meta_desc: "JeMul has no accounts on Android and keeps everything on the device. The browser edition signs in with Google only to control who can play.",
 
         aria_lang: "Change language",
@@ -28,7 +28,7 @@ const i18n = {
 
         hero_kicker: "Android app · browser edition · J2ME",
         hero_title: "The games from your first phone, <em>running again</em>.",
-        hero_sub: "JeMul is a Java ME emulator. Install the Android app and point it at your own .jar files, or open the browser edition and a library of over a thousand titles is already there — nothing to install, nothing to configure.",
+        hero_sub: "JeMul is a Java ME emulator. Install the Android app and point it at your own .jar files, or open the browser edition and a library of over a thousand titles is already there - nothing to install, nothing to configure.",
         hero_meta: "Application id <code>com.tdson.jemul</code> · Android phones and tablets · free",
         btn_play: "Get it on Google Play",
         btn_web: "Play in your browser",
@@ -37,7 +37,7 @@ const i18n = {
 
         ov_eyebrow: "What it is",
         ov_title: "An emulator, not a download site.",
-        ov_lede: "JeMul runs MIDP applications — the .jar files that feature phones ran between roughly 2001 and 2012. It ships with no game content of its own: on Android you bring your own files, and the browser edition comes with a library the operator has already set up.",
+        ov_lede: "JeMul runs MIDP applications - the .jar files that feature phones ran between roughly 2001 and 2012. It ships with no game content of its own: on Android you bring your own files, and the browser edition comes with a library the operator has already set up.",
         c1_h: "Real controls",
         c1_p: "A full phone keypad: D-pad, both soft keys, 0–9, star and hash, clear. On a computer every one of them is a keyboard key you can rebind; on a phone they are buttons under your thumbs.",
         c2_h: "Made for old screens",
@@ -47,7 +47,7 @@ const i18n = {
 
         an_eyebrow: "Android app",
         an_title: "JeMul on your phone.",
-        an_lede: "Add a .jar or .jad file, and it appears in your library with its icon and size. Everything runs on the device — no account, no server, no network needed after the file is on the phone.",
+        an_lede: "Add a .jar or .jad file, and it appears in your library with its icon and size. Everything runs on the device - no account, no server, no network needed after the file is on the phone.",
         an_l1: "Import .jar and .jad files straight from storage",
         an_l2: "Library with search, recently played, and per-game details",
         an_l3: "On-screen keypad in Nokia, Samsung or Sony Ericsson layouts",
@@ -75,7 +75,7 @@ const i18n = {
         g3_t: "Playing", g3_h: "Playing",
         g3_p: "The screen, a keypad, and every control listed on the right with the key that triggers it. Pause, fast-forward, restart and screenshots are one key away.",
         g4_t: "Settings", g4_h: "Settings that do something",
-        g4_p: "Glass opacity, blur, accent colour, scaling, scanlines — and the emulator's own options: handset model, rotation, frame cap, sound.",
+        g4_p: "Glass opacity, blur, accent colour, scaling, scanlines - and the emulator's own options: handset model, rotation, frame cap, sound.",
         g5_t: "Keyboard", g5_h: "The keyboard guide",
         g5_p: "Every phone key next to the keyboard key bound to it. Click a row and press a new key to rebind it, even while a game is running.",
         g6_t: "On a phone", g6_h: "On a phone",
@@ -102,7 +102,7 @@ const i18n = {
         pol_title: "Privacy policy",
         pol_updated: "Last updated: 7 September 2026",
         pol_s1_h: "The short version",
-        pol_s1_p: "The Android app has no accounts and sends nothing anywhere: your games, saves and settings stay on the device. The browser edition asks you to sign in with Google before starting a game, so the operator knows who is using the server — that is the only personal data involved.",
+        pol_s1_p: "The Android app has no accounts and sends nothing anywhere: your games, saves and settings stay on the device. The browser edition asks you to sign in with Google before starting a game, so the operator knows who is using the server - that is the only personal data involved.",
         pol_s2_h: "What the Android app stores",
         pol_s2_l1: "The .jar and .jad files you import, in the app's own storage.",
         pol_s2_l2: "Saved games and high scores written by the games themselves.",
@@ -110,7 +110,7 @@ const i18n = {
         pol_s2_p: "All of it is on your device. Uninstalling the app removes it. Nothing is uploaded, and there is no analytics or advertising in the app.",
         pol_s3_h: "What the browser edition stores",
         pol_s3_l1: "Your Google account's name, email address and profile picture, taken from the sign-in and used to identify you to the operator.",
-        pol_s3_l2: "A record of visits and of which games were started, when, and for how long — used to see how the server is being used.",
+        pol_s3_l2: "A record of visits and of which games were started, when, and for how long - used to see how the server is being used.",
         pol_s3_l3: "Your interface settings and in-game saves, kept on the server so they are there next time.",
         pol_s3_p: "Sign-in is handled by Google Firebase Authentication; JeMul never sees your password. Firebase Analytics is used for basic page and event counts. You can stop all of it by signing out and not playing.",
         pol_s4_h: "Game content",
@@ -216,7 +216,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const dict = i18n[currentLang] || i18n[DEFAULT_LANG];
         const key = active.dataset.key;
         galImg.src = SHOT_DIR + active.dataset.shot + '.webp';
-        galImg.alt = 'JeMul — ' + (dict[key + '_h'] || '');
+        galImg.alt = 'JeMul - ' + (dict[key + '_h'] || '');
         if (galTitle) galTitle.textContent = dict[key + '_h'] || '';
         if (galCap) galCap.textContent = dict[key + '_p'] || '';
     }

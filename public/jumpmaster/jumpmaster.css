@@ -1,8 +1,8 @@
 /* =========================================================
-   Jump Master — product page + privacy policy.
+   Jump Master - product page + privacy policy.
    Sits on top of /style.css: only the pieces this page adds.
    Same layout as the Treasure Hunters page; the palette comes from the
-   game's own art — misty sage, the hero's teal hood, crown gold.
+   game's own art - misty sage, the hero's teal hood, crown gold.
    The one structural difference is the gallery: the screenshots
    are portrait, so they sit side by side as phone-shaped frames
    instead of on one wide tabbed stage.
@@ -153,7 +153,7 @@
 /* ---------- Climb / feature cards ---------- */
 .jm-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(258px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(258px, 100%), 1fr));
     gap: 20px;
 }
 
@@ -228,7 +228,7 @@
 /* ---------- Fact strip ---------- */
 .jm-facts {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(160px, 100%), 1fr));
     gap: 18px;
     border: 1px solid var(--border);
     border-radius: 18px;

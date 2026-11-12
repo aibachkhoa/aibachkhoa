@@ -174,7 +174,7 @@ const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;')
 /** Keep a crawler inside one language when it follows an internal link.
  *
  * Only where that language actually has the page. Not every product is
- * translated into every language, and ChefEasy is Vietnamese by default —
+ * translated into every language, and ChefEasy is Vietnamese by default -
  * its Vietnamese page is /chefeasy, not /vi/chefeasy. Prefixing blindly
  * pointed the Vietnamese home page at three URLs that do not exist. */
 function prefixLinks(html, lang, existsIn) {
@@ -211,7 +211,7 @@ function setTag(html, re, replacement) {
 /** Point the page's structured data at the translated URL and text.
  *
  * The JSON-LD is copied from the English page, so left alone it would tell
- * Google that /vi/bksafe is a page whose url is /bksafe — a contradiction
+ * Google that /vi/bksafe is a page whose url is /bksafe - a contradiction
  * with the canonical right above it. Every internal URL in the graph gets
  * the language prefix, and the human-readable fields get the translation. */
 function localiseJsonLd(html, canonicalPath, prefix, lang, title, desc) {
@@ -290,11 +290,11 @@ for (const group of groups) {
 
         // The copies live one directory deeper (/es/…), so a relative URL
         // that works on the English page points at nothing on every
-        // translation — which is how the home page lost its images in all
+        // translation - which is how the home page lost its images in all
         // ten languages. Refuse to build rather than publish broken pages.
         const relative = [...source.matchAll(/\s(?:src|href|srcset|poster)="(?!\/|[a-z]+:|#|\{)([^"]+)"/g)].map(m => m[1]);
         if (relative.length) {
-            throw new Error(`${pageRel}: relative URL(s) would break under /<lang>/ — make them start with "/": ${relative.slice(0, 5).join(', ')}`);
+            throw new Error(`${pageRel}: relative URL(s) would break under /<lang>/ - make them start with "/": ${relative.slice(0, 5).join(', ')}`);
         }
 
         // "/bksafe/policy/index.html" -> "/bksafe/policy"; "index.html" -> "/"

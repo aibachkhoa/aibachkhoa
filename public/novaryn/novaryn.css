@@ -1,7 +1,7 @@
 /* =========================================================
    Novaryn product page.
    Rides on ../style.css for chrome (nav, footer, buttons, container).
-   Adds the game's own palette — ion cyan on deep space violet — over
+   Adds the game's own palette - ion cyan on deep space violet - over
    the site's orange brand, the same way dungeon-blade.css adds its gold.
    ========================================================= */
 
@@ -152,7 +152,7 @@
 /* ---------- Stat strip ---------- */
 .nv-stats {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(9rem, 100%), 1fr));
     gap: 1px;
     margin-top: clamp(2.5rem, 5vw, 3.5rem);
     border: 2px solid var(--ink);
@@ -205,7 +205,7 @@
 /* ---------- Feature cards ---------- */
 .nv-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(17rem, 100%), 1fr));
     gap: 1.1rem;
 }
 .nv-card {
@@ -234,7 +234,7 @@
 /* ---------- Power-ups ---------- */
 .nv-gems {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(15rem, 100%), 1fr));
     gap: 1rem;
 }
 .nv-gem {
@@ -245,7 +245,7 @@
     border-radius: 14px;
     background: var(--surface);
 }
-/* the letter on the gem, in the gem's own colour — the same cue the
+/* the letter on the gem, in the gem's own colour - the same cue the
    game gives you when one drops */
 .nv-gem-mark {
     flex: none;
@@ -269,7 +269,7 @@
 /* ---------- Waves ladder ---------- */
 .nv-waves {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(15rem, 100%), 1fr));
     gap: 0.75rem;
 }
 .nv-wave {
@@ -297,7 +297,7 @@
 /* ---------- Ships ---------- */
 .nv-ships {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15.5rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(15.5rem, 100%), 1fr));
     gap: 0.75rem;
 }
 .nv-ship {
@@ -556,7 +556,7 @@
 .nv-toc ol {
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(13rem, 100%), 1fr));
     gap: 0.35rem 1.2rem;
     counter-reset: toc;
 }
@@ -618,7 +618,7 @@
 }
 
 /* ---------------------------------------------------------------------------
-   /novaryn/ios — the subscription terms block and the plain screenshot grid.
+   /novaryn/ios - the subscription terms block and the plain screenshot grid.
    The iOS page states length, price and what Pro unlocks as a definition list
    so the three facts stay legible as a set rather than as prose.
 --------------------------------------------------------------------------- */
@@ -648,7 +648,7 @@
 
 .nv-shotgrid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(180px, 100%), 1fr));
     gap: clamp(0.8rem, 2vw, 1.4rem);
 }
 .nv-shotgrid img {

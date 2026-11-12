@@ -97,18 +97,18 @@
       .om-hero { padding: 6rem 0 4rem; }
       .om-badges { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.5rem 0; }
       .om-badge { display: inline-flex; align-items: center; gap: .35rem; padding: .35rem .7rem; border: 1px solid var(--border, #d9d9d9); border-radius: 999px; font-size: .85rem; font-family: 'DM Mono', monospace; color: var(--text-2, #555); }
-      .om-downloads { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin-top: 2rem; }
+      .om-downloads { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 1rem; margin-top: 2rem; }
       .om-dl { display: block; padding: 1.25rem 1.5rem; border: 1px solid var(--border, #d9d9d9); border-radius: 12px; background: var(--surface, #fff); text-decoration: none; color: inherit; transition: transform .15s ease, border-color .15s ease; }
       .om-dl:hover { transform: translateY(-2px); border-color: var(--accent, #2563eb); }
       .om-dl-os { display: flex; align-items: center; gap: .5rem; font-family: 'DM Mono', monospace; font-size: .8rem; letter-spacing: .04em; text-transform: uppercase; color: var(--text-2, #666); margin-bottom: .35rem; }
       .om-dl-name { font-weight: 700; font-size: 1.05rem; margin-bottom: .25rem; }
       .om-dl-meta { font-size: .85rem; color: var(--text-2, #666); }
       .om-dl.soon { opacity: .6; pointer-events: none; }
-      .om-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 3rem; }
+      .om-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 2rem; margin-top: 3rem; }
       .om-feat h3 { font-size: 1.2rem; margin-bottom: .5rem; }
       .om-feat p { color: var(--text-2, #555); line-height: 1.65; }
       .om-how { margin-top: 4rem; }
-      .om-how-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+      .om-how-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 1.5rem; margin-top: 2rem; }
       .om-how-item { padding: 1.5rem; border-left: 3px solid var(--accent, #2563eb); background: var(--surface, #fafafa); border-radius: 0 8px 8px 0; }
       .om-how-item .n { font-family: 'DM Mono', monospace; font-size: .8rem; color: var(--accent, #2563eb); letter-spacing: .1em; }
       .om-how-item h4 { margin: .35rem 0 .5rem; font-size: 1.05rem; }
@@ -178,16 +178,16 @@
 
                 <div class="om-features">
                     <div class="om-feat">
-                        <h3 data-i18n="feat1_h">1. Bluetooth &mdash; 数メートル以内にいるとき</h3>
+                        <h3 data-i18n="feat1_h">1. Bluetooth - 数メートル以内にいるとき</h3>
                         <p data-i18n="feat1_p">アプリは Bluetooth で近くにいる Ori ユーザーを見つけます。おおよそ 10〜30 メートル以内なら、メッセージはルーターも携帯基地局も通らず、端末から端末へ直接届きます。インターネットはまったく不要です。</p>
                     </div>
                     <div class="om-feat">
-                        <h3 data-i18n="feat2_h">2. Wi-Fi / LAN &mdash; 同じネットワーク</h3>
+                        <h3 data-i18n="feat2_h">2. Wi-Fi / LAN - 同じネットワーク</h3>
                         <p data-i18n="feat2_p">同じ Wi-Fi や有線ネットワーク上では、端末どうしが自動的に互いを見つけ、メッセージはローカルネットワークの中だけでやり取りされます。インターネットが遮断されたホテルやゲスト用 Wi-Fi でも使え、写真を送れるほど高速です。</p>
                     </div>
                     <div class="om-feat">
-                        <h3 data-i18n="feat3_h">3. インターネット &mdash; どちらも使えないとき</h3>
-                        <p data-i18n="feat3_p">Bluetooth とローカルネットワークの両方が使えないときにだけ、メッセージは私たちのサーバーを経由します。名前、プロフィール、メッセージ、添付ファイルはすべてエンドツーエンドで暗号化されているため、サーバーはどれも読むことができません。ただし、誰が誰にいつ送ったかは見えます &mdash; メッセージを届けるためにそれが必要だからです &mdash; そして、それを最長 30 日間保持します。</p>
+                        <h3 data-i18n="feat3_h">3. インターネット - どちらも使えないとき</h3>
+                        <p data-i18n="feat3_p">Bluetooth とローカルネットワークの両方が使えないときにだけ、メッセージは私たちのサーバーを経由します。名前、プロフィール、メッセージ、添付ファイルはすべてエンドツーエンドで暗号化されているため、サーバーはどれも読むことができません。ただし、誰が誰にいつ送ったかは見えます - メッセージを届けるためにそれが必要だからです - そして、それを最長 30 日間保持します。</p>
                     </div>
                 </div>
             </div>
@@ -221,7 +221,7 @@
 
                 <div class="om-note">
                     <p data-i18n="desk_note_win"><strong>Windows SmartScreen の警告が出たら？</strong>Windows インストーラーはまだ Microsoft 発行のコード署名証明書で署名されていないため、初回に SmartScreen が「Windows によって PC が保護されました」と表示することがあります。<em>詳細情報 &rarr; 実行</em> をクリックして続行してください。</p>
-                    <p style="margin-top: .75rem;" data-i18n="desk_note_mac"><strong>macOS へのインストール：</strong>アプリとディスクイメージはどちらも当社の Developer ID で署名され、Apple による公証を受けているため、Gatekeeper の警告なしで開けます &mdash; .dmg を開き、OriMessenger を「アプリケーション」にドラッグしてください。Apple silicon 専用です。</p>
+                    <p style="margin-top: .75rem;" data-i18n="desk_note_mac"><strong>macOS へのインストール：</strong>アプリとディスクイメージはどちらも当社の Developer ID で署名され、Apple による公証を受けているため、Gatekeeper の警告なしで開けます - .dmg を開き、OriMessenger を「アプリケーション」にドラッグしてください。Apple silicon 専用です。</p>
                     <p style="margin-top: .75rem;" data-i18n="desk_note_linux"><strong>Linux へのインストール：</strong>ダウンロードしたフォルダで <code>sudo apt install ./OriMessenger-0.3.0-amd64.deb</code> を実行してください。必要なシステムライブラリは apt が自動で取得します。Ubuntu 24.04 / Debian 13 以降（64 ビット）が必要です。</p>
                 </div>
             </div>
@@ -241,7 +241,7 @@
                     <div class="om-how-item">
                         <p class="n">02</p>
                         <h4 data-i18n="how2_h">メッセージは封印されている</h4>
-                        <p data-i18n="how2_p">メッセージ、名前、アバター、添付ファイルはエンドツーエンドで暗号化されるため、読めるのは話している相手だけです。メッセージがインターネットを経由するとき、サーバーに見えるのは配信に必要な情報だけ &mdash; 誰から、誰宛てに、いつ送られたか &mdash; です。</p>
+                        <p data-i18n="how2_p">メッセージ、名前、アバター、添付ファイルはエンドツーエンドで暗号化されるため、読めるのは話している相手だけです。メッセージがインターネットを経由するとき、サーバーに見えるのは配信に必要な情報だけ - 誰から、誰宛てに、いつ送られたか - です。</p>
                     </div>
                     <div class="om-how-item">
                         <p class="n">03</p>
@@ -281,7 +281,7 @@
         </section>        <section class="panel panel--ink closing" id="contact">
             <div class="container">
                 <h2 class="cta-title" data-i18n="cta_title">ご質問や不具合の報告は？</h2>
-                <p class="section-sub" style="margin-inline:auto;text-align:center;" data-i18n="cta_sub">メールがいちばん確実です &mdash; たいてい当日中にお返事します。</p>
+                <p class="section-sub" style="margin-inline:auto;text-align:center;" data-i18n="cta_sub">メールがいちばん確実です - たいてい当日中にお返事します。</p>
                 <div class="closing-actions">
                     <a href="mailto:contact@aibachkhoa.com" class="btn btn-primary" data-i18n="cta_btn">お問い合わせ</a>
                     <a href="/ja/orimessenger/policy" class="btn btn-ghost" data-i18n="footer_policy">プライバシーポリシー</a>

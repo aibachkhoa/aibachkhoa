@@ -1,7 +1,7 @@
-/* Blog — Simplified Chinese translation. Loaded only by the /zh/ copy of the blog list; see tools/build-i18n-pages.js. */
+/* Blog - Simplified Chinese translation. Loaded only by the /zh/ copy of the blog list; see tools/build-i18n-pages.js. */
 i18n.zh = {
-    page_title: "博客 — 科技、评测与安全警报 | AIBachKhoa",
-    meta_desc: "来自 AIBachKhoa 团队的科技文章、诚实评测与安全警报——用平实的语言写成，并附上来源。",
+    page_title: "博客 - 科技、评测与安全警报 | AIBachKhoa",
+    meta_desc: "来自 AIBachKhoa 团队的科技文章、诚实评测与安全警报--用平实的语言写成，并附上来源。",
     skip_link: "跳到主要内容",
     aria_lang: "切换语言",
     aria_theme: "切换主题",
@@ -12,7 +12,7 @@ i18n.zh = {
     nav_contact: "联系我们",
     hero_eyebrow: "AIBachKhoa 博客",
     hero_title: "科技，<em>讲得明明白白</em>。",
-    hero_sub: "介绍我们打造和使用的工具，给出诚实的评测，并发布你可以马上采取行动的安全警报——每一篇都注明来源。",
+    hero_sub: "介绍我们打造和使用的工具，给出诚实的评测，并发布你可以马上采取行动的安全警报--每一篇都注明来源。",
     filter_label: "按主题筛选文章",
     filter_all: "全部文章",
     cat_tech: "科技",
@@ -26,7 +26,7 @@ i18n.zh = {
     read_post: "阅读全文",
     min_read: "阅读约 {n} 分钟",
     updated: "更新于",
-    empty_filter: "这个分类还没有文章——第一篇正在路上。",
+    empty_filter: "这个分类还没有文章--第一篇正在路上。",
     empty_all: "第一批文章正在路上。",
     rss_follow: "通过 RSS 订阅",
     rss: "RSS 订阅源",

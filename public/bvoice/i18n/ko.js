@@ -1,6 +1,6 @@
-/* BVoice — Korean translation. Loaded only by the /ko/ copies of these pages; see tools/build-i18n-pages.js. */
+/* BVoice - Korean translation. Loaded only by the /ko/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.ko = {
-    page_title: "BVoice — 베트남어 회의록을 휴대폰에서 바로 | AIBachKhoa",
+    page_title: "BVoice - 베트남어 회의록을 휴대폰에서 바로 | AIBachKhoa",
     meta_desc: "Android용 BVoice는 회의가 진행되는 동안 베트남어 음성을 텍스트로 바꾸고, 누가 무슨 말을 했는지 구분하고, 100개 언어로 번역해 번역문을 소리 내어 읽어 줍니다. 모두 휴대폰 안에서 처리되며 계정이 필요 없습니다.",
     aria_lang: "언어 변경",
     aria_theme: "테마 전환",
@@ -136,7 +136,7 @@ i18n.ko = {
     footer_services: "서비스",
     footer_contact: "문의",
     footer_rights: "모든 권리 보유.",
-    ios_page_title: "iPhone용 BVoice — 베트남어 회의록 | AIBachKhoa",
+    ios_page_title: "iPhone용 BVoice - 베트남어 회의록 | AIBachKhoa",
     ios_meta_desc: "iPhone용 BVoice는 회의가 진행되는 동안 베트남어 음성을 텍스트로 바꾸고, 누가 무슨 말을 했는지 구분하고, 100개 언어로 번역해 번역문을 소리 내어 읽어 줍니다. 모두 iPhone 안에서 처리됩니다. iOS 15.1 이상.",
     ios_kicker: "iPhone · 회의 및 받아쓰기",
     ios_meta: "iPhone, iOS 15.1 이상 · 세로 모드 · 모든 기능 7일 무료, 이후 구독 또는 분 단위 팩.",
@@ -153,7 +153,7 @@ i18n.ko = {
     ios_faq2_a: "아니요. iPhone에서는 음성 인식, 번역, 음성 합성이 모두 기기에서 실행됩니다. 앱이 하는 유일한 통신은 각 기능에 필요한 데이터를 한 번 내려받는 것과, Apple이 처리하는 결제뿐입니다.",
     ios_pl_a4: "App Store를 통해 결제하며, 가격은 앱에서 사용하시는 통화로 표시됩니다. 해지는 언제든 설정 → 내 이름 → 구독에서 할 수 있습니다. 카드 정보는 당사에 전달되지 않습니다.",
     ios_gal_sub: "아래 화면은 모두 샘플 회의 데이터를 담은 iPhone 앱 자체의 인터페이스입니다.",
-    pol_page_title: "BVoice — 개인정보 처리방침 | AIBachKhoa",
+    pol_page_title: "BVoice - 개인정보 처리방침 | AIBachKhoa",
     pol_meta_desc: "Android와 iPhone의 BVoice가 녹음, 받아쓴 내용, 결제 정보를 어떻게 다루는지 안내합니다. 휴대폰에 남는 것, 내려받는 것, 삭제하는 방법을 설명합니다.",
     pol_eyebrow: "법적 고지",
     pol_title: "개인정보 처리방침",

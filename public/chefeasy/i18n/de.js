@@ -1,6 +1,6 @@
-/* ChefEasy — German translation. Loaded only by the /de/ copies of these pages; see tools/build-i18n-pages.js. */
+/* ChefEasy - German translation. Loaded only by the /de/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.de = {
-    page_title: "ChefEasy — ein Rezept Schritt für Schritt kochen | AIBachKhoa",
+    page_title: "ChefEasy - ein Rezept Schritt für Schritt kochen | AIBachKhoa",
     meta_desc: "Eine Koch-App für Android: 44 vietnamesische, chinesische, japanische und koreanische Gerichte, geführter Schritt-für-Schritt-Modus mit Timern, Sprachsuche, funktioniert offline.",
     aria_lang: "Sprache ändern",
     aria_theme: "Design wechseln",
@@ -124,7 +124,7 @@ i18n.de = {
     footer_services: "Leistungen",
     footer_contact: "Kontakt",
     footer_rights: "Alle Rechte vorbehalten.",
-    ios_page_title: "ChefEasy für iPhone & iPad — Schritt für Schritt kochen | AIBachKhoa",
+    ios_page_title: "ChefEasy für iPhone & iPad - Schritt für Schritt kochen | AIBachKhoa",
     ios_meta_desc: "Eine Koch-App für iPhone und iPad: 44 asiatische Gerichte, geführter Schritt-für-Schritt-Modus mit Timern, Sprachsuche, funktioniert offline. Erfordert iOS 15.0 oder neuer.",
     ios_kicker: "iPhone & iPad · Kochen zu Hause",
     ios_meta: "Bundle-ID <code>com.tdson.cooky</code> · Hochformat · iPhone und iPad, iOS 15.0 oder neuer · kostenlos, mit Werbung und optionalem Abo.",
@@ -141,7 +141,7 @@ i18n.de = {
     ios_pro_a3: "Ein Monats- oder Jahresabo, automatisch verlängert, abgerechnet über den App Store. Der Preis wird in der App in Ihrer eigenen Währung angezeigt.",
     ios_pro_a4: "Jederzeit unter Einstellungen → Ihr Name → Abonnements. Es gibt in der App keinen Rückhalte-Dialog, der mit Ihnen diskutiert, und wir sehen Ihre Karte nie.",
     ios_pro_a5: "Die Werbung kehrt zurück, und die chinesischen, japanischen und koreanischen Gerichte werden am Ende des bezahlten Zeitraums wieder gesperrt. Die vietnamesischen Gerichte bleiben.",
-    pol_page_title: "Datenschutzerklärung — ChefEasy | AIBachKhoa",
+    pol_page_title: "Datenschutzerklärung - ChefEasy | AIBachKhoa",
     pol_meta_desc: "Wie ChefEasy mit Informationen umgeht: was auf Ihrem Gerät bleibt, wohin eine Sprachsuche geht und was das Werbenetzwerk und die App-Stores erhalten.",
     pol_eyebrow: "Rechtliches",
     pol_title: "Datenschutzerklärung",

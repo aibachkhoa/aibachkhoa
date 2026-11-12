@@ -1,4 +1,4 @@
-/* Mini Castle — Spanish translation. Loaded only by the /es/ copies of these pages; see tools/build-i18n-pages.js. */
+/* Mini Castle - Spanish translation. Loaded only by the /es/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.es = {
     footer_desc: "Creamos herramientas de IA prácticas para desarrolladores y empresas.",
     footer_game: "El juego",
@@ -8,9 +8,9 @@ i18n.es = {
     footer_services: "Servicios",
     footer_contact: "Contacto",
     footer_rights: "Todos los derechos reservados.",
-    page_title: "Mini Castle — cada recolector es una lanza menos | AIBachKhoa",
+    page_title: "Mini Castle - cada recolector es una lanza menos | AIBachKhoa",
     meta_desc: "Un juego de defensa de castillos con una economía de estrategia en tiempo real reducida a lo esencial, para iPhone, iPad y Android. Veinte noches, veintiún mapas. Sin anuncios, sin compras, sin conexión.",
-    pol_page_title: "Política de privacidad — Mini Castle | AIBachKhoa",
+    pol_page_title: "Política de privacidad - Mini Castle | AIBachKhoa",
     pol_meta_desc: "Mini Castle no recopila nada. Sin cuenta, sin acceso a la red, sin analíticas, sin anuncios: todos los archivos guardados se quedan en tu dispositivo.",
 
     aria_lang: "Cambiar idioma",
@@ -32,7 +32,7 @@ i18n.es = {
     hero_sub: "Mini Castle es un juego de defensa de castillos con una economía de estrategia en tiempo real reducida a lo esencial. Tu gente trabaja y combate a la vez, y nunca tienes suficiente para ambas cosas.",
     btn_shots: "Mira cómo se juega",
     btn_policy: "Política de privacidad",
-    hero_img_alt: "Mini Castle — oleada 19, tres caciques en el mapa",
+    hero_img_alt: "Mini Castle - oleada 19, tres caciques en el mapa",
 
     quote: "Mándalos a talar y tus almacenes se llenan mientras tus murallas se vacían. Mantenlos con la lanza en la mano y las murallas aguantan, pero en la siguiente oleada no podrás pagar ni un solo recluta nuevo.",
 

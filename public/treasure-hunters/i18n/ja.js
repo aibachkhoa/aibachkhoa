@@ -1,4 +1,4 @@
-/* Treasure Hunters — Japanese translation. Loaded only by the /ja/ copies of these pages; see tools/build-i18n-pages.js. */
+/* Treasure Hunters - Japanese translation. Loaded only by the /ja/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.ja = {
     footer_desc: "開発者と企業のための実用的な AI ツールを開発しています。",
     footer_game: "ゲーム",
@@ -8,9 +8,9 @@ i18n.ja = {
     footer_services: "サービス",
     footer_contact: "お問い合わせ",
     footer_rights: "無断転載を禁じます。",
-    page_title: "Treasure Hunters — ピクセルアートの海賊アクション | AIBachKhoa",
+    page_title: "Treasure Hunters - ピクセルアートの海賊アクション | AIBachKhoa",
     meta_desc: "Android 向けのピクセルアート海賊アクション。全50ステージ、ミニボス5体、空飛ぶ幽霊船5隻、隠された黄金のドクロ120個。広告なし、課金なし、オフラインで遊べます。",
-    pol_page_title: "プライバシーポリシー — Treasure Hunters | AIBachKhoa",
+    pol_page_title: "プライバシーポリシー - Treasure Hunters | AIBachKhoa",
     pol_meta_desc: "Treasure Hunters は何も収集しません。アカウントもインターネット接続も、アナリティクスも広告もなし。進行状況はあなたの端末の中だけに残ります。",
     aria_lang: "言語を切り替える",
     aria_theme: "テーマを切り替える",
@@ -29,7 +29,7 @@ i18n.ja = {
     hero_sub: "Treasure Hunters は、タッチ操作のために作られたピクセルアートの海賊アクションゲームです。砂浜、霧の谷、呪われた難破船を駆け抜け、二段ジャンプで跳び、斬りまくろう。全50ステージ、ボスは10体、そしてどの島の終わりにも金貨の詰まった宝箱が待っています。",
     btn_play: "Google Play で手に入れよう",
     btn_policy: "プライバシーポリシー",
-    hero_img_alt: "Treasure Hunters — ミニボス Captain Claw との戦闘",
+    hero_img_alt: "Treasure Hunters - ミニボス Captain Claw との戦闘",
     quote: "どの島の終わりにも宝箱がある。5つ目ごとに、それを守る何かがいる。そして10個目ごとに、その何かは空を飛ぶ。",
     play_eyebrow: "遊び方",
     play_title: "短いステージを、左右の親指ひとつずつで。",
@@ -93,8 +93,8 @@ i18n.ja = {
     pol_collect_p: "ありません。サインイン、アナリティクス、広告、クラッシュレポート、テレメトリーは一切ありません。あなたがゲームをインストールしたことも、どのように遊んでいるかも私たちには分からず、あなたを特定する手段もありません。",
     pol_device_h: "端末に保存されるもの",
     pol_device_p: "ゲームが書き込み、ゲームだけが読み取れる小さなセーブファイルがひとつあります：",
-    pol_device_li1: "<strong>進行状況</strong> — 解放済みのステージと、各ステージで獲得した黄金のドクロとコインの最高記録。",
-    pol_device_li2: "<strong>設定</strong> — 音楽と効果音のオン／オフ。",
+    pol_device_li1: "<strong>進行状況</strong> - 解放済みのステージと、各ステージで獲得した黄金のドクロとコインの最高記録。",
+    pol_device_li2: "<strong>設定</strong> - 音楽と効果音のオン／オフ。",
     pol_device_p2: "このファイルが端末の外に出ることはなく、クラウドバックアップにも含まれません。ゲームをアンインストールすると削除されます。",
     pol_perm_h: "権限",
     pol_perm_p: "ゲームが求める権限はひとつだけ、<strong>バイブレーション</strong>です。ダメージを受けたときやステージをクリアしたときの短い振動フィードバックに使います。カメラ、マイク、写真、位置情報、連絡先、通知、ネットワークはいずれも使用しません。",

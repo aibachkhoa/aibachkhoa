@@ -1,6 +1,6 @@
-/* Novaryn — German translation. Loaded only by the /de/ copies of these pages; see tools/build-i18n-pages.js. */
+/* Novaryn - German translation. Loaded only by the /de/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.de = {
-    page_title: "Novaryn — ein Daumen, endlose Wellen | AIBachKhoa",
+    page_title: "Novaryn - ein Daumen, endlose Wellen | AIBachKhoa",
     meta_desc: "Ein vertikaler Arcade-Shoot-'em-up für Android. Ziehen zum Fliegen, die Kanone feuert von selbst, und früher oder später taucht ein Boss auf, den man lernen muss. Komplett offline spielbar.",
     aria_lang: "Sprache ändern",
     aria_theme: "Design wechseln",
@@ -109,7 +109,7 @@ i18n.de = {
     footer_services: "Leistungen",
     footer_contact: "Kontakt",
     footer_rights: "Alle Rechte vorbehalten.",
-    pol_page_title: "Datenschutzerklärung — Novaryn | AIBachKhoa",
+    pol_page_title: "Datenschutzerklärung - Novaryn | AIBachKhoa",
     pol_meta_desc: "Wie Novaryn mit Informationen umgeht: was auf Ihrem Gerät bleibt und was der App Store und Google Play erhalten, wenn Sie ein Schiff oder Pro kaufen.",
     pol_back: "Zurück zum Spiel",
     pol_eyebrow: "Rechtliches",

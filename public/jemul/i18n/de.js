@@ -1,8 +1,8 @@
-/* JeMul — German translation. Loaded only by the /de/ copies of these pages; see tools/build-i18n-pages.js. */
+/* JeMul - German translation. Loaded only by the /de/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.de = {
-    page_title: "JeMul — J2ME-Emulator für Android und Browser | AIBachKhoa",
+    page_title: "JeMul - J2ME-Emulator für Android und Browser | AIBachKhoa",
     meta_desc: "JeMul lässt die alten Java-ME-Spiele von Tastenhandys wieder laufen. Installiere die Android-App, um deine eigenen .jar-Dateien zu spielen, oder spiele eine ganze Bibliothek direkt im Browser.",
-    pol_page_title: "JeMul — Datenschutzerklärung | AIBachKhoa",
+    pol_page_title: "JeMul - Datenschutzerklärung | AIBachKhoa",
     pol_meta_desc: "Unter Android kommt JeMul ohne Konto aus und speichert alles auf dem Gerät. Die Browser-Version nutzt die Google-Anmeldung nur, um zu steuern, wer spielen darf.",
 
     aria_lang: "Sprache ändern",

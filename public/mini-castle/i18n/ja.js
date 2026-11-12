@@ -1,4 +1,4 @@
-/* Mini Castle — Japanese translation. Loaded only by the /ja/ copies of these pages; see tools/build-i18n-pages.js. */
+/* Mini Castle - Japanese translation. Loaded only by the /ja/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.ja = {
     footer_desc: "開発者と企業のための実用的な AI ツールを開発しています。",
     footer_game: "ゲーム",
@@ -8,9 +8,9 @@ i18n.ja = {
     footer_services: "サービス",
     footer_contact: "お問い合わせ",
     footer_rights: "無断転載を禁じます。",
-    page_title: "Mini Castle — 採集者がひとり増えれば、槍がひとつ減る | AIBachKhoa",
+    page_title: "Mini Castle - 採集者がひとり増えれば、槍がひとつ減る | AIBachKhoa",
     meta_desc: "削ぎ落とした RTS 経済を組み込んだ、iPhone・iPad・Android 向けの城防衛ゲーム。20 の夜、21 のマップ。広告なし、課金なし、オフラインで遊べます。",
-    pol_page_title: "プライバシーポリシー — Mini Castle | AIBachKhoa",
+    pol_page_title: "プライバシーポリシー - Mini Castle | AIBachKhoa",
     pol_meta_desc: "Mini Castle は何も収集しません。アカウントなし、ネットワーク通信なし、解析なし、広告なし。セーブファイルはすべてお使いの端末内に残ります。",
 
     aria_lang: "言語を切り替える",
@@ -32,7 +32,7 @@ i18n.ja = {
     hero_sub: "Mini Castle は、削ぎ落とした RTS 経済を組み込んだ城防衛ゲームです。民は働き手であり兵士でもありますが、その両方をこなせるだけの人数がそろうことは決してありません。",
     btn_shots: "プレイの様子を見る",
     btn_policy: "プライバシーポリシー",
-    hero_img_alt: "Mini Castle — ウェーブ 19、盤面に族長が 3 体",
+    hero_img_alt: "Mini Castle - ウェーブ 19、盤面に族長が 3 体",
 
     quote: "木を切りに行かせれば蔵は満ち、城壁は空になる。槍を持たせておけば城壁は持ちこたえる。だが次のウェーブでは、新兵をひとり雇う余裕すらない。",
 
@@ -98,8 +98,8 @@ i18n.ja = {
     pol_collect_p: "ありません。アカウント、サインイン、解析、広告、クラッシュレポーター、その他あらゆる種類のテレメトリーはありません。私たちはあなたがゲームをインストールしたことも、どのように遊んでいるかも一切知ることはなく、あなたを特定する手段もありません。",
     pol_device_h: "端末に保存されるもの",
     pol_device_p: "ゲームが書き込み、ゲームだけが読み取れる小さなファイルが 2 つあります：",
-    pol_device_li1: "<strong>設定</strong> — 音量、言語、チームカラー、操作方式、表示オプション。",
-    pol_device_li2: "<strong>進行状況</strong> — 21 のレベルのうち、どれを解放したか。",
+    pol_device_li1: "<strong>設定</strong> - 音量、言語、チームカラー、操作方式、表示オプション。",
+    pol_device_li2: "<strong>進行状況</strong> - 21 のレベルのうち、どれを解放したか。",
     pol_device_p2: "どちらのファイルも端末の外に出ることはありません。アプリを削除すると両方とも削除されます。2 つを分けているのは意図的なものです。壊れた設定をリセットしたせいでキャンペーンの進行状況が失われることは、あってはならないからです。",
     pol_perm_h: "権限",
     pol_perm_p: "本ゲームはいかなる権限も要求しません。カメラ、マイク、写真、位置情報、連絡先、通知、ネットワークのいずれも使用しません。アプリストアに Mini Castle の権限一覧が表示される場合、その一覧は空になります。",

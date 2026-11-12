@@ -1,8 +1,8 @@
-/* JeMul — Korean translation. Loaded only by the /ko/ copies of these pages; see tools/build-i18n-pages.js. */
+/* JeMul - Korean translation. Loaded only by the /ko/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.ko = {
-    page_title: "JeMul — Android와 브라우저용 J2ME 에뮬레이터 | AIBachKhoa",
+    page_title: "JeMul - Android와 브라우저용 J2ME 에뮬레이터 | AIBachKhoa",
     meta_desc: "JeMul은 피처폰 시절의 Java ME 게임을 다시 실행합니다. Android 앱을 설치해 내 .jar 파일을 플레이하거나, 브라우저에서 방대한 게임 라이브러리를 바로 즐겨 보세요.",
-    pol_page_title: "JeMul — 개인정보 처리방침 | AIBachKhoa",
+    pol_page_title: "JeMul - 개인정보 처리방침 | AIBachKhoa",
     pol_meta_desc: "JeMul Android 앱에는 계정이 없으며 모든 데이터가 기기에만 저장됩니다. 브라우저 버전은 플레이할 수 있는 사람을 관리하기 위해서만 Google 로그인을 사용합니다.",
 
     aria_lang: "언어 변경",

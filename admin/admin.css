@@ -1,5 +1,5 @@
 /* =========================================================
-   AIBachKhoa — admin dashboard.
+   AIBachKhoa - admin dashboard.
 
    Loads after /style.css and inherits the whole design system from it:
    the cream ground, the 2px ink borders, the pill buttons, Archivo and
@@ -7,7 +7,7 @@
 
    Everything below is either a piece the public site has no use for
    (stat tiles, charts, data tables) or a correction where the public
-   rhythm is wrong for a dense screen — the public panels are built to
+   rhythm is wrong for a dense screen - the public panels are built to
    breathe at 9rem of vertical padding, which a dashboard cannot afford.
    ========================================================= */
 
@@ -214,7 +214,7 @@ body.admin {
    Figures
 
    Proportional figures for the standalone numbers, tabular only in
-   columns — a hero number set in tabular digits looks loose.
+   columns - a hero number set in tabular digits looks loose.
    --------------------------------------------------------- */
 .hero-fig {
     display: flex;

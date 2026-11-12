@@ -10,7 +10,7 @@
 const i18n = {
     en: {
         /* ---------------------------------------------------- shell ---- */
-        page_title: "Iron Line — tower defense across 12 maps | AIBachKhoa",
+        page_title: "Iron Line - tower defense across 12 maps | AIBachKhoa",
         meta_desc: "An offline tower defense for Android: 12 battlefields, four towers with four tiers each, fifteen enemy types. No ads, no purchases, no internet.",
         aria_lang: "Change language",
         aria_theme: "Toggle theme",
@@ -41,7 +41,7 @@ const i18n = {
         btn_shots: "See how it plays",
         btn_policy: "Privacy policy",
         btn_contact: "Ask about a build",
-        hero_img_alt: "Iron Line — a fortified line on Sand Belt",
+        hero_img_alt: "Iron Line - a fortified line on Sand Belt",
         hero_meta: "Application id <code>com.tdson.ironline</code> · landscape · English and Tiếng Việt · plays entirely offline.",
 
         stat_missions: "Battlefields across five terrains",
@@ -62,7 +62,7 @@ const i18n = {
         t_laser_d: "A continuous beam that ignores armour outright. Expensive per plot, but the answer to anything that shrugs off bullets.",
         t_laser_tier: "Mk1 – Mk4 · ground and air",
         t_rocket_t: "Rocket",
-        t_rocket_d: "Heavy splash damage that clears a packed road in one salvo — but it cannot elevate, so it never touches an aircraft.",
+        t_rocket_d: "Heavy splash damage that clears a packed road in one salvo - but it cannot elevate, so it never touches an aircraft.",
         t_rocket_tier: "Mk1 – Mk4 · ground only",
         t_tesla_t: "Tesla",
         t_tesla_d: "Chains lightning between targets and slows everything it touches. Weak alone, quietly decisive next to anything else.",
@@ -72,17 +72,17 @@ const i18n = {
         air_eyebrow: "Ground and air",
         air_title: "Fifteen ways in, <em>and only one road</em>.",
         air_sub: "Scouts, armoured hulls, shielded carriers and swarms follow the route you fortified. Drones, biplanes, jets and heavy bombers ignore it completely and fly straight at the core.",
-        air_img_alt: "Iron Line — a column caught at the first bend",
-        air_1: "<strong>The road is only half the map.</strong> Five of the fifteen enemy types never touch it — they take the straight line to your core instead.",
+        air_img_alt: "Iron Line - a column caught at the first bend",
+        air_1: "<strong>The road is only half the map.</strong> Five of the fifteen enemy types never touch it - they take the straight line to your core instead.",
         air_2: "<strong>Rockets cannot elevate.</strong> An all-Rocket wall holds the road perfectly and loses the sky, so the line has to stay balanced.",
         air_3: "<strong>They shoot back.</strong> Armoured hulls, serpents and bosses return fire on your emplacements, and bombers drop ordnance directly on top of them.",
-        air_4: "<strong>Towers have hull integrity.</strong> They patch themselves up between engagements and salvage part of their cost if they are destroyed — where you place one matters as much as which one you place.",
+        air_4: "<strong>Towers have hull integrity.</strong> They patch themselves up between engagements and salvage part of their cost if they are destroyed - where you place one matters as much as which one you place.",
 
         /* -------------------------------------------------- battles ---- */
         pace_eyebrow: "Your pace",
         pace_title: "Call the wave, <em>or take the minute</em>.",
         pace_sub: "Nothing runs on a timer you do not control. Call a wave early for bonus credits when the line is ready, or run the battle at 1x, 2x or 3x once it is set. Pause at any point.",
-        pace_img_alt: "Iron Line — the tower card, showing range and upgrade cost",
+        pace_img_alt: "Iron Line - the tower card, showing range and upgrade cost",
         pace_1: "<strong>Early-call bonus.</strong> Every wave you summon ahead of schedule pays extra credits into the same budget you are building with.",
         pace_2: "<strong>Three speeds.</strong> Once the line holds itself, run it at double or triple time rather than watching it work.",
         pace_3: "<strong>Ranked out of three.</strong> Keep the core untouched to earn all three marks. Progress saves on the device, with no account and no sync.",
@@ -91,12 +91,12 @@ const i18n = {
         gal_eyebrow: "Screenshots",
         gal_title: "The real thing, <em>at native resolution</em>.",
         gal_sub: "Captured from the game as it runs, with no device frames and no added marketing copy.",
-        gal_img_alt: "Iron Line — the line",
+        gal_img_alt: "Iron Line - the line",
 
         g_menu_title: "Main menu",
         g_menu_cap: "Twelve missions behind one button, with the terrain from the campaign running underneath.",
         g_missions_title: "Mission select",
-        g_missions_cap: "Five terrains — north woods, golden fields, dunes, frostline and marshland. Clear one to unlock the next, then come back for a perfect run.",
+        g_missions_cap: "Five terrains - north woods, golden fields, dunes, frostline and marshland. Clear one to unlock the next, then come back for a perfect run.",
         g_line_title: "The line",
         g_line_cap: "Sand Belt, mission five. Eight plots filled, every tower on Mk3, and the first wave still forming at the road head.",
         g_build_title: "Build menu",
@@ -104,7 +104,7 @@ const i18n = {
         g_combat_title: "Under fire",
         g_combat_cap: "A column caught at the first bend. Splash damage, credits ticking up per kill, and the wave counter still on one of ten.",
         g_tower_title: "Tower card",
-        g_tower_cap: "Range ring, damage, fire rate and hull integrity — plus the upgrade and sell-back price at the current tier.",
+        g_tower_cap: "Range ring, damage, fire rate and hull integrity - plus the upgrade and sell-back price at the current tier.",
         g_victory_title: "Victory",
         g_victory_cap: "Three marks for a core that never took a hit, with the run's score, kills and waves held.",
 
@@ -124,12 +124,12 @@ const i18n = {
         cta_soon: "Coming to Google Play",
 
         /* --------------------------------------------------- policy ---- */
-        pol_page_title: "Privacy Policy — Iron Line | AIBachKhoa",
+        pol_page_title: "Privacy Policy - Iron Line | AIBachKhoa",
         pol_meta_desc: "The Iron Line privacy policy: no data collected, no internet permission, no third-party SDKs, and progress stored only on your own device.",
         pol_back: "Back to the game",
         pol_eyebrow: "Legal",
         pol_title: "Privacy Policy",
-        pol_game: "Iron Line — Tower Defense",
+        pol_game: "Iron Line - Tower Defense",
         pol_updated: "Last updated: 29 August 2026",
         pol_lead: "This policy explains how Iron Line (\"the App\") handles information. The short version is that it does not handle any: the App collects nothing, sends nothing, and has no network permission with which it could. The rest of this page sets that out precisely, because \"we collect nothing\" is a claim worth being able to check.",
         pol_toc: "On this page",
@@ -140,7 +140,7 @@ const i18n = {
         pol_h_collect: "Information we collect",
         pol_collect_1: "<strong>None.</strong> The App does not collect, transmit, sell or share any personal data. Specifically, it does not collect any of the following:",
         pol_collect_l1: "Name, email address, phone number or any other contact detail",
-        pol_collect_l2: "Account or sign-in information — there is no account and no sign-in",
+        pol_collect_l2: "Account or sign-in information - there is no account and no sign-in",
         pol_collect_l3: "Location, whether precise or approximate",
         pol_collect_l4: "Device identifiers, advertising id, IMEI or Android ID",
         pol_collect_l5: "Photos, videos, files, contacts, calendar, microphone or camera data",
@@ -164,17 +164,17 @@ const i18n = {
         pol_third_2: "If you obtained the App through Google Play, Google's own handling of your download and any Play Store data is governed by Google's privacy policy, not this one. That relationship is between you and Google and exists independently of the App.",
 
         pol_h_children: "Children's privacy",
-        pol_children: "The App is suitable for general audiences and contains only mild, cartoon-style violence against mechanised vehicles — there are no human characters, no blood and no gore. Because the App collects no data whatsoever, it collects no data from children either, and so cannot come into conflict with COPPA, the GDPR's provisions on children, or similar laws. There is no advertising and no interest-based profiling of any user, of any age.",
+        pol_children: "The App is suitable for general audiences and contains only mild, cartoon-style violence against mechanised vehicles - there are no human characters, no blood and no gore. Because the App collects no data whatsoever, it collects no data from children either, and so cannot come into conflict with COPPA, the GDPR's provisions on children, or similar laws. There is no advertising and no interest-based profiling of any user, of any age.",
 
         pol_h_rights: "Your rights",
         pol_rights_1: "Privacy laws such as the GDPR and the CCPA give you rights to access, correct, export or delete the personal data a company holds about you, and to know whether it is sold or shared.",
-        pol_rights_2: "We hold no personal data about you, so there is nothing to access, correct, export or delete, and nothing has ever been sold or shared. The single piece of data the App produces — your local save file — is already entirely under your control: you can delete it at any time by clearing the App's storage in Android Settings, or by uninstalling the App.",
+        pol_rights_2: "We hold no personal data about you, so there is nothing to access, correct, export or delete, and nothing has ever been sold or shared. The single piece of data the App produces - your local save file - is already entirely under your control: you can delete it at any time by clearing the App's storage in Android Settings, or by uninstalling the App.",
 
         pol_h_security: "Security",
         pol_security: "The strongest security property of the App is that it holds nothing worth attacking and cannot transmit. There is no server, no database and no account tied to your use of it. Your save file is protected by Android's per-application sandbox, which prevents other apps from reading it on an uncompromised device.",
 
         pol_h_changes: "Changes to this policy",
-        pol_changes: "If a future version of the App ever changes what it does with information — for example by adding an optional online leaderboard — this page will be updated before that version is released, and the date at the top will change with it. Any such change would be described here plainly rather than folded into a longer document. The policy that applies to the version you have installed is the one published at the time of its release.",
+        pol_changes: "If a future version of the App ever changes what it does with information - for example by adding an optional online leaderboard - this page will be updated before that version is released, and the date at the top will change with it. Any such change would be described here plainly rather than folded into a longer document. The policy that applies to the version you have installed is the one published at the time of its release.",
 
         pol_h_contact: "Contact",
         pol_contact_1: "If anything on this page is unclear, or you want to raise a privacy question about the App, get in touch:",
@@ -232,7 +232,7 @@ document.addEventListener('DOMContentLoaded', () => {
         sel.innerHTML = LANGS.map(l =>
             `<option value="${l.code}">${short ? l.code.toUpperCase() : l.label}</option>`
         ).join('');
-        // one language on offer is not a choice — hide the picker entirely
+        // one language on offer is not a choice - hide the picker entirely
         sel.hidden = LANGS.length < 2;
     });
 
@@ -293,7 +293,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const dict = i18n[currentLang] || i18n[DEFAULT_LANG];
         const key = active.dataset.key;
         galImg.src = SHOT_DIR + active.dataset.shot + SHOT_EXT;
-        galImg.alt = 'Iron Line — ' + (dict[key + '_title'] || '');
+        galImg.alt = 'Iron Line - ' + (dict[key + '_title'] || '');
         if (galTitle) galTitle.textContent = dict[key + '_title'] || '';
         if (galCap) galCap.textContent = dict[key + '_cap'] || '';
     }

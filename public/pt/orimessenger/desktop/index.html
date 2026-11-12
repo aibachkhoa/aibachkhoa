@@ -97,18 +97,18 @@
       .om-hero { padding: 6rem 0 4rem; }
       .om-badges { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.5rem 0; }
       .om-badge { display: inline-flex; align-items: center; gap: .35rem; padding: .35rem .7rem; border: 1px solid var(--border, #d9d9d9); border-radius: 999px; font-size: .85rem; font-family: 'DM Mono', monospace; color: var(--text-2, #555); }
-      .om-downloads { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin-top: 2rem; }
+      .om-downloads { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 1rem; margin-top: 2rem; }
       .om-dl { display: block; padding: 1.25rem 1.5rem; border: 1px solid var(--border, #d9d9d9); border-radius: 12px; background: var(--surface, #fff); text-decoration: none; color: inherit; transition: transform .15s ease, border-color .15s ease; }
       .om-dl:hover { transform: translateY(-2px); border-color: var(--accent, #2563eb); }
       .om-dl-os { display: flex; align-items: center; gap: .5rem; font-family: 'DM Mono', monospace; font-size: .8rem; letter-spacing: .04em; text-transform: uppercase; color: var(--text-2, #666); margin-bottom: .35rem; }
       .om-dl-name { font-weight: 700; font-size: 1.05rem; margin-bottom: .25rem; }
       .om-dl-meta { font-size: .85rem; color: var(--text-2, #666); }
       .om-dl.soon { opacity: .6; pointer-events: none; }
-      .om-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 3rem; }
+      .om-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 2rem; margin-top: 3rem; }
       .om-feat h3 { font-size: 1.2rem; margin-bottom: .5rem; }
       .om-feat p { color: var(--text-2, #555); line-height: 1.65; }
       .om-how { margin-top: 4rem; }
-      .om-how-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+      .om-how-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 1.5rem; margin-top: 2rem; }
       .om-how-item { padding: 1.5rem; border-left: 3px solid var(--accent, #2563eb); background: var(--surface, #fafafa); border-radius: 0 8px 8px 0; }
       .om-how-item .n { font-family: 'DM Mono', monospace; font-size: .8rem; color: var(--accent, #2563eb); letter-spacing: .1em; }
       .om-how-item h4 { margin: .35rem 0 .5rem; font-size: 1.05rem; }
@@ -157,7 +157,7 @@
             <div class="container">
                 <p class="eyebrow" data-i18n="desktop_eyebrow">Para computador</p>
                 <h1 class="hero-title" data-i18n="hero_title">A conversa continua <em>quando a Internet cai</em>.</h1>
-                <p class="hero-subtitle" style="max-width: 720px;" data-i18n="hero_sub_desktop">O OriMessenger envia suas mensagens por Bluetooth ou pela mesma rede local quando a outra pessoa está por perto, e só recorre à Internet quando ela não está. Todas as mensagens têm criptografia de ponta a ponta &mdash; sem conta e sem número de telefone.</p>
+                <p class="hero-subtitle" style="max-width: 720px;" data-i18n="hero_sub_desktop">O OriMessenger envia suas mensagens por Bluetooth ou pela mesma rede local quando a outra pessoa está por perto, e só recorre à Internet quando ela não está. Todas as mensagens têm criptografia de ponta a ponta - sem conta e sem número de telefone.</p>
                 <div class="om-badges">
                     <span class="om-badge" data-i18n="badge_e2e">Criptografia de ponta a ponta</span>
                     <span class="om-badge" data-i18n="badge_noacct">Sem conta, sem número de telefone</span>
@@ -178,16 +178,16 @@
 
                 <div class="om-features">
                     <div class="om-feat">
-                        <h3 data-i18n="feat1_h">1. Bluetooth &mdash; quando vocês estão a poucos metros</h3>
+                        <h3 data-i18n="feat1_h">1. Bluetooth - quando vocês estão a poucos metros</h3>
                         <p data-i18n="feat1_p">O app encontra outros usuários do Ori por perto via Bluetooth. Quando vocês estão a cerca de 10 a 30 metros de distância, as mensagens vão direto de um aparelho para o outro, sem passar por roteador nem torre de celular. Não é preciso Internet nenhuma.</p>
                     </div>
                     <div class="om-feat">
-                        <h3 data-i18n="feat2_h">2. Wi-Fi / LAN &mdash; mesma rede</h3>
+                        <h3 data-i18n="feat2_h">2. Wi-Fi / LAN - mesma rede</h3>
                         <p data-i18n="feat2_p">No mesmo Wi-Fi ou rede cabeada, os dispositivos se encontram automaticamente e as mensagens ficam dentro da rede local. Isso funciona até em Wi-Fi de hotel ou de visitantes onde a Internet está bloqueada, e é rápido o bastante para fotos.</p>
                     </div>
                     <div class="om-feat">
-                        <h3 data-i18n="feat3_h">3. Internet &mdash; quando nenhuma das opções acima funciona</h3>
-                        <p data-i18n="feat3_p">Só quando o Bluetooth e a rede local falham é que a mensagem passa pelo nosso servidor. Nomes, perfis, mensagens e anexos têm criptografia de ponta a ponta, então o servidor não consegue ler nada disso. Ele vê, sim, quem enviou para quem e quando &mdash; precisa disso para entregar a mensagem &mdash; e guarda essa informação por no máximo 30 dias.</p>
+                        <h3 data-i18n="feat3_h">3. Internet - quando nenhuma das opções acima funciona</h3>
+                        <p data-i18n="feat3_p">Só quando o Bluetooth e a rede local falham é que a mensagem passa pelo nosso servidor. Nomes, perfis, mensagens e anexos têm criptografia de ponta a ponta, então o servidor não consegue ler nada disso. Ele vê, sim, quem enviou para quem e quando - precisa disso para entregar a mensagem - e guarda essa informação por no máximo 30 dias.</p>
                     </div>
                 </div>
             </div>
@@ -221,7 +221,7 @@
 
                 <div class="om-note">
                     <p data-i18n="desk_note_win"><strong>Aviso do Windows SmartScreen?</strong> O instalador para Windows ainda não é assinado com um certificado de assinatura de código emitido pela Microsoft, então o SmartScreen pode mostrar &ldquo;O Windows protegeu o computador&rdquo; na primeira vez. Clique em <em>Mais informações &rarr; Executar assim mesmo</em> para continuar.</p>
-                    <p style="margin-top: .75rem;" data-i18n="desk_note_mac"><strong>Instalação no macOS:</strong> o app e a imagem de disco são assinados com nosso Developer ID e notarizados pela Apple, então ele abre sem nenhum aviso do Gatekeeper &mdash; abra o .dmg e arraste o OriMessenger para Aplicativos. Somente Apple silicon.</p>
+                    <p style="margin-top: .75rem;" data-i18n="desk_note_mac"><strong>Instalação no macOS:</strong> o app e a imagem de disco são assinados com nosso Developer ID e notarizados pela Apple, então ele abre sem nenhum aviso do Gatekeeper - abra o .dmg e arraste o OriMessenger para Aplicativos. Somente Apple silicon.</p>
                     <p style="margin-top: .75rem;" data-i18n="desk_note_linux"><strong>Instalação no Linux:</strong> execute <code>sudo apt install ./OriMessenger-0.3.0-amd64.deb</code> na pasta onde você baixou o arquivo; o apt instala as bibliotecas de sistema necessárias. Requer Ubuntu 24.04 / Debian 13 ou mais recente (64 bits).</p>
                 </div>
             </div>
@@ -281,7 +281,7 @@
         </section>        <section class="panel panel--ink closing" id="contact">
             <div class="container">
                 <h2 class="cta-title" data-i18n="cta_title">Dúvidas ou encontrou um bug?</h2>
-                <p class="section-sub" style="margin-inline:auto;text-align:center;" data-i18n="cta_sub">E-mail é o melhor canal &mdash; normalmente respondemos no mesmo dia.</p>
+                <p class="section-sub" style="margin-inline:auto;text-align:center;" data-i18n="cta_sub">E-mail é o melhor canal - normalmente respondemos no mesmo dia.</p>
                 <div class="closing-actions">
                     <a href="mailto:contact@aibachkhoa.com" class="btn btn-primary" data-i18n="cta_btn">Fale conosco</a>
                     <a href="/pt/orimessenger/policy" class="btn btn-ghost" data-i18n="footer_policy">Política de privacidade</a>

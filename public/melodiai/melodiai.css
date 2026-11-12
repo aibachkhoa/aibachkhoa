@@ -1,5 +1,5 @@
 /* =========================================================
-   MelodiAI — product page. Only what is special to this
+   MelodiAI - product page. Only what is special to this
    product: the app's teal/violet as accents, browser-framed
    screenshots, and the sample players on the dark panel.
    ========================================================= */
@@ -71,7 +71,7 @@
 .mx-samples .display em { color: var(--mx-glow); }
 .mx-tracks {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr));
     gap: 1rem;
     margin-top: 2.5rem;
 }
@@ -142,11 +142,11 @@
 }
 .mx-tag--after { background: var(--mx-glow); color: #00382f; }
 @media (max-width: 960px) {
-    .mx-remix { grid-template-columns: 1fr; }
+    .mx-remix { grid-template-columns: minmax(0, 1fr); }
 }
 @media (max-width: 640px) {
-    .mx-tracks { grid-template-columns: 1fr; }
-    .mx-remix-pair { grid-template-columns: 1fr; }
+    .mx-tracks { grid-template-columns: minmax(0, 1fr); }
+    .mx-remix-pair { grid-template-columns: minmax(0, 1fr); }
     .mx-arrow { transform: rotate(90deg); justify-self: center; }
 }
 

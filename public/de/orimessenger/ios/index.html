@@ -97,18 +97,18 @@
       .om-hero { padding: 6rem 0 4rem; }
       .om-badges { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.5rem 0; }
       .om-badge { display: inline-flex; align-items: center; gap: .35rem; padding: .35rem .7rem; border: 1px solid var(--border, #d9d9d9); border-radius: 999px; font-size: .85rem; font-family: 'DM Mono', monospace; color: var(--text-2, #555); }
-      .om-downloads { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin-top: 2rem; }
+      .om-downloads { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 1rem; margin-top: 2rem; }
       .om-dl { display: block; padding: 1.25rem 1.5rem; border: 1px solid var(--border, #d9d9d9); border-radius: 12px; background: var(--surface, #fff); text-decoration: none; color: inherit; transition: transform .15s ease, border-color .15s ease; }
       .om-dl:hover { transform: translateY(-2px); border-color: var(--accent, #2563eb); }
       .om-dl-os { display: flex; align-items: center; gap: .5rem; font-family: 'DM Mono', monospace; font-size: .8rem; letter-spacing: .04em; text-transform: uppercase; color: var(--text-2, #666); margin-bottom: .35rem; }
       .om-dl-name { font-weight: 700; font-size: 1.05rem; margin-bottom: .25rem; }
       .om-dl-meta { font-size: .85rem; color: var(--text-2, #666); }
       .om-dl.soon { opacity: .6; pointer-events: none; }
-      .om-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 3rem; }
+      .om-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 2rem; margin-top: 3rem; }
       .om-feat h3 { font-size: 1.2rem; margin-bottom: .5rem; }
       .om-feat p { color: var(--text-2, #555); line-height: 1.65; }
       .om-how { margin-top: 4rem; }
-      .om-how-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+      .om-how-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 1.5rem; margin-top: 2rem; }
       .om-how-item { padding: 1.5rem; border-left: 3px solid var(--accent, #2563eb); background: var(--surface, #fafafa); border-radius: 0 8px 8px 0; }
       .om-how-item .n { font-family: 'DM Mono', monospace; font-size: .8rem; color: var(--accent, #2563eb); letter-spacing: .1em; }
       .om-how-item h4 { margin: .35rem 0 .5rem; font-size: 1.05rem; }
@@ -158,7 +158,7 @@
             <div class="container">
                 <p class="eyebrow" data-i18n="ios_eyebrow">Für iPhone und iPad &middot; v0.2.1</p>
                 <h1 class="hero-title" data-i18n="hero_title">Chatten, das weitergeht, <em>wenn das Internet ausfällt</em>.</h1>
-                <p class="hero-subtitle" style="max-width: 720px;" data-i18n="hero_sub_mobile">OriMessenger sendet Ihre Nachrichten über Bluetooth oder dasselbe Wi-Fi, wenn Ihr Gegenüber in der Nähe ist, und weicht nur dann auf das Internet aus, wenn nicht. Jede Nachricht ist Ende-zu-Ende-verschlüsselt &mdash; ganz ohne Konto und ohne Telefonnummer.</p>
+                <p class="hero-subtitle" style="max-width: 720px;" data-i18n="hero_sub_mobile">OriMessenger sendet Ihre Nachrichten über Bluetooth oder dasselbe Wi-Fi, wenn Ihr Gegenüber in der Nähe ist, und weicht nur dann auf das Internet aus, wenn nicht. Jede Nachricht ist Ende-zu-Ende-verschlüsselt - ganz ohne Konto und ohne Telefonnummer.</p>
                 <div class="om-badges">
                     <span class="om-badge" data-i18n="badge_e2e">Ende-zu-Ende-verschlüsselt</span>
                     <span class="om-badge" data-i18n="badge_noacct">Kein Konto, keine Telefonnummer</span>
@@ -179,16 +179,16 @@
 
                 <div class="om-features">
                     <div class="om-feat">
-                        <h3 data-i18n="feat1_h">1. Bluetooth &mdash; wenn Sie nur wenige Meter entfernt sind</h3>
+                        <h3 data-i18n="feat1_h">1. Bluetooth - wenn Sie nur wenige Meter entfernt sind</h3>
                         <p data-i18n="feat1_p">Die App findet andere Ori-Nutzer in der Nähe über Bluetooth. Innerhalb von etwa 10 bis 30 Metern gehen Nachrichten direkt von Gerät zu Gerät, ohne Router oder Mobilfunkmast. Internet wird überhaupt nicht benötigt.</p>
                     </div>
                     <div class="om-feat">
-                        <h3 data-i18n="feat2_h">2. Wi-Fi / LAN &mdash; im selben Netzwerk</h3>
+                        <h3 data-i18n="feat2_h">2. Wi-Fi / LAN - im selben Netzwerk</h3>
                         <p data-i18n="feat2_p">Im selben Wi-Fi oder kabelgebundenen Netzwerk finden sich die Geräte automatisch, und Nachrichten verlassen das lokale Netzwerk nicht. Das funktioniert sogar im Hotel- oder Gäste-Wi-Fi, in dem das Internet gesperrt ist, und ist schnell genug für Fotos.</p>
                     </div>
                     <div class="om-feat">
-                        <h3 data-i18n="feat3_h">3. Internet &mdash; wenn beides nicht klappt</h3>
-                        <p data-i18n="feat3_p">Nur wenn Bluetooth und das lokale Netzwerk beide scheitern, läuft die Nachricht über unseren Server. Namen, Profile, Nachrichten und Anhänge sind durchgehend Ende-zu-Ende-verschlüsselt, der Server kann also nichts davon lesen. Er sieht allerdings, wer wem wann geschrieben hat &mdash; das braucht er, um die Nachricht zuzustellen &mdash; und bewahrt diese Angaben höchstens 30 Tage auf.</p>
+                        <h3 data-i18n="feat3_h">3. Internet - wenn beides nicht klappt</h3>
+                        <p data-i18n="feat3_p">Nur wenn Bluetooth und das lokale Netzwerk beide scheitern, läuft die Nachricht über unseren Server. Namen, Profile, Nachrichten und Anhänge sind durchgehend Ende-zu-Ende-verschlüsselt, der Server kann also nichts davon lesen. Er sieht allerdings, wer wem wann geschrieben hat - das braucht er, um die Nachricht zuzustellen - und bewahrt diese Angaben höchstens 30 Tage auf.</p>
                     </div>
                 </div>
             </div>
@@ -264,7 +264,7 @@
         </section>        <section class="panel panel--ink closing" id="contact">
             <div class="container">
                 <h2 class="cta-title" data-i18n="cta_title">Fragen oder einen Fehler gefunden?</h2>
-                <p class="section-sub" style="margin-inline:auto;text-align:center;" data-i18n="cta_sub">Am besten per E-Mail &mdash; meist antworten wir noch am selben Tag.</p>
+                <p class="section-sub" style="margin-inline:auto;text-align:center;" data-i18n="cta_sub">Am besten per E-Mail - meist antworten wir noch am selben Tag.</p>
                 <div class="closing-actions">
                     <a href="mailto:contact@aibachkhoa.com" class="btn btn-primary" data-i18n="cta_btn">Kontakt aufnehmen</a>
                     <a href="/de/orimessenger/policy" class="btn btn-ghost" data-i18n="footer_policy">Datenschutzerklärung</a>

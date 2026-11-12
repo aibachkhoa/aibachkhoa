@@ -1,8 +1,8 @@
-/* Chilly Novels — Spanish translation. Loaded only by the /es/ copies of these pages; see tools/build-i18n-pages.js. */
+/* Chilly Novels - Spanish translation. Loaded only by the /es/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.es = {
-    page_title: "Chilly Novels — descarga una vez, lee sin conexión | AIBachKhoa",
-    meta_desc: "Una pequeña app vietnamita de lectura de relatos cortos y cómics. Descarga una vez —unos 15 KB por historia— y lee sin conexión para siempre. Sin necesidad de cuenta.",
-    pol_page_title: "Chilly Novels — política de privacidad | AIBachKhoa",
+    page_title: "Chilly Novels - descarga una vez, lee sin conexión | AIBachKhoa",
+    meta_desc: "Una pequeña app vietnamita de lectura de relatos cortos y cómics. Descarga una vez -unos 15 KB por historia- y lee sin conexión para siempre. Sin necesidad de cuenta.",
+    pol_page_title: "Chilly Novels - política de privacidad | AIBachKhoa",
     pol_meta_desc: "Chilly Novels no tiene cuentas y no recopila información personal. Favoritos, historial y progreso de lectura se quedan en tu propio dispositivo.",
     aria_lang: "Cambiar idioma",
     aria_theme: "Cambiar tema",
@@ -90,7 +90,7 @@ i18n.es = {
     f5: "cuentas o datos personales recopilados",
     pol_h1: "Política de privacidad",
     pol_date: "Chilly Novels · última actualización: 3 de septiembre de 2026",
-    pol_tldr: "En resumen: no hay cuenta, la app no recopila información personal y todo lo que haces en ella —favoritos, historial de lectura, progreso— se guarda en tu teléfono y se queda ahí. Si desinstalas la app, todo desaparece.",
+    pol_tldr: "En resumen: no hay cuenta, la app no recopila información personal y todo lo que haces en ella -favoritos, historial de lectura, progreso- se guarda en tu teléfono y se queda ahí. Si desinstalas la app, todo desaparece.",
     pol_sources_h: "De dónde salen las historias",
     pol_sources_p: "Todas las historias de la app se recopilan de fuentes publicadas abiertamente en internet y luego se compilan y editan para su lectura. No somos los titulares de los derechos de autor y no garantizamos la situación legal de ninguna fuente concreta. Los derechos de autor siguen perteneciendo a los autores y a sus editores originales.",
     pol_takedown_h: "Solicitar la retirada de contenido",

@@ -1,8 +1,8 @@
 /* =========================================================
    Castle of Ancients product page.
    Rides on ../style.css for chrome (nav, footer, buttons, container).
-   Adds the game's own palette — weathered keep-stone teal over meadow
-   green, with a banner gold — the same way novaryn.css adds its ion
+   Adds the game's own palette - weathered keep-stone teal over meadow
+   green, with a banner gold - the same way novaryn.css adds its ion
    cyan and dungeon-blade.css its gold.
    ========================================================= */
 
@@ -153,7 +153,7 @@
 
 .ca-stats {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(150px, 100%), 1fr));
     gap: 1rem;
     margin-top: clamp(2.5rem, 5vw, 3.8rem);
 }
@@ -221,7 +221,7 @@
 /* ---------- Card grid ---------- */
 .ca-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
     gap: 1.1rem;
 }
 
@@ -262,7 +262,7 @@
 /* ---------- The four posts ---------- */
 .ca-posts {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
     gap: 1.1rem;
 }
 
@@ -322,7 +322,7 @@
 /* ---------- Enemy ladder ---------- */
 .ca-foes {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(160px, 100%), 1fr));
     gap: 0.7rem;
 }
 
@@ -356,7 +356,7 @@
 /* ---------- Split ---------- */
 .ca-split {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
     gap: clamp(2rem, 4vw, 3.4rem);
     align-items: center;
 }
@@ -390,7 +390,7 @@
 /* ---------- Campaign dials ---------- */
 .ca-dials {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(230px, 100%), 1fr));
     gap: 1rem;
 }
 
@@ -422,7 +422,7 @@
     color: var(--text-muted, #6b7280);
 }
 
-/* The nag-free setting on each dial — the one that takes the ceiling off. */
+/* The nag-free setting on each dial - the one that takes the ceiling off. */
 .ca-notch--off {
     border-color: var(--ca-gold);
     color: var(--ca-gold);

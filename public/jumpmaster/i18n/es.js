@@ -1,4 +1,4 @@
-/* Jump Master — Spanish translation. Loaded only by the /es/ copies of these pages; see tools/build-i18n-pages.js. */
+/* Jump Master - Spanish translation. Loaded only by the /es/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.es = {
     footer_desc: "Creamos herramientas de IA prácticas para desarrolladores y empresas.",
     footer_game: "El juego",
@@ -10,7 +10,7 @@ i18n.es = {
     footer_rights: "Todos los derechos reservados.",
     page_title: "Jump Master: un juego de escalada en pixel art con saltos cargados | AIBachKhoa",
     meta_desc: "Un juego de escalada en pixel art para Android: mantén pulsado para cargar, desliza para apuntar y suelta para saltar. Diez escaladas, banderas de control y tres coronas por escalada. Sin anuncios, sin compras, sin conexión.",
-    pol_page_title: "Política de privacidad — Jump Master | AIBachKhoa",
+    pol_page_title: "Política de privacidad - Jump Master | AIBachKhoa",
     pol_meta_desc: "Jump Master no recopila nada. Sin cuenta, sin acceso a internet, sin analíticas, sin anuncios: tu progreso, tus tiempos y tu clasificación se quedan en tu dispositivo.",
     aria_lang: "Cambiar idioma",
     aria_theme: "Cambiar tema",

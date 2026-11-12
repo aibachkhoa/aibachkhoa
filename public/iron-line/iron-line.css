@@ -1,7 +1,7 @@
 /* =========================================================
    Iron Line product + policy pages.
-   Prefix: .il-  (the site's shared shell — navbar, footer,
-   .btn, .container — comes from /style.css).
+   Prefix: .il-  (the site's shared shell - navbar, footer,
+   .btn, .container - comes from /style.css).
    The game's own navy/gold reads as a second accent inside
    art surfaces only; buttons and links stay on the site accent.
    ========================================================= */
@@ -140,7 +140,7 @@
 /* ------------------------------------------------------------- stats ---- */
 .il-stats {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(9rem, 100%), 1fr));
     gap: 1px;
     background: var(--border);
     border: 2px solid var(--ink);
@@ -166,7 +166,7 @@
 /* ------------------------------------------------------------- cards ---- */
 .il-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15.5rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(15.5rem, 100%), 1fr));
     gap: 1.1rem;
 }
 .il-card {

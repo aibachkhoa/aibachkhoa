@@ -1,5 +1,5 @@
 /* =========================================================
-   Flow — product page and privacy policy.
+   Flow - product page and privacy policy.
    One dictionary serves both pages: `pol_` keys belong to the policy.
    Each page names its title/description pair with data-title-key /
    data-desc-key on <body> and its screenshot folder with data-shot-dir.
@@ -10,7 +10,7 @@ const i18n = {
 };
 
 i18n.en = {
-    page_title: "Flow — Pomodoro focus timer for Android and Windows | AIBachKhoa",
+    page_title: "Flow - Pomodoro focus timer for Android and Windows | AIBachKhoa",
     meta_desc: "Flow is a calm Pomodoro timer: focus sessions with a glowing progress ring, built-in focus music, backgrounds that follow the time of day and a year-long focus heatmap. On Android and as a small glass widget on Windows. No account, no ads.",
     aria_lang: "Change language",
     aria_theme: "Toggle theme",
@@ -27,7 +27,7 @@ i18n.en = {
     nav_policy: "Privacy",
     hero_kicker: "Android · Windows · Pomodoro timer",
     hero_title: "Focus deeply. <em>Rest on time.</em>",
-    hero_sub: "Flow runs your work in focused blocks and reminds you to take real breaks. Tap to start, swipe to skip, and watch a glowing ring fill while you work — with calm music if you want it and a background that follows your day.",
+    hero_sub: "Flow runs your work in focused blocks and reminds you to take real breaks. Tap to start, swipe to skip, and watch a glowing ring fill while you work - with calm music if you want it and a background that follows your day.",
     btn_play: "Get it on Google Play",
     btn_windows: "Download for Windows",
     btn_shots: "See the app",
@@ -49,12 +49,12 @@ i18n.en = {
     f_long_t: "Long breaks on schedule",
     f_long_d: "Choose how many focus sessions come before a long break. Dots under the clock show how close you are.",
     f_auto_t: "Stay in the flow",
-    f_auto_d: "Start breaks and work sessions automatically, and get a notification when a session ends — even with the app in the background.",
+    f_auto_d: "Start breaks and work sessions automatically, and get a notification when a session ends - even with the app in the background.",
     mood_eyebrow: "Atmosphere",
     mood_title: "Music and scenes <em>that keep you there</em>.",
     mood_sub: "Twenty focus tracks play while you work, shuffled without repeats. Mark your favourites and they play first.",
     mood_1: "Auto background changes with the time of day: sunrise, day, sunset and a starry night.",
-    mood_2: "Or pick Tomato, Forest, Night, Sunrise, Day, Sunset — or your own photo, with adjustable dimming.",
+    mood_2: "Or pick Tomato, Forest, Night, Sunrise, Day, Sunset - or your own photo, with adjustable dimming.",
     mood_3: "Mute or skip a track with one tap, without leaving the timer.",
     stats_eyebrow: "Statistics",
     stats_title: "See a whole year <em>of focus</em>.",
@@ -74,7 +74,7 @@ i18n.en = {
     pc_2: "Light on your PC: about 0.1% CPU while idle and around 1% with a session running.",
     pc_3: "Keyboard shortcuts: Space to start or pause, → to skip, ↑ for one more minute, ↓ to stop.",
     pc_btn: "Download for Windows (18 MB)",
-    pc_meta: "Windows 10 and 11, 64-bit. Installs for your user only — no administrator rights needed.",
+    pc_meta: "Windows 10 and 11, 64-bit. Installs for your user only - no administrator rights needed.",
     gal_eyebrow: "Screenshots",
     gal_title: "Inside <em>Flow</em>.",
     s1_title: "Focus",
@@ -95,7 +95,7 @@ i18n.en = {
     s8_cap: "Durations, language, reminders, notifications and more.",
     pro_eyebrow: "Flow Pro",
     pro_title: "Free to use. <em>Pro, once.</em>",
-    pro_sub: "The timer, music, backgrounds and statistics are free. Flow Pro is a single purchase — no subscription — that unlocks:",
+    pro_sub: "The timer, music, backgrounds and statistics are free. Flow Pro is a single purchase - no subscription - that unlocks:",
     pro_list: "Colour labels · adding and editing sessions · custom time profiles · screensaver mode · backups and CSV export · insistent alerts and the one-minute warning · screen flash · AMOLED pure-black theme · every future feature.",
     pro_note: "On Android Pro is bought through Google Play. On Windows it is unlocked with a licence key.",
     dl_eyebrow: "Download",
@@ -116,7 +116,7 @@ i18n.en = {
     footer_contact: "Contact",
     footer_rights: "All rights reserved.",
 
-    pol_page_title: "Flow — Privacy Policy | AIBachKhoa",
+    pol_page_title: "Flow - Privacy Policy | AIBachKhoa",
     pol_meta_desc: "Flow keeps everything on your device: no account, no analytics, no ads and no data sent by the app. What it stores, the permissions it uses, and how purchases work.",
     pol_eyebrow: "Legal",
     pol_title: "Privacy Policy",
@@ -276,7 +276,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const fallback = i18n[DEFAULT_LANG];
         const key = active.dataset.key;
         galImg.src = SHOT_DIR + active.dataset.shot + '.webp';
-        galImg.alt = 'Flow — ' + (dict[key + '_title'] || fallback[key + '_title'] || '');
+        galImg.alt = 'Flow - ' + (dict[key + '_title'] || fallback[key + '_title'] || '');
         if (galTitle) galTitle.textContent = dict[key + '_title'] || fallback[key + '_title'] || '';
         if (galCap) galCap.textContent = dict[key + '_cap'] || fallback[key + '_cap'] || '';
     }

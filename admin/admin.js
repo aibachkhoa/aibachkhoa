@@ -45,7 +45,7 @@
     }
 
     function ago(ts) {
-        if (!ts) return '—';
+        if (!ts) return '-';
         var seconds = Math.round((Date.now() - ts) / 1000);
         if (seconds < 90) return 'just now';
         if (seconds < 3600) return Math.round(seconds / 60) + ' min ago';
@@ -112,7 +112,7 @@
     }
 
     /* One tooltip per chart, positioned against the chart box. The hit
-     * target is always bigger than the mark it belongs to — an 8px dot is
+     * target is always bigger than the mark it belongs to - an 8px dot is
      * not something anyone can reliably point at. */
     function tooltipFor(container) {
         var tip = container.querySelector('.tip');
@@ -140,7 +140,7 @@
     }
 
     // ---------------------------------------------------------------
-    // Line chart — trend over time, one shared axis
+    // Line chart - trend over time, one shared axis
     // ---------------------------------------------------------------
     function lineChart(container, labels, series) {
         clear(container);
@@ -260,7 +260,7 @@
     }
 
     // ---------------------------------------------------------------
-    // Horizontal bars — comparing magnitude, one hue
+    // Horizontal bars - comparing magnitude, one hue
     // ---------------------------------------------------------------
     function barList(container, rows, options) {
         options = options || {};
@@ -323,7 +323,7 @@
     }
 
     // ---------------------------------------------------------------
-    // Stacked bar — part to whole, categorical, 2px surface gaps
+    // Stacked bar - part to whole, categorical, 2px surface gaps
     // ---------------------------------------------------------------
     function stackedBar(container, parts) {
         clear(container);
@@ -391,7 +391,7 @@
     }
 
     // ---------------------------------------------------------------
-    // Columns — the shape of a day
+    // Columns - the shape of a day
     // ---------------------------------------------------------------
     function columnChart(container, values, labelFor) {
         clear(container);
@@ -652,7 +652,7 @@
             messages.push('<b>Nothing is being recorded.</b> The analytics directory <code>'
                 + escapeHtml(data.storage.dir) + '</code> cannot be written to'
                 + (data.storage.lastError ? ' (' + escapeHtml(data.storage.lastError) + ')' : '')
-                + '. The container filesystem is read-only, so this has to be the mounted volume — check that <code>analytics-data</code> is still attached at <code>/app/data</code>.');
+                + '. The container filesystem is read-only, so this has to be the mounted volume - check that <code>analytics-data</code> is still attached at <code>/app/data</code>.');
         }
         if (data.storage.writable && data.storage.days === 0) {
             messages.push('<b>No traffic recorded yet.</b> Every page needs <code>&lt;script defer src="/analytics.js"&gt;&lt;/script&gt;</code> before <code>&lt;/body&gt;</code>. Run <code>npm run track</code> to add it everywhere.');
@@ -730,7 +730,7 @@
 
             var value = make('div', 'funnel-value');
             value.appendChild(document.createTextNode(full(row.value)));
-            value.appendChild(make('small', null, total ? percent(row.value / total, 1) + ' of visitors' : '—'));
+            value.appendChild(make('small', null, total ? percent(row.value / total, 1) + ' of visitors' : '-'));
 
             line.appendChild(name);
             line.appendChild(track);
@@ -775,13 +775,13 @@
                 head: 'What they did', render: function (row) {
                     var wrap = make('div', 'chips');
                     row.signals.forEach(function (signal) { wrap.appendChild(chip(signal)); });
-                    if (!row.signals.length) wrap.appendChild(make('span', 'muted', '—'));
+                    if (!row.signals.length) wrap.appendChild(make('span', 'muted', '-'));
                     return wrap;
                 }
             },
             {
                 head: 'Products', className: 'muted', render: function (row) {
-                    return row.products.length ? row.products.join(', ') : '—';
+                    return row.products.length ? row.products.join(', ') : '-';
                 }
             },
             {
@@ -867,7 +867,7 @@
         var known = data.geo.filter(function (row) { return row.country !== 'ZZ'; });
         el('geo-hint').textContent = known.length
             ? 'Read from the edge, never from a stored address.'
-            : 'Unknown for every visit — the country header only exists behind Cloudflare.';
+            : 'Unknown for every visit - the country header only exists behind Cloudflare.';
 
         barList(el('geo'), data.geo.map(function (row) {
             return {

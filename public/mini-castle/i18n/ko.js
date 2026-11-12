@@ -1,4 +1,4 @@
-/* Mini Castle — Korean translation. Loaded only by the /ko/ copies of these pages; see tools/build-i18n-pages.js. */
+/* Mini Castle - Korean translation. Loaded only by the /ko/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.ko = {
     footer_desc: "개발자와 기업을 위한 실용적인 AI 도구를 만듭니다.",
     footer_game: "게임",
@@ -8,9 +8,9 @@ i18n.ko = {
     footer_services: "서비스",
     footer_contact: "문의",
     footer_rights: "모든 권리 보유.",
-    page_title: "Mini Castle — 일꾼 하나가 곧 창 하나의 빈자리 | AIBachKhoa",
+    page_title: "Mini Castle - 일꾼 하나가 곧 창 하나의 빈자리 | AIBachKhoa",
     meta_desc: "간결한 RTS 경제 시스템을 갖춘 iPhone, iPad, Android용 성 방어 게임. 스무 번의 밤, 스물한 개의 맵. 광고 없음, 결제 없음, 오프라인 플레이.",
-    pol_page_title: "개인정보 처리방침 — Mini Castle | AIBachKhoa",
+    pol_page_title: "개인정보 처리방침 - Mini Castle | AIBachKhoa",
     pol_meta_desc: "Mini Castle은 아무것도 수집하지 않습니다. 계정도, 네트워크 접근도, 분석 도구도, 광고도 없으며 모든 저장 파일은 기기에만 남습니다.",
 
     aria_lang: "언어 변경",
@@ -32,7 +32,7 @@ i18n.ko = {
     hero_sub: "Mini Castle은 간결한 RTS 경제 시스템을 갖춘 성 방어 게임입니다. 백성은 일꾼이자 병사이지만, 두 가지 일을 모두 해낼 만큼 넉넉한 적은 결코 없습니다.",
     btn_shots: "플레이 화면 보기",
     btn_policy: "개인정보 처리방침",
-    hero_img_alt: "Mini Castle — 19번째 웨이브, 전장에 선 족장 셋",
+    hero_img_alt: "Mini Castle - 19번째 웨이브, 전장에 선 족장 셋",
 
     quote: "나무를 베러 보내면 창고는 차오르지만 성벽은 텅 빕니다. 창을 들고 지키게 하면 성벽은 버티지만, 다음 웨이브에는 신병 하나 뽑을 여유도 없습니다.",
 
@@ -60,7 +60,7 @@ i18n.ko = {
     eco_camps_h: "고블린 야영지",
     eco_camps_p: "하나를 불태울 때마다 이후 모든 웨이브가 12%씩 약해지며, 효과는 중첩됩니다. 다만 원정을 떠나면 본진은 무방비 상태가 됩니다.",
     eco_maps_h: "맵 21개",
-    eco_maps_p: "평원, 고원, 사막, 군도, 습지, 해안 — 89×58부터 139×94 타일까지. 한 맵을 클리어하면 다음 맵이 열립니다.",
+    eco_maps_p: "평원, 고원, 사막, 군도, 습지, 해안 - 89×58부터 139×94 타일까지. 한 맵을 클리어하면 다음 맵이 열립니다.",
 
     gal_eyebrow: "스크린샷",
     gal_title: "실제 빌드에서 캡처했습니다.",
@@ -98,8 +98,8 @@ i18n.ko = {
     pol_collect_p: "없습니다. 계정, 로그인, 분석 도구, 광고, 충돌 보고 도구는 물론 어떤 종류의 원격 측정도 없습니다. 저희는 사용자가 게임을 설치했는지도, 어떻게 플레이하는지도 절대 알 수 없으며, 사용자를 식별할 방법도 없습니다.",
     pol_device_h: "기기에 저장되는 정보",
     pol_device_p: "게임이 작성하고 게임만 읽을 수 있는 작은 파일 두 개:",
-    pol_device_li1: "<strong>설정</strong> — 음량, 언어, 팀 색상, 조작 방식, 화면 옵션.",
-    pol_device_li2: "<strong>진행 상황</strong> — 21개 레벨 중 잠금 해제한 레벨.",
+    pol_device_li1: "<strong>설정</strong> - 음량, 언어, 팀 색상, 조작 방식, 화면 옵션.",
+    pol_device_li2: "<strong>진행 상황</strong> - 21개 레벨 중 잠금 해제한 레벨.",
     pol_device_p2: "두 파일 모두 기기 밖으로 나가지 않습니다. 앱을 삭제하면 두 파일도 함께 삭제됩니다. 두 파일을 일부러 분리해 둔 이유는, 잘못된 설정을 초기화하느라 캠페인 진행 상황까지 잃는 일이 없어야 하기 때문입니다.",
     pol_perm_h: "권한",
     pol_perm_p: "이 게임은 어떤 권한도 요청하지 않습니다. 카메라, 마이크, 사진, 위치, 연락처, 알림, 네트워크 모두 해당하지 않습니다. 앱 스토어에 Mini Castle의 권한 목록이 표시된다면 그 목록은 비어 있을 것입니다.",

@@ -1,6 +1,6 @@
-/* BVoice — Japanese translation. Loaded only by the /ja/ copies of these pages; see tools/build-i18n-pages.js. */
+/* BVoice - Japanese translation. Loaded only by the /ja/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.ja = {
-    page_title: "BVoice — ベトナム語の会議を、スマートフォンで文字起こし | AIBachKhoa",
+    page_title: "BVoice - ベトナム語の会議を、スマートフォンで文字起こし | AIBachKhoa",
     meta_desc: "Android 向け BVoice は、会議の進行に合わせてベトナム語の音声をテキスト化し、誰の発言かを区別し、100 言語に翻訳して、翻訳を音声で読み上げます。すべてスマートフォン上で完結し、アカウントも不要です。",
     aria_lang: "言語を変更",
     aria_theme: "テーマを切り替え",
@@ -136,7 +136,7 @@ i18n.ja = {
     footer_services: "サービス",
     footer_contact: "お問い合わせ",
     footer_rights: "無断転載を禁じます。",
-    ios_page_title: "iPhone 向け BVoice — ベトナム語の会議を文字起こし | AIBachKhoa",
+    ios_page_title: "iPhone 向け BVoice - ベトナム語の会議を文字起こし | AIBachKhoa",
     ios_meta_desc: "iPhone 向け BVoice は、会議の進行に合わせてベトナム語の音声をテキスト化し、誰の発言かを区別し、100 言語に翻訳して、翻訳を音声で読み上げます。すべて iPhone 上で完結します。iOS 15.1 以降。",
     ios_kicker: "iPhone · 会議と文字起こし",
     ios_meta: "iPhone、iOS 15.1 以降 · 縦向き · 全機能を 7 日間無料、その後はサブスクリプションまたは分数パック。",
@@ -153,7 +153,7 @@ i18n.ja = {
     ios_faq2_a: "いいえ。iPhone では、音声認識、翻訳、音声合成のすべてがデバイス上で実行されます。アプリが行う通信は、各機能に必要なデータを一度だけダウンロードするときと、Apple が処理する購入手続きのみです。",
     ios_pl_a4: "App Store を通じて行います。料金はアプリ内にお使いの通貨で表示されます。解約はいつでも 設定 → ご自身の名前 → サブスクリプション から可能です。カード情報が当社に届くことはありません。",
     ios_gal_sub: "以下のすべての画像は、サンプルの会議データを使った iPhone 上のアプリ自身の画面です。",
-    pol_page_title: "BVoice — プライバシーポリシー | AIBachKhoa",
+    pol_page_title: "BVoice - プライバシーポリシー | AIBachKhoa",
     pol_meta_desc: "Android と iPhone 版 BVoice が、録音、文字起こし、購入情報をどのように扱うか。スマートフォンに残るもの、ダウンロードされるもの、削除の方法をご説明します。",
     pol_eyebrow: "法的事項",
     pol_title: "プライバシーポリシー",

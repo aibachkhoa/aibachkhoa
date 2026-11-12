@@ -1,8 +1,8 @@
-/* JeMul — Portuguese translation. Loaded only by the /pt/ copies of these pages; see tools/build-i18n-pages.js. */
+/* JeMul - Portuguese translation. Loaded only by the /pt/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.pt = {
-    page_title: "JeMul — emulador J2ME para Android e navegador | AIBachKhoa",
+    page_title: "JeMul - emulador J2ME para Android e navegador | AIBachKhoa",
     meta_desc: "O JeMul roda os antigos jogos Java ME dos celulares clássicos. Instale o app para Android e jogue seus próprios arquivos .jar, ou jogue uma biblioteca inteira no navegador.",
-    pol_page_title: "JeMul — política de privacidade | AIBachKhoa",
+    pol_page_title: "JeMul - política de privacidade | AIBachKhoa",
     pol_meta_desc: "O JeMul não tem contas no Android e mantém tudo no aparelho. A edição para navegador faz login com o Google só para controlar quem pode jogar.",
 
     aria_lang: "Mudar idioma",
@@ -30,7 +30,7 @@ i18n.pt = {
 
     ov_eyebrow: "O que é",
     ov_title: "Um emulador, não um site de downloads.",
-    ov_lede: "O JeMul roda aplicativos MIDP — os arquivos .jar que os celulares clássicos rodavam mais ou menos entre 2001 e 2012. Ele não vem com nenhum jogo: no Android você traz seus próprios arquivos, e a edição para navegador vem com uma biblioteca já montada pelo operador.",
+    ov_lede: "O JeMul roda aplicativos MIDP - os arquivos .jar que os celulares clássicos rodavam mais ou menos entre 2001 e 2012. Ele não vem com nenhum jogo: no Android você traz seus próprios arquivos, e a edição para navegador vem com uma biblioteca já montada pelo operador.",
     c1_h: "Controles de verdade",
     c1_p: "Um teclado de celular completo: direcional, as duas teclas de função, 0–9, asterisco, cerquilha e apagar. No computador, cada uma delas é uma tecla que você pode remapear; no celular, são botões sob os seus polegares.",
     c2_h: "Feito para telas antigas",
@@ -68,7 +68,7 @@ i18n.pt = {
     g3_t: "Jogando", g3_h: "Jogando",
     g3_p: "A tela, um teclado e, à direita, todos os controles com a tecla que aciona cada um. Pausar, acelerar, reiniciar e capturar a tela ficam a uma tecla de distância.",
     g4_t: "Configurações", g4_h: "Configurações que fazem diferença",
-    g4_p: "Opacidade do vidro, desfoque, cor de destaque, escala, scanlines — e as opções do próprio emulador: modelo do aparelho, rotação, limite de quadros, som.",
+    g4_p: "Opacidade do vidro, desfoque, cor de destaque, escala, scanlines - e as opções do próprio emulador: modelo do aparelho, rotação, limite de quadros, som.",
     g5_t: "Teclado", g5_h: "O guia do teclado",
     g5_p: "Cada tecla do celular ao lado da tecla do teclado associada a ela. Clique em uma linha e pressione outra tecla para remapear, mesmo com um jogo rodando.",
     g6_t: "No celular", g6_h: "No celular",
@@ -95,7 +95,7 @@ i18n.pt = {
     pol_title: "Política de privacidade",
     pol_updated: "Última atualização: 7 de setembro de 2026",
     pol_s1_h: "Em resumo",
-    pol_s1_p: "O app para Android não tem contas e não envia nada para lugar nenhum: seus jogos, jogos salvos e configurações ficam no aparelho. A edição para navegador pede que você faça login com o Google antes de iniciar um jogo, para que o operador saiba quem está usando o servidor — esses são os únicos dados pessoais envolvidos.",
+    pol_s1_p: "O app para Android não tem contas e não envia nada para lugar nenhum: seus jogos, jogos salvos e configurações ficam no aparelho. A edição para navegador pede que você faça login com o Google antes de iniciar um jogo, para que o operador saiba quem está usando o servidor - esses são os únicos dados pessoais envolvidos.",
     pol_s2_h: "O que o app para Android armazena",
     pol_s2_l1: "Os arquivos .jar e .jad que você importa, no armazenamento próprio do app.",
     pol_s2_l2: "Jogos salvos e recordes gravados pelos próprios jogos.",
@@ -103,7 +103,7 @@ i18n.pt = {
     pol_s2_p: "Tudo isso fica no seu aparelho. Desinstalar o app remove tudo. Nada é enviado, e não há análises nem publicidade no app.",
     pol_s3_h: "O que a edição para navegador armazena",
     pol_s3_l1: "O nome, o endereço de e-mail e a foto de perfil da sua conta Google, obtidos no login e usados para identificar você perante o operador.",
-    pol_s3_l2: "Um registro das visitas e de quais jogos foram iniciados, quando e por quanto tempo — usado para ver como o servidor está sendo utilizado.",
+    pol_s3_l2: "Um registro das visitas e de quais jogos foram iniciados, quando e por quanto tempo - usado para ver como o servidor está sendo utilizado.",
     pol_s3_l3: "Suas configurações de interface e jogos salvos, mantidos no servidor para que estejam lá da próxima vez.",
     pol_s3_p: "O login é feito pelo Google Firebase Authentication; o JeMul nunca vê sua senha. O Firebase Analytics é usado para contagens básicas de páginas e eventos. Você pode interromper tudo isso saindo da conta e deixando de jogar.",
     pol_s4_h: "Conteúdo dos jogos",

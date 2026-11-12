@@ -1,7 +1,7 @@
 /* =========================================================
-   Mini Castle — product page + privacy policy.
+   Mini Castle - product page + privacy policy.
    Sits on top of /style.css: only the pieces this page adds.
-   The palette is pulled straight from the game's own art — the
+   The palette is pulled straight from the game's own art - the
    Tiny Swords sky blue, the grass green and the parchment cream.
    ========================================================= */
 
@@ -151,7 +151,7 @@
 /* ---------- Resource / feature cards ---------- */
 .mc-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(258px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(258px, 100%), 1fr));
     gap: 20px;
 }
 
@@ -229,7 +229,7 @@
 /* ---------- Fact strip ---------- */
 .mc-facts {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(160px, 100%), 1fr));
     gap: 18px;
     border: 1px solid var(--border);
     border-radius: 18px;

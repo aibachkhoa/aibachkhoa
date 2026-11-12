@@ -1,4 +1,4 @@
-/* Treasure Hunters — Korean translation. Loaded only by the /ko/ copies of these pages; see tools/build-i18n-pages.js. */
+/* Treasure Hunters - Korean translation. Loaded only by the /ko/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.ko = {
     footer_desc: "개발자와 기업을 위한 실용적인 AI 도구를 만듭니다.",
     footer_game: "게임",
@@ -8,9 +8,9 @@ i18n.ko = {
     footer_services: "서비스",
     footer_contact: "문의",
     footer_rights: "모든 권리 보유.",
-    page_title: "Treasure Hunters — 픽셀 해적 플랫포머 | AIBachKhoa",
+    page_title: "Treasure Hunters - 픽셀 해적 플랫포머 | AIBachKhoa",
     meta_desc: "Android용 픽셀 아트 해적 플랫포머: 50개 레벨, 미니 보스 5마리, 하늘을 나는 유령선 5척, 그리고 찾아야 할 황금 해골 120개. 광고 없음, 결제 없음, 오프라인 플레이.",
-    pol_page_title: "개인정보 처리방침 — Treasure Hunters | AIBachKhoa",
+    pol_page_title: "개인정보 처리방침 - Treasure Hunters | AIBachKhoa",
     pol_meta_desc: "Treasure Hunters는 아무것도 수집하지 않습니다. 계정도, 인터넷 연결도, 분석 도구도, 광고도 없습니다. 진행 상황은 기기에만 남습니다.",
     aria_lang: "언어 변경",
     aria_theme: "테마 전환",
@@ -29,7 +29,7 @@ i18n.ko = {
     hero_sub: "Treasure Hunters는 터치스크린을 위해 만든 픽셀 아트 해적 플랫포머입니다. 해변과 안개 낀 계곡, 유령이 깃든 난파선을 달리고, 2단 점프하고, 베어 나가세요. 50개 레벨, 10마리의 보스, 그리고 모든 섬의 끝에는 금화가 가득한 보물 상자가 기다립니다.",
     btn_play: "Google Play에서 받기",
     btn_policy: "개인정보 처리방침",
-    hero_img_alt: "Treasure Hunters — 미니 보스 Captain Claw와의 전투",
+    hero_img_alt: "Treasure Hunters - 미니 보스 Captain Claw와의 전투",
     quote: "모든 섬의 끝에는 상자가 있다. 다섯 번째 섬마다 그것을 지키는 무언가가 있고, 열 번째 섬마다 그 무언가는 하늘을 난다.",
     play_eyebrow: "플레이 방식",
     play_title: "짧은 레벨, 양손 엄지 하나씩이면 충분합니다.",
@@ -93,8 +93,8 @@ i18n.ko = {
     pol_collect_p: "없습니다. 로그인, 분석, 광고, 오류 보고, 원격 측정 등 어떤 것도 없습니다. 저희는 귀하가 게임을 설치했는지도, 어떻게 플레이하는지도 알 수 없으며, 귀하를 식별할 방법도 없습니다.",
     pol_device_h: "기기에 저장되는 정보",
     pol_device_p: "게임이 작성하고 게임만 읽을 수 있는 작은 저장 파일 하나:",
-    pol_device_li1: "<strong>진행 상황</strong> — 잠금 해제한 레벨과 각 레벨에서 얻은 황금 해골 및 코인의 최고 기록.",
-    pol_device_li2: "<strong>설정</strong> — 음악과 효과음의 켜짐 여부.",
+    pol_device_li1: "<strong>진행 상황</strong> - 잠금 해제한 레벨과 각 레벨에서 얻은 황금 해골 및 코인의 최고 기록.",
+    pol_device_li2: "<strong>설정</strong> - 음악과 효과음의 켜짐 여부.",
     pol_device_p2: "이 파일은 기기 밖으로 나가지 않으며 클라우드 백업에도 포함되지 않습니다. 게임을 삭제하면 함께 삭제됩니다.",
     pol_perm_h: "권한",
     pol_perm_p: "게임이 요청하는 권한은 <strong>진동</strong> 하나뿐이며, 공격을 받거나 레벨을 클리어할 때 짧은 햅틱 피드백을 주는 데 사용됩니다. 카메라, 마이크, 사진, 위치, 연락처, 알림, 네트워크는 사용하지 않습니다.",

@@ -1,7 +1,7 @@
-/* Blog — Hindi translation. Loaded only by the /hi/ copy of the blog list; see tools/build-i18n-pages.js. */
+/* Blog - Hindi translation. Loaded only by the /hi/ copy of the blog list; see tools/build-i18n-pages.js. */
 i18n.hi = {
-    page_title: "ब्लॉग — टेक्नोलॉजी, रिव्यू और सुरक्षा अलर्ट | AIBachKhoa",
-    meta_desc: "AIBachKhoa टीम की ओर से टेक्नोलॉजी लेख, ईमानदार रिव्यू और सुरक्षा अलर्ट — सरल भाषा में, स्रोतों के साथ।",
+    page_title: "ब्लॉग - टेक्नोलॉजी, रिव्यू और सुरक्षा अलर्ट | AIBachKhoa",
+    meta_desc: "AIBachKhoa टीम की ओर से टेक्नोलॉजी लेख, ईमानदार रिव्यू और सुरक्षा अलर्ट - सरल भाषा में, स्रोतों के साथ।",
     skip_link: "मुख्य सामग्री पर जाएँ",
     aria_lang: "भाषा बदलें",
     aria_theme: "थीम बदलें",
@@ -12,7 +12,7 @@ i18n.hi = {
     nav_contact: "संपर्क",
     hero_eyebrow: "AIBachKhoa ब्लॉग",
     hero_title: "टेक्नोलॉजी, <em>सीधी-सरल भाषा में</em>।",
-    hero_sub: "हम जो टूल बनाते और इस्तेमाल करते हैं उन पर लेख, ईमानदार रिव्यू, और ऐसे सुरक्षा अलर्ट जिन पर आप तुरंत कदम उठा सकें — हर एक के साथ उसके स्रोत।",
+    hero_sub: "हम जो टूल बनाते और इस्तेमाल करते हैं उन पर लेख, ईमानदार रिव्यू, और ऐसे सुरक्षा अलर्ट जिन पर आप तुरंत कदम उठा सकें - हर एक के साथ उसके स्रोत।",
     filter_label: "विषय के अनुसार पोस्ट छाँटें",
     filter_all: "सभी पोस्ट",
     cat_tech: "टेक्नोलॉजी",
@@ -26,7 +26,7 @@ i18n.hi = {
     read_post: "पोस्ट पढ़ें",
     min_read: "{n} मिनट में पढ़ें",
     updated: "अपडेट किया गया",
-    empty_filter: "इस श्रेणी में अभी कुछ नहीं है — पहली पोस्ट जल्द आ रही है।",
+    empty_filter: "इस श्रेणी में अभी कुछ नहीं है - पहली पोस्ट जल्द आ रही है।",
     empty_all: "पहली पोस्ट जल्द आ रही हैं।",
     rss_follow: "RSS से जुड़े रहें",
     rss: "RSS फ़ीड",

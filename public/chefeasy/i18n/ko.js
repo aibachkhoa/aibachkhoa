@@ -1,6 +1,6 @@
-/* ChefEasy — Korean translation. Loaded only by the /ko/ copies of these pages; see tools/build-i18n-pages.js. */
+/* ChefEasy - Korean translation. Loaded only by the /ko/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.ko = {
-    page_title: "ChefEasy — 레시피를 한 단계씩 | AIBachKhoa",
+    page_title: "ChefEasy - 레시피를 한 단계씩 | AIBachKhoa",
     meta_desc: "Android용 요리 앱: 베트남·중국·일본·한국 요리 44가지, 타이머가 있는 단계별 안내 모드, 음성 검색, 오프라인 사용 가능.",
     aria_lang: "언어 변경",
     aria_theme: "테마 전환",
@@ -51,7 +51,7 @@ i18n.ko = {
     voice_title: "손이 바쁠 때는 <em>말로 하세요</em>.",
     voice_sub: "홈 화면, 레시피 페이지, 요리 모드 안에 떠 있는 마이크 버튼이 있습니다. 요리 이름을 말해 찾거나, 기기를 만지지 않고 단계 사이를 이동하세요.",
     v_1: "<strong>말로 검색하세요.</strong> 요리 이름을 말하면 앱이 44개 레시피 전체를 원래 이름과 번역된 이름 모두로 걸러 줍니다.",
-    v_2: "<strong>요리하면서 명령하세요.</strong> 다음 단계, 뒤로, 타이머 시작·정지까지 — 두 손이 가득 차 있어도 음성으로.",
+    v_2: "<strong>요리하면서 명령하세요.</strong> 다음 단계, 뒤로, 타이머 시작·정지까지 - 두 손이 가득 차 있어도 음성으로.",
     v_3: "<strong>누를 때만 켜집니다.</strong> 마이크는 백그라운드에서 듣지 않습니다. 버튼을 탭하면 켜지고, 말을 멈추면 꺼집니다.",
     v_note: "<strong>분명히 말씀드립니다:</strong> 음성을 텍스트로 바꾸는 일은 운영체제 자체의 음성 인식 서비스가 하므로, 그 오디오는 Android에서는 Google 서버로, iPhone과 iPad에서는 Apple 서버로 전송됩니다. ChefEasy는 녹음을 받지도, 저장하지도 않으며, 저장할 서버도 없습니다. 원하지 않으시면 마이크 버튼을 누르지 않으면 됩니다. 앱의 다른 기능은 마이크가 필요 없습니다.",
     lang_eyebrow: "언어",
@@ -124,7 +124,7 @@ i18n.ko = {
     footer_services: "서비스",
     footer_contact: "연락처",
     footer_rights: "모든 권리 보유.",
-    ios_page_title: "iPhone 및 iPad용 ChefEasy — 한 단계씩 요리하기 | AIBachKhoa",
+    ios_page_title: "iPhone 및 iPad용 ChefEasy - 한 단계씩 요리하기 | AIBachKhoa",
     ios_meta_desc: "iPhone과 iPad용 요리 앱: 아시아 요리 44가지, 타이머가 있는 단계별 안내 모드, 음성 검색, 오프라인 사용 가능. iOS 15.0 이상 필요.",
     ios_kicker: "iPhone 및 iPad · 집밥 요리",
     ios_meta: "번들 ID <code>com.tdson.cooky</code> · 세로 모드 · iPhone 및 iPad, iOS 15.0 이상 · 무료, 광고 및 선택형 구독 포함.",
@@ -141,7 +141,7 @@ i18n.ko = {
     ios_pro_a3: "월간 또는 연간 자동 갱신 요금제로, App Store를 통해 청구됩니다. 가격은 앱 안에서 사용자의 통화로 표시됩니다.",
     ios_pro_a4: "설정 → 사용자 이름 → 구독에서 언제든지 해지할 수 있습니다. 앱 안에 붙잡는 절차 같은 건 없으며, 저희는 당신의 카드를 절대 보지 않습니다.",
     ios_pro_a5: "결제한 기간이 끝나면 광고가 다시 나타나고 중국·일본·한국 요리가 다시 잠깁니다. 베트남 요리는 그대로 남습니다.",
-    pol_page_title: "개인정보 처리방침 — ChefEasy | AIBachKhoa",
+    pol_page_title: "개인정보 처리방침 - ChefEasy | AIBachKhoa",
     pol_meta_desc: "ChefEasy의 정보 처리 방식: 기기에 남는 것, 음성 검색이 가는 곳, 광고 네트워크와 앱 스토어가 받는 것.",
     pol_eyebrow: "법적 고지",
     pol_title: "개인정보 처리방침",

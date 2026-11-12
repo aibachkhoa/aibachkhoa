@@ -1,6 +1,6 @@
-/* Novaryn — Korean translation. Loaded only by the /ko/ copies of these pages; see tools/build-i18n-pages.js. */
+/* Novaryn - Korean translation. Loaded only by the /ko/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.ko = {
-    page_title: "Novaryn — 엄지 하나로, 끝없는 웨이브 | AIBachKhoa",
+    page_title: "Novaryn - 엄지 하나로, 끝없는 웨이브 | AIBachKhoa",
     meta_desc: "Android용 종스크롤 아케이드 슈팅 게임. 드래그로 비행하면 포는 알아서 발사되고, 머지않아 공략법을 익혀야 할 보스가 나타납니다. 완전 오프라인 플레이 가능.",
     aria_lang: "언어 변경",
     aria_theme: "테마 전환",
@@ -109,7 +109,7 @@ i18n.ko = {
     footer_services: "서비스",
     footer_contact: "문의",
     footer_rights: "모든 권리 보유.",
-    pol_page_title: "개인정보 처리방침 — Novaryn | AIBachKhoa",
+    pol_page_title: "개인정보 처리방침 - Novaryn | AIBachKhoa",
     pol_meta_desc: "Novaryn의 정보 처리 방식: 기기에 남는 정보와, 기체나 Pro를 구매할 때 App Store 및 Google Play가 받는 정보를 설명합니다.",
     pol_back: "게임으로 돌아가기",
     pol_eyebrow: "법적 고지",
@@ -220,9 +220,9 @@ i18n.ko = {
     ios_iap_eyebrow: "인앱 구매",
     ios_iap_title: "기체는 도색일 뿐. <em>그 외에는 판매하지 않습니다</em>.",
     ios_iap_sub: "Novaryn의 모든 구매는 외형에만 관련됩니다. 무기, 웨이브, 난이도, 레벨 중 어느 것도 결제 뒤에 숨겨져 있지 않으며, 한 푼도 쓰지 않아도 게임을 온전히 즐길 수 있습니다. 구매는 App Store가 처리하며, 당사는 귀하의 결제 정보를 절대 볼 수 없습니다.",
-    ios_iap_skins_t: "기체 스킨 — 일회성 구매",
+    ios_iap_skins_t: "기체 스킨 - 일회성 구매",
     ios_iap_skins_d: "US$1.99부터 US$5.99까지 완전 구매 방식으로 판매됩니다. 한 번 구매하면 영구적으로 당신 것이며, 새 기기에서는 상점의 <strong>구매 복원</strong>으로 복원할 수 있습니다.",
-    ios_pro_t: "Novaryn Pro — 자동 갱신 구독",
+    ios_pro_t: "Novaryn Pro - 자동 갱신 구독",
     ios_pro_len: "구독 기간",
     ios_pro_len_v: "1개월, 자동 갱신",
     ios_pro_price: "가격",

@@ -1,5 +1,5 @@
 /* =========================================================
-   GenVideo: Master Tool — product page.
+   GenVideo: Master Tool - product page.
    Sits on top of /style.css: only what this page adds. The palette
    comes from the app itself (GlassColors in glass_theme.dart), so the
    page and the product look like one thing.
@@ -70,7 +70,7 @@
     line-height: 1.6;
 }
 
-/* Ảnh chụp thật, không phải mock — nên khung phải nhường chỗ cho ảnh. */
+/* Ảnh chụp thật, không phải mock - nên khung phải nhường chỗ cho ảnh. */
 .gv-shot {
     border-radius: 16px;
     border: 2px solid var(--ink);
@@ -123,7 +123,7 @@
 /* ---------- pipeline ---------- */
 .gv-steps {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(190px, 100%), 1fr));
     gap: 1rem;
     counter-reset: gvstep;
 }
@@ -154,7 +154,7 @@
 /* ---------- feature grid ---------- */
 .gv-feats {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
     gap: 1rem;
 }
 
@@ -213,7 +213,7 @@
 /* ---------- gallery ---------- */
 .gv-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
     gap: 1rem;
 }
 
@@ -229,7 +229,7 @@
 /* ---------- pricing ---------- */
 .gv-plans {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
     gap: 1rem;
     align-items: stretch;
 }

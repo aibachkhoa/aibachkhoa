@@ -1,5 +1,5 @@
 /* =========================================================
-   ChefEasy — Android page, iOS page and privacy policy.
+   ChefEasy - Android page, iOS page and privacy policy.
    One dictionary serves all three: keys with no prefix are shared,
    `ios_` keys belong to the App Store page and `pol_` keys to the
    policy. Each page says which title/description pair it wants
@@ -15,7 +15,7 @@ const i18n = {
 /* The page's only language. It used to be the translation of a Vietnamese
    source; the Vietnamese copy went when /vi/ did, and this became the base. */
 i18n.en = {
-    page_title: "ChefEasy — cook a recipe one step at a time | AIBachKhoa",
+    page_title: "ChefEasy - cook a recipe one step at a time | AIBachKhoa",
     meta_desc: "A cooking app for Android: 44 Vietnamese, Chinese, Japanese and Korean dishes, guided step-by-step mode with timers, voice search, works offline.",
     aria_lang: "Change language",
     aria_theme: "Toggle theme",
@@ -68,29 +68,29 @@ i18n.en = {
     c_screen_t: "The screen stays awake",
     c_screen_d: "While cooking mode is open the app keeps the display on. You never have to touch the phone with oily hands just to read step three.",
     c_check_t: "Ingredients you can tick off",
-    c_check_d: "The ingredient list has checkboxes and a counter in the corner. Tick them at the market or as you prep — what is left is always obvious.",
+    c_check_d: "The ingredient list has checkboxes and a counter in the corner. Tick them at the market or as you prep - what is left is always obvious.",
 
     voice_eyebrow: "Voice",
     voice_title: "When your hands are busy, <em>say it</em>.",
     voice_sub: "A floating microphone button sits on the home screen, the recipe page and inside cooking mode. Say a dish to find it, or move between steps without touching the device.",
     v_1: "<strong>Search by speaking.</strong> Say a dish name and the app filters all 44 recipes, matching both the original name and its translation.",
-    v_2: "<strong>Command while cooking.</strong> Next step, back, start or stop a timer — by voice, with both hands full.",
+    v_2: "<strong>Command while cooking.</strong> Next step, back, start or stop a timer - by voice, with both hands full.",
     v_3: "<strong>Only on when you press it.</strong> The microphone does not listen in the background. It opens after you tap the button and closes when you stop speaking.",
-    v_note: "<strong>Worth stating plainly:</strong> turning speech into text is done by the operating system's own recognition service, so that audio goes to Google's servers on Android or Apple's on iPhone and iPad. ChefEasy never receives the recording, never stores it, and has no server to store it on. If you would rather not, simply never press the microphone button — nothing else in the app needs it.",
+    v_note: "<strong>Worth stating plainly:</strong> turning speech into text is done by the operating system's own recognition service, so that audio goes to Google's servers on Android or Apple's on iPhone and iPad. ChefEasy never receives the recording, never stores it, and has no server to store it on. If you would rather not, simply never press the microphone button - nothing else in the app needs it.",
 
     lang_eyebrow: "Languages",
     lang_title: "Five languages, <em>recipes included</em>.",
-    lang_sub: "Not just buttons and menu labels. Dish names, ingredients and every cooking step carry their own translation — and anything not yet translated falls back to English rather than showing blank.",
+    lang_sub: "Not just buttons and menu labels. Dish names, ingredients and every cooking step carry their own translation - and anything not yet translated falls back to English rather than showing blank.",
     lang_vi: "Tiếng Việt",
     lang_en: "English",
     lang_ja: "日本語",
     lang_ko: "한국어",
     lang_zh: "中文",
-    lang_note: "The numbers — cooking time, servings, calories — stay put when you switch language, because they describe the dish rather than the translation.",
+    lang_note: "The numbers - cooking time, servings, calories - stay put when you switch language, because they describe the dish rather than the translation.",
 
     offline_eyebrow: "Offline",
     offline_title: "The recipes live <em>on your device</em>.",
-    offline_sub: "All 44 recipes and their photographs come with the app. Once it is installed it opens straight away — including in the corner of the kitchen where the signal dies.",
+    offline_sub: "All 44 recipes and their photographs come with the app. Once it is installed it opens straight away - including in the corner of the kitchen where the signal dies.",
     o_1: "<strong>Recipes read with no connection.</strong> Turn off Wi-Fi and mobile data and the cooking side of the app is unchanged.",
     o_2: "<strong>No account.</strong> No sign-up, no login, no user profile. Open the app and use it.",
     o_3: "<strong>Favourites stay on the device.</strong> Your favourites and viewing history live in the app's own storage and are not sent anywhere.",
@@ -98,7 +98,7 @@ i18n.en = {
 
     pro_eyebrow: "ChefEasy Pro",
     pro_title: "Optional, and <em>spelled out</em>.",
-    pro_sub: "The free tier gives you every Vietnamese dish in full — no open limit, no locked steps. Pro is a subscription that removes the ads and unlocks the other cuisines.",
+    pro_sub: "The free tier gives you every Vietnamese dish in full - no open limit, no locked steps. Pro is a subscription that removes the ads and unlocks the other cuisines.",
     th_q: "The question",
     th_a: "The answer",
     pro_q1: "What Pro unlocks",
@@ -117,7 +117,7 @@ i18n.en = {
     gal_sub: "Every frame below comes off a real device, exactly as the app draws it.",
 
     s1_title: "Home",
-    s1_cap: "Favourites and recently viewed sit at the top; below them the full list, each row carrying cooking time, calories, servings and difficulty — enough to choose a dish before opening it.",
+    s1_cap: "Favourites and recently viewed sit at the top; below them the full list, each row carrying cooking time, calories, servings and difficulty - enough to choose a dish before opening it.",
     s2_title: "Recipe page",
     s2_cap: "Photograph, tags, a short description, then the six numbers that describe the dish. The two buttons at the bottom are parallel ways in: read it all on one page, or let the app walk you through.",
     s3_title: "Ingredients",
@@ -130,7 +130,7 @@ i18n.en = {
     a4_title: "Cooking",
     a4_cap: "The current step fills the screen, the clock for the task in hand runs in the middle, and the remaining tasks sit right below it.",
     a5_title: "ChefEasy Pro",
-    a5_cap: "The upgrade sheet states the three things Pro unlocks, and carries a Later button — the free tier still gives you every Vietnamese dish in full.",
+    a5_cap: "The upgrade sheet states the three things Pro unlocks, and carries a Later button - the free tier still gives you every Vietnamese dish in full.",
 
     faq_eyebrow: "Questions",
     faq1_q: "Which Android versions does it run on?",
@@ -140,7 +140,7 @@ i18n.en = {
     faq3_q: "Does it need an internet connection?",
     faq3_a: "Not to read or cook a recipe. A connection is used for ads, for payment, and for voice search.",
     faq4_q: "Does the app collect my data?",
-    faq4_a: "We run no servers and receive no data about you. Favourites, history and settings live in the app's own storage on your device. The only third party is Google — for ads, payment and speech recognition.",
+    faq4_a: "We run no servers and receive no data about you. Favourites, history and settings live in the app's own storage on your device. The only third party is Google - for ads, payment and speech recognition.",
     faq5_q: "What is the microphone for?",
     faq5_a: "Only for finding a dish and for commands while cooking, and only after you press the microphone button. The app does not listen in the background, does not record, and keeps no audio.",
     faq6_q: "Is it suitable for children?",
@@ -157,7 +157,7 @@ i18n.en = {
     footer_contact: "Contact",
     footer_rights: "All rights reserved.",
 
-    ios_page_title: "ChefEasy for iPhone & iPad — cook step by step | AIBachKhoa",
+    ios_page_title: "ChefEasy for iPhone & iPad - cook step by step | AIBachKhoa",
     ios_meta_desc: "A cooking app for iPhone and iPad: 44 Asian dishes, guided step-by-step mode with timers, voice search, works offline. Requires iOS 15.0 or later.",
     ios_kicker: "iPhone & iPad · home cooking",
     ios_meta: "Bundle id <code>com.tdson.cooky</code> · portrait · iPhone and iPad, iOS 15.0 or later · free, with ads and an optional subscription.",
@@ -167,7 +167,7 @@ i18n.en = {
     ios_faq4_a: "We run no servers and receive no data about you. Favourites, history and settings live in the app's own storage on your device. The third parties are Google, for ads, and Apple, for payment and speech recognition.",
     ios_perm_eyebrow: "Permissions",
     ios_perm_title: "Two permissions, <em>and only when you press</em>.",
-    ios_perm_sub: "iOS asks you before granting either, and both are requested at the moment you tap the microphone — not when the app opens.",
+    ios_perm_sub: "iOS asks you before granting either, and both are requested at the moment you tap the microphone - not when the app opens.",
     ios_perm_mic: "<strong>Microphone.</strong> To hear what you say when searching for a dish or giving a command while cooking.",
     ios_perm_speech: "<strong>Speech recognition.</strong> To turn that into text. Apple's service does this work, so the audio goes to Apple's servers.",
     ios_perm_none: "<strong>Nothing beyond those two.</strong> No location, no contacts, no camera, no photo library, no push notifications.",
@@ -175,7 +175,7 @@ i18n.en = {
     ios_pro_a4: "In Settings → your name → Subscriptions, any time. There is no retention flow in the app to argue with you, and we never see your card.",
     ios_pro_a5: "Ads return and the Chinese, Japanese and Korean dishes lock again at the end of the period you paid for. The Vietnamese dishes stay.",
 
-    pol_page_title: "Privacy Policy — ChefEasy | AIBachKhoa",
+    pol_page_title: "Privacy Policy - ChefEasy | AIBachKhoa",
     pol_meta_desc: "How ChefEasy handles information: what stays on your device, where a voice search goes, and what the ad network and app stores receive.",
     pol_eyebrow: "Legal",
     pol_title: "Privacy Policy",
@@ -191,7 +191,7 @@ i18n.en = {
     pol_h_short: "The short version",
     pol_short_1: "<strong>We run no servers and we receive no data about you.</strong> Your favourites, viewing history, language and other settings are written to the App's own storage on your device and never leave it.",
     pol_short_2: "<strong>The free tier carries ads</strong> served by Google AdMob. AdMob may read your device's advertising identifier in order to select and measure those ads. A ChefEasy Pro subscription switches them off entirely.",
-    pol_short_3: "<strong>Voice search sends audio away.</strong> Turning speech into text is done by the operating system's recognition service — Google's on Android, Apple's on iPhone and iPad. It happens only after you tap the microphone button. We never receive, hear or keep that audio.",
+    pol_short_3: "<strong>Voice search sends audio away.</strong> Turning speech into text is done by the operating system's recognition service - Google's on Android, Apple's on iPhone and iPad. It happens only after you tap the microphone button. We never receive, hear or keep that audio.",
     pol_short_4: "<strong>There is no analytics or crash reporting in the App.</strong> Nothing is measuring what you do in the app.",
     pol_short_5: "<strong>The App asks only for the microphone and speech recognition</strong>, and only when you deliberately press the microphone button. No location, no contacts, no camera, no access to your files.",
 
@@ -205,7 +205,7 @@ i18n.en = {
     pol_d_country: "<strong>Country</strong> refers to: Vietnam.",
     pol_d_device: "<strong>Device</strong> means any device that can access the Service, such as a phone or a tablet.",
     pol_d_personal: "<strong>Personal Data</strong> is any information that relates to an identified or identifiable individual.",
-    pol_d_provider: "<strong>Service Provider</strong> means any party that processes data on behalf of the Company. For this App those are Google — AdMob advertising, Google Play billing, and speech recognition on Android — and Apple, for App Store billing and speech recognition on iOS.",
+    pol_d_provider: "<strong>Service Provider</strong> means any party that processes data on behalf of the Company. For this App those are Google - AdMob advertising, Google Play billing, and speech recognition on Android - and Apple, for App Store billing and speech recognition on iOS.",
     pol_d_purchase: "<strong>In-App Purchase</strong> means the ChefEasy Pro subscription, monthly or yearly, transacted through Google Play or the App Store depending on where the App was installed from.",
     pol_d_you: "<strong>You</strong> means the individual accessing or using the Service.",
 
@@ -219,8 +219,8 @@ i18n.en = {
 
     pol_h_voice: "Microphone and Speech Recognition",
     pol_voice_1: "The App has a microphone button for finding a dish and for commands while cooking. The microphone turns on only after you tap that button, and turns off as soon as you stop speaking. The App does not listen in the background and does not record.",
-    pol_voice_2: "Turning speech into text does not happen on your device: the audio is passed to the operating system's speech recognition service — Google's on Android, Apple's on iPhone and iPad — and only the resulting text comes back to the App. How Google and Apple handle that audio is governed by their own privacy policies.",
-    pol_voice_3: "We never receive the audio, cannot hear its contents, and do not keep the returned text once the search is done. If you would rather not use it, simply never press the microphone button — no other feature of the App depends on it.",
+    pol_voice_2: "Turning speech into text does not happen on your device: the audio is passed to the operating system's speech recognition service - Google's on Android, Apple's on iPhone and iPad - and only the resulting text comes back to the App. How Google and Apple handle that audio is governed by their own privacy policies.",
+    pol_voice_3: "We never receive the audio, cannot hear its contents, and do not keep the returned text once the search is done. If you would rather not use it, simply never press the microphone button - no other feature of the App depends on it.",
 
     pol_h_ads: "Advertising",
     pol_ads_1: "The free tier shows advertising supplied by Google AdMob, as a full-screen ad when the App opens. Nothing interrupts you while you are cooking.",
@@ -245,7 +245,7 @@ i18n.en = {
     pol_children: "The App is not directed at children under 13 and does not knowingly collect personal data from children. It does contain advertising and in-app purchases, so on a shared device we recommend enabling a purchase PIN on Google Play, or Screen Time restrictions on an Apple device.",
 
     pol_h_rights: "Your Rights",
-    pol_rights: "The GDPR and the CCPA give you rights to access, correct, delete and port the personal data an organisation holds about you. For this App there is almost nothing to exercise them against: we hold no personal data about you. The only data that exists is on your device, and you can delete it at any time by uninstalling the App. For data processed by Google or Apple — advertising, payment, speech recognition — please exercise your rights with them directly.",
+    pol_rights: "The GDPR and the CCPA give you rights to access, correct, delete and port the personal data an organisation holds about you. For this App there is almost nothing to exercise them against: we hold no personal data about you. The only data that exists is on your device, and you can delete it at any time by uninstalling the App. For data processed by Google or Apple - advertising, payment, speech recognition - please exercise your rights with them directly.",
 
     pol_h_security: "Security",
     pol_security: "Because the App transmits no personal data, there is no transfer to intercept and no database of ours to breach. Recipe content stays on your device. That said, no method of electronic storage is completely secure.",
@@ -359,7 +359,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const fallback = i18n[DEFAULT_LANG];
         const key = active.dataset.key;
         galImg.src = SHOT_DIR + active.dataset.shot + '.webp';
-        galImg.alt = 'ChefEasy — ' + (dict[key + '_title'] || fallback[key + '_title'] || '');
+        galImg.alt = 'ChefEasy - ' + (dict[key + '_title'] || fallback[key + '_title'] || '');
         if (galTitle) galTitle.textContent = dict[key + '_title'] || fallback[key + '_title'] || '';
         if (galCap) galCap.textContent = dict[key + '_cap'] || fallback[key + '_cap'] || '';
     }

@@ -1,6 +1,6 @@
-/* MelodiAI — Japanese translation. Loaded only by the /ja/ copies of this page; see tools/build-i18n-pages.js. */
+/* MelodiAI - Japanese translation. Loaded only by the /ja/ copies of this page; see tools/build-i18n-pages.js. */
 i18n.ja = {
-    page_title: "MelodiAI — 歌詞から完成した曲をつくる | AIBachKhoa",
+    page_title: "MelodiAI - 歌詞から完成した曲をつくる | AIBachKhoa",
     meta_desc: "歌詞を書いてスタイルを伝えるだけで、MelodiAI がボーカル・バンド・アレンジまで曲全体を作り、楽譜も付けます。手持ちの音源を新しいスタイルにリミックスも。5 クレジット無料。",
     skip_link: "本文へスキップ",
     nav_home: "ホーム",

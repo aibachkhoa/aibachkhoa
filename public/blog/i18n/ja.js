@@ -1,6 +1,6 @@
-/* Blog — Japanese translation. Loaded only by the /ja/ copy of the blog list; see tools/build-i18n-pages.js. */
+/* Blog - Japanese translation. Loaded only by the /ja/ copy of the blog list; see tools/build-i18n-pages.js. */
 i18n.ja = {
-    page_title: "ブログ — テクノロジー、レビュー、セキュリティ警告 | AIBachKhoa",
+    page_title: "ブログ - テクノロジー、レビュー、セキュリティ警告 | AIBachKhoa",
     meta_desc: "AIBachKhoa チームによるテクノロジー解説、正直なレビュー、セキュリティ警告。わかりやすい言葉で、出典つきで。",
     skip_link: "本文へスキップ",
     aria_lang: "言語を切り替える",
@@ -12,7 +12,7 @@ i18n.ja = {
     nav_contact: "お問い合わせ",
     hero_eyebrow: "AIBachKhoa ブログ",
     hero_title: "テクノロジーを、<em>わかりやすく</em>。",
-    hero_sub: "私たちが作り、使っているツールの解説、正直なレビュー、そしてすぐに行動に移せるセキュリティ警告——どれも出典つきでお届けします。",
+    hero_sub: "私たちが作り、使っているツールの解説、正直なレビュー、そしてすぐに行動に移せるセキュリティ警告--どれも出典つきでお届けします。",
     filter_label: "トピックで記事を絞り込む",
     filter_all: "すべての記事",
     cat_tech: "テクノロジー",

@@ -1,7 +1,7 @@
-/* Blog — French translation. Loaded only by the /fr/ copy of the blog list; see tools/build-i18n-pages.js. */
+/* Blog - French translation. Loaded only by the /fr/ copy of the blog list; see tools/build-i18n-pages.js. */
 i18n.fr = {
-    page_title: "Blog — technologie, tests et alertes de sécurité | AIBachKhoa",
-    meta_desc: "Articles technologiques, tests honnêtes et alertes de sécurité par l'équipe d'AIBachKhoa — écrits simplement, sources à l'appui.",
+    page_title: "Blog - technologie, tests et alertes de sécurité | AIBachKhoa",
+    meta_desc: "Articles technologiques, tests honnêtes et alertes de sécurité par l'équipe d'AIBachKhoa - écrits simplement, sources à l'appui.",
     skip_link: "Aller au contenu",
     aria_lang: "Changer de langue",
     aria_theme: "Changer de thème",
@@ -12,7 +12,7 @@ i18n.fr = {
     nav_contact: "Contact",
     hero_eyebrow: "Le blog AIBachKhoa",
     hero_title: "La technologie, <em>expliquée simplement</em>.",
-    hero_sub: "Des articles sur les outils que nous créons et utilisons, des tests honnêtes et des alertes de sécurité sur lesquelles vous pouvez agir — chacun avec ses sources.",
+    hero_sub: "Des articles sur les outils que nous créons et utilisons, des tests honnêtes et des alertes de sécurité sur lesquelles vous pouvez agir - chacun avec ses sources.",
     filter_label: "Filtrer les articles par thème",
     filter_all: "Tous les articles",
     cat_tech: "Technologie",
@@ -26,7 +26,7 @@ i18n.fr = {
     read_post: "Lire l'article",
     min_read: "{n} min de lecture",
     updated: "Mis à jour le",
-    empty_filter: "Rien dans cette catégorie pour l'instant — le premier article arrive bientôt.",
+    empty_filter: "Rien dans cette catégorie pour l'instant - le premier article arrive bientôt.",
     empty_all: "Les premiers articles arrivent bientôt.",
     rss_follow: "Suivre le blog par RSS",
     rss: "Flux RSS",

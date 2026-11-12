@@ -1,6 +1,6 @@
-/* Flow — Korean translation. Loaded only by the /ko/ copies of these pages; see tools/build-i18n-pages.js. */
+/* Flow - Korean translation. Loaded only by the /ko/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.ko = {
-    page_title: "Flow — Android와 Windows용 뽀모도로 집중 타이머 | AIBachKhoa",
+    page_title: "Flow - Android와 Windows용 뽀모도로 집중 타이머 | AIBachKhoa",
     meta_desc: "Flow는 차분한 뽀모도로 타이머입니다. 빛나는 진행 링과 함께하는 집중 세션, 내장 집중 음악, 시간대에 따라 바뀌는 배경, 1년 치 집중 히트맵까지. Android에서, 그리고 Windows에서는 작은 유리 위젯으로. 계정도 광고도 없습니다.",
     aria_lang: "언어 변경",
     aria_theme: "테마 전환",
@@ -106,7 +106,7 @@ i18n.ko = {
     footer_contact: "문의",
     footer_rights: "모든 권리 보유.",
 
-    pol_page_title: "Flow — 개인정보 처리방침 | AIBachKhoa",
+    pol_page_title: "Flow - 개인정보 처리방침 | AIBachKhoa",
     pol_meta_desc: "Flow는 모든 것을 이용자의 기기에 보관합니다. 계정, 분석, 광고가 없으며 앱이 데이터를 전송하지 않습니다. 저장하는 항목, 사용하는 권한, 결제 방식을 안내합니다.",
     pol_eyebrow: "법적 고지",
     pol_title: "개인정보 처리방침",

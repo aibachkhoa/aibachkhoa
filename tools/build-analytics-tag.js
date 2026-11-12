@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* Puts the analytics beacon on every page in public/.
  *
- * The alternative — injecting the tag as each page is served — would put a
+ * The alternative - injecting the tag as each page is served - would put a
  * string rewrite in front of every request for the sake of one line that
  * never changes. This writes the line into the files once instead, the same
  * way the other builders in this folder work.

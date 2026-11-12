@@ -13,7 +13,7 @@ Two things are required, both on the server:
 | `ADMIN_PASSWORD` | the one password for `/admin`. Without it the dashboard refuses to open and explains itself instead of shipping a default. |
 | a writable `ANALYTICS_DIR` | the container filesystem is read-only, so the data needs a volume. Nothing is recorded without one. |
 
-`docker-compose.yml` already declares both — the `analytics-data` volume and
+`docker-compose.yml` already declares both - the `analytics-data` volume and
 `ANALYTICS_DIR: /app/data`. Put the password in a `.env` file beside it:
 
 ```
@@ -58,23 +58,23 @@ invented numbers can never end up mixed into real ones.
 
 ## What the numbers mean
 
-- **Visit** — one person in one sitting. Thirty minutes idle starts a new one.
-- **Visitor** — one browser, identified by a random string it generated for
+- **Visit** - one person in one sitting. Thirty minutes idle starts a new one.
+- **Visitor** - one browser, identified by a random string it generated for
   itself and keeps in its own `localStorage`. It matches no person and no
   email, and it travels nowhere.
-- **Action** — a click or a preference change. Scroll marks and time reports
+- **Action** - a click or a preference change. Scroll marks and time reports
   are measurements the page takes by itself and are not counted here.
-- **Download** — one confirmed request for an installer, counted on the
+- **Download** - one confirmed request for an installer, counted on the
   request for the file, so a link pasted into a chat counts too. Checksums and
   resumed transfers do not; the same address asking twice within half an hour
   counts once.
-- **Bounce** — a visit that opened one page, clicked nothing, read less than
+- **Bounce** - a visit that opened one page, clicked nothing, read less than
   half of it and stayed under thirty seconds.
-- **Time on a page** — foreground time only. A tab left open behind a window
+- **Time on a page** - foreground time only. A tab left open behind a window
   contributes nothing.
-- **Country** — from the `CF-IPCountry` header the Cloudflare tunnel sets on
-  every request it forwards. Reached without the tunnel — over the published
-  port, or from the host itself — it reads as unknown, which is why your own
+- **Country** - from the `CF-IPCountry` header the Cloudflare tunnel sets on
+  every request it forwards. Reached without the tunnel - over the published
+  port, or from the host itself - it reads as unknown, which is why your own
   visits show no country.
 
 ### Leads, prospects, passers-by
@@ -83,11 +83,11 @@ Every visitor carries a score. The rules are in `lib/analytics/stats.js`
 (`POINTS`) and the dashboard prints them from the same constants, so the
 explanation on screen cannot drift from what the code does.
 
-- **Lead** — clicked an email or contact link. A flag, not a threshold:
+- **Lead** - clicked an email or contact link. A flag, not a threshold:
   asking to be contacted is not a matter of degree.
-- **Prospect** — started a download, clicked through to an app store, or
+- **Prospect** - started a download, clicked through to an app store, or
   scored 25 or more.
-- **Passer-by** — everyone else.
+- **Passer-by** - everyone else.
 
 Scoring spans the whole range on screen, so coming back on another day counts
 for something. Changing a rule changes the whole history, because segments are
@@ -118,6 +118,6 @@ under 100 MB at full retention.
 | `lib/analytics/stats.js` | rollups, the range merge and the visitor model |
 | `lib/admin/auth.js` | password, signed cookie, attempt throttling |
 | `lib/admin/routes.js` | `/admin`, `/api/admin/stats`, the CSV export |
-| `admin/` | the dashboard itself — outside `public/` so it is never served as a file, never crawled, never translated |
+| `admin/` | the dashboard itself - outside `public/` so it is never served as a file, never crawled, never translated |
 | `tools/build-analytics-tag.js` | puts the beacon on every page (`npm run track`) |
 | `tools/seed-analytics.js` | invented traffic for previewing (`npm run seed`) |

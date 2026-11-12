@@ -1,4 +1,4 @@
-/* Treasure Hunters — Spanish translation. Loaded only by the /es/ copies of these pages; see tools/build-i18n-pages.js. */
+/* Treasure Hunters - Spanish translation. Loaded only by the /es/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.es = {
     footer_desc: "Creamos herramientas de IA prácticas para desarrolladores y empresas.",
     footer_game: "El juego",
@@ -8,9 +8,9 @@ i18n.es = {
     footer_services: "Servicios",
     footer_contact: "Contacto",
     footer_rights: "Todos los derechos reservados.",
-    page_title: "Treasure Hunters — un plataformas pirata en pixel art | AIBachKhoa",
+    page_title: "Treasure Hunters - un plataformas pirata en pixel art | AIBachKhoa",
     meta_desc: "Un juego de plataformas pirata en pixel art para Android: 50 niveles, 5 minijefes, 5 barcos fantasma voladores y 120 calaveras doradas por encontrar. Sin anuncios, sin compras, sin conexión.",
-    pol_page_title: "Política de privacidad — Treasure Hunters | AIBachKhoa",
+    pol_page_title: "Política de privacidad - Treasure Hunters | AIBachKhoa",
     pol_meta_desc: "Treasure Hunters no recopila nada. Sin cuenta, sin acceso a internet, sin analíticas, sin anuncios: tu progreso se queda en tu dispositivo.",
     aria_lang: "Cambiar idioma",
     aria_theme: "Cambiar tema",
@@ -29,7 +29,7 @@ i18n.es = {
     hero_sub: "Treasure Hunters es un juego de plataformas pirata en pixel art pensado para pantallas táctiles. Corre, haz doble salto y abre paso a sablazos por playas, valles brumosos y naufragios encantados: cincuenta niveles, diez jefes y un cofre de oro al final de cada isla.",
     btn_play: "Disponible en Google Play",
     btn_policy: "Política de privacidad",
-    hero_img_alt: "Treasure Hunters — combate contra el minijefe Captain Claw",
+    hero_img_alt: "Treasure Hunters - combate contra el minijefe Captain Claw",
     quote: "Cada isla termina con un cofre. Cada cinco, hay algo que lo custodia; y cada diez, ese algo vuela.",
     play_eyebrow: "Cómo se juega",
     play_title: "Niveles cortos, pensados para un pulgar a cada lado.",
@@ -101,7 +101,7 @@ i18n.es = {
     pol_stores_h: "Qué ve la tienda de aplicaciones",
     pol_stores_p: "La descarga y las actualizaciones del juego se realizan a través de Google Play, que gestiona esa transacción según su propia política de privacidad y puede mostrarnos cifras agregadas y anónimas, por ejemplo, cuántas personas instalaron el juego en un país. No recibimos de ella ninguna información personal y no podemos vincular ninguno de esos datos a una persona.",
     pol_children_h: "Menores",
-    pol_children_p: "El juego contiene violencia fantástica leve de estilo caricaturesco —el sable de un pirata contra cangrejos, esqueletos y barcos fantasma— y nada de sangre. Como no recopila ningún dato, tampoco recopila datos de menores. No tiene chat, ni contenido generado por usuarios, ni enlaces externos, ni compras.",
+    pol_children_p: "El juego contiene violencia fantástica leve de estilo caricaturesco -el sable de un pirata contra cangrejos, esqueletos y barcos fantasma- y nada de sangre. Como no recopila ningún dato, tampoco recopila datos de menores. No tiene chat, ni contenido generado por usuarios, ni enlaces externos, ni compras.",
     pol_changes_h: "Cambios en esta política",
     pol_changes_p: "Si el juego llega a incorporar alguna función que use la red, esta página se actualizará antes de que se publique esa versión, y la fecha de arriba cambiará con ella.",
     pol_contact_h: "Contacto",

@@ -1,7 +1,7 @@
 /* =========================================================
    LocalLex product page.
    Rides on ../style.css for chrome (nav, footer, buttons, container).
-   No product-specific palette override — uses the site's default
+   No product-specific palette override - uses the site's default
    accent blue, which happens to already match LocalLex's own brand.
    ========================================================= */
 
@@ -96,7 +96,7 @@
 
 .ll-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15.5rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(15.5rem, 100%), 1fr));
     gap: 1.25rem;
 }
 .ll-card {

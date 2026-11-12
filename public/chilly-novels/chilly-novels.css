@@ -1,7 +1,7 @@
 /* =========================================================
-   Chilly Novels — product page + privacy policy.
+   Chilly Novels - product page + privacy policy.
    Sits on top of /style.css: only the pieces this page adds.
-   The palette comes from the app itself — the cream paper it
+   The palette comes from the app itself - the cream paper it
    reads on, the terracotta of its download button, and the
    deep navy its cover illustrations are drawn in.
    ========================================================= */
@@ -145,7 +145,7 @@
 /* ---------- Step / card grids ---------- */
 .cn-steps, .cn-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
     gap: 18px;
 }
 
@@ -261,7 +261,7 @@
 /* ---------- Fact strip ---------- */
 .cn-facts {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(160px, 100%), 1fr));
     gap: 18px;
     border: 1px solid var(--glass-brd);
     border-radius: 18px;

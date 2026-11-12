@@ -33,7 +33,7 @@
     <meta property="og:image" content="https://aibachkhoa.com/assets/orimessenger/icon.webp">
     <meta property="og:image:alt" content="OriMessenger icon">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="OriMessenger — chat that works without the Internet">
+    <meta name="twitter:title" content="OriMessenger - chat that works without the Internet">
     <meta name="twitter:description" content="End-to-end encrypted messaging over Bluetooth, LAN or the Internet.">
     <meta name="twitter:image" content="https://aibachkhoa.com/assets/orimessenger/icon.webp">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -78,18 +78,18 @@
       .om-hero { padding: 6rem 0 4rem; }
       .om-badges { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.5rem 0; }
       .om-badge { display: inline-flex; align-items: center; gap: .35rem; padding: .35rem .7rem; border: 1px solid var(--border, #d9d9d9); border-radius: 999px; font-size: .85rem; font-family: 'DM Mono', monospace; color: var(--text-2, #555); }
-      .om-downloads { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin-top: 2rem; }
+      .om-downloads { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 1rem; margin-top: 2rem; }
       .om-dl { display: block; padding: 1.25rem 1.5rem; border: 1px solid var(--border, #d9d9d9); border-radius: 12px; background: var(--surface, #fff); text-decoration: none; color: inherit; transition: transform .15s ease, border-color .15s ease; }
       .om-dl:hover { transform: translateY(-2px); border-color: var(--accent, #2563eb); }
       .om-dl-os { display: flex; align-items: center; gap: .5rem; font-family: 'DM Mono', monospace; font-size: .8rem; letter-spacing: .04em; text-transform: uppercase; color: var(--text-2, #666); margin-bottom: .35rem; }
       .om-dl-name { font-weight: 700; font-size: 1.05rem; margin-bottom: .25rem; }
       .om-dl-meta { font-size: .85rem; color: var(--text-2, #666); }
       .om-dl.soon { opacity: .6; pointer-events: none; }
-      .om-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 3rem; }
+      .om-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 2rem; margin-top: 3rem; }
       .om-feat h3 { font-size: 1.2rem; margin-bottom: .5rem; }
       .om-feat p { color: var(--text-2, #555); line-height: 1.65; }
       .om-how { margin-top: 4rem; }
-      .om-how-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+      .om-how-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 1.5rem; margin-top: 2rem; }
       .om-how-item { padding: 1.5rem; border-left: 3px solid var(--accent, #2563eb); background: var(--surface, #fafafa); border-radius: 0 8px 8px 0; }
       .om-how-item .n { font-family: 'DM Mono', monospace; font-size: .8rem; color: var(--accent, #2563eb); letter-spacing: .1em; }
       .om-how-item h4 { margin: .35rem 0 .5rem; font-size: 1.05rem; }
@@ -139,7 +139,7 @@
             <div class="container">
                 <p class="eyebrow" data-i18n="ios_eyebrow">For iPhone and iPad &middot; v0.2.1</p>
                 <h1 class="hero-title" data-i18n="hero_title">Chat that keeps talking <em>when the Internet stops</em>.</h1>
-                <p class="hero-subtitle" style="max-width: 720px;" data-i18n="hero_sub_mobile">OriMessenger sends your messages over Bluetooth or the same Wi-Fi when the other person is close, and falls back to the Internet only when they are not. Every message is end-to-end encrypted &mdash; there is no account and no phone number.</p>
+                <p class="hero-subtitle" style="max-width: 720px;" data-i18n="hero_sub_mobile">OriMessenger sends your messages over Bluetooth or the same Wi-Fi when the other person is close, and falls back to the Internet only when they are not. Every message is end-to-end encrypted - there is no account and no phone number.</p>
                 <div class="om-badges">
                     <span class="om-badge" data-i18n="badge_e2e">End-to-end encrypted</span>
                     <span class="om-badge" data-i18n="badge_noacct">No account, no phone number</span>
@@ -160,16 +160,16 @@
 
                 <div class="om-features">
                     <div class="om-feat">
-                        <h3 data-i18n="feat1_h">1. Bluetooth &mdash; when you are within a few metres</h3>
+                        <h3 data-i18n="feat1_h">1. Bluetooth - when you are within a few metres</h3>
                         <p data-i18n="feat1_p">The app finds other Ori users nearby over Bluetooth. When you are within roughly 10 to 30 metres, messages go directly from device to device, without touching a router or a cell tower. No Internet needed at all.</p>
                     </div>
                     <div class="om-feat">
-                        <h3 data-i18n="feat2_h">2. Wi-Fi / LAN &mdash; same network</h3>
+                        <h3 data-i18n="feat2_h">2. Wi-Fi / LAN - same network</h3>
                         <p data-i18n="feat2_p">On the same Wi-Fi or wired network, devices find each other automatically and messages stay inside the local network. This works even on hotel or guest Wi-Fi where the Internet is blocked, and it is fast enough for photos.</p>
                     </div>
                     <div class="om-feat">
-                        <h3 data-i18n="feat3_h">3. Internet &mdash; when neither of the above works</h3>
-                        <p data-i18n="feat3_p">Only when Bluetooth and the local network both fail does the message travel through our server. Names, profiles, messages and attachments are all encrypted end to end, so the server cannot read any of them. It does see who sent to whom and when &mdash; it needs that to deliver the message &mdash; and holds it for at most 30 days.</p>
+                        <h3 data-i18n="feat3_h">3. Internet - when neither of the above works</h3>
+                        <p data-i18n="feat3_p">Only when Bluetooth and the local network both fail does the message travel through our server. Names, profiles, messages and attachments are all encrypted end to end, so the server cannot read any of them. It does see who sent to whom and when - it needs that to deliver the message - and holds it for at most 30 days.</p>
                     </div>
                 </div>
             </div>
@@ -245,7 +245,7 @@
         </section>        <section class="panel panel--ink closing" id="contact">
             <div class="container">
                 <h2 class="cta-title" data-i18n="cta_title">Questions or a bug?</h2>
-                <p class="section-sub" style="margin-inline:auto;text-align:center;" data-i18n="cta_sub">Email works best &mdash; usually answered the same day.</p>
+                <p class="section-sub" style="margin-inline:auto;text-align:center;" data-i18n="cta_sub">Email works best - usually answered the same day.</p>
                 <div class="closing-actions">
                     <a href="mailto:contact@aibachkhoa.com" class="btn btn-primary" data-i18n="cta_btn">Get in touch</a>
                     <a href="/orimessenger/policy" class="btn btn-ghost" data-i18n="footer_policy">Privacy policy</a>

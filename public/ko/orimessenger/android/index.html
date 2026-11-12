@@ -97,18 +97,18 @@
       .om-hero { padding: 6rem 0 4rem; }
       .om-badges { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.5rem 0; }
       .om-badge { display: inline-flex; align-items: center; gap: .35rem; padding: .35rem .7rem; border: 1px solid var(--border, #d9d9d9); border-radius: 999px; font-size: .85rem; font-family: 'DM Mono', monospace; color: var(--text-2, #555); }
-      .om-downloads { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin-top: 2rem; }
+      .om-downloads { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 1rem; margin-top: 2rem; }
       .om-dl { display: block; padding: 1.25rem 1.5rem; border: 1px solid var(--border, #d9d9d9); border-radius: 12px; background: var(--surface, #fff); text-decoration: none; color: inherit; transition: transform .15s ease, border-color .15s ease; }
       .om-dl:hover { transform: translateY(-2px); border-color: var(--accent, #2563eb); }
       .om-dl-os { display: flex; align-items: center; gap: .5rem; font-family: 'DM Mono', monospace; font-size: .8rem; letter-spacing: .04em; text-transform: uppercase; color: var(--text-2, #666); margin-bottom: .35rem; }
       .om-dl-name { font-weight: 700; font-size: 1.05rem; margin-bottom: .25rem; }
       .om-dl-meta { font-size: .85rem; color: var(--text-2, #666); }
       .om-dl.soon { opacity: .6; pointer-events: none; }
-      .om-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 3rem; }
+      .om-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 2rem; margin-top: 3rem; }
       .om-feat h3 { font-size: 1.2rem; margin-bottom: .5rem; }
       .om-feat p { color: var(--text-2, #555); line-height: 1.65; }
       .om-how { margin-top: 4rem; }
-      .om-how-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+      .om-how-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 1.5rem; margin-top: 2rem; }
       .om-how-item { padding: 1.5rem; border-left: 3px solid var(--accent, #2563eb); background: var(--surface, #fafafa); border-radius: 0 8px 8px 0; }
       .om-how-item .n { font-family: 'DM Mono', monospace; font-size: .8rem; color: var(--accent, #2563eb); letter-spacing: .1em; }
       .om-how-item h4 { margin: .35rem 0 .5rem; font-size: 1.05rem; }
@@ -157,7 +157,7 @@
             <div class="container">
                 <p class="eyebrow" data-i18n="android_eyebrow">Android용 &middot; v0.2.1</p>
                 <h1 class="hero-title" data-i18n="hero_title"><em>인터넷이 끊겨도</em> 대화는 계속됩니다.</h1>
-                <p class="hero-subtitle" style="max-width: 720px;" data-i18n="hero_sub_mobile">OriMessenger는 상대방이 가까이 있으면 Bluetooth나 같은 Wi-Fi로 메시지를 보내고, 그렇지 않을 때만 인터넷을 사용합니다. 모든 메시지는 종단 간 암호화되며 &mdash; 계정도, 전화번호도 필요 없습니다.</p>
+                <p class="hero-subtitle" style="max-width: 720px;" data-i18n="hero_sub_mobile">OriMessenger는 상대방이 가까이 있으면 Bluetooth나 같은 Wi-Fi로 메시지를 보내고, 그렇지 않을 때만 인터넷을 사용합니다. 모든 메시지는 종단 간 암호화되며 - 계정도, 전화번호도 필요 없습니다.</p>
                 <div class="om-badges">
                     <span class="om-badge" data-i18n="badge_e2e">종단 간 암호화</span>
                     <span class="om-badge" data-i18n="badge_noacct">계정 없음, 전화번호 없음</span>
@@ -178,16 +178,16 @@
 
                 <div class="om-features">
                     <div class="om-feat">
-                        <h3 data-i18n="feat1_h">1. Bluetooth &mdash; 몇 미터 이내에 있을 때</h3>
+                        <h3 data-i18n="feat1_h">1. Bluetooth - 몇 미터 이내에 있을 때</h3>
                         <p data-i18n="feat1_p">앱이 Bluetooth로 근처의 다른 Ori 사용자를 찾습니다. 대략 10~30미터 이내에 있으면 메시지가 공유기나 기지국을 거치지 않고 기기에서 기기로 바로 전달됩니다. 인터넷이 전혀 필요 없습니다.</p>
                     </div>
                     <div class="om-feat">
-                        <h3 data-i18n="feat2_h">2. Wi-Fi / LAN &mdash; 같은 네트워크</h3>
+                        <h3 data-i18n="feat2_h">2. Wi-Fi / LAN - 같은 네트워크</h3>
                         <p data-i18n="feat2_p">같은 Wi-Fi나 유선 네트워크에 있으면 기기들이 자동으로 서로를 찾고, 메시지는 로컬 네트워크 안에만 머뭅니다. 인터넷이 차단된 호텔이나 게스트 Wi-Fi에서도 작동하며, 사진을 보내기에도 충분히 빠릅니다.</p>
                     </div>
                     <div class="om-feat">
-                        <h3 data-i18n="feat3_h">3. 인터넷 &mdash; 위의 두 방법이 모두 안 될 때</h3>
-                        <p data-i18n="feat3_p">Bluetooth와 로컬 네트워크가 모두 실패했을 때만 메시지가 저희 서버를 거칩니다. 이름, 프로필, 메시지, 첨부 파일은 모두 종단 간 암호화되므로 서버는 그 어느 것도 읽을 수 없습니다. 다만 메시지를 전달하려면 필요하기 때문에 누가 누구에게 언제 보냈는지는 서버가 알 수 있으며 &mdash; 이 정보는 최대 30일 동안 보관됩니다.</p>
+                        <h3 data-i18n="feat3_h">3. 인터넷 - 위의 두 방법이 모두 안 될 때</h3>
+                        <p data-i18n="feat3_p">Bluetooth와 로컬 네트워크가 모두 실패했을 때만 메시지가 저희 서버를 거칩니다. 이름, 프로필, 메시지, 첨부 파일은 모두 종단 간 암호화되므로 서버는 그 어느 것도 읽을 수 없습니다. 다만 메시지를 전달하려면 필요하기 때문에 누가 누구에게 언제 보냈는지는 서버가 알 수 있으며 - 이 정보는 최대 30일 동안 보관됩니다.</p>
                     </div>
                 </div>
             </div>
@@ -266,7 +266,7 @@
         </section>        <section class="panel panel--ink closing" id="contact">
             <div class="container">
                 <h2 class="cta-title" data-i18n="cta_title">질문이 있거나 버그를 발견하셨나요?</h2>
-                <p class="section-sub" style="margin-inline:auto;text-align:center;" data-i18n="cta_sub">이메일이 가장 좋습니다 &mdash; 보통 당일에 답변드립니다.</p>
+                <p class="section-sub" style="margin-inline:auto;text-align:center;" data-i18n="cta_sub">이메일이 가장 좋습니다 - 보통 당일에 답변드립니다.</p>
                 <div class="closing-actions">
                     <a href="mailto:contact@aibachkhoa.com" class="btn btn-primary" data-i18n="cta_btn">문의하기</a>
                     <a href="/ko/orimessenger/policy" class="btn btn-ghost" data-i18n="footer_policy">개인정보 처리방침</a>

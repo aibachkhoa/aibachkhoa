@@ -97,18 +97,18 @@
       .om-hero { padding: 6rem 0 4rem; }
       .om-badges { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.5rem 0; }
       .om-badge { display: inline-flex; align-items: center; gap: .35rem; padding: .35rem .7rem; border: 1px solid var(--border, #d9d9d9); border-radius: 999px; font-size: .85rem; font-family: 'DM Mono', monospace; color: var(--text-2, #555); }
-      .om-downloads { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin-top: 2rem; }
+      .om-downloads { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 1rem; margin-top: 2rem; }
       .om-dl { display: block; padding: 1.25rem 1.5rem; border: 1px solid var(--border, #d9d9d9); border-radius: 12px; background: var(--surface, #fff); text-decoration: none; color: inherit; transition: transform .15s ease, border-color .15s ease; }
       .om-dl:hover { transform: translateY(-2px); border-color: var(--accent, #2563eb); }
       .om-dl-os { display: flex; align-items: center; gap: .5rem; font-family: 'DM Mono', monospace; font-size: .8rem; letter-spacing: .04em; text-transform: uppercase; color: var(--text-2, #666); margin-bottom: .35rem; }
       .om-dl-name { font-weight: 700; font-size: 1.05rem; margin-bottom: .25rem; }
       .om-dl-meta { font-size: .85rem; color: var(--text-2, #666); }
       .om-dl.soon { opacity: .6; pointer-events: none; }
-      .om-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 3rem; }
+      .om-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 2rem; margin-top: 3rem; }
       .om-feat h3 { font-size: 1.2rem; margin-bottom: .5rem; }
       .om-feat p { color: var(--text-2, #555); line-height: 1.65; }
       .om-how { margin-top: 4rem; }
-      .om-how-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+      .om-how-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 1.5rem; margin-top: 2rem; }
       .om-how-item { padding: 1.5rem; border-left: 3px solid var(--accent, #2563eb); background: var(--surface, #fafafa); border-radius: 0 8px 8px 0; }
       .om-how-item .n { font-family: 'DM Mono', monospace; font-size: .8rem; color: var(--accent, #2563eb); letter-spacing: .1em; }
       .om-how-item h4 { margin: .35rem 0 .5rem; font-size: 1.05rem; }
@@ -158,7 +158,7 @@
             <div class="container">
                 <p class="eyebrow" data-i18n="ios_eyebrow">iPhone 和 iPad 版 &middot; v0.2.1</p>
                 <h1 class="hero-title" data-i18n="hero_title">网络断了，<em>聊天照样继续</em>。</h1>
-                <p class="hero-subtitle" style="max-width: 720px;" data-i18n="hero_sub_mobile">对方就在附近时，OriMessenger 通过 Bluetooth 或同一个 Wi-Fi 发送消息；只有对方不在附近时，才改走互联网。每条消息都经过端到端加密 &mdash;&mdash; 无需账号，也无需手机号。</p>
+                <p class="hero-subtitle" style="max-width: 720px;" data-i18n="hero_sub_mobile">对方就在附近时，OriMessenger 通过 Bluetooth 或同一个 Wi-Fi 发送消息；只有对方不在附近时，才改走互联网。每条消息都经过端到端加密 -- 无需账号，也无需手机号。</p>
                 <div class="om-badges">
                     <span class="om-badge" data-i18n="badge_e2e">端到端加密</span>
                     <span class="om-badge" data-i18n="badge_noacct">无需账号和手机号</span>
@@ -179,16 +179,16 @@
 
                 <div class="om-features">
                     <div class="om-feat">
-                        <h3 data-i18n="feat1_h">1. Bluetooth &mdash;&mdash; 相距几米之内</h3>
+                        <h3 data-i18n="feat1_h">1. Bluetooth -- 相距几米之内</h3>
                         <p data-i18n="feat1_p">应用通过 Bluetooth 发现附近的其他 Ori 用户。在大约 10 到 30 米范围内，消息直接在设备之间传递，不经过路由器，也不经过基站。完全不需要互联网。</p>
                     </div>
                     <div class="om-feat">
-                        <h3 data-i18n="feat2_h">2. Wi-Fi / LAN &mdash;&mdash; 同一网络</h3>
+                        <h3 data-i18n="feat2_h">2. Wi-Fi / LAN -- 同一网络</h3>
                         <p data-i18n="feat2_p">在同一个 Wi-Fi 或有线网络中，设备会自动发现彼此，消息始终留在本地网络内。即使在屏蔽了互联网的酒店或访客 Wi-Fi 上也能使用，速度也足以发送照片。</p>
                     </div>
                     <div class="om-feat">
-                        <h3 data-i18n="feat3_h">3. 互联网 &mdash;&mdash; 以上两种都不可用时</h3>
-                        <p data-i18n="feat3_p">只有当 Bluetooth 和本地网络都失败时，消息才会经过我们的服务器。名字、资料、消息和附件全部经过端到端加密，服务器无法读取其中任何内容。不过，服务器能看到谁在什么时候发给了谁 &mdash;&mdash; 这是投递消息所必需的 &mdash;&mdash; 并且最多保留 30 天。</p>
+                        <h3 data-i18n="feat3_h">3. 互联网 -- 以上两种都不可用时</h3>
+                        <p data-i18n="feat3_p">只有当 Bluetooth 和本地网络都失败时，消息才会经过我们的服务器。名字、资料、消息和附件全部经过端到端加密，服务器无法读取其中任何内容。不过，服务器能看到谁在什么时候发给了谁 -- 这是投递消息所必需的 -- 并且最多保留 30 天。</p>
                     </div>
                 </div>
             </div>
@@ -264,7 +264,7 @@
         </section>        <section class="panel panel--ink closing" id="contact">
             <div class="container">
                 <h2 class="cta-title" data-i18n="cta_title">有问题或发现了 bug？</h2>
-                <p class="section-sub" style="margin-inline:auto;text-align:center;" data-i18n="cta_sub">发邮件最方便 &mdash;&mdash; 通常当天回复。</p>
+                <p class="section-sub" style="margin-inline:auto;text-align:center;" data-i18n="cta_sub">发邮件最方便 -- 通常当天回复。</p>
                 <div class="closing-actions">
                     <a href="mailto:contact@aibachkhoa.com" class="btn btn-primary" data-i18n="cta_btn">联系我们</a>
                     <a href="/zh/orimessenger/policy" class="btn btn-ghost" data-i18n="footer_policy">隐私政策</a>

@@ -134,7 +134,7 @@ body = f'''<header class="bv-hero" id="overview">
             <div class="container">
                 <div class="bv-head reveal"><p class="bv-eyebrow" data-i18n="gal_eyebrow">{T('gal_eyebrow')}</p><h2 class="bv-title" data-i18n="gal_title">{T('gal_title')}</h2></div>
                 <div class="bv-gal reveal">
-                    <div class="bv-gal-stage" id="gal-stage"><img id="gal-img" src="/assets/apps/flow/android/shot-01.webp" alt="Flow — {T('s1_title')}" width="620" height="1274" decoding="async"></div>
+                    <div class="bv-gal-stage" id="gal-stage"><img id="gal-img" src="/assets/apps/flow/android/shot-01.webp" alt="Flow - {T('s1_title')}" width="620" height="1274" decoding="async"></div>
                     <div class="bv-gal-side">
                         <div><p class="bv-gal-cap-t" id="gal-title">{T('s1_title')}</p><p class="bv-gal-cap-d" id="gal-cap">{T('s1_cap')}</p></div>
                         <div class="bv-gal-tabs" role="tablist" aria-label="{T('gal_eyebrow')}" data-i18n-aria="gal_eyebrow">{shots}</div>

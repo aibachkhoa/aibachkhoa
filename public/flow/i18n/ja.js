@@ -1,6 +1,6 @@
-/* Flow — Japanese translation. Loaded only by the /ja/ copies of these pages; see tools/build-i18n-pages.js. */
+/* Flow - Japanese translation. Loaded only by the /ja/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.ja = {
-    page_title: "Flow — Android と Windows のポモドーロ集中タイマー | AIBachKhoa",
+    page_title: "Flow - Android と Windows のポモドーロ集中タイマー | AIBachKhoa",
     meta_desc: "Flow は穏やかなポモドーロタイマーです。光るプログレスリングで進む集中セッション、内蔵の集中用音楽、時間帯に合わせて変わる背景、そして1年分の集中ヒートマップ。Android で、そして Windows では小さなガラス風ウィジェットとして。アカウント不要、広告なし。",
     aria_lang: "言語を変更",
     aria_theme: "テーマを切り替え",
@@ -106,7 +106,7 @@ i18n.ja = {
     footer_contact: "お問い合わせ",
     footer_rights: "無断転載を禁じます。",
 
-    pol_page_title: "Flow — プライバシーポリシー | AIBachKhoa",
+    pol_page_title: "Flow - プライバシーポリシー | AIBachKhoa",
     pol_meta_desc: "Flow はすべてをお使いのデバイス内に保存します。アカウントなし、分析なし、広告なし、アプリからのデータ送信もありません。保存する内容、使用する権限、購入の仕組みについて説明します。",
     pol_eyebrow: "法的事項",
     pol_title: "プライバシーポリシー",

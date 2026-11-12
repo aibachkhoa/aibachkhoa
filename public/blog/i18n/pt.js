@@ -1,7 +1,7 @@
-/* Blog — Brazilian Portuguese translation. Loaded only by the /pt/ copy of the blog list; see tools/build-i18n-pages.js. */
+/* Blog - Brazilian Portuguese translation. Loaded only by the /pt/ copy of the blog list; see tools/build-i18n-pages.js. */
 i18n.pt = {
-    page_title: "Blog — tecnologia, análises e alertas de segurança | AIBachKhoa",
-    meta_desc: "Textos sobre tecnologia, análises honestas e alertas de segurança da equipe da AIBachKhoa — escritos com clareza e com fontes.",
+    page_title: "Blog - tecnologia, análises e alertas de segurança | AIBachKhoa",
+    meta_desc: "Textos sobre tecnologia, análises honestas e alertas de segurança da equipe da AIBachKhoa - escritos com clareza e com fontes.",
     skip_link: "Ir para o conteúdo",
     aria_lang: "Mudar idioma",
     aria_theme: "Alternar tema",
@@ -12,7 +12,7 @@ i18n.pt = {
     nav_contact: "Contato",
     hero_eyebrow: "O blog da AIBachKhoa",
     hero_title: "Tecnologia, <em>explicada sem rodeios</em>.",
-    hero_sub: "Textos sobre as ferramentas que criamos e usamos, análises honestas e alertas de segurança que dizem o que fazer — cada um com suas fontes.",
+    hero_sub: "Textos sobre as ferramentas que criamos e usamos, análises honestas e alertas de segurança que dizem o que fazer - cada um com suas fontes.",
     filter_label: "Filtrar posts por tema",
     filter_all: "Todos os posts",
     cat_tech: "Tecnologia",
@@ -26,7 +26,7 @@ i18n.pt = {
     read_post: "Ler o post",
     min_read: "{n} min de leitura",
     updated: "Atualizado",
-    empty_filter: "Ainda não há nada nesta categoria — o primeiro está a caminho.",
+    empty_filter: "Ainda não há nada nesta categoria - o primeiro está a caminho.",
     empty_all: "Os primeiros posts estão a caminho.",
     rss_follow: "Acompanhe pelo RSS",
     rss: "Feed RSS",

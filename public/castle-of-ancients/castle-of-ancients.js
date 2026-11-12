@@ -10,7 +10,7 @@
 
 const i18n = {
     en: {
-        page_title: "Castle of Ancients — hold the road | AIBachKhoa",
+        page_title: "Castle of Ancients - hold the road | AIBachKhoa",
         meta_desc: "A hand-drawn pixel tower defense for iPhone and iPad. Four guard posts, twelve maps, twenty-four enemies. No ads, no purchases, plays offline.",
         aria_lang: "Change language",
         aria_theme: "Toggle theme",
@@ -33,7 +33,7 @@ const i18n = {
         btn_policy: "Read the privacy policy",
         btn_contact: "Contact us",
         hero_meta: "Bundle id <code>com.tdson.castleofancients</code> · landscape, iPhone and iPad · no ads, no in-app purchases, plays fully offline.",
-        hero_shot_alt: "Castle of Ancients — archer towers holding a bend in the road against a goblin column",
+        hero_shot_alt: "Castle of Ancients - archer towers holding a bend in the road against a goblin column",
         blockers_shot_alt: "Barracks warriors blocking the road while archer towers fire over them",
 
         stat_maps: "Maps across two modes",
@@ -47,7 +47,7 @@ const i18n = {
         loop_sub: "Everything in the game runs off one number. Gold comes from things you killed, and it is the only thing that buys the defence that kills the next lot. Spend it in the wrong place and the road tells you so about forty seconds later.",
 
         c_drag_t: "Drag it where you want it",
-        c_drag_d: "One finger takes a card off the side bar and drops it on the tile you chose. Or tap the card, then tap the tile — the same build, two ways round, so it works whichever hand you have free.",
+        c_drag_d: "One finger takes a card off the side bar and drops it on the tile you chose. Or tap the card, then tap the tile - the same build, two ways round, so it works whichever hand you have free.",
         c_gold_t: "Gold is the whole economy",
         c_gold_d: "There is no second currency, no energy bar and nothing to top up. Every coin came off something that died on your road, and the only question the game ever asks is where the next one goes.",
         c_up_t: "Upgrades put a body on the board",
@@ -75,13 +75,13 @@ const i18n = {
         armour_t: "Armour is subtraction, not a percentage",
         armour_d: "Every point of armour comes straight off the damage of the hit that lands. That is why one post is never enough, and why the counter to a heavy column is a different post rather than a bigger one.",
         armour_l1: "<strong>Arrows take armour full in the face.</strong> A skeleton with 5 armour eats most of an archer volley and keeps walking.",
-        armour_l2: "<strong>Explosions get through half of it.</strong> Bolt Yards stay useful against armour longer than arrows do — right up until something flies.",
+        armour_l2: "<strong>Explosions get through half of it.</strong> Bolt Yards stay useful against armour longer than arrows do - right up until something flies.",
         armour_l3: "<strong>Magic ignores it entirely.</strong> The Monastery does its full number to the toughest thing on the map, and slows it on the way through.",
-        armour_l4: "<strong>Nothing is ever fully immune.</strong> Even the weakest hit against the heaviest armour still carries 20% through, so no wave is ever unwinnable — only expensive.",
+        armour_l4: "<strong>Nothing is ever fully immune.</strong> Even the weakest hit against the heaviest armour still carries 20% through, so no wave is ever unwinnable - only expensive.",
 
         foe_eyebrow: "Enemies",
         foe_title: "Twenty-four kinds of <em>trouble</em>.",
-        foe_sub: "They do not just get bigger. Each one breaks a rule the last one obeyed — which is why a line that held for six waves can fail on the seventh without anything about it changing.",
+        foe_sub: "They do not just get bigger. Each one breaks a rule the last one obeyed - which is why a line that held for six waves can fail on the seventh without anything about it changing.",
 
         foe_n_torch: "Torch Goblin",
         foe_n_barrel: "Barrel Goblin",
@@ -105,7 +105,7 @@ const i18n = {
         foe_bat: "Flies. Straight over the blockers, cutting the corners.",
         foe_imp: "Slips clean past anything standing in the road.",
         foe_wisp: "Flies, and flies straight at the castle.",
-        foe_raft: "A boat, not a monster — sink it offshore and the whole squad aboard goes down with it.",
+        foe_raft: "A boat, not a monster - sink it offshore and the whole squad aboard goes down with it.",
         foe_serpent: "Swims the waterway, then ignores your blockers on land.",
         foe_turtle: "The sea boss. Armour so high only magic reads as damage.",
         foe_ogre: "The heaviest thing on land, and slow as a landslide.",
@@ -120,7 +120,7 @@ const i18n = {
         map_title: "Twelve maps, <em>two ways to play</em>.",
         map_sub: "Story teaches, campaign lets you set the terms. Both are the same game; only the guard rails differ.",
 
-        story_t: "Story — five missions, each one an idea",
+        story_t: "Story - five missions, each one an idea",
         story_d: "They unlock one after another, and each map is built around a single lesson rather than a difficulty number.",
         story_1: "<strong>Gatemeadow.</strong> One straight road and open grass on both sides. Nothing to learn but the loop itself.",
         story_2: "<strong>Broken Gorge.</strong> The road doubles back on itself, and every bend is a place one tower covers twice.",
@@ -128,13 +128,13 @@ const i18n = {
         story_4: "<strong>Muster Crossroads.</strong> Two columns march in and merge halfway. One line, built where they meet.",
         story_5: "<strong>Siege of the Old Keep.</strong> A 79-tile spiral with the keep ringed in the middle and two bosses inside the ring.",
 
-        camp_t: "Campaign — seven larger maps, unlocked from the start",
+        camp_t: "Campaign - seven larger maps, unlocked from the start",
         camp_d: "Bigger than the screen, so you pinch to zoom and drag to pan. From a windswept S-bend to a three-gate river delta, a 98-tile spiral, a mountaintop keep with a single ramp, and a castle beset on four sides at once.",
-        maps_shot_alt: "Siege of the Old Keep — a spiral road with the keep ringed in the middle",
+        maps_shot_alt: "Siege of the Old Keep - a spiral road with the keep ringed in the middle",
 
         dial_eyebrow: "Your rules",
         dial_title: "Four dials, and <em>every one comes off</em>.",
-        dial_sub: "Set before each campaign run. Each dial has a setting that removes the limit outright — so the same seven maps are a tight economy puzzle or a sandbox, and that is your call rather than a difficulty menu's.",
+        dial_sub: "Set before each campaign run. Each dial has a setting that removes the limit outright - so the same seven maps are a tight economy puzzle or a sandbox, and that is your call rather than a difficulty menu's.",
 
         dial_gold: "Gold",
         dial_gold_1: "Lean ½",
@@ -160,7 +160,7 @@ const i18n = {
         touch_sub: "The touch layout is not the desktop layout with bigger buttons. It was designed from scratch, because a finger is not a cursor.",
         touch_l1: "<strong>The cards are taller</strong> and the side bar is wider, because a thumb reaching across a landscape screen is less accurate than a mouse that never misses.",
         touch_l2: "<strong>Taps are forgiving,</strong> so a tap that wobbles a little is still a tap and not a half-started build you have to cancel.",
-        touch_l3: "<strong>The tower preview lifts clear of your fingertip,</strong> because your hand covers exactly the tile you are aiming at — the one place a preview must not be.",
+        touch_l3: "<strong>The tower preview lifts clear of your fingertip,</strong> because your hand covers exactly the tile you are aiming at - the one place a preview must not be.",
         touch_l4: "<strong>Pinch to zoom, one finger to pan</strong> on the campaign maps, which are wider than any screen you own.",
         touch_shot_alt: "A guard post card lifted off the side bar and held over open grass",
 
@@ -168,7 +168,7 @@ const i18n = {
         shot_title: "Real captures, <em>no mock-ups</em>.",
         shot_sub: "Every shot below is the game running, at full resolution, with nothing painted on afterwards.",
 
-        s1_alt: "Castle of Ancients — the main menu",
+        s1_alt: "Castle of Ancients - the main menu",
 
         s1_title: "The main menu",
         s1_cap: "Two modes and a settings screen. No account, no daily reward, nothing between the icon and a run.",
@@ -181,7 +181,7 @@ const i18n = {
         s5_title: "Siege of the Old Keep",
         s5_cap: "The last story mission: a 79-tile spiral, the keep ringed in the middle, two bosses inside the ring.",
         s6_title: "Beset on four sides",
-        s6_cap: "A campaign map with four roads in. There is no back line here — every direction is the front.",
+        s6_cap: "A campaign map with four roads in. There is no back line here - every direction is the front.",
         s7_title: "Roaring Bay",
         s7_cap: "Sea monsters swim the waterway to shore, and landing rafts ferry infantry past the front line.",
         s8_title: "Five story missions",
@@ -199,10 +199,10 @@ const i18n = {
         footer_rights: "All rights reserved.",
 
         /* ---------- Privacy policy ---------- */
-        pol_page_title: "Privacy Policy — Castle of Ancients | AIBachKhoa",
+        pol_page_title: "Privacy Policy - Castle of Ancients | AIBachKhoa",
         pol_meta_desc: "How Castle of Ancients handles information: it collects nothing, sends nothing, and has no network access. Every save stays on your device.",
         pol_kicker: "Last updated: 2 September 2026",
-        pol_title: "Privacy Policy — Castle of Ancients",
+        pol_title: "Privacy Policy - Castle of Ancients",
         pol_lead: "Castle of Ancients does not collect, transmit or share any information about you. It has no network access at all, no analytics, no advertising, no accounts and no in-app purchases. Everything it saves stays in the app's own folder on your device.",
 
         pol_h_short: "The short version",
@@ -226,14 +226,14 @@ const i18n = {
 
         pol_h_perm: "Permissions",
         pol_perm_1: "The app requests no permissions. It does not use the camera, the microphone, the photo library, contacts, location, Bluetooth, local network or notifications, and it does not request tracking permission because it does not track.",
-        pol_perm_2: "If your device ever shows you a permission prompt attributed to this app, please treat it as a bug and tell us — it is not something the app is designed to do.",
+        pol_perm_2: "If your device ever shows you a permission prompt attributed to this app, please treat it as a bug and tell us - it is not something the app is designed to do.",
 
         pol_h_children: "Children's privacy",
         pol_children_1: "The game is a cartoon-styled strategy game with no blood, no gore, no chat, no user-generated content and no link out of the app. We do not knowingly collect personal information from anyone of any age, including children under 13, because we do not collect personal information at all.",
         pol_children_2: "There is nothing to buy inside the app, so there is no purchase a child could make by accident.",
 
         pol_h_rights: "Your rights",
-        pol_rights_lead: "Under GDPR, CCPA and equivalent laws you have rights of access, correction, deletion, portability and objection over your personal data. Because we hold no personal data about you, there is nothing on our side for those requests to reach — but the rights still stand, and you are welcome to contact us to confirm exactly this.",
+        pol_rights_lead: "Under GDPR, CCPA and equivalent laws you have rights of access, correction, deletion, portability and objection over your personal data. Because we hold no personal data about you, there is nothing on our side for those requests to reach - but the rights still stand, and you are welcome to contact us to confirm exactly this.",
         pol_rights_1: "<strong>Access:</strong> we hold no data about you to provide.",
         pol_rights_2: "<strong>Deletion:</strong> removing the app deletes everything it saved.",
         pol_rights_3: "<strong>Portability:</strong> there is no account and no server-side record to export.",
@@ -243,7 +243,7 @@ const i18n = {
         pol_security: "Because the app stores its data locally and transmits nothing, the usual risks to data in transit do not arise. The save file on your device is protected by your device's own security, so keep a screen lock on it. No method of electronic storage is completely secure, but there is no copy of anything anywhere else to be at risk.",
 
         pol_h_changes: "Changes to this Policy",
-        pol_changes_1: "We may update this Privacy Policy from time to time — for example if a later version of the app gains a feature that changes how data is handled. We will post the new policy on this page and update the \"Last updated\" date at the top.",
+        pol_changes_1: "We may update this Privacy Policy from time to time - for example if a later version of the app gains a feature that changes how data is handled. We will post the new policy on this page and update the \"Last updated\" date at the top.",
         pol_changes_2: "You are encouraged to review this Policy periodically. Changes take effect when they are posted on this page.",
 
         pol_h_contact: "Contact",
@@ -299,7 +299,7 @@ document.addEventListener('DOMContentLoaded', () => {
         sel.innerHTML = LANGS.map(l =>
             `<option value="${l.code}">${short ? l.code.toUpperCase() : l.label}</option>`
         ).join('');
-        // one language on offer is not a choice — hide the picker entirely
+        // one language on offer is not a choice - hide the picker entirely
         sel.hidden = LANGS.length < 2;
     });
 
@@ -356,7 +356,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const dict = i18n[currentLang] || i18n[DEFAULT_LANG];
         const key = active.dataset.key;
         galImg.src = SHOT_DIR + active.dataset.shot + '.webp';
-        galImg.alt = 'Castle of Ancients — ' + (dict[key + '_title'] || '');
+        galImg.alt = 'Castle of Ancients - ' + (dict[key + '_title'] || '');
         if (galTitle) galTitle.textContent = dict[key + '_title'] || '';
         if (galCap) galCap.textContent = dict[key + '_cap'] || '';
     }

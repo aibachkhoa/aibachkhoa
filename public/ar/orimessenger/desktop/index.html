@@ -97,18 +97,18 @@
       .om-hero { padding: 6rem 0 4rem; }
       .om-badges { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.5rem 0; }
       .om-badge { display: inline-flex; align-items: center; gap: .35rem; padding: .35rem .7rem; border: 1px solid var(--border, #d9d9d9); border-radius: 999px; font-size: .85rem; font-family: 'DM Mono', monospace; color: var(--text-2, #555); }
-      .om-downloads { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin-top: 2rem; }
+      .om-downloads { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 1rem; margin-top: 2rem; }
       .om-dl { display: block; padding: 1.25rem 1.5rem; border: 1px solid var(--border, #d9d9d9); border-radius: 12px; background: var(--surface, #fff); text-decoration: none; color: inherit; transition: transform .15s ease, border-color .15s ease; }
       .om-dl:hover { transform: translateY(-2px); border-color: var(--accent, #2563eb); }
       .om-dl-os { display: flex; align-items: center; gap: .5rem; font-family: 'DM Mono', monospace; font-size: .8rem; letter-spacing: .04em; text-transform: uppercase; color: var(--text-2, #666); margin-bottom: .35rem; }
       .om-dl-name { font-weight: 700; font-size: 1.05rem; margin-bottom: .25rem; }
       .om-dl-meta { font-size: .85rem; color: var(--text-2, #666); }
       .om-dl.soon { opacity: .6; pointer-events: none; }
-      .om-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 3rem; }
+      .om-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 2rem; margin-top: 3rem; }
       .om-feat h3 { font-size: 1.2rem; margin-bottom: .5rem; }
       .om-feat p { color: var(--text-2, #555); line-height: 1.65; }
       .om-how { margin-top: 4rem; }
-      .om-how-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+      .om-how-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 1.5rem; margin-top: 2rem; }
       .om-how-item { padding: 1.5rem; border-left: 3px solid var(--accent, #2563eb); background: var(--surface, #fafafa); border-radius: 0 8px 8px 0; }
       .om-how-item .n { font-family: 'DM Mono', monospace; font-size: .8rem; color: var(--accent, #2563eb); letter-spacing: .1em; }
       .om-how-item h4 { margin: .35rem 0 .5rem; font-size: 1.05rem; }
@@ -157,7 +157,7 @@
             <div class="container">
                 <p class="eyebrow" data-i18n="desktop_eyebrow">لأجهزة الكمبيوتر</p>
                 <h1 class="hero-title" data-i18n="hero_title">محادثة تستمر <em>حين ينقطع الإنترنت</em>.</h1>
-                <p class="hero-subtitle" style="max-width: 720px;" data-i18n="hero_sub_desktop">يرسل OriMessenger رسائلك عبر Bluetooth أو الشبكة المحلية نفسها حين يكون الطرف الآخر قريبًا منك، ولا يلجأ إلى الإنترنت إلا حين لا يكون كذلك. كل رسالة مشفّرة من طرف إلى طرف &mdash; بلا حساب وبلا رقم هاتف.</p>
+                <p class="hero-subtitle" style="max-width: 720px;" data-i18n="hero_sub_desktop">يرسل OriMessenger رسائلك عبر Bluetooth أو الشبكة المحلية نفسها حين يكون الطرف الآخر قريبًا منك، ولا يلجأ إلى الإنترنت إلا حين لا يكون كذلك. كل رسالة مشفّرة من طرف إلى طرف - بلا حساب وبلا رقم هاتف.</p>
                 <div class="om-badges">
                     <span class="om-badge" data-i18n="badge_e2e">مشفّر من طرف إلى طرف</span>
                     <span class="om-badge" data-i18n="badge_noacct">بلا حساب وبلا رقم هاتف</span>
@@ -178,16 +178,16 @@
 
                 <div class="om-features">
                     <div class="om-feat">
-                        <h3 data-i18n="feat1_h">1. Bluetooth &mdash; حين تكونان على بُعد أمتار قليلة</h3>
+                        <h3 data-i18n="feat1_h">1. Bluetooth - حين تكونان على بُعد أمتار قليلة</h3>
                         <p data-i18n="feat1_p">يعثر التطبيق على مستخدمي Ori القريبين عبر Bluetooth. وحين تكونان على بُعد نحو 10 إلى 30 مترًا، تنتقل الرسائل مباشرة من جهاز إلى جهاز دون المرور بجهاز توجيه أو برج اتصالات. لا حاجة إلى الإنترنت إطلاقًا.</p>
                     </div>
                     <div class="om-feat">
-                        <h3 data-i18n="feat2_h">2. Wi-Fi / LAN &mdash; على الشبكة نفسها</h3>
+                        <h3 data-i18n="feat2_h">2. Wi-Fi / LAN - على الشبكة نفسها</h3>
                         <p data-i18n="feat2_p">على شبكة Wi-Fi أو شبكة سلكية واحدة، تتعرّف الأجهزة على بعضها تلقائيًا وتبقى الرسائل داخل الشبكة المحلية. يعمل ذلك حتى على شبكات Wi-Fi في الفنادق أو شبكات الضيوف التي يُحجب فيها الإنترنت، وهو سريع بما يكفي لإرسال الصور.</p>
                     </div>
                     <div class="om-feat">
-                        <h3 data-i18n="feat3_h">3. الإنترنت &mdash; حين لا ينجح أيٌّ مما سبق</h3>
-                        <p data-i18n="feat3_p">لا تمر الرسالة عبر خادمنا إلا حين يتعذّر كلٌّ من Bluetooth والشبكة المحلية. الأسماء والملفات الشخصية والرسائل والمرفقات جميعها مشفّرة من طرف إلى طرف، فلا يستطيع الخادم قراءة أيٍّ منها. لكنه يرى مَن أرسل إلى مَن ومتى &mdash; إذ يحتاج إلى ذلك لتسليم الرسالة &mdash; ويحتفظ بها 30 يومًا كحدّ أقصى.</p>
+                        <h3 data-i18n="feat3_h">3. الإنترنت - حين لا ينجح أيٌّ مما سبق</h3>
+                        <p data-i18n="feat3_p">لا تمر الرسالة عبر خادمنا إلا حين يتعذّر كلٌّ من Bluetooth والشبكة المحلية. الأسماء والملفات الشخصية والرسائل والمرفقات جميعها مشفّرة من طرف إلى طرف، فلا يستطيع الخادم قراءة أيٍّ منها. لكنه يرى مَن أرسل إلى مَن ومتى - إذ يحتاج إلى ذلك لتسليم الرسالة - ويحتفظ بها 30 يومًا كحدّ أقصى.</p>
                     </div>
                 </div>
             </div>
@@ -221,7 +221,7 @@
 
                 <div class="om-note">
                     <p data-i18n="desk_note_win"><strong>ظهر تحذير Windows SmartScreen؟</strong> مُثبِّت Windows غير موقَّع بعد بشهادة توقيع رمز صادرة عن Microsoft، لذا قد يعرض SmartScreen في المرة الأولى رسالة «Windows protected your PC». انقر <em>More info &larr; Run anyway</em> للمتابعة.</p>
-                    <p style="margin-top: .75rem;" data-i18n="desk_note_mac"><strong>التثبيت على macOS:</strong> التطبيق وصورة القرص كلاهما موقَّعان بمعرّف Developer ID الخاص بنا وموثَّقان من Apple، لذا يفتح التطبيق دون أي تحذير من Gatekeeper &mdash; افتح ملف ‎.dmg واسحب OriMessenger إلى مجلد التطبيقات. لأجهزة Apple silicon فقط.</p>
+                    <p style="margin-top: .75rem;" data-i18n="desk_note_mac"><strong>التثبيت على macOS:</strong> التطبيق وصورة القرص كلاهما موقَّعان بمعرّف Developer ID الخاص بنا وموثَّقان من Apple، لذا يفتح التطبيق دون أي تحذير من Gatekeeper - افتح ملف ‎.dmg واسحب OriMessenger إلى مجلد التطبيقات. لأجهزة Apple silicon فقط.</p>
                     <p style="margin-top: .75rem;" data-i18n="desk_note_linux"><strong>التثبيت على Linux:</strong> شغّل الأمر <code>sudo apt install ./OriMessenger-0.3.0-amd64.deb</code> من المجلد الذي نزّلت الملف إليه، وسيجلب apt مكتبات النظام المطلوبة. يتطلب Ubuntu 24.04 / Debian 13 أو أحدث (64-bit).</p>
                 </div>
             </div>
@@ -281,7 +281,7 @@
         </section>        <section class="panel panel--ink closing" id="contact">
             <div class="container">
                 <h2 class="cta-title" data-i18n="cta_title">لديك سؤال أو وجدت خللًا؟</h2>
-                <p class="section-sub" style="margin-inline:auto;text-align:center;" data-i18n="cta_sub">البريد الإلكتروني هو الأفضل &mdash; نردّ عادةً في اليوم نفسه.</p>
+                <p class="section-sub" style="margin-inline:auto;text-align:center;" data-i18n="cta_sub">البريد الإلكتروني هو الأفضل - نردّ عادةً في اليوم نفسه.</p>
                 <div class="closing-actions">
                     <a href="mailto:contact@aibachkhoa.com" class="btn btn-primary" data-i18n="cta_btn">تواصل معنا</a>
                     <a href="/ar/orimessenger/policy" class="btn btn-ghost" data-i18n="footer_policy">سياسة الخصوصية</a>

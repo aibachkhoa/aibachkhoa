@@ -1,5 +1,5 @@
 /* =========================================================
-   BVoice — Android page, iOS page and privacy policy.
+   BVoice - Android page, iOS page and privacy policy.
    One dictionary serves all three: keys with no prefix are shared,
    `ios_` keys belong to the App Store page and `pol_` keys to the
    policy. Each page says which title/description pair it wants
@@ -13,8 +13,8 @@ const i18n = {
 };
 
 i18n.en = {
-    page_title: "BVoice — Vietnamese meeting transcripts on your phone | AIBachKhoa",
-    meta_desc: "BVoice for Android turns spoken Vietnamese into text while the meeting runs, labels who said what, translates into 100 languages and reads translations aloud — on the phone, with no account.",
+    page_title: "BVoice - Vietnamese meeting transcripts on your phone | AIBachKhoa",
+    meta_desc: "BVoice for Android turns spoken Vietnamese into text while the meeting runs, labels who said what, translates into 100 languages and reads translations aloud - on the phone, with no account.",
     aria_lang: "Change language",
     aria_theme: "Toggle theme",
     aria_menu: "Open menu",
@@ -32,7 +32,7 @@ i18n.en = {
     nav_policy: "Privacy",
     hero_kicker: "Android · meetings & transcription",
     hero_title: "Say it once. <em>Read it back, labelled.</em>",
-    hero_sub: "BVoice listens to a meeting in Vietnamese and writes it down as people speak — newest line on top, each one translated if you like. When the meeting ends it works out who said what, so the minutes are ready before you leave the room.",
+    hero_sub: "BVoice listens to a meeting in Vietnamese and writes it down as people speak - newest line on top, each one translated if you like. When the meeting ends it works out who said what, so the minutes are ready before you leave the room.",
     btn_play: "Get it on Google Play",
     btn_appstore: "Download on the App Store",
     btn_shots: "See the app",
@@ -53,7 +53,7 @@ i18n.en = {
     m_live_t: "Text as it is spoken",
     m_live_d: "A line forms while someone is still talking and settles when they pause. You can follow along, or look away and catch up later.",
     m_tr_t: "Live translation",
-    m_tr_d: "Pick a language before the meeting and every line is translated underneath it as it lands — useful when not everyone in the room reads Vietnamese.",
+    m_tr_d: "Pick a language before the meeting and every line is translated underneath it as it lands - useful when not everyone in the room reads Vietnamese.",
     m_noise_t: "Noise in the room, not in the text",
     m_noise_d: "Fans, air-conditioning and keyboards are filtered out before the words are written down. The original recording is kept untouched.",
     m_bg_t: "Keeps going with the screen off",
@@ -62,13 +62,13 @@ i18n.en = {
     spk_title: "Minutes with <em>names on them</em>.",
     spk_sub: "A transcript without speakers is a wall of text. After the meeting BVoice works out how many people spoke and puts a label on every line.",
     spk_1: "<strong>Counts the speakers itself.</strong> No need to say how many people were in the room.",
-    spk_2: "<strong>Name each person once.</strong> \"Linh\", \"Son\", \"Minh\" — the name then appears on every line they said.",
+    spk_2: "<strong>Name each person once.</strong> \"Linh\", \"Son\", \"Minh\" - the name then appears on every line they said.",
     spk_3: "<strong>Correct anything.</strong> Tap a line to fix a word; play the recording back to check it.",
     min_eyebrow: "Minutes",
     min_title: "From recording <em>to a document</em>.",
     min_sub: "A finished meeting is something you send to people. BVoice gets it there in a couple of taps.",
     mn_export_t: "Word and PDF",
-    mn_export_d: "Export the minutes, with speakers and translations, as a Word document or a PDF — or copy the text and share it to any app.",
+    mn_export_d: "Export the minutes, with speakers and translations, as a Word document or a PDF - or copy the text and share it to any app.",
     mn_tr_t: "Translate the whole meeting",
     mn_tr_d: "Choose any of 100 languages and every line of a past meeting is translated in place.",
     mn_search_t: "Find it again",
@@ -78,7 +78,7 @@ i18n.en = {
     ip_eyebrow: "Interpreting",
     ip_title: "Speak Vietnamese. <em>The phone says it in their language.</em>",
     ip_sub: "For hosting guests, guiding a tour or giving a talk. You speak; BVoice translates each sentence and reads it aloud in up to three languages, one after another.",
-    ip_1: "<strong>English, French, German and Spanish</strong>, through the phone's own speaker — no extra device.",
+    ip_1: "<strong>English, French, German and Spanish</strong>, through the phone's own speaker - no extra device.",
     ip_2: "<strong>It waits for your pause.</strong> Translations are prepared while you talk and spoken once you stop, so the phone never talks over you.",
     ip_3: "<strong>Every sentence on screen</strong>, in Vietnamese and in each language, so nobody misses a line.",
     priv_eyebrow: "Privacy",
@@ -86,7 +86,7 @@ i18n.en = {
     priv_sub: "Recognition, speaker labels, translation and speech all happen on the phone itself. There is no account to create, and no copy of your recordings anywhere else.",
     pv_1: "<strong>No sign-up.</strong> Open the app and record.",
     pv_2: "<strong>Recordings and minutes are stored only in the app</strong>, on this phone. Delete a meeting and it is gone.",
-    pv_3: "<strong>A one-time download.</strong> On first use the app fetches the data it needs to recognise speech — about 35 MB; translation, voices and speaker labels fetch theirs the first time you use them.",
+    pv_3: "<strong>A one-time download.</strong> On first use the app fetches the data it needs to recognise speech - about 35 MB; translation, voices and speaker labels fetch theirs the first time you use them.",
     btn_policy: "Read the privacy policy",
     faq1_q: "Which phones does it run on?",
     faq1_a: "Android 8.0 and up. It runs best on a recent mid-range phone with 6 GB of memory or more; on lower-end phones BVoice still works, with help from our processing server (see below).",
@@ -149,14 +149,14 @@ i18n.en = {
     footer_services: "Services",
     footer_contact: "Contact",
     footer_rights: "All rights reserved.",
-    ios_page_title: "BVoice for iPhone — Vietnamese meeting transcripts | AIBachKhoa",
-    ios_meta_desc: "BVoice for iPhone turns spoken Vietnamese into text while the meeting runs, labels who said what, translates into 100 languages and reads translations aloud — all on the iPhone. iOS 15.1 or later.",
+    ios_page_title: "BVoice for iPhone - Vietnamese meeting transcripts | AIBachKhoa",
+    ios_meta_desc: "BVoice for iPhone turns spoken Vietnamese into text while the meeting runs, labels who said what, translates into 100 languages and reads translations aloud - all on the iPhone. iOS 15.1 or later.",
     ios_kicker: "iPhone · meetings & transcription",
     ios_meta: "iPhone, iOS 15.1 or later · portrait · 7 days free with every feature, then a subscription or a pack of minutes.",
     ios_m_bg_d: "Lock the iPhone or switch to another app and the meeting carries on recording; the orange indicator shows the microphone is on.",
     ios_perm_eyebrow: "Permissions",
     ios_perm_title: "One permission, <em>asked when you record</em>.",
-    ios_perm_sub: "iOS asks you first, at the moment you start a meeting — not when the app opens.",
+    ios_perm_sub: "iOS asks you first, at the moment you start a meeting - not when the app opens.",
     ios_perm_mic: "<strong>Microphone.</strong> To hear the meeting while you record or interpret. It is off the rest of the time.",
     ios_perm_bg: "<strong>Audio in the background.</strong> So a meeting keeps recording with the screen locked. It applies only while you are recording.",
     ios_perm_none: "<strong>Nothing beyond that.</strong> No location, no contacts, no camera, no photo library, no tracking.",
@@ -166,7 +166,7 @@ i18n.en = {
     ios_faq2_a: "No. On iPhone recognition, translation and speech all run on the device. The only connection the app makes is the one-time download of the data each feature needs, and purchases, which Apple handles.",
     ios_pl_a4: "Through the App Store; prices appear in your own currency in the app. Cancel any time in Settings → your name → Subscriptions. We never see your card.",
     ios_gal_sub: "Every frame below is the app's own interface on iPhone, with sample meeting data.",
-    pol_page_title: "BVoice — Privacy Policy | AIBachKhoa",
+    pol_page_title: "BVoice - Privacy Policy | AIBachKhoa",
     pol_meta_desc: "How BVoice handles your recordings, transcripts and purchases on Android and iPhone: what stays on your phone, what is downloaded, and how to delete it.",
     pol_eyebrow: "Legal",
     pol_title: "Privacy Policy",
@@ -178,7 +178,7 @@ i18n.en = {
     pol_intro: "BVoice records meetings and conversations in Vietnamese, turns them into text, labels who said what, translates them and reads translations aloud. It has no accounts, no user profiles and no social features.",
     pol_h_short: "The short version",
     pol_short_1: "<strong>Your recordings and minutes stay on your phone.</strong> Recordings, transcripts, translations, speaker names and settings are stored only in the App's private storage on your device. We keep no copy.",
-    pol_short_2: "<strong>Processing happens on the phone.</strong> Recognition, speaker labelling, translation and speech run on your device. On iPhone, always. On Android, unless the phone is below the minimum hardware — see below.",
+    pol_short_2: "<strong>Processing happens on the phone.</strong> Recognition, speaker labelling, translation and speech run on your device. On iPhone, always. On Android, unless the phone is below the minimum hardware - see below.",
     pol_short_3: "<strong>No account, no analytics, no advertising, no tracking.</strong> Nothing in the App measures what you do or follows you across other apps.",
     pol_short_4: "<strong>One permission that matters: the microphone</strong>, used only while you record a meeting, interpret, or have the meeting screen open.",
     pol_short_5: "<strong>Payments are handled by Google Play or the App Store.</strong> We never see your card.",
@@ -204,12 +204,12 @@ i18n.en = {
     pol_collect_none: "The App never asks for your name, email address, phone number or any other identifying information. It does not back your data up to any cloud service of ours.",
     pol_h_voice: "Microphone and Recording",
     pol_voice_1: "The microphone is used only while the meeting screen is open (to show a sound level; nothing is stored), while you record a meeting, or while you interpret. It is not used at any other time. While recording, Android shows a persistent notification and iPhone shows its orange indicator, so you always know the microphone is on.",
-    pol_voice_2: "You are responsible for telling the people present that you are recording and obtaining their consent, as required by the data protection laws that apply to you — in Vietnam, Decree 13/2023/ND-CP. Do not use the App to record anyone secretly or for any unlawful purpose.",
+    pol_voice_2: "You are responsible for telling the people present that you are recording and obtaining their consent, as required by the data protection laws that apply to you - in Vietnam, Decree 13/2023/ND-CP. Do not use the App to record anyone secretly or for any unlawful purpose.",
     pol_h_process: "Where Processing Happens",
     pol_proc_1: "<strong>On iPhone</strong>, recognition, noise reduction, speaker labelling, translation and speech all run on the device. No audio, transcript or recording leaves it.",
     pol_proc_2: "<strong>On Android</strong>, the same is true on any phone that meets the minimum hardware. Only on a phone below that minimum, which cannot transcribe and translate quickly enough by itself, does the App send short audio clips and the sentences to translate to our processing server, over an encrypted connection. They are used only to produce the text or translation and send it back; they are not stored, not used to train anything, and not shared. Full recordings, minutes and speaker names always stay on the phone.",
     pol_h_download: "One-Time Downloads",
-    pol_download: "To work on the phone, the App downloads the data each feature needs once — about 35 MB for recognition, more for translation, voices and speaker labelling — from file hosting servers. As with any download, those servers see your device's IP address and ordinary connection details. None of your recordings or other data is sent with the request. Wi-Fi is recommended, as these downloads can use mobile data.",
+    pol_download: "To work on the phone, the App downloads the data each feature needs once - about 35 MB for recognition, more for translation, voices and speaker labelling - from file hosting servers. As with any download, those servers see your device's IP address and ordinary connection details. None of your recordings or other data is sent with the request. Wi-Fi is recommended, as these downloads can use mobile data.",
     pol_h_purchases: "Purchases and Subscriptions",
     pol_pur_1: "Every feature is free for seven days from the first launch. After that you can subscribe to BVoice Pro, monthly or yearly, or buy packs of transcription minutes.",
     pol_pur_2: "Payment is handled entirely by Google Play or the App Store, depending on where the App was installed from. We never see, receive or store your card or payment details. The App learns only what you are entitled to: whether a subscription is active, and which purchases to credit.",
@@ -220,9 +220,9 @@ i18n.en = {
     pol_perm_3: "The network is used for the one-time downloads above, for purchases, and on Android phones below the minimum hardware for the processing described above. Recording, transcription, speaker labelling, translation and interpreting otherwise work with no connection.",
     pol_h_storage: "Data Storage and Deletion",
     pol_storage_1: "Everything the App stores lives in its own private area on your device. You can delete any meeting from within the App.",
-    pol_storage_2: "Uninstalling the App deletes all of it permanently. Anything you export or share outside the App — a Word file, a PDF, copied text — is then yours to manage.",
+    pol_storage_2: "Uninstalling the App deletes all of it permanently. Anything you export or share outside the App - a Word file, a PDF, copied text - is then yours to manage.",
     pol_h_accuracy: "Accuracy of Results",
-    pol_accuracy: "Transcripts, speaker labels, translations and synthesised speech are produced automatically and may be wrong, incomplete, or attribute words to the wrong person — especially with noise, overlapping speech or specialist terms. Check them before relying on them for anything important, such as official minutes, contracts, medical or legal matters.",
+    pol_accuracy: "Transcripts, speaker labels, translations and synthesised speech are produced automatically and may be wrong, incomplete, or attribute words to the wrong person - especially with noise, overlapping speech or specialist terms. Check them before relying on them for anything important, such as official minutes, contracts, medical or legal matters.",
     pol_h_children: "Children's Privacy",
     pol_children: "The App is not directed at children under 13 and does not knowingly collect personal data from children. It contains in-app purchases, so on a shared device we recommend a purchase PIN on Google Play or Screen Time restrictions on iPhone.",
     pol_h_rights: "Your Rights",
@@ -336,7 +336,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const fallback = i18n[DEFAULT_LANG];
         const key = active.dataset.key;
         galImg.src = SHOT_DIR + active.dataset.shot + '.webp';
-        galImg.alt = 'BVoice — ' + (dict[key + '_title'] || fallback[key + '_title'] || '');
+        galImg.alt = 'BVoice - ' + (dict[key + '_title'] || fallback[key + '_title'] || '');
         if (galTitle) galTitle.textContent = dict[key + '_title'] || fallback[key + '_title'] || '';
         if (galCap) galCap.textContent = dict[key + '_cap'] || fallback[key + '_cap'] || '';
     }

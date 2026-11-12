@@ -4,7 +4,7 @@
    dictionary, a language picker that remembers its own choice,
    and a theme toggle shared with the rest of the site.
 
-   Vietnamese IS offered here — unlike the other product pages —
+   Vietnamese IS offered here - unlike the other product pages -
    because the game ships with a Vietnamese build and the store
    listing is bilingual.
    ========================================================= */
@@ -19,10 +19,10 @@ const i18n = {
         footer_services: "Services",
         footer_contact: "Contact",
         footer_rights: "All rights reserved.",
-        page_title: "Mini Castle — every gatherer is one less spear | AIBachKhoa",
+        page_title: "Mini Castle - every gatherer is one less spear | AIBachKhoa",
         meta_desc: "A castle-defense game with a stripped-down RTS economy for iPhone, iPad and Android. Twenty nights, twenty-one maps. No ads, no purchases, offline.",
-        pol_page_title: "Privacy Policy — Mini Castle | AIBachKhoa",
-        pol_meta_desc: "Mini Castle collects nothing. No account, no network access, no analytics, no ads — every save file stays on your device.",
+        pol_page_title: "Privacy Policy - Mini Castle | AIBachKhoa",
+        pol_meta_desc: "Mini Castle collects nothing. No account, no network access, no analytics, no ads - every save file stays on your device.",
 
         aria_lang: "Change language",
         aria_theme: "Toggle theme",
@@ -43,9 +43,9 @@ const i18n = {
         hero_sub: "Mini Castle is a castle-defense game with a stripped-down RTS economy. Your people are both workers and soldiers, and you only ever have enough of them for one of those jobs.",
         btn_shots: "See how it plays",
         btn_policy: "Privacy policy",
-        hero_img_alt: "Mini Castle — wave 19, three chieftains on the board",
+        hero_img_alt: "Mini Castle - wave 19, three chieftains on the board",
 
-        quote: "Send them to chop wood and your stores fill while your walls empty. Keep them holding spears and the walls hold — but next wave you cannot afford a single new recruit.",
+        quote: "Send them to chop wood and your stores fill while your walls empty. Keep them holding spears and the walls hold - but next wave you cannot afford a single new recruit.",
 
         loop_eyebrow: "The loop",
         loop_title: "Forty-five seconds, then the horn.",
@@ -63,15 +63,15 @@ const i18n = {
         eco_gold_h: "Gold",
         eco_gold_p: "Finite mines. Once a seam is dug out it is gone, so the map slowly pushes you outward and away from the walls.",
         eco_wood_h: "Wood",
-        eco_wood_p: "Trees regrow. It is the one resource that rewards patience — and the one every building wants.",
+        eco_wood_p: "Trees regrow. It is the one resource that rewards patience - and the one every building wants.",
         eco_meat_h: "Meat",
         eco_meat_p: "Sheep breed on their own; farms trickle forever but slowly. Run out and the whole army goes Hungry: 30% less damage and speed.",
         eco_pop_h: "Population",
-        eco_pop_p: "Houses set the cap. Go over it and every unit is Exhausted — 25% off damage and movement — until you build your way back under.",
+        eco_pop_p: "Houses set the cap. Go over it and every unit is Exhausted - 25% off damage and movement - until you build your way back under.",
         eco_camps_h: "Goblin camps",
         eco_camps_p: "Raze one and every later wave is 12% weaker, stacking. Marching out to do it means leaving home undefended.",
         eco_maps_h: "21 maps",
-        eco_maps_p: "Plains, highland, desert, archipelago, marsh and coast — from 89×58 up to 139×94 tiles. Win one to unlock the next.",
+        eco_maps_p: "Plains, highland, desert, archipelago, marsh and coast - from 89×58 up to 139×94 tiles. Win one to unlock the next.",
 
         gal_eyebrow: "Screenshots",
         gal_title: "Captured from the real build.",
@@ -104,18 +104,18 @@ const i18n = {
         pol_title: "Privacy Policy",
         pol_updated: "Last updated: 2 September 2026",
         pol_short_h: "The short version",
-        pol_short_p: "Mini Castle collects nothing, sends nothing and asks for no permissions. The app has no network access at all — the Android version does not request internet access, and the iOS version makes no network connections. Everything it remembers stays in the app's own storage on your device.",
+        pol_short_p: "Mini Castle collects nothing, sends nothing and asks for no permissions. The app has no network access at all - the Android version does not request internet access, and the iOS version makes no network connections. Everything it remembers stays in the app's own storage on your device.",
         pol_collect_h: "Information we collect",
         pol_collect_p: "None. There is no account, no sign-in, no analytics, no advertising, no crash reporter and no telemetry of any kind. We never see that you installed the game, never see how you play it, and have no way to identify you.",
         pol_device_h: "What is stored on your device",
         pol_device_p: "Two small files, written by the game and readable only by it:",
-        pol_device_li1: "<strong>Settings</strong> — volume levels, language, team colour, control scheme and display options.",
-        pol_device_li2: "<strong>Progress</strong> — which of the 21 levels you have unlocked.",
+        pol_device_li1: "<strong>Settings</strong> - volume levels, language, team colour, control scheme and display options.",
+        pol_device_li2: "<strong>Progress</strong> - which of the 21 levels you have unlocked.",
         pol_device_p2: "Neither file leaves the device. Deleting the app deletes both. They are kept separate on purpose: clearing a broken setting should never cost you your campaign progress.",
         pol_perm_h: "Permissions",
         pol_perm_p: "The game requests no permissions. No camera, no microphone, no photos, no location, no contacts, no notifications, no network. Where an app store shows a permissions list for Mini Castle, it will be empty.",
         pol_stores_h: "What the app stores see",
-        pol_stores_p: "Downloading and updating the game happens through Apple's App Store and Google Play. Those companies handle that transaction under their own privacy policies, and they may tell us aggregate, anonymous figures — how many people installed the app in a country, for instance. We receive no personal information from them and cannot connect any of it to a person.",
+        pol_stores_p: "Downloading and updating the game happens through Apple's App Store and Google Play. Those companies handle that transaction under their own privacy policies, and they may tell us aggregate, anonymous figures - how many people installed the app in a country, for instance. We receive no personal information from them and cannot connect any of it to a person.",
         pol_children_h: "Children",
         pol_children_p: "The game is rated 9+ / PEGI 7 for mild fantasy violence and is safe for children in the sense that matters here: because it collects no data at all, it collects no data about children either. It contains no chat, no user-generated content, no links out and no purchases.",
         pol_changes_h: "Changes to this policy",
@@ -223,7 +223,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const dict = i18n[currentLang] || i18n[DEFAULT_LANG];
         const key = active.dataset.key;
         galImg.src = SHOT_DIR + active.dataset.shot + '.webp';
-        galImg.alt = 'Mini Castle — ' + (dict[key + '_h'] || '');
+        galImg.alt = 'Mini Castle - ' + (dict[key + '_h'] || '');
         if (galTitle) galTitle.textContent = dict[key + '_h'] || '';
         if (galCap) galCap.textContent = dict[key + '_p'] || '';
     }

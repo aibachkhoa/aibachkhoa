@@ -97,18 +97,18 @@
       .om-hero { padding: 6rem 0 4rem; }
       .om-badges { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.5rem 0; }
       .om-badge { display: inline-flex; align-items: center; gap: .35rem; padding: .35rem .7rem; border: 1px solid var(--border, #d9d9d9); border-radius: 999px; font-size: .85rem; font-family: 'DM Mono', monospace; color: var(--text-2, #555); }
-      .om-downloads { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin-top: 2rem; }
+      .om-downloads { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 1rem; margin-top: 2rem; }
       .om-dl { display: block; padding: 1.25rem 1.5rem; border: 1px solid var(--border, #d9d9d9); border-radius: 12px; background: var(--surface, #fff); text-decoration: none; color: inherit; transition: transform .15s ease, border-color .15s ease; }
       .om-dl:hover { transform: translateY(-2px); border-color: var(--accent, #2563eb); }
       .om-dl-os { display: flex; align-items: center; gap: .5rem; font-family: 'DM Mono', monospace; font-size: .8rem; letter-spacing: .04em; text-transform: uppercase; color: var(--text-2, #666); margin-bottom: .35rem; }
       .om-dl-name { font-weight: 700; font-size: 1.05rem; margin-bottom: .25rem; }
       .om-dl-meta { font-size: .85rem; color: var(--text-2, #666); }
       .om-dl.soon { opacity: .6; pointer-events: none; }
-      .om-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 3rem; }
+      .om-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 2rem; margin-top: 3rem; }
       .om-feat h3 { font-size: 1.2rem; margin-bottom: .5rem; }
       .om-feat p { color: var(--text-2, #555); line-height: 1.65; }
       .om-how { margin-top: 4rem; }
-      .om-how-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+      .om-how-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 1.5rem; margin-top: 2rem; }
       .om-how-item { padding: 1.5rem; border-left: 3px solid var(--accent, #2563eb); background: var(--surface, #fafafa); border-radius: 0 8px 8px 0; }
       .om-how-item .n { font-family: 'DM Mono', monospace; font-size: .8rem; color: var(--accent, #2563eb); letter-spacing: .1em; }
       .om-how-item h4 { margin: .35rem 0 .5rem; font-size: 1.05rem; }
@@ -157,7 +157,7 @@
             <div class="container">
                 <p class="eyebrow" data-i18n="android_eyebrow">Для Android &middot; v0.2.1</p>
                 <h1 class="hero-title" data-i18n="hero_title">Чат, который продолжает работать, <em>когда пропадает интернет</em>.</h1>
-                <p class="hero-subtitle" style="max-width: 720px;" data-i18n="hero_sub_mobile">Когда собеседник рядом, OriMessenger отправляет сообщения через Bluetooth или общую сеть Wi-Fi, и только если его рядом нет — через интернет. Каждое сообщение защищено сквозным шифрованием &mdash; без аккаунта и без номера телефона.</p>
+                <p class="hero-subtitle" style="max-width: 720px;" data-i18n="hero_sub_mobile">Когда собеседник рядом, OriMessenger отправляет сообщения через Bluetooth или общую сеть Wi-Fi, и только если его рядом нет - через интернет. Каждое сообщение защищено сквозным шифрованием - без аккаунта и без номера телефона.</p>
                 <div class="om-badges">
                     <span class="om-badge" data-i18n="badge_e2e">Сквозное шифрование</span>
                     <span class="om-badge" data-i18n="badge_noacct">Без аккаунта и номера телефона</span>
@@ -173,21 +173,21 @@
         <section class="panel panel--white" id="features">
             <div class="container">
                 <p class="eyebrow" data-i18n="feat_eyebrow">Почему OriMessenger</p>
-                <h2 class="display display--lg" data-i18n="feat_title">Три способа связаться с человеком — именно в таком порядке.</h2>
-                <p class="section-sub" style="max-width: 780px;" data-i18n="feat_sub">Большинство мессенджеров исходят из того, что интернет есть всегда. OriMessenger — нет. Когда собеседник рядом с вами, приложение само выбирает кратчайший путь.</p>
+                <h2 class="display display--lg" data-i18n="feat_title">Три способа связаться с человеком - именно в таком порядке.</h2>
+                <p class="section-sub" style="max-width: 780px;" data-i18n="feat_sub">Большинство мессенджеров исходят из того, что интернет есть всегда. OriMessenger - нет. Когда собеседник рядом с вами, приложение само выбирает кратчайший путь.</p>
 
                 <div class="om-features">
                     <div class="om-feat">
-                        <h3 data-i18n="feat1_h">1. Bluetooth &mdash; когда вы в нескольких метрах друг от друга</h3>
+                        <h3 data-i18n="feat1_h">1. Bluetooth - когда вы в нескольких метрах друг от друга</h3>
                         <p data-i18n="feat1_p">Приложение находит других пользователей Ori поблизости через Bluetooth. На расстоянии примерно от 10 до 30 метров сообщения идут напрямую с устройства на устройство, минуя роутер и вышку сотовой связи. Интернет не нужен вовсе.</p>
                     </div>
                     <div class="om-feat">
-                        <h3 data-i18n="feat2_h">2. Wi-Fi / LAN &mdash; в одной сети</h3>
+                        <h3 data-i18n="feat2_h">2. Wi-Fi / LAN - в одной сети</h3>
                         <p data-i18n="feat2_p">В одной сети Wi-Fi или проводной сети устройства находят друг друга автоматически, и сообщения не покидают локальную сеть. Это работает даже в гостевом Wi-Fi или в отеле, где интернет заблокирован, и скорости хватает для фотографий.</p>
                     </div>
                     <div class="om-feat">
-                        <h3 data-i18n="feat3_h">3. Интернет &mdash; когда ни один из способов выше не сработал</h3>
-                        <p data-i18n="feat3_p">Сообщение идёт через наш сервер, только если не сработали ни Bluetooth, ни локальная сеть. Имена, профили, сообщения и вложения защищены сквозным шифрованием, поэтому сервер не может прочитать ничего из этого. Он видит, кто, кому и когда отправил сообщение &mdash; это нужно для доставки &mdash; и хранит эти данные не дольше 30 дней.</p>
+                        <h3 data-i18n="feat3_h">3. Интернет - когда ни один из способов выше не сработал</h3>
+                        <p data-i18n="feat3_p">Сообщение идёт через наш сервер, только если не сработали ни Bluetooth, ни локальная сеть. Имена, профили, сообщения и вложения защищены сквозным шифрованием, поэтому сервер не может прочитать ничего из этого. Он видит, кто, кому и когда отправил сообщение - это нужно для доставки - и хранит эти данные не дольше 30 дней.</p>
                     </div>
                 </div>
             </div>
@@ -214,8 +214,8 @@
         <section class="panel panel--white om-how">
             <div class="container">
                 <p class="eyebrow" data-i18n="how_eyebrow">Как это работает</p>
-                <h2 class="display display--lg" data-i18n="how_title">Ваша конфиденциальность — простыми словами.</h2>
-                <p class="section-sub" style="max-width: 720px;" data-i18n="how_sub">Что остаётся на вашем телефоне, что защищено и что мы можем и не можем видеть. Все подробности — в <a href="/ru/orimessenger/policy">политике конфиденциальности</a>.</p>
+                <h2 class="display display--lg" data-i18n="how_title">Ваша конфиденциальность - простыми словами.</h2>
+                <p class="section-sub" style="max-width: 720px;" data-i18n="how_sub">Что остаётся на вашем телефоне, что защищено и что мы можем и не можем видеть. Все подробности - в <a href="/ru/orimessenger/policy">политике конфиденциальности</a>.</p>
 
                 <div class="om-how-grid">
                     <div class="om-how-item">
@@ -247,11 +247,11 @@
                 <ul class="breakout-points">
                     <li>
                         <h3 data-i18n="brk1_h">Без номера телефона</h3>
-                        <p data-i18n="brk1_p">Регистрация — это 16-символьный ID, созданный на вашем устройстве. Нет SMS-шлюза, через который мог бы утечь ваш номер.</p>
+                        <p data-i18n="brk1_p">Регистрация - это 16-символьный ID, созданный на вашем устройстве. Нет SMS-шлюза, через который мог бы утечь ваш номер.</p>
                     </li>
                     <li>
                         <h3 data-i18n="brk2_h">Без аккаунта</h3>
-                        <p data-i18n="brk2_p">Ни почты, ни пароля, ни процедуры восстановления. Потерять устройство — значит потерять личность, и так задумано.</p>
+                        <p data-i18n="brk2_p">Ни почты, ни пароля, ни процедуры восстановления. Потерять устройство - значит потерять личность, и так задумано.</p>
                     </li>
                     <li>
                         <h3 data-i18n="brk3_h">Бесплатно и без рекламы</h3>
@@ -266,7 +266,7 @@
         </section>        <section class="panel panel--ink closing" id="contact">
             <div class="container">
                 <h2 class="cta-title" data-i18n="cta_title">Вопросы или нашли ошибку?</h2>
-                <p class="section-sub" style="margin-inline:auto;text-align:center;" data-i18n="cta_sub">Лучше всего писать на почту &mdash; обычно отвечаем в тот же день.</p>
+                <p class="section-sub" style="margin-inline:auto;text-align:center;" data-i18n="cta_sub">Лучше всего писать на почту - обычно отвечаем в тот же день.</p>
                 <div class="closing-actions">
                     <a href="mailto:contact@aibachkhoa.com" class="btn btn-primary" data-i18n="cta_btn">Связаться с нами</a>
                     <a href="/ru/orimessenger/policy" class="btn btn-ghost" data-i18n="footer_policy">Политика конфиденциальности</a>

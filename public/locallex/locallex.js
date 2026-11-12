@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
         tabs.forEach(other => other.classList.toggle('is-active', other === tab));
         if (galImg) {
             galImg.src = SHOT_DIR + tab.dataset.shot + '.webp';
-            galImg.alt = 'LocalLex — ' + tab.textContent.trim();
+            galImg.alt = 'LocalLex - ' + tab.textContent.trim();
         }
     }));
 

@@ -1,7 +1,7 @@
 # Temporarily hidden products
 
 iTask, CrewAI, CrewOSINT and CrewChat were taken off the site on 3 September 2026
-at the owner's request. **CrewAI Platform was deliberately kept** — it was not on
+at the owner's request. **CrewAI Platform was deliberately kept** - it was not on
 the list. Nothing was deleted from the codebase; this folder holds everything
 needed to put the four back.
 
@@ -27,18 +27,18 @@ each block labelled with where it belongs:
 - **Footer links on the product pages.** Each `Other products` column lost its
   iTask / CrewAI / CrewOSINT / CrewChat entries. `public/bksafe/index.html` was
   down to one link afterwards, so it was refilled with Chilly Novels and the
-  games — trim that back when the web products return.
+  games - trim that back when the web products return.
 - **Copy in `public/script.js`**, changed in all 12 languages. The keys still
   holding the old product names (`cta_try`, `cta_crew`, `itask_desc`,
   `crew_desc`, `osint_desc`, `chat_desc`, `action_plans`, `action_console`,
   `action_osint`, `action_chat`, and the matching `tag_*` / `feat_*`) were left
   untouched, so only these three need reverting:
 
-  - `hero_subtitle` — was "iTask manages your tasks. CrewAI orchestrates
+  - `hero_subtitle` - was "iTask manages your tasks. CrewAI orchestrates
     autonomous agents that automate complex workflows."
-  - `meta_desc` — was "AIBachKhoa builds practical AI tools: iTask for task
+  - `meta_desc` - was "AIBachKhoa builds practical AI tools: iTask for task
     management and CrewAI for orchestrating AI agents that automate workflows."
-  - `products_sub` — the product count, currently thirteen, back to seventeen.
+  - `products_sub` - the product count, currently thirteen, back to seventeen.
 
   `git log -p public/script.js` has the previous wording for every language.
 

@@ -13,7 +13,7 @@ For each remaining image both a lossless and a quality-88 lossy WebP are
 encoded and the smaller one kept. Pixel art and flat UI screenshots almost
 always come out smaller (and pixel-exact) as lossless; photographic frames
 come out far smaller as lossy. Anything wider than MAX_EDGE is scaled down
-first — nothing on the site is displayed near that size.
+first - nothing on the site is displayed near that size.
 """
 import pathlib, re, sys, io
 from PIL import Image

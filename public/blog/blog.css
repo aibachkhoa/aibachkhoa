@@ -1,5 +1,5 @@
 /* =========================================================
-   Blog — the post list and the article pages. On top of /style.css,
+   Blog - the post list and the article pages. On top of /style.css,
    so the tokens (ink, surfaces, borders, radius) and the cards come
    from the shared system; this file only adds what reading needs.
    ========================================================= */
@@ -29,7 +29,7 @@
 
 .post-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(290px, 100%), 1fr));
     gap: 1.6rem;
 }
 .post-card[hidden] { display: none; }
@@ -161,7 +161,7 @@
     border-radius: 0.35rem;
 }
 
-/* Callouts (> [!WARNING] …) — for security notices above all, so they
+/* Callouts (> [!WARNING] …) - for security notices above all, so they
    have to be unmistakable without shouting. */
 .callout {
     border: var(--border-w) solid var(--ink);

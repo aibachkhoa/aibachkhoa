@@ -1,8 +1,8 @@
-/* JeMul — Japanese translation. Loaded only by the /ja/ copies of these pages; see tools/build-i18n-pages.js. */
+/* JeMul - Japanese translation. Loaded only by the /ja/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.ja = {
-    page_title: "JeMul — Android とブラウザで動く J2ME エミュレーター | AIBachKhoa",
+    page_title: "JeMul - Android とブラウザで動く J2ME エミュレーター | AIBachKhoa",
     meta_desc: "JeMul はガラケー時代の Java ME ゲームを動かします。Android アプリで手持ちの .jar ファイルを遊ぶことも、ブラウザでライブラリ丸ごと遊ぶこともできます。",
-    pol_page_title: "JeMul — プライバシーポリシー | AIBachKhoa",
+    pol_page_title: "JeMul - プライバシーポリシー | AIBachKhoa",
     pol_meta_desc: "JeMul の Android 版にはアカウントがなく、すべてを端末内に保存します。ブラウザ版は、誰がプレイできるかを管理するためだけに Google でサインインします。",
 
     aria_lang: "言語を切り替える",

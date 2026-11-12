@@ -1,7 +1,7 @@
-/* Blog — Arabic translation. Loaded only by the /ar/ copy of the blog list; see tools/build-i18n-pages.js. */
+/* Blog - Arabic translation. Loaded only by the /ar/ copy of the blog list; see tools/build-i18n-pages.js. */
 i18n.ar = {
-    page_title: "المدونة — التقنية والمراجعات والتنبيهات الأمنية | AIBachKhoa",
-    meta_desc: "مقالات تقنية ومراجعات صادقة وتنبيهات أمنية من فريق AIBachKhoa — بلغة واضحة ومع المصادر.",
+    page_title: "المدونة - التقنية والمراجعات والتنبيهات الأمنية | AIBachKhoa",
+    meta_desc: "مقالات تقنية ومراجعات صادقة وتنبيهات أمنية من فريق AIBachKhoa - بلغة واضحة ومع المصادر.",
     skip_link: "تخطَّ إلى المحتوى",
     aria_lang: "تغيير اللغة",
     aria_theme: "تبديل المظهر",
@@ -12,7 +12,7 @@ i18n.ar = {
     nav_contact: "اتصل بنا",
     hero_eyebrow: "مدونة AIBachKhoa",
     hero_title: "التقنية، <em>بشرحٍ واضح</em>.",
-    hero_sub: "مقالات عن الأدوات التي نبنيها ونستخدمها، ومراجعات صادقة، وتنبيهات أمنية يمكنك التصرف بناءً عليها — كلٌّ منها مع مصادره.",
+    hero_sub: "مقالات عن الأدوات التي نبنيها ونستخدمها، ومراجعات صادقة، وتنبيهات أمنية يمكنك التصرف بناءً عليها - كلٌّ منها مع مصادره.",
     filter_label: "تصفية المقالات حسب الموضوع",
     filter_all: "كل المقالات",
     cat_tech: "تقنية",
@@ -26,7 +26,7 @@ i18n.ar = {
     read_post: "اقرأ المقال",
     min_read: "قراءة في {n} دقيقة",
     updated: "آخر تحديث",
-    empty_filter: "لا يوجد شيء في هذا التصنيف بعد — أول مقال في الطريق.",
+    empty_filter: "لا يوجد شيء في هذا التصنيف بعد - أول مقال في الطريق.",
     empty_all: "أولى المقالات في الطريق.",
     rss_follow: "تابعنا عبر RSS",
     rss: "خلاصة RSS",

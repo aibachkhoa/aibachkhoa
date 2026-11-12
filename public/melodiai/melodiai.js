@@ -1,10 +1,10 @@
 /* =========================================================
-   MelodiAI — product page. Same runtime as the other product
+   MelodiAI - product page. Same runtime as the other product
    pages on the site; translations live in ./i18n/<lang>.js.
    ========================================================= */
 const i18n = {
     en: {
-        page_title: "MelodiAI — turn your lyrics into a finished song | AIBachKhoa",
+        page_title: "MelodiAI - turn your lyrics into a finished song | AIBachKhoa",
         meta_desc: "Write the lyrics, describe the style, and MelodiAI makes the whole song: vocals, band and arrangement, with the sheet music. Remix any recording in a new style. 5 free credits.",
         skip_link: "Skip to content",
         nav_home: "Home",
@@ -15,7 +15,7 @@ const i18n = {
         cta_open: "Open MelodiAI",
         hero_eyebrow: "AI music studio &middot; in your browser",
         hero_title: "Write the words. <em>Hear the song.</em>",
-        hero_sub: "MelodiAI turns your lyrics and a few words about the style into a complete song &mdash; vocals, band and arrangement &mdash; and hands you the sheet music with it. Or bring a recording you already have and hear it again in a new style.",
+        hero_sub: "MelodiAI turns your lyrics and a few words about the style into a complete song - vocals, band and arrangement - and hands you the sheet music with it. Or bring a recording you already have and hear it again in a new style.",
         cta_start: "Start free",
         cta_listen: "Listen to songs made with it",
         badge_free: "5 free credits on sign-up",
@@ -39,13 +39,13 @@ const i18n = {
         t_rock: "Rock remix &middot; guitars and drums",
         f1_eyebrow: "Create",
         f1_title: "From lyrics to a finished song.",
-        f1_sub: "Describe the sound in your own words &mdash; genre, voice, instruments, mood, tempo &mdash; paste the lyrics with [Verse] and [Chorus] tags, and press create. A few minutes later you have a mixed song with vocals and a full band.",
+        f1_sub: "Describe the sound in your own words - genre, voice, instruments, mood, tempo - paste the lyrics with [Verse] and [Chorus] tags, and press create. A few minutes later you have a mixed song with vocals and a full band.",
         f1_l1: "Lyrics in Vietnamese, English and many other languages",
-        f1_l2: "Male, female or duet vocals &mdash; or an instrumental of 1 to 5 minutes",
+        f1_l2: "Male, female or duet vocals - or an instrumental of 1 to 5 minutes",
         f1_l3: "Style ideas and templates to start from",
         f2_eyebrow: "Remix",
         f2_title: "Your recording, in a new style.",
-        f2_sub: "Upload a recording or pick a song you made. MelodiAI writes down its melody, chords and sections, fills in the lyrics for you to check, and plays it back as jazz, rock, a piano piece &mdash; whatever you describe.",
+        f2_sub: "Upload a recording or pick a song you made. MelodiAI writes down its melody, chords and sections, fills in the lyrics for you to check, and plays it back as jazz, rock, a piano piece - whatever you describe.",
         f2_l1: "Keep the original chords, or let it write new harmony",
         f2_l2: "Sung or instrumental, with a new voice of your choice",
         f2_l3: "MP3, WAV, FLAC or OGG, from 10 seconds to 6 minutes",
@@ -82,7 +82,7 @@ const i18n = {
         know3_t: "Only what you own",
         know3_d: "Upload recordings you made or have the rights to use. Uploads are analysed for your remix and stay in your account.",
         cta_title: "Make your first song today.",
-        cta_sub: "Questions, a bug, a partnership &mdash; or you would like to invest in what we are building? Write to us &mdash; usually answered the same day.",
+        cta_sub: "Questions, a bug, a partnership - or you would like to invest in what we are building? Write to us - usually answered the same day.",
         cta_mail: "Email us",
         footer_tagline: "Building practical AI tools for developers and businesses.",
         footer_prod: "Products",

@@ -1,4 +1,4 @@
-/* Mini Castle — German translation. Loaded only by the /de/ copies of these pages; see tools/build-i18n-pages.js. */
+/* Mini Castle - German translation. Loaded only by the /de/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.de = {
     footer_desc: "Wir entwickeln praxisnahe KI-Tools für Entwickler und Unternehmen.",
     footer_game: "Das Spiel",
@@ -8,9 +8,9 @@ i18n.de = {
     footer_services: "Leistungen",
     footer_contact: "Kontakt",
     footer_rights: "Alle Rechte vorbehalten.",
-    page_title: "Mini Castle — jeder Sammler ist ein Speer weniger | AIBachKhoa",
+    page_title: "Mini Castle - jeder Sammler ist ein Speer weniger | AIBachKhoa",
     meta_desc: "Ein Burgverteidigungsspiel mit einer auf das Wesentliche reduzierten Echtzeitstrategie-Wirtschaft für iPhone, iPad und Android. Zwanzig Nächte, einundzwanzig Karten. Keine Werbung, keine Käufe, offline.",
-    pol_page_title: "Datenschutzerklärung — Mini Castle | AIBachKhoa",
+    pol_page_title: "Datenschutzerklärung - Mini Castle | AIBachKhoa",
     pol_meta_desc: "Mini Castle erfasst nichts. Kein Konto, kein Netzwerkzugriff, keine Analyse, keine Werbung – jeder Spielstand bleibt auf deinem Gerät.",
 
     aria_lang: "Sprache ändern",
@@ -32,7 +32,7 @@ i18n.de = {
     hero_sub: "Mini Castle ist ein Burgverteidigungsspiel mit einer auf das Wesentliche reduzierten Echtzeitstrategie-Wirtschaft. Deine Leute sind Arbeiter und Soldaten zugleich – und du hast immer nur genug von ihnen für eine der beiden Aufgaben.",
     btn_shots: "So spielt es sich",
     btn_policy: "Datenschutzerklärung",
-    hero_img_alt: "Mini Castle — Welle 19, drei Häuptlinge auf dem Feld",
+    hero_img_alt: "Mini Castle - Welle 19, drei Häuptlinge auf dem Feld",
 
     quote: "Schick sie zum Holzfällen, und deine Lager füllen sich, während sich deine Mauern leeren. Lass sie die Speere halten, und die Mauern halten – aber in der nächsten Welle kannst du dir keinen einzigen neuen Rekruten leisten.",
 

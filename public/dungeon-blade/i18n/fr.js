@@ -1,6 +1,6 @@
-/* Dungeon of the Fallen Blade — French translation. Loaded only by the /fr/ copies of these pages; see tools/build-i18n-pages.js. */
+/* Dungeon of the Fallen Blade - French translation. Loaded only by the /fr/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.fr = {
-    page_title: "Dungeon of the Fallen Blade — roguelite en pixel art | AIBachKhoa",
+    page_title: "Dungeon of the Fallen Blade - roguelite en pixel art | AIBachKhoa",
     meta_desc: "Un roguelite d'action en pixel art fait main pour Android : cent profondeurs qui changent à chaque partie, vingt seigneurs, combos à l'épée, arc et roulade d'esquive. Sans pubs, sans achats.",
     aria_lang: "Changer de langue",
     aria_theme: "Changer de thème",
@@ -18,7 +18,7 @@ i18n.fr = {
 
     hero_kicker: "Android · roguelite d'action en pixel art",
     hero_title: "Cent profondeurs. <em>Une seule lame</em>.",
-    hero_sub: "Un roguelite d'action en pixel art fait main. Taillez-vous un chemin à travers cent profondeurs en perpétuel changement, choisissez une faveur à chaque porte et affrontez le seigneur qui vous attend tous les cinq niveaux. Chaque partie reconstruit le donjon de zéro — rien ne s'apprend par cœur, tout se mérite.",
+    hero_sub: "Un roguelite d'action en pixel art fait main. Taillez-vous un chemin à travers cent profondeurs en perpétuel changement, choisissez une faveur à chaque porte et affrontez le seigneur qui vous attend tous les cinq niveaux. Chaque partie reconstruit le donjon de zéro - rien ne s'apprend par cœur, tout se mérite.",
     btn_soon: "Bientôt sur Google Play",
     btn_trailer: "Voir la bande-annonce",
     btn_shots: "Voir le jeu en action",
@@ -70,7 +70,7 @@ i18n.fr = {
     c_bow_t: "Un arc pour les combats où vous préférez ne pas foncer",
     c_bow_d: "Les flèches coûtent de l'endurance : une salle nettoyée à distance est une salle où vous entrez sans rien pour rouler. La faveur Carquois profond rend l'échange plus rentable.",
     c_roll_t: "Une roulade d'esquive vraiment invulnérable",
-    c_roll_d: "Pas un simple dash à la hitbox hasardeuse — la roulade accorde de vraies frames d'invulnérabilité et coûte de l'endurance. Rouler à travers la charge d'un seigneur est la principale défense du jeu.",
+    c_roll_d: "Pas un simple dash à la hitbox hasardeuse - la roulade accorde de vraies frames d'invulnérabilité et coûte de l'endurance. Rouler à travers la charge d'un seigneur est la principale défense du jeu.",
     c_move_t: "Des déplacements qui lisent la salle",
     c_move_d: "Maintenez le saut pour monter plus haut, appuyez de nouveau pour un double saut, et bas + saut pour traverser une plateforme en bois. Chaque corniche du donjon est accessible avec ces seuls mouvements.",
 
@@ -97,8 +97,8 @@ i18n.fr = {
     k_pause: "Pause",
 
     gen_eyebrow: "Le donjon",
-    gen_title: "Un étage n'est pas un couloir — <em>il s'étend dans quatre directions</em>.",
-    gen_sub: "Chaque profondeur est construite à neuf, avec des salles reliées à gauche, à droite, en haut et en bas — un étage est un terrain à parcourir, pas une ligne à suivre.",
+    gen_title: "Un étage n'est pas un couloir - <em>il s'étend dans quatre directions</em>.",
+    gen_sub: "Chaque profondeur est construite à neuf, avec des salles reliées à gauche, à droite, en haut et en bas - un étage est un terrain à parcourir, pas une ligne à suivre.",
     g_rooms_t: "Des salles reliées dans les quatre directions",
     g_rooms_d: "Les salles se côtoient et s'empilent les unes sur les autres : une profondeur grimpe autant qu'elle s'étend. Les portes mènent aux salles voisines du même niveau ; des puits avec passerelles traversables et corniches mènent aux étages du dessus et du dessous.",
     g_loops_t: "Des boucles et des culs-de-sac, pas un seul chemin",
@@ -120,7 +120,7 @@ i18n.fr = {
     m_leap: "Bond",
     m_leap_d: "S'accroupit, puis saute là où vous vous tenez et atterrit dans une onde de choc. C'est la réponse aux corniches : un seigneur qui ne peut pas marcher jusqu'à vous arrive quand même.",
     m_charge: "Charge",
-    m_charge_d: "Prend son élan, puis fonce sur toute la longueur de l'arène, hitbox active. S'il percute un mur, il chancelle — son échec est votre ouverture.",
+    m_charge_d: "Prend son élan, puis fonce sur toute la longueur de l'arène, hitbox active. S'il percute un mur, il chancelle - son échec est votre ouverture.",
     m_quake: "Séisme",
     m_quake_d: "L'annonce la plus longue du jeu, car c'est la frappe la plus large du jeu : elle balaie cinq largeurs de corps de chaque côté.",
     m_fan: "Éventail",
@@ -138,7 +138,7 @@ i18n.fr = {
 
     boon_eyebrow: "Faveurs",
     boon_title: "Un choix <em>à chaque porte</em>.",
-    boon_sub: "Gagnez des niveaux en tuant, puis choisissez une faveur en descendant. Trois sont proposées, une seule est à vous — et plus vous descendez, plus elle compte.",
+    boon_sub: "Gagnez des niveaux en tuant, puis choisissez une faveur en descendant. Trois sont proposées, une seule est à vous - et plus vous descendez, plus elle compte.",
     bn_vit: "Vitalité",
     bn_might: "Puissance",
     bn_swift: "Célérité",
@@ -155,7 +155,7 @@ i18n.fr = {
     b_ward: "Subit 12 % de dégâts en moins",
     b_quiver: "+60 % de dégâts des flèches",
     b_flask: "+2 potions et soins renforcés",
-    boon_death: "<strong>La mort met fin à la partie.</strong> Aucun point de sauvegarde, et rien ne réapparaît là où vous êtes tombé — le seul retour au donjon depuis l'écran des résultats vous ramène à la profondeur un, sans niveaux, faveurs ni or.",
+    boon_death: "<strong>La mort met fin à la partie.</strong> Aucun point de sauvegarde, et rien ne réapparaît là où vous êtes tombé - le seul retour au donjon depuis l'écran des résultats vous ramène à la profondeur un, sans niveaux, faveurs ni or.",
 
     phone_eyebrow: "Pensé pour le téléphone",
     phone_title: "Des commandes tactiles pour <em>tenir une direction et frapper en même temps</em>.",
@@ -177,7 +177,7 @@ i18n.fr = {
     s3_title: "Un étage tout neuf",
     s3_cap: "Deux parties ne se ressemblent jamais. Le sol, les corniches, les gouffres et la position des monstres sont nouveaux à chaque partie.",
     s4_title: "Rouler à travers un coup",
-    s4_cap: "La roulade offre de vraies frames d'invulnérabilité, payées en endurance — toute la différence entre lire une attaque et l'encaisser.",
+    s4_cap: "La roulade offre de vraies frames d'invulnérabilité, payées en endurance - toute la différence entre lire une attaque et l'encaisser.",
     s5_title: "Une profondeur se présente",
     s5_cap: "Chaque acte s'ouvre sur son nom et une phrase d'ambiance. Dans une arène, le carton nomme plutôt le seigneur qui y attend.",
     s6_title: "Choisir une faveur",
@@ -193,16 +193,16 @@ i18n.fr = {
     ns_sub: "Le jeu tourne sur l'appareil. Les réglages et votre meilleure profondeur sont gardés dans le fichier de sauvegarde de l'appli ; la seule chose qui quitte le téléphone est un score de classement, et seulement une fois connecté à Google Play Jeux.",
     ns_ads: "<strong>Aucune pub.</strong> Nulle part dans le jeu, et aucun réseau publicitaire dans l'application.",
     ns_iap: "<strong>Aucun achat intégré.</strong> Les cent profondeurs sont toutes incluses dans le téléchargement.",
-    ns_acct: "<strong>La connexion est facultative.</strong> Chaque profondeur, faveur et seigneur est jouable sans compte — Play Jeux ajoute seulement les classements et les succès.",
+    ns_acct: "<strong>La connexion est facultative.</strong> Chaque profondeur, faveur et seigneur est jouable sans compte - Play Jeux ajoute seulement les classements et les succès.",
     ns_offline: "<strong>Jouable hors connexion.</strong> L'appli demande l'autorisation d'accès à Internet pour joindre Play Jeux ; coupez la connexion et le jeu se joue exactement pareil, sans publier de score.",
     ns_readpolicy: "Lire la politique de confidentialité",
 
     faq1_q: "Sur quelles versions d'Android fonctionne-t-il ?",
     faq1_a: "Android 7.0 et versions ultérieures, sur les appareils arm64-v8a et armeabi-v7a.",
     faq2_q: "Faut-il une connexion Internet ?",
-    faq2_a: "Pas pour jouer. L'appli déclare l'autorisation d'accès à Internet car elle communique avec Google Play Jeux pour les classements et les succès, mais chaque profondeur, faveur et seigneur fonctionne hors connexion — vous ne publiez simplement pas de score pendant ce temps.",
+    faq2_a: "Pas pour jouer. L'appli déclare l'autorisation d'accès à Internet car elle communique avec Google Play Jeux pour les classements et les succès, mais chaque profondeur, faveur et seigneur fonctionne hors connexion - vous ne publiez simplement pas de score pendant ce temps.",
     faq2b_q: "Qu'est-ce qui est envoyé à Google Play Jeux ?",
-    faq2b_a: "Trois scores de classement — descente la plus profonde, partie la plus riche et descente la plus rapide — et la progression de huit succès, liés à votre propre profil Play Jeux et traités par Google selon sa propre politique de confidentialité. Rien de tout cela n'a lieu sans connexion, et rien d'autre ne quitte le téléphone.",
+    faq2b_a: "Trois scores de classement - descente la plus profonde, partie la plus riche et descente la plus rapide - et la progression de huit succès, liés à votre propre profil Play Jeux et traités par Google selon sa propre politique de confidentialité. Rien de tout cela n'a lieu sans connexion, et rien d'autre ne quitte le téléphone.",
     faq3_q: "Y a-t-il une sauvegarde entre les parties ?",
     faq3_a: "Seulement vos réglages et la profondeur maximale atteinte. Une partie n'a pas de point de sauvegarde : la mort vous ramène à la profondeur un, sans niveaux, faveurs ni or. C'est ça, le côté roguelite. Si vous êtes connecté, votre meilleure profondeur, votre partie la plus riche et votre descente la plus rapide vont aussi aux classements.",
     faq4_q: "Puis-je y jouer à la manette ou sur ordinateur ?",
@@ -224,7 +224,7 @@ i18n.fr = {
     footer_rights: "Tous droits réservés.",
 
     // ---- privacy policy page ----
-    pol_page_title: "Politique de confidentialité — Dungeon of the Fallen Blade | AIBachKhoa",
+    pol_page_title: "Politique de confidentialité - Dungeon of the Fallen Blade | AIBachKhoa",
     pol_meta_desc: "Comment Dungeon of the Fallen Blade traite les informations : ce qui reste sur votre appareil, ce que reçoit Google Play Jeux, et pourquoi l'appli a besoin d'Internet.",
     pol_eyebrow: "Mentions légales",
     pol_title: "Politique de confidentialité",
@@ -258,7 +258,7 @@ i18n.fr = {
     pol_h_types: "Types de données collectées",
     pol_h_personal: "Données personnelles",
     pol_personal: "L'Application ne Vous demande aucune information permettant de Vous identifier personnellement. Il n'y a ni compte, ni inscription, ni adresse e-mail. Les seules données concernées sont :",
-    pol_personal_1: "Votre profil Google Play Jeux — uniquement si Vous choisissez de Vous connecter à Play Jeux (voir Partage de données avec des tiers).",
+    pol_personal_1: "Votre profil Google Play Jeux - uniquement si Vous choisissez de Vous connecter à Play Jeux (voir Partage de données avec des tiers).",
     pol_personal_2: "Les données de jeu conservées sur Votre appareil : Vos réglages et Votre record de profondeur.",
     pol_h_usage: "Données d'utilisation",
     pol_usage_lead: "L'Application ne collecte pas de données d'utilisation pour nous. Plus précisément, elle ne recueille pas :",
@@ -279,15 +279,15 @@ i18n.fr = {
 
     pol_h_sharing: "Partage de données avec des tiers",
     pol_sharing_1: "L'Application intègre <strong>Google Play Games Services</strong> afin de proposer des classements et des succès. C'est le seul service tiers de l'Application. La connexion à Play Jeux est facultative et n'est jamais nécessaire pour jouer.",
-    pol_sharing_2: "Si Vous Vous connectez, l'Application envoie à Google trois scores de classement — descente la plus profonde, partie la plus riche et descente la plus rapide — ainsi que Votre progression sur huit succès, liés à Votre propre profil Play Jeux. Google traite ces données en tant que responsable de traitement indépendant, selon sa propre politique de confidentialité. Si Vous ne Vous connectez pas, rien n'est envoyé.",
+    pol_sharing_2: "Si Vous Vous connectez, l'Application envoie à Google trois scores de classement - descente la plus profonde, partie la plus riche et descente la plus rapide - ainsi que Votre progression sur huit succès, liés à Votre propre profil Play Jeux. Google traite ces données en tant que responsable de traitement indépendant, selon sa propre politique de confidentialité. Si Vous ne Vous connectez pas, rien n'est envoyé.",
     pol_sharing_3: "Nous ne vendons pas les données des utilisateurs et ne les partageons avec personne au-delà de ce qui est décrit ci-dessus. L'Application ne contient ni publicité, ni outil d'analyse, ni suivi.",
 
     pol_h_perm: "Autorisations et accès réseau",
     pol_perm_1: "L'Application déclare l'autorisation Android <code>INTERNET</code>. Elle en a besoin pour une seule raison : joindre Google Play Games Services pour les classements et succès décrits ci-dessus.",
-    pol_perm_2: "Le jeu lui-même ne nécessite pas de connexion. Tout appel à Play Jeux est ignoré lorsque Vous n'êtes pas connecté, et une partie se déroule de façon identique hors connexion — Vous ne publiez simplement pas de score pendant ce temps. L'Application ne demande aucune autre autorisation sensible : ni localisation, ni contacts, ni accès au stockage de Vos fichiers personnels.",
+    pol_perm_2: "Le jeu lui-même ne nécessite pas de connexion. Tout appel à Play Jeux est ignoré lorsque Vous n'êtes pas connecté, et une partie se déroule de façon identique hors connexion - Vous ne publiez simplement pas de score pendant ce temps. L'Application ne demande aucune autre autorisation sensible : ni localisation, ni contacts, ni accès au stockage de Vos fichiers personnels.",
 
     pol_h_storage: "Stockage et suppression des données",
-    pol_storage_1: "Nous n'exploitons aucun serveur propre et n'y collectons ni n'y stockons de données utilisateur. Tout ce dont le jeu a besoin pour fonctionner — Vos réglages et Votre record de profondeur — est traité et stocké localement sur Votre appareil. Vous pouvez le supprimer en désinstallant l'application ou en utilisant les fonctions de suppression de données intégrées à l'application (si disponibles).",
+    pol_storage_1: "Nous n'exploitons aucun serveur propre et n'y collectons ni n'y stockons de données utilisateur. Tout ce dont le jeu a besoin pour fonctionner - Vos réglages et Votre record de profondeur - est traité et stocké localement sur Votre appareil. Vous pouvez le supprimer en désinstallant l'application ou en utilisant les fonctions de suppression de données intégrées à l'application (si disponibles).",
     pol_storage_2: "Les scores de classement et la progression des succès décrits ci-dessus font exception : ils sont conservés par Google Play Games Services, et non par nous. Vous pouvez les consulter ou les supprimer via les paramètres de Votre compte Google Play Jeux.",
 
     pol_h_sensitive: "Données sensibles",
@@ -313,7 +313,7 @@ i18n.fr = {
     pol_use_7: "Nous n'utilisons pas Vos informations à des fins d'analyse, d'étude des tendances d'utilisation, de publicité ou de marketing.",
     pol_share_lead: "Nous ne partageons pas Vos informations personnelles, sauf :",
     pol_share_1: "<strong>Avec Google Play Games Services :</strong> uniquement si Vous Vous connectez, comme décrit dans Partage de données avec des tiers.",
-    pol_share_2: "<strong>Pour les transferts d'entreprise :</strong> sans objet — Nous ne détenons aucune donnée utilisateur issue de l'Application.",
+    pol_share_2: "<strong>Pour les transferts d'entreprise :</strong> sans objet - Nous ne détenons aucune donnée utilisateur issue de l'Application.",
     pol_share_3: "<strong>Avec des Sociétés affiliées :</strong> aucun.",
     pol_share_4: "<strong>Avec des partenaires commerciaux :</strong> aucun.",
     pol_share_5: "<strong>Avec d'autres utilisateurs :</strong> si Vous Vous connectez à Play Jeux, Vos scores de classement et Votre nom Play Jeux peuvent être vus par les autres joueurs dans les classements.",
@@ -336,7 +336,7 @@ i18n.fr = {
     pol_retention_2: "La Société conservera également les Données d'utilisation à des fins d'analyse interne. Les Données d'utilisation sont généralement conservées pendant une période plus courte, sauf lorsqu'elles sont utilisées pour renforcer la sécurité ou améliorer les fonctionnalités de Notre Service, ou lorsque Nous sommes légalement tenus de les conserver plus longtemps.",
 
     pol_h_transfer: "Transfert de vos données personnelles",
-    pol_transfer_1: "Vos informations, y compris les Données personnelles, sont traitées dans les bureaux de la Société et dans tout autre lieu où se trouvent les parties impliquées dans le traitement. Cela signifie que ces informations peuvent être transférées vers — et conservées sur — des ordinateurs situés en dehors de Votre État, province, pays ou autre juridiction gouvernementale, où les lois sur la protection des données peuvent différer de celles de Votre juridiction.",
+    pol_transfer_1: "Vos informations, y compris les Données personnelles, sont traitées dans les bureaux de la Société et dans tout autre lieu où se trouvent les parties impliquées dans le traitement. Cela signifie que ces informations peuvent être transférées vers - et conservées sur - des ordinateurs situés en dehors de Votre État, province, pays ou autre juridiction gouvernementale, où les lois sur la protection des données peuvent différer de celles de Votre juridiction.",
     pol_transfer_2: "Votre consentement à la présente Politique de confidentialité, suivi de Votre transmission de ces informations, vaut acceptation de ce transfert.",
     pol_transfer_3: "La Société prendra toutes les mesures raisonnablement nécessaires pour garantir que Vos données sont traitées en toute sécurité et conformément à la présente Politique de confidentialité, et aucun transfert de Vos Données personnelles n'aura lieu vers une organisation ou un pays sans que des contrôles adéquats soient en place, y compris en ce qui concerne la sécurité de Vos données et autres informations personnelles.",
 

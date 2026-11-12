@@ -1,8 +1,8 @@
-/* JeMul — French translation. Loaded only by the /fr/ copies of these pages; see tools/build-i18n-pages.js. */
+/* JeMul - French translation. Loaded only by the /fr/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.fr = {
-    page_title: "JeMul — émulateur J2ME pour Android et navigateur | AIBachKhoa",
+    page_title: "JeMul - émulateur J2ME pour Android et navigateur | AIBachKhoa",
     meta_desc: "JeMul fait revivre les jeux Java ME des anciens téléphones portables. Installez l'application Android pour lancer vos propres fichiers .jar, ou jouez à toute une bibliothèque directement dans votre navigateur.",
-    pol_page_title: "JeMul — politique de confidentialité | AIBachKhoa",
+    pol_page_title: "JeMul - politique de confidentialité | AIBachKhoa",
     pol_meta_desc: "Sur Android, JeMul n'a pas de compte et garde tout sur l'appareil. La version navigateur utilise la connexion Google uniquement pour contrôler qui peut jouer.",
 
     aria_lang: "Changer de langue",
@@ -21,7 +21,7 @@ i18n.fr = {
 
     hero_kicker: "Application Android · version navigateur · J2ME",
     hero_title: "Les jeux de votre premier téléphone, <em>de nouveau jouables</em>.",
-    hero_sub: "JeMul est un émulateur Java ME. Installez l'application Android et ouvrez-y vos propres fichiers .jar, ou lancez la version navigateur : une bibliothèque de plus de mille titres vous y attend déjà — rien à installer, rien à configurer.",
+    hero_sub: "JeMul est un émulateur Java ME. Installez l'application Android et ouvrez-y vos propres fichiers .jar, ou lancez la version navigateur : une bibliothèque de plus de mille titres vous y attend déjà - rien à installer, rien à configurer.",
     hero_meta: "Identifiant de l'application <code>com.tdson.jemul</code> · téléphones et tablettes Android · gratuit",
     btn_play: "Disponible sur Google Play",
     btn_web: "Jouer dans le navigateur",
@@ -30,7 +30,7 @@ i18n.fr = {
 
     ov_eyebrow: "Ce que c'est",
     ov_title: "Un émulateur, pas un site de téléchargement.",
-    ov_lede: "JeMul exécute des applications MIDP — les fichiers .jar que faisaient tourner les téléphones portables d'environ 2001 à 2012. Il n'est livré avec aucun jeu : sur Android, vous apportez vos propres fichiers, et la version navigateur propose une bibliothèque déjà mise en place par l'exploitant.",
+    ov_lede: "JeMul exécute des applications MIDP - les fichiers .jar que faisaient tourner les téléphones portables d'environ 2001 à 2012. Il n'est livré avec aucun jeu : sur Android, vous apportez vos propres fichiers, et la version navigateur propose une bibliothèque déjà mise en place par l'exploitant.",
     c1_h: "De vraies commandes",
     c1_p: "Un clavier de téléphone complet : croix directionnelle, les deux touches programmables, 0–9, étoile, dièse et effacement. Sur ordinateur, chacune correspond à une touche du clavier que vous pouvez réassigner ; sur téléphone, ce sont des boutons sous vos pouces.",
     c2_h: "Pensé pour les petits écrans d'antan",
@@ -40,7 +40,7 @@ i18n.fr = {
 
     an_eyebrow: "Application Android",
     an_title: "JeMul sur votre téléphone.",
-    an_lede: "Ajoutez un fichier .jar ou .jad : il apparaît dans votre bibliothèque avec son icône et sa taille. Tout fonctionne sur l'appareil — pas de compte, pas de serveur, aucune connexion réseau nécessaire une fois le fichier sur le téléphone.",
+    an_lede: "Ajoutez un fichier .jar ou .jad : il apparaît dans votre bibliothèque avec son icône et sa taille. Tout fonctionne sur l'appareil - pas de compte, pas de serveur, aucune connexion réseau nécessaire une fois le fichier sur le téléphone.",
     an_l1: "Importez vos fichiers .jar et .jad directement depuis le stockage",
     an_l2: "Bibliothèque avec recherche, jeux récents et détails de chaque jeu",
     an_l3: "Clavier à l'écran aux dispositions Nokia, Samsung ou Sony Ericsson",
@@ -68,7 +68,7 @@ i18n.fr = {
     g3_t: "En jeu", g3_h: "En jeu",
     g3_p: "L'écran, un clavier, et à droite la liste de toutes les commandes avec la touche qui les déclenche. Pause, avance rapide, redémarrage et capture d'écran sont à une touche près.",
     g4_t: "Réglages", g4_h: "Des réglages qui servent vraiment",
-    g4_p: "Opacité du verre, flou, couleur d'accent, mise à l'échelle, lignes de balayage — ainsi que les options propres à l'émulateur : modèle de téléphone, rotation, limite d'images, son.",
+    g4_p: "Opacité du verre, flou, couleur d'accent, mise à l'échelle, lignes de balayage - ainsi que les options propres à l'émulateur : modèle de téléphone, rotation, limite d'images, son.",
     g5_t: "Clavier", g5_h: "Le guide du clavier",
     g5_p: "Chaque touche du téléphone à côté de la touche du clavier qui lui est associée. Cliquez sur une ligne et appuyez sur une nouvelle touche pour la réassigner, même en pleine partie.",
     g6_t: "Sur téléphone", g6_h: "Sur téléphone",
@@ -95,7 +95,7 @@ i18n.fr = {
     pol_title: "Politique de confidentialité",
     pol_updated: "Dernière mise à jour : 7 septembre 2026",
     pol_s1_h: "En résumé",
-    pol_s1_p: "L'application Android n'a pas de compte et n'envoie rien nulle part : vos jeux, sauvegardes et réglages restent sur l'appareil. La version navigateur vous demande de vous connecter avec Google avant de lancer une partie, afin que l'exploitant sache qui utilise le serveur — ce sont les seules données personnelles en jeu.",
+    pol_s1_p: "L'application Android n'a pas de compte et n'envoie rien nulle part : vos jeux, sauvegardes et réglages restent sur l'appareil. La version navigateur vous demande de vous connecter avec Google avant de lancer une partie, afin que l'exploitant sache qui utilise le serveur - ce sont les seules données personnelles en jeu.",
     pol_s2_h: "Ce que l'application Android enregistre",
     pol_s2_l1: "Les fichiers .jar et .jad que vous importez, dans l'espace de stockage propre à l'application.",
     pol_s2_l2: "Les parties sauvegardées et meilleurs scores enregistrés par les jeux eux-mêmes.",
@@ -103,7 +103,7 @@ i18n.fr = {
     pol_s2_p: "Tout se trouve sur votre appareil. Désinstaller l'application le supprime. Rien n'est envoyé, et l'application ne contient ni outil d'analyse ni publicité.",
     pol_s3_h: "Ce que la version navigateur enregistre",
     pol_s3_l1: "Le nom, l'adresse e-mail et la photo de profil de votre compte Google, issus de la connexion et utilisés pour vous identifier auprès de l'exploitant.",
-    pol_s3_l2: "Un historique des visites et des jeux lancés, avec la date et la durée — utilisé pour voir comment le serveur est utilisé.",
+    pol_s3_l2: "Un historique des visites et des jeux lancés, avec la date et la durée - utilisé pour voir comment le serveur est utilisé.",
     pol_s3_l3: "Vos réglages d'interface et vos sauvegardes de jeu, conservés sur le serveur pour les retrouver la fois suivante.",
     pol_s3_p: "La connexion est gérée par Google Firebase Authentication ; JeMul ne voit jamais votre mot de passe. Firebase Analytics est utilisé pour des statistiques de base sur les pages et les événements. Vous pouvez tout arrêter en vous déconnectant et en ne jouant pas.",
     pol_s4_h: "Contenu des jeux",

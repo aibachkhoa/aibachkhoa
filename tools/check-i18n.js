@@ -6,7 +6,7 @@
  *
  * For each language it reports keys the translation is missing (those fall
  * back to English on the page), keys English no longer has, and values whose
- * HTML tags differ from the English — a dropped </em> or <br> breaks the
+ * HTML tags differ from the English - a dropped </em> or <br> breaks the
  * layout of a translated page while looking fine in English.
  *
  * Every page script under public/ with a `const i18n = {` literal is picked
@@ -91,9 +91,9 @@ for (const jsRel of (process.argv.length > 2 ? process.argv.slice(2) : scripts()
         const missing = Object.keys(en).filter(k => !(k in d));
         const extra = Object.keys(d).filter(k => !(k in en));
         const badTags = Object.keys(en).filter(k => k in d && tags(en[k]) !== tags(d[k]));
-        if (missing.length) lines.push(`  ${l}: ${missing.length} missing — ${missing.slice(0, 8).join(', ')}${missing.length > 8 ? ', …' : ''}`);
-        if (extra.length) lines.push(`  ${l}: ${extra.length} not in English — ${extra.slice(0, 8).join(', ')}${extra.length > 8 ? ', …' : ''}`);
-        if (badTags.length) lines.push(`  ${l}: HTML tags differ from English — ${badTags.slice(0, 8).join(', ')}${badTags.length > 8 ? ', …' : ''}`);
+        if (missing.length) lines.push(`  ${l}: ${missing.length} missing - ${missing.slice(0, 8).join(', ')}${missing.length > 8 ? ', …' : ''}`);
+        if (extra.length) lines.push(`  ${l}: ${extra.length} not in English - ${extra.slice(0, 8).join(', ')}${extra.length > 8 ? ', …' : ''}`);
+        if (badTags.length) lines.push(`  ${l}: HTML tags differ from English - ${badTags.slice(0, 8).join(', ')}${badTags.length > 8 ? ', …' : ''}`);
     }
     problems += lines.length;
     console.log(`${lines.length ? '✗' : '✓'} ${jsRel}  (${Object.keys(en).length} keys; ${langs.join(' ') || 'English only'})`);

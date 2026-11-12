@@ -1,6 +1,6 @@
-/* MelodiAI — Korean translation. Loaded only by the /ko/ copies of this page; see tools/build-i18n-pages.js. */
+/* MelodiAI - Korean translation. Loaded only by the /ko/ copies of this page; see tools/build-i18n-pages.js. */
 i18n.ko = {
-    page_title: "MelodiAI — 가사를 완성된 노래로 | AIBachKhoa",
+    page_title: "MelodiAI - 가사를 완성된 노래로 | AIBachKhoa",
     meta_desc: "가사를 쓰고 스타일을 설명하면 MelodiAI가 보컬, 밴드, 편곡까지 노래 전체를 만들고 악보도 함께 드립니다. 어떤 녹음이든 새로운 스타일로 리믹스하세요. 무료 5크레딧.",
     skip_link: "본문으로 건너뛰기",
     nav_home: "홈",
@@ -37,7 +37,7 @@ i18n.ko = {
     f1_title: "가사에서 완성곡까지.",
     f1_sub: "장르, 목소리, 악기, 분위기, 템포를 내 말로 적고, [Verse]와 [Chorus] 태그를 붙인 가사를 넣은 뒤 만들기를 누르세요. 몇 분 뒤 보컬과 풀 밴드가 담긴 믹스된 노래가 완성됩니다.",
     f1_l1: "베트남어, 영어 등 다양한 언어의 가사",
-    f1_l2: "남성, 여성, 듀엣 보컬 &mdash; 또는 1~5분 연주곡",
+    f1_l2: "남성, 여성, 듀엣 보컬 - 또는 1~5분 연주곡",
     f1_l3: "바로 시작할 수 있는 스타일 아이디어와 템플릿",
     f2_eyebrow: "리믹스",
     f2_title: "내 녹음을 새로운 스타일로.",
@@ -72,13 +72,13 @@ i18n.ko = {
     know_eyebrow: "알아 두세요",
     know_title: "노래를 쓰는 사람을 위해.",
     know1_t: "6개 인터페이스 언어",
-    know1_d: "영어, 중국어, 일본어, 한국어, 프랑스어, 스페인어 &mdash; 노래는 훨씬 더 많은 언어로 만들 수 있습니다.",
+    know1_d: "영어, 중국어, 일본어, 한국어, 프랑스어, 스페인어 - 노래는 훨씬 더 많은 언어로 만들 수 있습니다.",
     know2_t: "정리된 라이브러리",
     know2_d: "제목, 태그, 즐겨찾기, 커버 이미지, 플레이리스트와 앱 어디서나 함께하는 플레이어.",
     know3_t: "내 것만 올리기",
     know3_d: "직접 만들었거나 사용할 권리가 있는 녹음만 올려 주세요. 업로드한 파일은 리믹스 분석에만 쓰이고 내 계정에 보관됩니다.",
     cta_title: "오늘 첫 노래를 만들어 보세요.",
-    cta_sub: "질문, 버그, 제휴 &mdash; 또는 저희가 만드는 것에 투자하고 싶으신가요? 메일 주세요 &mdash; 보통 당일에 답장드립니다.",
+    cta_sub: "질문, 버그, 제휴 - 또는 저희가 만드는 것에 투자하고 싶으신가요? 메일 주세요 - 보통 당일에 답장드립니다.",
     cta_mail: "메일 보내기",
     footer_tagline: "개발자와 기업을 위한 실용적인 AI 도구를 만듭니다.",
     footer_prod: "제품",

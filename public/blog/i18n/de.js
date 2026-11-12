@@ -1,7 +1,7 @@
-/* Blog — German translation. Loaded only by the /de/ copy of the blog list; see tools/build-i18n-pages.js. */
+/* Blog - German translation. Loaded only by the /de/ copy of the blog list; see tools/build-i18n-pages.js. */
 i18n.de = {
-    page_title: "Blog — Technik, Tests und Sicherheitswarnungen | AIBachKhoa",
-    meta_desc: "Technikbeiträge, ehrliche Tests und Sicherheitswarnungen vom Team hinter AIBachKhoa — klar geschrieben, mit Quellen.",
+    page_title: "Blog - Technik, Tests und Sicherheitswarnungen | AIBachKhoa",
+    meta_desc: "Technikbeiträge, ehrliche Tests und Sicherheitswarnungen vom Team hinter AIBachKhoa - klar geschrieben, mit Quellen.",
     skip_link: "Zum Inhalt springen",
     aria_lang: "Sprache wechseln",
     aria_theme: "Design wechseln",
@@ -12,7 +12,7 @@ i18n.de = {
     nav_contact: "Kontakt",
     hero_eyebrow: "Der AIBachKhoa-Blog",
     hero_title: "Technik, <em>verständlich erklärt</em>.",
-    hero_sub: "Beiträge über die Werkzeuge, die wir bauen und nutzen, ehrliche Tests und Sicherheitswarnungen, nach denen du handeln kannst — jeweils mit Quellen.",
+    hero_sub: "Beiträge über die Werkzeuge, die wir bauen und nutzen, ehrliche Tests und Sicherheitswarnungen, nach denen du handeln kannst - jeweils mit Quellen.",
     filter_label: "Beiträge nach Thema filtern",
     filter_all: "Alle Beiträge",
     cat_tech: "Technik",
@@ -26,7 +26,7 @@ i18n.de = {
     read_post: "Beitrag lesen",
     min_read: "{n} Min. Lesezeit",
     updated: "Aktualisiert",
-    empty_filter: "In dieser Kategorie gibt es noch nichts — der erste Beitrag ist in Arbeit.",
+    empty_filter: "In dieser Kategorie gibt es noch nichts - der erste Beitrag ist in Arbeit.",
     empty_all: "Die ersten Beiträge sind in Arbeit.",
     rss_follow: "Per RSS folgen",
     rss: "RSS-Feed",

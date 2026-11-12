@@ -1,5 +1,5 @@
 /* =========================================================
-   Tracy — product page and privacy policy.
+   Tracy - product page and privacy policy.
    English only, so the text lives in the markup and there is no
    dictionary; gallery captions sit on each tab as data-cap.
    ponytail: add `const i18n = {…}` + a GROUPS entry in
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
             other.setAttribute('aria-selected', String(on));
         });
         galImg.src = SHOT_DIR + tab.dataset.shot + '.webp';
-        galImg.alt = 'Tracy — ' + tab.textContent;
+        galImg.alt = 'Tracy - ' + tab.textContent;
         galTitle.textContent = tab.textContent;
         galCap.textContent = tab.dataset.cap;
     }));

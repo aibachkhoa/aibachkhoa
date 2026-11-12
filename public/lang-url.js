@@ -52,3 +52,34 @@
 
     window.LangUrl = { fromPath: fromPath, hrefFor: hrefFor, detect: detect, remember: remember };
 })();
+
+/* Collapse the top navigation into the menu button whenever the links do not
+ * fit on one line. A fixed breakpoint cannot cover every page: BKSafe has nine
+ * entries and the Russian or German labels run far longer than the English
+ * ones, so the bar is measured instead. Below 1201px the stylesheet already
+ * shows the menu; this only covers wider screens (see .nav-collapsed). */
+(function () {
+    'use strict';
+    var root = document.documentElement;
+    var queued = false;
+
+    function fit() {
+        queued = false;
+        var bar = document.querySelector('.nav-container');
+        if (!bar) return;
+        root.classList.remove('nav-collapsed');
+        if (window.innerWidth <= 1200) return;
+        if (bar.scrollWidth > bar.clientWidth + 1) root.classList.add('nav-collapsed');
+    }
+    function schedule() {
+        if (queued) return;
+        queued = true;
+        window.requestAnimationFrame(fit);
+    }
+
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', fit);
+    else fit();
+    window.addEventListener('load', schedule);
+    window.addEventListener('resize', schedule);
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(schedule);
+})();

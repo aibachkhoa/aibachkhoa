@@ -3,7 +3,7 @@
  * What it sends: which page was opened, how far down it was read, how long
  * the reader stayed, and which links were clicked. What it never sends: any
  * form field, any text from the page, any identifier that means anything
- * outside this site. There is no cookie — the visitor id is a random string
+ * outside this site. There is no cookie - the visitor id is a random string
  * in this origin's localStorage and travels nowhere else.
  *
  * Anyone (including whoever is testing the site) can opt out for good with:

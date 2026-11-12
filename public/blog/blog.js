@@ -1,5 +1,5 @@
 /* =========================================================
-   Blog — the post list (/blog) and every post page.
+   Blog - the post list (/blog) and every post page.
    The list is translated like the rest of the site: English here,
    other languages in blog/i18n/<lang>.js, pre-rendered to /<lang>/blog
    by tools/build-i18n-pages.js. A post is written in one language
@@ -7,8 +7,8 @@
    ========================================================= */
 const i18n = {
     en: {
-        page_title: "Blog — technology, reviews and security alerts | AIBachKhoa",
-        meta_desc: "Technology write-ups, honest reviews and security alerts from the team behind AIBachKhoa — written plainly, with sources.",
+        page_title: "Blog - technology, reviews and security alerts | AIBachKhoa",
+        meta_desc: "Technology write-ups, honest reviews and security alerts from the team behind AIBachKhoa - written plainly, with sources.",
 
         skip_link: "Skip to content",
         aria_lang: "Change language",
@@ -21,7 +21,7 @@ const i18n = {
 
         hero_eyebrow: "The AIBachKhoa blog",
         hero_title: "Technology, <em>explained plainly</em>.",
-        hero_sub: "Write-ups on the tools we build and use, honest reviews, and security alerts you can act on — each one with its sources.",
+        hero_sub: "Write-ups on the tools we build and use, honest reviews, and security alerts you can act on - each one with its sources.",
 
         filter_label: "Filter posts by topic",
         filter_all: "All posts",
@@ -37,7 +37,7 @@ const i18n = {
         read_post: "Read the post",
         min_read: "{n} min read",
         updated: "Updated",
-        empty_filter: "Nothing in this category yet — the first one is on its way.",
+        empty_filter: "Nothing in this category yet - the first one is on its way.",
         empty_all: "The first posts are on their way.",
         rss_follow: "Follow along with RSS",
         rss: "RSS feed",

@@ -19,7 +19,7 @@ COPY --chown=node:node admin ./admin
 # Filesystem is read-only at runtime, so the one writable place has to be a
 # volume. The directory is created here, owned by node, because Docker copies
 # the ownership of the mount point out of the image the first time an empty
-# named volume is attached — without it the volume arrives owned by root and
+# named volume is attached - without it the volume arrives owned by root and
 # the process, which runs as node, cannot write a single event.
 #
 # No VOLUME instruction: docker-compose.yml names the volume, and declaring

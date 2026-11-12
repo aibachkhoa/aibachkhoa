@@ -1,6 +1,6 @@
-/* MelodiAI — Spanish translation. Loaded only by the /es/ copies of this page; see tools/build-i18n-pages.js. */
+/* MelodiAI - Spanish translation. Loaded only by the /es/ copies of this page; see tools/build-i18n-pages.js. */
 i18n.es = {
-    page_title: "MelodiAI — convierte tu letra en una canción terminada | AIBachKhoa",
+    page_title: "MelodiAI - convierte tu letra en una canción terminada | AIBachKhoa",
     meta_desc: "Escribe la letra, describe el estilo y MelodiAI crea la canción completa: voz, banda y arreglo, con la partitura. Remezcla cualquier grabación con un estilo nuevo. 5 créditos gratis.",
     skip_link: "Ir al contenido",
     nav_home: "Inicio",
@@ -11,7 +11,7 @@ i18n.es = {
     cta_open: "Abrir MelodiAI",
     hero_eyebrow: "Estudio musical con IA &middot; en tu navegador",
     hero_title: "Escribe la letra. <em>Escucha la canción.</em>",
-    hero_sub: "MelodiAI convierte tu letra y unas palabras sobre el estilo en una canción completa &mdash; voz, banda y arreglo &mdash; y te entrega la partitura. O trae una grabación que ya tengas y escúchala de nuevo con otro estilo.",
+    hero_sub: "MelodiAI convierte tu letra y unas palabras sobre el estilo en una canción completa - voz, banda y arreglo - y te entrega la partitura. O trae una grabación que ya tengas y escúchala de nuevo con otro estilo.",
     cta_start: "Empieza gratis",
     cta_listen: "Escucha canciones hechas con él",
     badge_free: "5 créditos gratis al registrarte",
@@ -35,9 +35,9 @@ i18n.es = {
     t_rock: "Remix rock &middot; guitarras y batería",
     f1_eyebrow: "Crear",
     f1_title: "De la letra a la canción terminada.",
-    f1_sub: "Describe el sonido con tus palabras &mdash; género, voz, instrumentos, ambiente, tempo &mdash; pega la letra con etiquetas [Verse] y [Chorus] y pulsa crear. Unos minutos después tienes una canción mezclada con voz y banda completa.",
+    f1_sub: "Describe el sonido con tus palabras - género, voz, instrumentos, ambiente, tempo - pega la letra con etiquetas [Verse] y [Chorus] y pulsa crear. Unos minutos después tienes una canción mezclada con voz y banda completa.",
     f1_l1: "Letras en vietnamita, inglés y muchos otros idiomas",
-    f1_l2: "Voz masculina, femenina o dúo &mdash; o un instrumental de 1 a 5 minutos",
+    f1_l2: "Voz masculina, femenina o dúo - o un instrumental de 1 a 5 minutos",
     f1_l3: "Ideas de estilo y plantillas para empezar",
     f2_eyebrow: "Remix",
     f2_title: "Tu grabación, con un estilo nuevo.",
@@ -78,7 +78,7 @@ i18n.es = {
     know3_t: "Solo lo que es tuyo",
     know3_d: "Sube grabaciones que hayas hecho o que tengas derecho a usar. Se analizan para tu remix y se quedan en tu cuenta.",
     cta_title: "Crea tu primera canción hoy.",
-    cta_sub: "¿Preguntas, un error, una colaboración, o te gustaría invertir en lo que construimos? Escríbenos &mdash; normalmente respondemos el mismo día.",
+    cta_sub: "¿Preguntas, un error, una colaboración, o te gustaría invertir en lo que construimos? Escríbenos - normalmente respondemos el mismo día.",
     cta_mail: "Escríbenos",
     footer_tagline: "Creamos herramientas de IA prácticas para desarrolladores y empresas.",
     footer_prod: "Productos",

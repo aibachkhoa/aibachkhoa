@@ -2,7 +2,7 @@
 /* Regenerates public/sitemap.xml from the pages in public/.
  *
  * The URL of a page is its own <link rel="canonical">, so the sitemap can
- * never disagree with the canonical tags — a page without one is reported
+ * never disagree with the canonical tags - a page without one is reported
  * and skipped rather than guessed at. Run it after adding a page:
  *
  *     npm run sitemap

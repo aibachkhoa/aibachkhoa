@@ -1,8 +1,8 @@
-/* JeMul — Chinese (Simplified) translation. Loaded only by the /zh/ copies of these pages; see tools/build-i18n-pages.js. */
+/* JeMul - Chinese (Simplified) translation. Loaded only by the /zh/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.zh = {
-    page_title: "JeMul — 适用于 Android 和浏览器的 J2ME 模拟器 | AIBachKhoa",
+    page_title: "JeMul - 适用于 Android 和浏览器的 J2ME 模拟器 | AIBachKhoa",
     meta_desc: "JeMul 让功能机时代的 Java ME 老游戏重新运行。安装 Android 应用即可畅玩你自己的 .jar 文件，或直接在浏览器中畅玩整个游戏库。",
-    pol_page_title: "JeMul — 隐私政策 | AIBachKhoa",
+    pol_page_title: "JeMul - 隐私政策 | AIBachKhoa",
     pol_meta_desc: "JeMul 的 Android 版无需账号，所有数据都保存在设备上。浏览器版仅使用 Google 登录来控制谁可以游玩。",
 
     aria_lang: "切换语言",
@@ -21,7 +21,7 @@ i18n.zh = {
 
     hero_kicker: "Android 应用 · 浏览器版 · J2ME",
     hero_title: "你第一部手机上的游戏，<em>又能玩了</em>。",
-    hero_sub: "JeMul 是一款 Java ME 模拟器。安装 Android 应用，导入你自己的 .jar 文件即可开玩；或者打开浏览器版，上千款游戏早已就位——无需安装，无需配置。",
+    hero_sub: "JeMul 是一款 Java ME 模拟器。安装 Android 应用，导入你自己的 .jar 文件即可开玩；或者打开浏览器版，上千款游戏早已就位--无需安装，无需配置。",
     hero_meta: "应用 ID <code>com.tdson.jemul</code> · Android 手机和平板 · 免费",
     btn_play: "在 Google Play 下载",
     btn_web: "在浏览器中畅玩",
@@ -30,7 +30,7 @@ i18n.zh = {
 
     ov_eyebrow: "这是什么",
     ov_title: "它是模拟器，不是下载站。",
-    ov_lede: "JeMul 可运行 MIDP 应用——也就是大约 2001 年至 2012 年间功能机上运行的 .jar 文件。它本身不附带任何游戏内容：在 Android 上需要你自备文件，浏览器版则带有运营方预先配置好的游戏库。",
+    ov_lede: "JeMul 可运行 MIDP 应用--也就是大约 2001 年至 2012 年间功能机上运行的 .jar 文件。它本身不附带任何游戏内容：在 Android 上需要你自备文件，浏览器版则带有运营方预先配置好的游戏库。",
     c1_h: "真实按键",
     c1_p: "完整的手机键盘：方向键、左右软键、0–9、星号和井号键、清除键。在电脑上，每个按键都对应一个可自定义的键盘按键；在手机上，它们就是你拇指下的按钮。",
     c2_h: "为老屏幕而生",
@@ -40,7 +40,7 @@ i18n.zh = {
 
     an_eyebrow: "Android 应用",
     an_title: "把 JeMul 装进手机。",
-    an_lede: "添加一个 .jar 或 .jad 文件，它就会连同图标和大小出现在你的游戏库中。一切都在设备上运行——无需账号，无需服务器，文件放进手机后也不再需要网络。",
+    an_lede: "添加一个 .jar 或 .jad 文件，它就会连同图标和大小出现在你的游戏库中。一切都在设备上运行--无需账号，无需服务器，文件放进手机后也不再需要网络。",
     an_l1: "直接从存储中导入 .jar 和 .jad 文件",
     an_l2: "游戏库支持搜索、最近游玩和单个游戏详情",
     an_l3: "屏幕键盘提供 Nokia、Samsung 和 Sony Ericsson 布局",
@@ -68,7 +68,7 @@ i18n.zh = {
     g3_t: "游戏中", g3_h: "游戏中",
     g3_p: "画面、键盘，右侧列出每个操作及其对应按键。暂停、快进、重新开始和截图，都只需按一个键。",
     g4_t: "设置", g4_h: "真正有用的设置",
-    g4_p: "玻璃透明度、模糊、强调色、缩放、扫描线——还有模拟器本身的选项：机型、旋转、帧率上限、声音。",
+    g4_p: "玻璃透明度、模糊、强调色、缩放、扫描线--还有模拟器本身的选项：机型、旋转、帧率上限、声音。",
     g5_t: "键盘", g5_h: "键盘指南",
     g5_p: "每个手机按键旁都列出了绑定的键盘按键。点击某一行再按下新按键即可重新绑定，游戏运行时也可以。",
     g6_t: "手机上", g6_h: "手机上",
@@ -95,7 +95,7 @@ i18n.zh = {
     pol_title: "隐私政策",
     pol_updated: "最后更新：2026年9月7日",
     pol_s1_h: "简要说明",
-    pol_s1_p: "Android 应用没有账号，也不会向任何地方发送任何数据：你的游戏、存档和设置都保存在设备上。浏览器版会要求你在开始游戏前使用 Google 登录，以便运营方了解谁在使用服务器——这是唯一涉及的个人数据。",
+    pol_s1_p: "Android 应用没有账号，也不会向任何地方发送任何数据：你的游戏、存档和设置都保存在设备上。浏览器版会要求你在开始游戏前使用 Google 登录，以便运营方了解谁在使用服务器--这是唯一涉及的个人数据。",
     pol_s2_h: "Android 应用存储的内容",
     pol_s2_l1: "你导入的 .jar 和 .jad 文件，保存在应用自己的存储空间中。",
     pol_s2_l2: "由游戏本身写入的游戏存档和最高分。",
@@ -103,7 +103,7 @@ i18n.zh = {
     pol_s2_p: "所有这些都保存在你的设备上。卸载应用即会将其删除。不会上传任何内容，应用中也没有任何分析或广告。",
     pol_s3_h: "浏览器版存储的内容",
     pol_s3_l1: "你的 Google 账号的姓名、电子邮件地址和头像，取自登录信息，用于向运营方识别你的身份。",
-    pol_s3_l2: "访问记录，以及启动了哪些游戏、何时启动、玩了多久——用于了解服务器的使用情况。",
+    pol_s3_l2: "访问记录，以及启动了哪些游戏、何时启动、玩了多久--用于了解服务器的使用情况。",
     pol_s3_l3: "你的界面设置和游戏存档，保存在服务器上，以便下次使用。",
     pol_s3_p: "登录由 Google Firebase Authentication 处理；JeMul 永远看不到你的密码。Firebase Analytics 用于基本的页面和事件计数。你可以通过退出登录并不再游玩来停止上述全部行为。",
     pol_s4_h: "游戏内容",

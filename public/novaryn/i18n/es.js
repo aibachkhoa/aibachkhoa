@@ -1,6 +1,6 @@
-/* Novaryn — Spanish translation. Loaded only by the /es/ copies of these pages; see tools/build-i18n-pages.js. */
+/* Novaryn - Spanish translation. Loaded only by the /es/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.es = {
-    page_title: "Novaryn — un pulgar, oleadas sin fin | AIBachKhoa",
+    page_title: "Novaryn - un pulgar, oleadas sin fin | AIBachKhoa",
     meta_desc: "Un shoot-'em-up arcade vertical para Android. Arrastra para volar, el cañón dispara solo y, tarde o temprano, aparece un jefe al que hay que aprenderse. Se juega totalmente sin conexión.",
     aria_lang: "Cambiar idioma",
     aria_theme: "Cambiar tema",
@@ -109,7 +109,7 @@ i18n.es = {
     footer_services: "Servicios",
     footer_contact: "Contacto",
     footer_rights: "Todos los derechos reservados.",
-    pol_page_title: "Política de privacidad — Novaryn | AIBachKhoa",
+    pol_page_title: "Política de privacidad - Novaryn | AIBachKhoa",
     pol_meta_desc: "Cómo gestiona Novaryn la información: qué se queda en tu dispositivo y qué reciben App Store y Google Play cuando compras una nave o Pro.",
     pol_back: "Volver al juego",
     pol_eyebrow: "Legal",

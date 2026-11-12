@@ -1,8 +1,8 @@
 /* =========================================================
-   Treasure Hunters — product page + privacy policy.
+   Treasure Hunters - product page + privacy policy.
    Sits on top of /style.css: only the pieces this page adds.
    Same layout as the Mini Castle page; the palette comes from the
-   game's own art — sea blue, beach sand, coin gold, night-sea ink.
+   game's own art - sea blue, beach sand, coin gold, night-sea ink.
    ========================================================= */
 
 .th-page {
@@ -151,7 +151,7 @@
 /* ---------- Resource / feature cards ---------- */
 .th-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(258px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(258px, 100%), 1fr));
     gap: 20px;
 }
 
@@ -229,7 +229,7 @@
 /* ---------- Fact strip ---------- */
 .th-facts {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(160px, 100%), 1fr));
     gap: 18px;
     border: 1px solid var(--border);
     border-radius: 18px;

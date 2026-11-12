@@ -97,18 +97,18 @@
       .om-hero { padding: 6rem 0 4rem; }
       .om-badges { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.5rem 0; }
       .om-badge { display: inline-flex; align-items: center; gap: .35rem; padding: .35rem .7rem; border: 1px solid var(--border, #d9d9d9); border-radius: 999px; font-size: .85rem; font-family: 'DM Mono', monospace; color: var(--text-2, #555); }
-      .om-downloads { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin-top: 2rem; }
+      .om-downloads { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 1rem; margin-top: 2rem; }
       .om-dl { display: block; padding: 1.25rem 1.5rem; border: 1px solid var(--border, #d9d9d9); border-radius: 12px; background: var(--surface, #fff); text-decoration: none; color: inherit; transition: transform .15s ease, border-color .15s ease; }
       .om-dl:hover { transform: translateY(-2px); border-color: var(--accent, #2563eb); }
       .om-dl-os { display: flex; align-items: center; gap: .5rem; font-family: 'DM Mono', monospace; font-size: .8rem; letter-spacing: .04em; text-transform: uppercase; color: var(--text-2, #666); margin-bottom: .35rem; }
       .om-dl-name { font-weight: 700; font-size: 1.05rem; margin-bottom: .25rem; }
       .om-dl-meta { font-size: .85rem; color: var(--text-2, #666); }
       .om-dl.soon { opacity: .6; pointer-events: none; }
-      .om-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 3rem; }
+      .om-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 2rem; margin-top: 3rem; }
       .om-feat h3 { font-size: 1.2rem; margin-bottom: .5rem; }
       .om-feat p { color: var(--text-2, #555); line-height: 1.65; }
       .om-how { margin-top: 4rem; }
-      .om-how-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+      .om-how-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 1.5rem; margin-top: 2rem; }
       .om-how-item { padding: 1.5rem; border-left: 3px solid var(--accent, #2563eb); background: var(--surface, #fafafa); border-radius: 0 8px 8px 0; }
       .om-how-item .n { font-family: 'DM Mono', monospace; font-size: .8rem; color: var(--accent, #2563eb); letter-spacing: .1em; }
       .om-how-item h4 { margin: .35rem 0 .5rem; font-size: 1.05rem; }
@@ -157,7 +157,7 @@
             <div class="container">
                 <p class="eyebrow" data-i18n="desktop_eyebrow">डेस्कटॉप के लिए</p>
                 <h1 class="hero-title" data-i18n="hero_title">ऐसी चैट जो <em>इंटरनेट रुकने पर भी</em> चलती रहे।</h1>
-                <p class="hero-subtitle" style="max-width: 720px;" data-i18n="hero_sub_desktop">जब सामने वाला व्यक्ति पास हो, तो OriMessenger आपके संदेश Bluetooth या एक ही लोकल नेटवर्क के ज़रिए भेजता है, और इंटरनेट का सहारा सिर्फ़ तभी लेता है जब वह पास न हो। हर संदेश एंड-टू-एंड एन्क्रिप्टेड होता है &mdash; न कोई अकाउंट, न कोई फ़ोन नंबर।</p>
+                <p class="hero-subtitle" style="max-width: 720px;" data-i18n="hero_sub_desktop">जब सामने वाला व्यक्ति पास हो, तो OriMessenger आपके संदेश Bluetooth या एक ही लोकल नेटवर्क के ज़रिए भेजता है, और इंटरनेट का सहारा सिर्फ़ तभी लेता है जब वह पास न हो। हर संदेश एंड-टू-एंड एन्क्रिप्टेड होता है - न कोई अकाउंट, न कोई फ़ोन नंबर।</p>
                 <div class="om-badges">
                     <span class="om-badge" data-i18n="badge_e2e">एंड-टू-एंड एन्क्रिप्टेड</span>
                     <span class="om-badge" data-i18n="badge_noacct">न अकाउंट, न फ़ोन नंबर</span>
@@ -178,16 +178,16 @@
 
                 <div class="om-features">
                     <div class="om-feat">
-                        <h3 data-i18n="feat1_h">1. Bluetooth &mdash; जब आप कुछ ही मीटर की दूरी पर हों</h3>
+                        <h3 data-i18n="feat1_h">1. Bluetooth - जब आप कुछ ही मीटर की दूरी पर हों</h3>
                         <p data-i18n="feat1_p">ऐप Bluetooth के ज़रिए आस-पास के दूसरे Ori उपयोगकर्ताओं को ढूँढ लेता है। जब आप लगभग 10 से 30 मीटर के दायरे में हों, तो संदेश सीधे एक डिवाइस से दूसरे डिवाइस तक जाते हैं, किसी राउटर या मोबाइल टावर को छुए बिना। इंटरनेट की बिल्कुल ज़रूरत नहीं।</p>
                     </div>
                     <div class="om-feat">
-                        <h3 data-i18n="feat2_h">2. Wi-Fi / LAN &mdash; एक ही नेटवर्क</h3>
+                        <h3 data-i18n="feat2_h">2. Wi-Fi / LAN - एक ही नेटवर्क</h3>
                         <p data-i18n="feat2_p">एक ही Wi-Fi या वायर्ड नेटवर्क पर डिवाइस एक-दूसरे को अपने-आप ढूँढ लेते हैं और संदेश लोकल नेटवर्क के अंदर ही रहते हैं। यह होटल या गेस्ट Wi-Fi पर भी काम करता है जहाँ इंटरनेट ब्लॉक हो, और फ़ोटो भेजने के लिए भी काफ़ी तेज़ है।</p>
                     </div>
                     <div class="om-feat">
-                        <h3 data-i18n="feat3_h">3. इंटरनेट &mdash; जब ऊपर के दोनों काम न करें</h3>
-                        <p data-i18n="feat3_p">सिर्फ़ तभी जब Bluetooth और लोकल नेटवर्क दोनों विफल हो जाएँ, संदेश हमारे सर्वर से होकर जाता है। नाम, प्रोफ़ाइल, संदेश और अटैचमेंट सभी एंड-टू-एंड एन्क्रिप्टेड होते हैं, इसलिए सर्वर इनमें से कुछ भी नहीं पढ़ सकता। हाँ, उसे यह दिखता है कि किसने किसे और कब भेजा &mdash; संदेश पहुँचाने के लिए उसे इसकी ज़रूरत होती है &mdash; और वह इसे अधिकतम 30 दिनों तक रखता है।</p>
+                        <h3 data-i18n="feat3_h">3. इंटरनेट - जब ऊपर के दोनों काम न करें</h3>
+                        <p data-i18n="feat3_p">सिर्फ़ तभी जब Bluetooth और लोकल नेटवर्क दोनों विफल हो जाएँ, संदेश हमारे सर्वर से होकर जाता है। नाम, प्रोफ़ाइल, संदेश और अटैचमेंट सभी एंड-टू-एंड एन्क्रिप्टेड होते हैं, इसलिए सर्वर इनमें से कुछ भी नहीं पढ़ सकता। हाँ, उसे यह दिखता है कि किसने किसे और कब भेजा - संदेश पहुँचाने के लिए उसे इसकी ज़रूरत होती है - और वह इसे अधिकतम 30 दिनों तक रखता है।</p>
                     </div>
                 </div>
             </div>
@@ -221,7 +221,7 @@
 
                 <div class="om-note">
                     <p data-i18n="desk_note_win"><strong>Windows SmartScreen चेतावनी दिख रही है?</strong> Windows इंस्टॉलर अभी Microsoft द्वारा जारी कोड-साइनिंग सर्टिफ़िकेट से साइन नहीं है, इसलिए पहली बार SmartScreen &ldquo;Windows protected your PC&rdquo; दिखा सकता है। आगे बढ़ने के लिए <em>More info &rarr; Run anyway</em> पर क्लिक करें।</p>
-                    <p style="margin-top: .75rem;" data-i18n="desk_note_mac"><strong>macOS पर इंस्टॉल करना:</strong> ऐप और डिस्क इमेज दोनों हमारे Developer ID से साइन हैं और Apple द्वारा notarised हैं, इसलिए यह बिना किसी Gatekeeper चेतावनी के खुलता है &mdash; .dmg खोलें और OriMessenger को Applications में खींचकर डालें। सिर्फ़ Apple silicon के लिए।</p>
+                    <p style="margin-top: .75rem;" data-i18n="desk_note_mac"><strong>macOS पर इंस्टॉल करना:</strong> ऐप और डिस्क इमेज दोनों हमारे Developer ID से साइन हैं और Apple द्वारा notarised हैं, इसलिए यह बिना किसी Gatekeeper चेतावनी के खुलता है - .dmg खोलें और OriMessenger को Applications में खींचकर डालें। सिर्फ़ Apple silicon के लिए।</p>
                     <p style="margin-top: .75rem;" data-i18n="desk_note_linux"><strong>Linux पर इंस्टॉल करना:</strong> जिस फ़ोल्डर में आपने फ़ाइल डाउनलोड की है, वहाँ से <code>sudo apt install ./OriMessenger-0.3.0-amd64.deb</code> चलाएँ; apt ज़रूरी सिस्टम लाइब्रेरी अपने-आप ले आता है। Ubuntu 24.04 / Debian 13 या उससे नया (64-बिट) आवश्यक है।</p>
                 </div>
             </div>
@@ -281,7 +281,7 @@
         </section>        <section class="panel panel--ink closing" id="contact">
             <div class="container">
                 <h2 class="cta-title" data-i18n="cta_title">कोई सवाल है या बग मिला?</h2>
-                <p class="section-sub" style="margin-inline:auto;text-align:center;" data-i18n="cta_sub">ईमेल सबसे अच्छा रहता है &mdash; आमतौर पर उसी दिन जवाब मिल जाता है।</p>
+                <p class="section-sub" style="margin-inline:auto;text-align:center;" data-i18n="cta_sub">ईमेल सबसे अच्छा रहता है - आमतौर पर उसी दिन जवाब मिल जाता है।</p>
                 <div class="closing-actions">
                     <a href="mailto:contact@aibachkhoa.com" class="btn btn-primary" data-i18n="cta_btn">संपर्क करें</a>
                     <a href="/hi/orimessenger/policy" class="btn btn-ghost" data-i18n="footer_policy">गोपनीयता नीति</a>

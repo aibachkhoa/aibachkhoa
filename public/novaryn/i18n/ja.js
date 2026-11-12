@@ -1,6 +1,6 @@
-/* Novaryn — Japanese translation. Loaded only by the /ja/ copies of these pages; see tools/build-i18n-pages.js. */
+/* Novaryn - Japanese translation. Loaded only by the /ja/ copies of these pages; see tools/build-i18n-pages.js. */
 i18n.ja = {
-    page_title: "Novaryn — 親指ひとつで、終わりなきウェーブへ | AIBachKhoa",
+    page_title: "Novaryn - 親指ひとつで、終わりなきウェーブへ | AIBachKhoa",
     meta_desc: "Android向け縦スクロールのアーケードシューティング。ドラッグで操縦、砲撃は自動。やがて現れるボスは、攻略法を覚えるしかない。完全オフラインでプレイ可能。",
     aria_lang: "言語を変更",
     aria_theme: "テーマを切り替え",
@@ -109,7 +109,7 @@ i18n.ja = {
     footer_services: "サービス",
     footer_contact: "お問い合わせ",
     footer_rights: "無断転載を禁じます。",
-    pol_page_title: "プライバシーポリシー — Novaryn | AIBachKhoa",
+    pol_page_title: "プライバシーポリシー - Novaryn | AIBachKhoa",
     pol_meta_desc: "Novaryn における情報の取り扱いについて。端末内にとどまる情報と、機体や Pro を購入した際に App Store および Google Play が受け取る情報を説明します。",
     pol_back: "ゲームに戻る",
     pol_eyebrow: "法的情報",
@@ -220,9 +220,9 @@ i18n.ja = {
     ios_iap_eyebrow: "アプリ内課金",
     ios_iap_title: "機体は塗装だけ。<em>それ以外は売っていません</em>。",
     ios_iap_sub: "Novaryn の購入はすべて見た目だけのものです。武器、ウェーブ、難易度、レベルが課金の向こうにあることはなく、一切お金をかけなくてもゲームはすべて楽しめます。購入は App Store が処理し、当方がお支払い情報を目にすることはありません。",
-    ios_iap_skins_t: "機体スキン — 買い切り",
+    ios_iap_skins_t: "機体スキン - 買い切り",
     ios_iap_skins_d: "US$1.99〜US$5.99 の買い切り販売。一度購入すれば永久にあなたのもので、新しい端末ではショップの<strong>購入を復元</strong>で復元できます。",
-    ios_pro_t: "Novaryn Pro — 自動更新サブスクリプション",
+    ios_pro_t: "Novaryn Pro - 自動更新サブスクリプション",
     ios_pro_len: "サブスクリプション期間",
     ios_pro_len_v: "1か月（自動更新）",
     ios_pro_price: "価格",
