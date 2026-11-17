@@ -39,5 +39,19 @@
       "vi": "Bản dòng lệnh cho máy chủ: kèm dịch vụ bảo vệ và bộ phát hiện xâm nhập mạng; kết nối SOC bằng `sudo bksafe account verify`.",
       "en": "Command-line edition for servers: ships the protection service and network intrusion detector; connect to the SOC with `sudo bksafe account verify`."
     }
+  },
+  "windows": {
+    "version": "1.3.7",
+    "build": 30,
+    "url": "https://aibachkhoa.com/downloads/BKSafe-1.3.7-win-x64-setup.exe",
+    "sha256": "cf429367677d75acdfc6308bca14b5fcea0139426fe0d506a9f562b4b09ca008",
+    "size": 26195098,
+    "signature": "rP5Qs55gEqIo4DY8nuF3uuYHaHPixBHBx0HN2tsJuJccjE4OznQnmakS2SDJ07EB4ZlCEiMI2OCa57IfOivjPg==",
+    "min_os": "10.0",
+    "released": "2026-11-17",
+    "notes": {
+      "vi": "Windows: tự cập nhật - bản mới được tải, kiểm chữ ký khoá phát hành BKSafe rồi tự cài khi bạn khởi động lại ứng dụng. Bộ phát hiện xâm nhập mạng dùng ít RAM hơn khoảng 4 lần (khoảng 160 MB thay vì 690 MB) với đủ mọi luật, và nhường máy cho bạn: trên máy yếu (8 GB RAM trở xuống) nó chỉ giữ khoảng 15 MB trong RAM. Sửa một lỗi khiến một số luật mạng lúc khớp lúc không.",
+      "en": "Windows: automatic updates - new versions are downloaded, checked against the BKSafe release key and installed when you restart the app. The network intrusion detector uses about 4 times less memory (about 160 MB instead of 690 MB) with every rule kept, and yields to you: on low-end machines (8 GB of RAM or less) it keeps only about 15 MB in RAM. Fixes a bug that made some network rules match only some of the time."
+    }
   }
 }
