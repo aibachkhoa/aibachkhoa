@@ -13,7 +13,7 @@ const i18n = {
         nav_pricing: "Pricing",
         nav_contact: "Contact",
         cta_open: "Open MelodiAI",
-        hero_eyebrow: "AI music studio &middot; in your browser",
+        hero_eyebrow: "AI music studio &middot; web and Android",
         hero_title: "Write the words. <em>Hear the song.</em>",
         hero_sub: "MelodiAI turns your lyrics and a few words about the style into a complete song - vocals, band and arrangement - and hands you the sheet music with it. Or bring a recording you already have and hear it again in a new style.",
         cta_start: "Start free",
@@ -100,7 +100,22 @@ const i18n = {
         aria_menu: "Open menu",
         aria_play: "Play",
         footer_this: "This product",
-        aria_pause: "Pause"
+        aria_pause: "Pause",
+        nav_android: "Android",
+        cta_login: "Sign in",
+        cta_android: "Get the Android app",
+        signin_q: "Already have an account?",
+        and_eyebrow: "Android app",
+        and_title: "The studio in your pocket.",
+        and_sub: "The same account, credits and songs as on the web. Sign in on your phone, start a song from one line, follow it while it is made, and listen as soon as it is ready.",
+        and_l1: "Quick create from an idea, or the full form with style, lyrics and vocals",
+        and_l2: "Remix, your library and community playlists",
+        and_l3: "A player that streams and seeks, in light or dark",
+        and_dl_os: "Android 7.0 and newer",
+        and_dl_meta: "Signed release &middot; 9.5 MB &middot; arm64-v8a",
+        and_install: "<strong>How to install.</strong> Allow &ldquo;Install unknown apps&rdquo; for the browser you download with, then open the downloaded file. Sign in with your MelodiAI account, or create one in the app.",
+        alt_and_studio: "Quick create and the song form in the MelodiAI Android app",
+        alt_and_player: "The now-playing screen in the MelodiAI Android app"
     }
 };
 

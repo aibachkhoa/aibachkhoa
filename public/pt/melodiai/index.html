@@ -63,7 +63,9 @@
                 "name": "MelodiAI",
                 "url": "https://melodiai.aibachkhoa.com",
                 "applicationCategory": "MultimediaApplication",
-                "operatingSystem": "Web browser",
+                "operatingSystem": "Web browser, Android 7.0+",
+                "downloadUrl": "https://aibachkhoa.com/downloads/MelodiAI-0.1.0-arm64.apk",
+                "softwareVersion": "0.1.0",
                 "description": "Escreva a letra, descreva o estilo e o MelodiAI cria a música inteira: voz, banda e arranjo, com a partitura. Faça remix de qualquer gravação num estilo novo. 5 créditos grátis.",
                 "offers": {
                     "@type": "Offer",
@@ -112,6 +114,7 @@
                 <a href="#samples" class="nav-link" data-i18n="nav_samples">Ouvir</a>
                 <a href="#features" class="nav-link" data-i18n="nav_features">Recursos</a>
                 <a href="#pricing" class="nav-link" data-i18n="nav_pricing">Preços</a>
+                <a href="#android" class="nav-link" data-i18n="nav_android">Android</a>
                 <a href="#contact" class="nav-link" data-i18n="nav_contact">Contato</a>
                 <span class="nav-divider" aria-hidden="true"></span>
                 <select id="lang-select" class="lang-select" aria-label="Mudar idioma" data-i18n-aria="aria_lang"></select>
@@ -119,6 +122,7 @@
                     <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4 6 18M18 6l1.4-1.4"/></svg>
                     <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.5 13.4A8 8 0 0 1 10.6 3.5 8 8 0 1 0 20.5 13.4z"/></svg>
                 </button>
+                <a href="https://melodiai.aibachkhoa.com/#/usage" class="btn btn-sm btn-ghost" target="_blank" rel="noopener" data-i18n="cta_login">Entrar</a>
                 <a href="https://melodiai.aibachkhoa.com" class="btn btn-sm" target="_blank" rel="noopener" data-i18n="cta_open">Abrir o MelodiAI</a>
             </div>
             <div class="mobile-controls">
@@ -139,13 +143,14 @@
         <header class="hero mx-hero">
             <div class="container mx-hero-grid">
                 <div class="mx-hero-copy">
-                    <p class="eyebrow" data-i18n="hero_eyebrow">Estúdio musical com IA &middot; no seu navegador</p>
+                    <p class="eyebrow" data-i18n="hero_eyebrow">Estúdio de música com IA &middot; web e Android</p>
                     <h1 class="hero-title" data-i18n="hero_title">Escreva a letra. <em>Ouça a música.</em></h1>
                     <p class="hero-subtitle" data-i18n="hero_sub">O MelodiAI transforma sua letra e algumas palavras sobre o estilo numa música completa - voz, banda e arranjo - e entrega a partitura junto. Ou traga uma gravação que você já tem e ouça de novo num estilo diferente.</p>
                     <div class="hero-actions">
                         <a href="https://melodiai.aibachkhoa.com" class="btn btn-primary" target="_blank" rel="noopener" data-i18n="cta_start">Comece grátis</a>
-                        <a href="#samples" class="btn btn-ghost" data-i18n="cta_listen">Ouça músicas feitas com ele</a>
+                        <a href="#android" class="btn btn-ghost" data-i18n="cta_android">Baixar o app para Android</a>
                     </div>
+                    <p class="mx-signin"><span data-i18n="signin_q">Já tem uma conta?</span> <a href="https://melodiai.aibachkhoa.com/#/usage" target="_blank" rel="noopener" data-i18n="cta_login">Entrar</a></p>
                     <ul class="mx-badges">
                         <li data-i18n="badge_free">5 créditos grátis no cadastro</li>
                         <li data-i18n="badge_length">Músicas de até 6 minutos</li>
@@ -242,6 +247,38 @@
                             <span class="mx-time">1:15</span>
                         </article>
                     </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= ANDROID ================= -->
+        <section class="panel panel--cream" id="android">
+            <div class="container mx-android">
+                <div>
+                    <p class="eyebrow" data-i18n="and_eyebrow">App para Android</p>
+                    <h2 class="display display--md" data-i18n="and_title">O estúdio no seu bolso.</h2>
+                    <p class="section-sub" data-i18n="and_sub">A mesma conta, os mesmos créditos e as mesmas músicas da web. Entre pelo celular, comece uma música com uma única linha, acompanhe enquanto ela é feita e ouça assim que ficar pronta.</p>
+                    <ul class="row-list">
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="and_l1">Criação rápida a partir de uma ideia, ou o formulário completo com estilo, letra e vozes</span></li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="and_l2">Remix, a sua biblioteca e as playlists da comunidade</span></li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="and_l3">Um player com streaming e avanço livre, no modo claro ou escuro</span></li>
+                    </ul>
+
+                    <a class="mx-dl" href="/downloads/MelodiAI-0.1.0-arm64.apk" download>
+                        <span class="mx-dl-os" data-i18n="and_dl_os">Android 7.0 ou mais recente</span>
+                        <span class="mx-dl-name">MelodiAI-0.1.0-arm64.apk</span>
+                        <span class="mx-dl-meta" data-i18n="and_dl_meta">Versão assinada &middot; 9,5 MB &middot; arm64-v8a</span>
+                    </a>
+                    <div class="mx-dl-actions">
+                        <a href="https://melodiai.aibachkhoa.com/#/usage" class="btn btn-sm btn-ghost" target="_blank" rel="noopener" data-i18n="cta_login">Entrar</a>
+                        <a href="/downloads/MelodiAI-0.1.0-arm64.apk.sha256" class="mx-sha">SHA-256</a>
+                    </div>
+                    <p class="mx-note" data-i18n="and_install"><strong>Como instalar.</strong> Permita &ldquo;Instalar apps desconhecidos&rdquo; para o navegador com que você baixa e abra o arquivo baixado. Entre com a sua conta MelodiAI ou crie uma no app.</p>
+                </div>
+                <div class="mx-phones">
+                    <figure class="mx-phone"><img src="/assets/melodiai/android-studio.webp" width="540" height="1080" loading="lazy" alt="Criação rápida e formulário de música no app MelodiAI para Android" data-i18n-alt="alt_and_studio"></figure>
+                    <figure class="mx-phone"><img src="/assets/melodiai/android-player.webp" width="540" height="1080" loading="lazy" alt="Tela de reprodução no app MelodiAI para Android" data-i18n-alt="alt_and_player"></figure>
                 </div>
             </div>
         </section>
@@ -386,17 +423,19 @@
                 </div>
                 <nav class="footer-col" aria-label="Produtos" data-i18n-aria="footer_prod">
                     <h4 data-i18n="footer_prod">Produtos</h4>
-                    <a href="https://crewaiplatform.aibachkhoa.com" target="_blank" rel="noopener">CrewAI Platform</a>
                     <a href="/pt/genvideo">GenVideo</a>
                     <a href="/pt/melodiai">MelodiAI</a>
                     <a href="/pt/bksafe">BKSafe</a>
                     <a href="/pt/orimessenger">OriMessenger</a>
+                    <a href="https://crewaiplatform.aibachkhoa.com" target="_blank" rel="noopener">CrewAI Platform</a>
                 </nav>
                 <nav class="footer-col" aria-label="Este produto" data-i18n-aria="footer_this">
                     <h4>MelodiAI</h4>
                     <a href="https://melodiai.aibachkhoa.com" target="_blank" rel="noopener" data-i18n="cta_open">Abrir o MelodiAI</a>
                     <a href="#samples" data-i18n="nav_samples">Ouvir</a>
                     <a href="#pricing" data-i18n="nav_pricing">Preços</a>
+                    <a href="#android" data-i18n="and_eyebrow">App para Android</a>
+                    <a href="https://melodiai.aibachkhoa.com/#/usage" target="_blank" rel="noopener" data-i18n="cta_login">Entrar</a>
                 </nav>
                 <nav class="footer-col" aria-label="Empresa" data-i18n-aria="footer_comp">
                     <h4 data-i18n="footer_comp">Empresa</h4>
