@@ -2,7 +2,7 @@
    Tracy - product page and privacy policy.
    English only, so the text lives in the markup and there is no
    dictionary; gallery captions sit on each tab as data-cap.
-   ponytail: add `const i18n = {…}` + a GROUPS entry in
+   ponytail: add an i18n dictionary + a GROUPS entry in
    tools/build-i18n-pages.js (see flow.js) when translations exist.
    ========================================================= */
 
